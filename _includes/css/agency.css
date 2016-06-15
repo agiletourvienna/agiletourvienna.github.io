@@ -658,8 +658,14 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+aside.clients h4 {
+    margin: 70px 0px 20px 0px;
+    text-align: center;
+}
+
 aside.clients img {
-    margin: 50px auto;
+    margin: 30px auto;
+    max-height: 50px;
 }
 
 section#contact {
