@@ -1,43 +1,71 @@
 <section id="location">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Location</h2>
-                    <h3>&nbsp;</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                                            <div class="col-md-6" style="color:white">
-
-                            <h4>FH Technikum Wien</h4> 
-                            <p></p> 
-                            <p>Austria's largest purely technical University of Applied Sciences, <br>provides the space for the Agile Tour Vienna<br><a href="https://www.technikum-wien.at/"><i class="fa fa-link" aria-hidden="true"></i> www.technikum-wien.at</a></p>
-                            <h4>Adress:</h4>
-                            <p><b>
-                            FH Technikum Wien<br>
-                            Höchstädtplatz 6<br>
-                            1200 Wien</b>
-                            </p>
-                            <h5>Public transportation:</h5>
-                            <p><ul>
-                                <li>Subway: U6 station - Dresdner Strasse</li>
-                                <li>Trams: line 2, line 31, line 33 - Station Höchstädtplatz</li>
-                                <li>Train: Handelskai or Traisengasse</li>
-                                <li>Bus - line 37A - station Höchstädtplatz</li>
-                            </ul>
-                            </p>
-
-
-
-                        </div>
-                            <div class="col-md-6">
-                            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://www.cec-promotions.de/'>CEC-Promotions</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=cbe8ac59a1e5821cc47158d29c8505a28ff221be'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(48.2392748,16.377352900000005),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(48.2392748,16.377352900000005)});infowindow = new google.maps.InfoWindow({content:'<strong>FH Technikum Wien</strong><br>Höchstädtplatz 6<br>1200 Wien<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </form>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Location</h2>
+                <h3>&nbsp;</h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-md-6" style="color:white; margin-bottom: 50px;">
+                    <h4>FH Technikum Wien</h4>
+                    <p></p>
+                    <p>Austria's largest purely technical University of Applied Sciences, <br>provides the space for the
+                        Agile Tour Vienna<br><a href="https://www.technikum-wien.at/"><i class="fa fa-link"
+                                                                                         aria-hidden="true"></i>
+                            www.technikum-wien.at</a></p>
+                    <h4>Adress:</h4>
+                    <p><b>
+                        FH Technikum Wien<br>
+                        Höchstädtplatz 6<br>
+                        1200 Wien</b>
+                    </p>
+                    <h5>Public transportation:</h5>
+                    <p>
+                    <ul>
+                        <li>Subway: U6 station - Dresdner Strasse</li>
+                        <li>Trams: line 2, line 31, line 33 - Station Höchstädtplatz</li>
+                        <li>Train: Handelskai or Traisengasse</li>
+                        <li>Bus - line 37A - station Höchstädtplatz</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                    <div style='overflow:hidden;height:400px;width:100%;'>
+                        <div id='gmap_canvas' style='height:400px;width:100%;'></div>
+                        <style>#gmap_canvas img {
+                            max-width: none !important;
+                            background: none !important
+                        }</style>
+                    </div>
+                    <a href='http://www.cec-promotions.de/'>CEC-Promotions</a>
+                    <script type='text/javascript'
+                            src='https://embedmaps.com/google-maps-authorization/script.js?id=cbe8ac59a1e5821cc47158d29c8505a28ff221be'></script>
+                    <script type='text/javascript'>function init_map() {
+                        var myOptions = {
+                            zoom: 12,
+                            center: new google.maps.LatLng(48.2392748, 16.377352900000005),
+                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                        };
+                        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                        marker = new google.maps.Marker({
+                            map: map,
+                            position: new google.maps.LatLng(48.2392748, 16.377352900000005)
+                        });
+                        infowindow = new google.maps.InfoWindow({content: '<strong>FH Technikum Wien</strong><br>Höchstädtplatz 6<br>1200 Wien<br>'});
+                        google.maps.event.addListener(marker, 'click', function () {
+                            infowindow.open(map, marker);
+                        });
+                        infowindow.open(map, marker);
+                    }
+                    google.maps.event.addDomListener(window, 'load', init_map);</script>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</section>
