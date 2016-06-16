@@ -1,9 +1,9 @@
 ---
 category: speaker
-title: Dan North4
+title: Dan North1
 subtitle: Graphic Design
 layout: default
-modal-id: 4
+modal-id: 1
 img: dannorth.jpg
 thumbnail: dannorth-thumbnail.jpg
 alt: image-alt
