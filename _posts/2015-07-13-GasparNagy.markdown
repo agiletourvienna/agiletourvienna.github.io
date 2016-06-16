@@ -4,7 +4,7 @@ title: Gaspar Nagy
 layout: default
 modal-id: 5
 img: gasparNagy.jpg
-thumbnail: gasparNagy-thumbnail.jpg
+thumbnail: gasparNagy-thumbnail.png
 twitter: gasparnagy
 website: gasparnagy.com
 website-url: https://www.gasparnagy.com/
