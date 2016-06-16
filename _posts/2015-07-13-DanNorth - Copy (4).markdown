@@ -1,6 +1,6 @@
 ---
-title: Dan North
-subtitle: Graphic Design
+category: speaker
+title: Dan North3
 layout: default
 modal-id: 6
 img: dannorth.jpg

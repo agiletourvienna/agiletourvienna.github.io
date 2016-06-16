@@ -612,6 +612,9 @@ section h3.section-subheading {
     .intro-video{
         display: block;
     }
+    .intro-video-message{
+        display: none;
+    }
 }
 
 @media(min-width:1200px) {

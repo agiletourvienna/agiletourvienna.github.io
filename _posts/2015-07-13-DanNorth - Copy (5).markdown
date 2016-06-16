@@ -1,5 +1,6 @@
 ---
-title: Dan North
+category: speaker
+title: Dan North4
 layout: default
 modal-id: 6
 img: dannorth.jpg

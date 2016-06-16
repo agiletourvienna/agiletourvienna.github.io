@@ -1,5 +1,6 @@
 ---
-title: Dan North
+category: speaker
+title: Dan North1
 subtitle: Graphic Design
 layout: default
 modal-id: 6
