@@ -32,35 +32,7 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                    <div style='overflow:hidden;height:400px;width:100%;'>
-                        <div id='gmap_canvas' style='height:400px;width:100%;'></div>
-                        <style>#gmap_canvas img {
-                            max-width: none !important;
-                            background: none !important
-                        }</style>
-                    </div>
-                    <a href='http://www.cec-promotions.de/'>CEC-Promotions</a>
-                    <script type='text/javascript'
-                            src='https://embedmaps.com/google-maps-authorization/script.js?id=cbe8ac59a1e5821cc47158d29c8505a28ff221be'></script>
-                    <script type='text/javascript'>function init_map() {
-                        var myOptions = {
-                            zoom: 12,
-                            center: new google.maps.LatLng(48.2392748, 16.377352900000005),
-                            mapTypeId: google.maps.MapTypeId.ROADMAP
-                        };
-                        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-                        marker = new google.maps.Marker({
-                            map: map,
-                            position: new google.maps.LatLng(48.2392748, 16.377352900000005)
-                        });
-                        infowindow = new google.maps.InfoWindow({content: '<strong>FH Technikum Wien</strong><br>Höchstädtplatz 6<br>1200 Wien<br>'});
-                        google.maps.event.addListener(marker, 'click', function () {
-                            infowindow.open(map, marker);
-                        });
-                        infowindow.open(map, marker);
-                    }
-                    google.maps.event.addDomListener(window, 'load', init_map);</script>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.303404166158!2d16.37513541581086!3d48.23928665205023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d064f6ed971cf%3A0x99fec738bbb12f9d!2sFH+Technikum+Wien!5e0!3m2!1sde!2sde!4v1466112684782" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class="clearfix"></div>
             </div>
