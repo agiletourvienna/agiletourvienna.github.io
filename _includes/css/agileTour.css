@@ -10,6 +10,9 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+.top-logo {
+    padding: 5px 0 5px 20px;
+}
 .intro-video{
     display: none;
     float: left;
@@ -237,6 +240,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+    .top-logo {
+        display: none;
+    }
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -586,6 +593,10 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
+
+    .top-logo {
+        display: inline;
+    }
     .timeline>li {
         min-height: 150px;
     }
