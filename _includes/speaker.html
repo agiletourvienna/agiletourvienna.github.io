@@ -8,8 +8,9 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.posts  | sort: 'modal-id' %}
-                {% if post.category == 'speaker' %}
+
+            {% assign sorted_speaker = (site.posts | sort: 'modal-id' | where: "category" , "speaker")  %}
+            {% for post in sorted_speaker %}
                 <div class="col-md-4 col-sm-6 speaker-item">
                     <a href="#speakerModal{{ post.modal-id }}" class="speaker-link" data-toggle="modal">
                         <div class="speaker-hover">
@@ -24,7 +25,6 @@
                         <p class="text-muted">@{{ post.twitter }}</p>
                     </div>
                 </div>
-                {% endif %}
             {% endfor %}
             </div>
         </div>
