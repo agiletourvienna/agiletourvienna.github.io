@@ -864,3 +864,15 @@ section h3.quote
 {
     margin-bottom: 0px;
 }
+
+.twitter-link{
+    color:#55ACEE;
+}
+
+.twitter-link:hover, .twitter-link:focus, .twitter-link:visited{
+    color:#55ACEE;
+    text-decoration: none;
+}
+.twitter-link:hover{
+    color: #0173C7;
+}
