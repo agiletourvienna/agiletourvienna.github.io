@@ -1,89 +1,36 @@
 <!-- About Section -->
-    <section id="history">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Look Back</h2>
-                    <h3 class="section-subheading text-muted">The first Agile Conference in Vienna since 2011.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/palrine.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Joseph Pelrine</h4>
-                                    <h4 class="subheading">(How) do I do "real" Scrum?</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Joseph Pelrine was last years keynote speaker and talked about, how he does <i>real</i> Scrum</p>
-                                    <p><a href="#"><i class="fa fa-vimeo-square" aria-hidden="true"></i>&nbsp;talk on vimeo</a></p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4><br>more<br></h4>
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>&nbsp;</h4>
-                                    <h4>Wiki</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">A summary of the whole Agile-Tour History can be found at our Wiki.</p>
-                                    <p><a href="#"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;Agile-Tour Wiki</a></p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+<section id="history">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Look Back</h2>
+                <h3 class="section-subheading text-muted">The first Agile Conference in Vienna since 2011.</h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    {% assign sorted_videos = (site.posts | sort: 'video-sort' | where: "category" , "video") %}
+                    {% for post in sorted_videos %}
+                    {% assign loopindex = forloop.index | modulo: 2 %}
+                    {% if loopindex == 1 %} <li> {% else %} <li class="timeline-inverted"> {% endif %}
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/video/{{post.img}}" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>{{post.speaker}}</h4>
+                                <h4 class="subheading">{{post.talk}}</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">{{post.description}}</p>
+                                <p><a href="https://vimeo.com/{{post.vimeo-id}}" target="_blank"><i class="fa fa-vimeo-square" aria-hidden="true"></i>&nbsp;talk onvimeo</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
