@@ -1,12 +1,11 @@
 ---
 category: speaker
-title: Dan North4
+title: Dan North
 subtitle: Graphic Design
 layout: default
-modal-id: 4
+modal-id: 1
 img: dannorth.jpg
 thumbnail: dannorth-thumbnail.jpg
-alt: image-alt
 twitter: tastapod
 website: dannorth.net
 website-url: https://dannorth.net/whats-in-a-story/
