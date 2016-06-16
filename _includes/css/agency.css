@@ -671,68 +671,68 @@ aside.clients img {
     max-height: 50px;
 }
 
-section#contact {
+section#location {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#location .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#location .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#location .form-group input,
+section#location .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#location .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#location .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#location .form-control:focus {
     border-color: #{{ site.data.template.color.primary }};
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#location::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#location:-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#location::-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#location:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#location .text-danger {
     color: #e74c3c;
 }
 
