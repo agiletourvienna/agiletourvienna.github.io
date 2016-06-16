@@ -673,7 +673,6 @@ aside.clients img {
 
 section#location {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
