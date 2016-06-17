@@ -18,6 +18,16 @@ body {
     float: left;
 }
 
+.intro-text .proposal{
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-color: white;
+    background-color: transparent !important;
+}
+
+.intro-text .register{
+    padding: 10px 20px;
+}
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
