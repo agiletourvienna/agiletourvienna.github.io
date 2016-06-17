@@ -20,7 +20,7 @@ body {
 
 .intro-text .proposal-btn{
     padding: 10px 20px;
-    margin-left: 10px;
+    margin: 0px 10px;
     border-color: white;
     background-color: transparent !important;
 }
