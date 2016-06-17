@@ -18,14 +18,14 @@ body {
     float: left;
 }
 
-.intro-text .proposal{
+.intro-text .proposal-btn{
     padding: 10px 20px;
     margin-left: 10px;
     border-color: white;
     background-color: transparent !important;
 }
 
-.intro-text .register{
+.intro-text .register-btn{
     padding: 10px 20px;
 }
 .text-muted {
