@@ -897,3 +897,39 @@ section h3.quote
 .twitter-link:hover{
     color: #0173C7;
 }
+.feedback-trigger{
+    position: fixed;
+    display: none;
+    bottom: 5%;
+    right: 0;
+    padding: 20px 20px 20px 10px;
+    background: #303336;
+    border-left: 4px solid #{{ site.data.template.color.primary }};
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    transition: -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    z-index: 100;
+}
+.feedback-trigger:hover, .feedback-trigger:focus{
+    color: #fff;
+    text-decoration: none;
+}
+.feedback-trigger:hover{
+    transform: none;
+}
+
+@media (min-width: 768px){
+    .feedback-trigger {
+        display: block;
+    }
+}
