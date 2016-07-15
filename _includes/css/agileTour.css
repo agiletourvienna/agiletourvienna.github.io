@@ -10,6 +10,11 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+
+.nav>li>a{
+    padding: 20px 10px;
+}
+
 #header-logo {
     background: url({{ site.baseurl }}"/img/agileTourLogoWithDate.png") no-repeat center;
     height: 156px;
@@ -630,6 +635,9 @@ section h3.section-subheading {
 
 @media(min-width:992px) {
 
+    .nav>li>a{
+        padding: 20px 15px;
+    }
     .top-logo {
         display: inline;
     }
@@ -961,5 +969,8 @@ section h3.quote
 @media (min-width: 768px){
     .feedback-trigger {
         display: block;
+    }
+    .navbar-nav.navbar-right:last-child{
+        margin-right:0px;
     }
 }
