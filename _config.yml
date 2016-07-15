@@ -4,7 +4,92 @@ url: https://agiletourvienna.github.io
 title: Agile Tour Vienna 2016
 email: your-email@domain.com
 description: "The Agile Tour Vienna is a non-profit event that aims at bringing together experts, practioners and everybody else who is interested in agile software development. The main conference language is German but we welcome talks in English and are looking forward to an exchange with international participants."
+year: 2016
+trailer: https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&portrait=0
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+organisers:
+- link: techtalk.at
+  pic: techtalk
+- link: sinnvoll-fuehren.com
+  pic: sinnvollfuehren
+- link: technikum-wien.at
+  pic: technikum
+
+sponsors:
+- link: frequentis.at
+  pic: frequentis
+- link: http://www.xing.com/net/scrumaustria
+  pic: scrumusergroup
+
+lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2015
+lookbacks:
+- speaker: Dan North
+  talk: Turning the lights on
+  img: dannorth
+  url: https://vimeo.com/147008712
+  description: Great Keynote by Dan North about "Scaling Agile Delivery"
+- speaker: Joseph Pelrine
+  talk: (How) do I do "real" Scrum?
+  img: josephpelrine
+  url: https://vimeo.com/146987669
+  description: Joseph Pelrine was one of last years keynote speaker, and talked about how he does real Scrum.
+- speaker: Gojko Adzic
+  talk: Test automation without a headache
+  img: gojkoadzic
+  url: https://vimeo.com/146987369
+  description: Five key patterns by Gojko Adzic
+- speaker: Jeff Patton
+  talk: Letting go of Agile
+  img: jeffpatton
+  url: https://vimeo.com/147008711
+  description: Where agile thinking steers us wrong
+
+tweets:
+- quote: Thanks for organising a fantastic Agile Tour Vienna. Really glad to be a part of it
+  person: Dan North
+- quote: Think outside the box with motivating speakers, a social crowd and delicious coffee
+  person: Vistor 2015
+- quote: Super Event zu einem Super Preis!
+  person: Visitor 2014
+- quote: Worth spending a sunny Saturday indoors! :)
+  person: Visitor 2013 
+
+hashtag: AT16VIE
+
+team:
+- name: Andreas Rosenthal
+  pic: ar
+  position: Organization & Accounting
+  links:
+    - icon: envelope-o
+      url: mailto:ar@techtalk.at
+    - icon: xing
+      url: https://www.xing.com/profile/Andreas_RosenthalLevenitschnig
+    - icon: linkedin
+      url: https://at.linkedin.com/in/andreasr1
+
+- name: Veronika Winter
+  pic: vw
+  position: Organization & Marketing
+  links:
+    - icon: envelope-o
+      url: mailto:vw@techtalk.at
+    - icon: xing
+      url: https://www.xing.com/profile/Veronika_Winter2
+    - icon: linkedin
+      url: https://at.linkedin.com/in/veronika-winter-17367849 
+
+- name: David Leitner
+  pic: dl
+  position: Organization & Techguy
+  links:
+    - icon: envelope-o
+      url: mailto:dl@techtalk.at
+    - icon: xing
+      url: https://www.xing.com/profile/David_Leitner4
+    - icon: github
+      url: http://github.com/duffleit

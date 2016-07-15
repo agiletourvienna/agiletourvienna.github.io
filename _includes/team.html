@@ -11,42 +11,25 @@
             </div>
         </div>
         <div class="row">
+            {% for member in site.team %}
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="img/team/ar.png" class="img-responsive img-circle" alt="">
-                    <h4>Andreas Rosenthal</h4>
-                    <p class="text-muted">Organization & Accounting</p>
+                    <img src="img/team/{{ member.pic }}.png" class="img-responsive img-circle" alt="">
+                    <h4>{{ member.name }}</h4>
+                    <p class="text-muted">{{ member.position }}</p>
                     <ul class="list-inline social-buttons">
-                        <li><a href="mailto:ar@techtalk.at"><i class="fa fa-envelope-o"></i></a></li>
-                        <li><a target="_blank" href="https://www.xing.com/profile/Andreas_RosenthalLevenitschnig"><i class="fa fa-xing"></i></a></li>
-                        <li><a target="_blank" href="https://at.linkedin.com/in/andreasr1"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+                        {% for network in member.links %}
+                        <li>
+                            <a href="{{ network.url }}">
+                                <i class="fa fa-{{ network.icon }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
 
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/team/vw.png" class="img-responsive img-circle" alt="">
-                    <h4>Veronika Winter</h4>
-                    <p class="text-muted">Organization & Marketing</p>
-                    <ul class="list-inline social-buttons">
-                        <li><a href="mailto:vw@techtalk.at"><i class="fa fa-envelope-o"></i></a></li>
-                        <li><a target="_blank" href="https://www.xing.com/profile/Veronika_Winter2"><i class="fa fa-xing"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/team/dl.png" class="img-responsive img-circle" alt="">
-                    <h4>David Leitner</h4>
-                    <p class="text-muted">Organization & Techguy</p>
-                    <ul class="list-inline social-buttons">
-                        <li><a href="mailto:dl@techtalk.at"><i class="fa fa-envelope-o"></i></a></li>
-                        <li><a target="_blank" href="https://www.xing.com/profile/David_Leitner4"><i class="fa fa-xing"></i></a></li>
-                        <li><a target="_blank" href="http://github.com/duffleit"><i class="fa fa-github"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>

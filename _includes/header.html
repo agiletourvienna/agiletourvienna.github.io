@@ -53,7 +53,7 @@
     <div class="container">
         <div class="intro-text">
             <div class="intro-video">
-                <iframe src="https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&portrait=0"
+                <iframe src="{{site.trailer}}"
                         width="580" height="326" frameborder="0" webkitallowfullscreen mozallowfullscreen
                         allowfullscreen></iframe>
             </div>
@@ -64,17 +64,34 @@
                     <a href="#proposal" class="proposal-btn page-scroll btn btn-xl">Proposal</a>
                 </div>
                 <div class="intro-video-message intro-heading">
-                    <a href="#introvideoModal50" class="speaker-link" data-toggle="modal">
-                        <i class="fa fa-play-circle" aria-hidden="true"></i>&nbsp;Trailer 2016
+                    <a href="#introvideoModal" class="speaker-link" data-toggle="modal">
+                        <i class="fa fa-play-circle" aria-hidden="true"></i>&nbsp;Trailer {{site.year}}
                     </a>
                 </div>
             </div>
         </div>
     </div>
-</header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
 
+</header>
+<div class="speaker-modal modal fade" id="introvideoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Trailer</h2>
+                        <hr class="star-primary">
+                        <p><iframe src="{{site.trailer}}" width="100%" height="350" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
