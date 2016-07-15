@@ -10,6 +10,12 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+#header-logo {
+    background: url({{ site.baseurl }}"/img/agileTourLogoWithDate.png") no-repeat center;
+    height: 156px;
+    margin: 4rem 0;
+}
+
 .top-logo {
     padding: 5px 0 5px 20px;
 }
@@ -636,6 +642,9 @@ section h3.section-subheading {
     .intro-video-message{
         display: none;
     }
+
+    .intro-content{
+        margin-left: 580px;
 }
 
 @media(min-width:1200px) {

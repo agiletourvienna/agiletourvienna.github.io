@@ -1,65 +1,74 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="top-logo navbar-brand page-scroll" href="#page-top"><img src="{{ site.baseurl }}/img/logo-small.png"> </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#speaker">Speakers</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#register">Register</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#lookback">Look Back</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#proposal">Proposals</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#location">Location</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="top-logo navbar-brand page-scroll" href="#page-top"><img
+                    src="{{ site.baseurl }}/img/logo-small.png"> </a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#speaker">Speakers</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#register">Register</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#lookback">Look Back</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#proposal">Proposals</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#location">Location</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
             <div class="intro-video">
-                <iframe src="https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&portrait=0" width="580" height="326" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&portrait=0"
+                        width="580" height="326" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
             </div>
-            <div>
-            <img alt="{{site.title}}" src="{{ site.baseurl }}/img/logo.png"/>
-                <div class="intro-heading">12th November 2016</div>
-                <a href="#register" class="register-btn page-scroll btn btn-xl">Register</a>
-                <a href="#proposal" class="proposal-btn page-scroll btn btn-xl">Proposal</a>
-                <div class="intro-video-message intro-heading"><a href="#introvideoModal50" class="speaker-link" data-toggle="modal"><i class="fa fa-play-circle" aria-hidden="true"></i> Trailer 2016</a></div>
-            </div>
+            <div class="intro-content">
+                <div id="header-logo"></div>
+                <div>
+                    <a href="#register" class="register-btn page-scroll btn btn-xl">Register</a>
+                    <a href="#proposal" class="proposal-btn page-scroll btn btn-xl">Proposal</a>
+                </div>
+                <div class="intro-video-message intro-heading">
+                    <a href="#introvideoModal50" class="speaker-link" data-toggle="modal">
+                        <i class="fa fa-play-circle" aria-hidden="true"></i>&nbsp;Trailer 2016
+                    </a>
+                </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
