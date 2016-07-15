@@ -12,17 +12,17 @@ markdown: kramdown
 permalink: pretty
 
 organisers:
-- link: techtalk.at
+- link: http://techtalk.at/
   pic: techtalk
-- link: sinnvoll-fuehren.com
+- link: http://sinnvoll-fuehren.com/
   pic: sinnvollfuehren
-- link: technikum-wien.at
+- link: http://technikum-wien.at/
   pic: technikum
 
 sponsors:
-- link: frequentis.at
+- link: http://frequentis.com/
   pic: frequentis
-- link: http://www.xing.com/net/scrumaustria
+- link: http://www.xing.com/net/scrumaustria/
   pic: scrumusergroup
 
 lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2015

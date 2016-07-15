@@ -5,7 +5,7 @@
         <div class="row">
             {% for organiser in site.organisers %}
             <div class="col-md-4 col-sm-4">
-                <a href="http://{{organiser.link}}" target="_blank">
+                <a href="{{organiser.link}}" target="_blank">
                     <img src="img/partners/{{organiser.pic}}.png" class="img-responsive img-centered" alt="">
                 </a>
             </div>
@@ -15,7 +15,7 @@
         <div class="row">
             {% for sponsor in site.sponsors %}
             <div class="col-md-6 col-sm-6">
-                <a href="http://{{sponsor.link}}" target="_blank">
+                <a href="{{sponsor.link}}" target="_blank">
                     <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
                 </a>
             </div>
