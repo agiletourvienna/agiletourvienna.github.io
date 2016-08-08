@@ -59,16 +59,27 @@ tweets:
 hashtag: AT16VIE
 
 team:
-- name: Andreas Rosenthal
-  pic: ar
-  position: Organization & Accounting
+- name: Christian Hassa
+  pic: ch
+  position: Organization
   links:
+    - icon: globe
+      url: https://techtalk.at
     - icon: envelope-o
-      url: mailto:ar@techtalk.at
-    - icon: xing
-      url: https://www.xing.com/profile/Andreas_RosenthalLevenitschnig
+      url: mailto: christian.hassa@techtalk.at
     - icon: linkedin
-      url: https://at.linkedin.com/in/andreasr1
+      url: https://at.linkedin.com/in/christian-hassa-b201081
+      
+- name: Veronika Kotrba & Ralph Miarka
+  pic: rv
+  position: Organization
+  links:
+    - icon: globe
+      url: http://sinnvoll-fuehren.com
+    - icon: envelope-o
+      url: mailto:office@sinnvoll-fuehren.com
+    - icon: twitter
+      url: https://twitter.com/sinnvollFUEHREN
 
 - name: Veronika Winter
   pic: vw
