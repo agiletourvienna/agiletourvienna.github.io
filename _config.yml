@@ -61,18 +61,18 @@ hashtag: AT16VIE
 team:
 - name: Christian Hassa
   pic: ch
-  position: Organization
+  position: Organization & Proposals
   links:
     - icon: globe
       url: https://techtalk.at
     - icon: envelope-o
-      url: mailto: christian.hassa@techtalk.at
+      url: mailto:christian.hassa@techtalk.at
     - icon: linkedin
       url: https://at.linkedin.com/in/christian-hassa-b201081
       
 - name: Veronika Kotrba & Ralph Miarka
   pic: rv
-  position: Organization
+  position: Organization & Proposals
   links:
     - icon: globe
       url: http://sinnvoll-fuehren.com
