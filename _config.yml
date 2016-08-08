@@ -64,7 +64,7 @@ team:
   position: Organization & Proposals
   links:
     - icon: globe
-      url: https://techtalk.at
+      url: http://techtalk.at
     - icon: envelope-o
       url: mailto:christian.hassa@techtalk.at
     - icon: linkedin
