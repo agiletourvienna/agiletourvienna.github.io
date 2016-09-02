@@ -61,44 +61,32 @@ hashtag: AT16VIE
 team:
 - name: Christian Hassa
   pic: ch
-  position: Organization & Proposals
-  links:
-    - icon: globe
-      url: http://techtalk.at
-    - icon: envelope-o
-      url: mailto:christian.hassa@techtalk.at
-    - icon: linkedin
-      url: https://at.linkedin.com/in/christian-hassa-b201081
-      
+  position: Organization & Committee
+  
 - name: Veronika Kotrba & Ralph Miarka
   pic: rv
-  position: Organization & Proposals
-  links:
-    - icon: globe
-      url: http://sinnvoll-fuehren.com
-    - icon: envelope-o
-      url: mailto:office@sinnvoll-fuehren.com
-    - icon: twitter
-      url: https://twitter.com/sinnvollFUEHREN
-
+  position: Organization & Committee
+  
 - name: Veronika Winter
   pic: vw
-  position: Organization & Marketing
-  links:
-    - icon: envelope-o
-      url: mailto:vw@techtalk.at
-    - icon: xing
-      url: https://www.xing.com/profile/Veronika_Winter2
-    - icon: linkedin
-      url: https://at.linkedin.com/in/veronika-winter-17367849 
-
+  position: Organization & Committee
+  
 - name: David Leitner
   pic: dl
-  position: Organization & Techguy
-  links:
-    - icon: envelope-o
-      url: mailto:dl@techtalk.at
-    - icon: xing
-      url: https://www.xing.com/profile/David_Leitner4
-    - icon: github
-      url: http://github.com/duffleit
+  position: Organization & Committee
+  
+- name: Florian Eckkrammer
+  pic: fe
+  position: Content Committee
+  
+- name: Rudolf Groetz
+  pic: rg
+  position: Content Committee
+
+- name: Franz Hofer
+  pic: fh
+  position: Content Committee
+
+- name: Alfred Karner
+  pic: ak
+  position: Content Committee
