@@ -710,6 +710,11 @@ aside.clients img {
     max-height: 50px;
 }
 
+aside.clients .sponsors img {
+    margin: 30px auto;
+    max-height: 140px;
+}
+
 section#location {
     background-color: #222;
     background-position: center;
