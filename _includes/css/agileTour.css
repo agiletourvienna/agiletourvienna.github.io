@@ -41,6 +41,36 @@ body {
     margin-top: 0;
 }
 
+.team-member .team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    background: rgba(187,20,26, .9); /* Fallback when no plugin support */
+    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+}
+
+.team-member .team-hover:hover {
+    opacity: 1;
+}
+
+.team-member .team-hover .team-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -24px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
 .top-logo {
     padding: 5px 0 5px 20px;
 }

@@ -2,7 +2,6 @@ url: https://agiletourvienna.github.io
 
 # Site settings
 title: Agile Tour Vienna 2016
-email: your-email@domain.com
 description: "The Agile Tour Vienna is a non-profit event that aims at bringing together experts, practioners and everybody else who is interested in agile software development. The main conference language is German but we welcome talks in English and are looking forward to an exchange with international participants."
 year: 2016
 trailer: https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&portrait=0
@@ -64,31 +63,39 @@ team:
 - name: Christian Hassa
   pic: ch
   position: Organization & Committee
+  mail: christian.hassa@techtalk.at
   
 - name: Veronika Kotrba & Ralph Miarka
   pic: rv
   position: Organization & Committee
+  mail: office@sinnvoll-fuehren.com
   
 - name: Veronika Winter
   pic: vw
   position: Organization & Committee
-  
+  mail: veronika.winter@techtalk.at
+
 - name: David Leitner
   pic: dl
   position: Organization & Committee
+  mail: david.leitner@techtalk.at
   
 - name: Florian Eckkrammer
   pic: fe
   position: Content Committee
+  mail: eckkramm@technikum-wien.at
   
 - name: Rudolf Groetz
   pic: rg
   position: Content Committee
+  mail: rudolf.groetz@gmail.com
 
 - name: Franz Hofer
   pic: fh
   position: Content Committee
+  mail: franz.hofer@utanet.at
 
 - name: Alfred Karner
   pic: ak
   position: Content Committee
+  mail: karneralfred@gmail.com
