@@ -1,31 +1,69 @@
 <!-- Portfolio Grid Section -->
-    <section id="speaker" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Speakers</h2>
-                    <h3 class="section-subheading text-muted">A selection of <b>last year's</b> speakers.</h3>
-                </div>
+<section id="speaker" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Speakers</h2>
+                <h3 class="section-subheading text-muted">more speakers to be announced soon.</h3>
             </div>
-            <div class="row">
-
-            {% assign sorted_speaker = (site.posts | sort: 'modal-id' | where: "category" , "speaker")  %}
-            {% for post in sorted_speaker %}
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-sm-0 speaker-item"></div>
+            {% for speaker in site.speaker %}
+            {% assign loopindex = forloop.index %}
                 <div class="col-md-4 col-sm-6 speaker-item">
-                    <a href="#speakerModal{{ post.modal-id }}" class="speaker-link" data-toggle="modal">
+                    <a href="#speakerModal{{loopindex}}" class="speaker-link" data-toggle="modal">
                         <div class="speaker-hover">
                             <div class="speaker-hover-content">
                                 <i class="fa fa-ellipsis-h fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/speaker/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        <img src="img/speaker/{{ speaker.pic }}-thumbnail.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="speaker-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted"><a href="http://twitter.com/{{ post.twitter }}" target="_blank">@{{ post.twitter }}</a></p>
+                        <h4>{{ speaker.name }}</h4>
+                        <p class="text-muted"><a href="http://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></p>
                     </div>
                 </div>
             {% endfor %}
+            <div class="col-md-2 col-sm-0 speaker-item"></div>
+        </div>
+    </div>
+</section>
+
+{% for speaker in site.speaker %}
+{% assign loopindex = forloop.index %}  
+<div class="speaker-modal modal fade" id="speakerModal{{loopindex}}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
             </div>
         </div>
-    </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>{{ speaker.name }}</h2>
+                        <hr class="star-primary">
+                        <img src="img/speaker/{{ speaker.pic }}.png" class="img-responsive img-centered" alt="{{ speaker.name }}">
+                        <p> {{ speaker.bio }}</p>
+                        <ul class="list-inline item-details">
+                            <li>twitter:
+                                <strong><a href="http://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>
+                                </strong>
+                            </li>
+                            <li>www:
+                                <strong><a href="http://{{speaker.www}}">{{ speaker.www }}</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

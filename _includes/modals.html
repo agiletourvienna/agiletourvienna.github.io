@@ -1,7 +1,7 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
     {% if post.category == 'speaker' %}
-    <div class="speaker-modal modal fade" id="speakerModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <!--div class="speaker-modal modal fade" id="speakerModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div-->
     {% endif %}
     {% if post.category == 'intro-video' %}
     <div class="speaker-modal modal fade" id="introvideoModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
@@ -60,3 +60,4 @@
     </div>
     {% endif %}
 {% endfor %}
+

@@ -59,6 +59,19 @@ tweets:
 
 hashtag: AT16VIE
 
+speaker: 
+- name: David Evans
+  pic: davidevans
+  twitter: DavidEvans66
+  bio: David Evans is partner at Neuri Consulting. He is a veteran of agile testing and an active member of the agile community, with over 22 years of IT experience. A thought-leader in the field of agile testing, he has trained and provided consulting for clients in the UK, Ireland, Sweden, Germany, Australia, Israel, South Africa and Singapore. He is a regular speaker at international conferences and has had a number of articles published in professional journals.
+  www: neuri.co.uk
+
+- name: Joakim Sundén
+  pic: joakimsunden
+  twitter: joakimsunden
+  bio: I work as an agile coach at Spotify, an award-winning digital music service that gives you on-demand access to over 20 million songs, wherever you are. The opinions expressed here represent my own and not those of my employer.
+  www: joakimsunden.com
+
 team:
 - name: Christian Hassa
   pic: ch
