@@ -35,12 +35,17 @@
             </div>
             <div class="row" style="margin-top: 50px">
                 <div class="col-lg-12 text-center">
+                    <h2><a class="twitter-link" href="https://twitter.com/hashtag/{{site.hashtag}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;#{{site.hashtag}}</a></h2>
                     {% for tweet in site.tweets %}
                     <h3 class="quote section-subheading text-muted">"{{tweet.quote}}" - {{tweet.person}}</h3>
                     {% endfor %}
-                    <h2><a class="twitter-link" href="https://twitter.com/hashtag/{{site.hashtag}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;#{{site.hashtag}}</a></h2>
                 </div>
-
+            </div>
+            <div style="margin-top: 100px">
+                <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
+                <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+                <ul class="juicer-feed" data-feed-id="at16vie"></ul>
             </div>
         </div>
     </section>
+
