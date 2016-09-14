@@ -72,6 +72,12 @@ speaker:
   bio: Joakim Sundén helps people improve through mentoring and coaching at individual, team, and organizational levels, often using Agile and Lean thinking and methods such as Kanban, Scrum, and XP. Since 2011 Joakim works as an Agile Coach at Spotify, making music available and accessible to the world. He is an organizer of, and active participant in, conferences, networks and user groups in the Agile and Lean communities. Joakim is also the author of “Kanban in Action” (Manning, 2014).
   www: joakimsunden.com
 
+- name: Luke Hohmann
+  pic: lukehohmann
+  twitter: lukehohmann
+  bio: Luke Hohmann is the Founder and CEO of Conteneo, Inc. Conteneo's cloud-based Weave collaboration platform integrates teams with frameworks to improve Enterprise Agility, Innovation, Strategic Planning and Participatory Budgeting. Luke is co-founder of Every Voice Engaged Foundation, a 501(c)(3) nonprofit that helps citizens and governments tackle technical and wicked social problems. Luke is the producer of Collaboration at Scale, a monthly webinar hosted by the Scrum Alliance that tackles collaboration challenges in organizations with 10 or more Scrum teams. He’s also written four with long titles and has served on the Board of the Agile Alliance. He's a pretty good grill master and doesn't mind getting lost in foreign cities on long runs. 
+  www: conteneo.co
+
 team:
 - name: Christian Hassa
   pic: ch
