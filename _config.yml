@@ -6,6 +6,8 @@ description: "The Agile Tour Vienna is a non-profit event that aims at bringing 
 year: 2016
 trailer: https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&portrait=0
 
+showCallForProposals: false
+
 # Build settings
 markdown: kramdown
 permalink: pretty
