@@ -81,10 +81,11 @@ speaker:
   www: conteneo.co
 
 team:
-- name: Christian Hassa
-  pic: ch
+
+- name: Florian Eckkrammer
+  pic: fe
   position: Organization & Committee
-  mail: christian.hassa@techtalk.at
+  mail: eckkramm@technikum-wien.at
   
 - name: Veronika Kotrba & Ralph Miarka
   pic: rv
@@ -101,11 +102,6 @@ team:
   position: Organization & Committee
   mail: david.leitner@techtalk.at
   
-- name: Florian Eckkrammer
-  pic: fe
-  position: Content Committee
-  mail: eckkramm@technikum-wien.at
-  
 - name: Rudolf Groetz
   pic: rg
   position: Content Committee
@@ -116,6 +112,11 @@ team:
   position: Content Committee
   mail: franz.hofer@utanet.at
 
+- name: Christian Hassa
+  pic: ch
+  position: Content Committee
+  mail: christian.hassa@techtalk.at
+  
 - name: Alfred Karner
   pic: ak
   position: Content Committee
