@@ -1009,3 +1009,22 @@ section h3.quote
         margin-right:0px;
     }
 }
+
+.speaker-trainings{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.speaker-trainings .speaker-trainings-header{
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.speaker-trainings .speaker-trainings-item a{
+    color: white;
+    display: block;
+}

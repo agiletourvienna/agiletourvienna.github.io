@@ -67,7 +67,10 @@ speaker:
   twitter: DavidEvans66
   bio: David Evans is partner at Neuri Consulting. He is a veteran of agile testing and an active member of the agile community, with over 22 years of IT experience. A thought-leader in the field of agile testing, he has trained and provided consulting for clients in the UK, Ireland, Sweden, Germany, Australia, Israel, South Africa and Singapore. He is a regular speaker at international conferences and has had a number of articles published in professional journals.
   www: neuri.co.uk
-
+  trainings: 
+  - name: Effective User Stories
+    link: http://techtalk.at/trainings/effective-user-stories/ 
+    
 - name: Joakim Sundén
   pic: joakimsunden
   twitter: joakimsunden
@@ -79,6 +82,11 @@ speaker:
   twitter: lukehohmann
   bio: Luke Hohmann is the Founder and CEO of Conteneo, Inc. Conteneo's cloud-based Weave collaboration platform integrates teams with frameworks to improve Enterprise Agility, Innovation, Strategic Planning and Participatory Budgeting. Luke is co-founder of Every Voice Engaged Foundation, a 501(c)(3) nonprofit that helps citizens and governments tackle technical and wicked social problems. Luke is the producer of Collaboration at Scale, a monthly webinar hosted by the Scrum Alliance that tackles collaboration challenges in organizations with 10 or more Scrum teams. He’s also written four with long titles and has served on the Board of the Agile Alliance. He's a pretty good grill master and doesn't mind getting lost in foreign cities on long runs. 
   www: conteneo.co
+  trainings: 
+  - name: Certified Innovation Games Master Class
+    link: http://techtalk.at/trainings/certified-innovation-games-master-class/
+  - name: Innovation Games for Agile Teams
+    link: http://techtalk.at/trainings/innovation-games-for-agile-teams/
 
 team:
 
