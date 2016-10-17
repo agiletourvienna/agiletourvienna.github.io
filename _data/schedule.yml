@@ -216,13 +216,15 @@ with a big, complex, heterogeneous software product which has grown over the yea
   talks: 
   - title: "Impact Mapping with Innovation Games™"
     speaker: Gojko Adzic
+    speaker2: Christian Hassa
     language: en
     tags: Impact Mapping, Innovation Games
     level: 3
     abstract: 
     - "Impact Mapping is a lightweight method for strategic planning in product and project development. Although seemingly simple and intuitive, many teams fail to get the most out of it because they jump to conclusions too quickly and skip over important discussions. This is a talk on how to avoid common pitfalls and how to use two innovation games that can help you facilitate impact mapping easily, support innovative ideas and divergent thinking, and help your teams and clients make a big impact through software delivery."
     bio: 
-    - "Gojko is a strategic software delivery consultant who works with ambitious teams to improve the quality of their software products and processes. He specialises in agile and lean quality improvement, in particular agile testing, specification by example and behaviour driven development."
+    - "__Gojko__ is a strategic software delivery consultant who works with ambitious teams to improve the quality of their software products and processes. He specialises in agile and lean quality improvement, in particular agile testing, specification by example and behaviour driven development."
+    - "__Christian__ verantwortet als Geschäftsführer bei TechTalk die technologische und methodische Ausrichtung. Christian ist Product Owner des Story Mapping Werkzeugs SpecLog, und Mitinitiator des Open Source BDD Werkzeugs SpecFlow. Christian ist Spezialist für agile Planungs- und Spezifikationsmethoden, insbesondere Impact Mapping, Story Mapping und Specification-By-Example."
   - title: "How the cloud enhances your agile software development"
     speaker: "Raoul Holzer"
     speaker2: "David Leitner"
