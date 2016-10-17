@@ -1,0 +1,327 @@
+- time: "09:00 - 09:30"
+  keynote:
+  - title: "Hitchikers Session Guide"
+    speaker: "Christian Hassa"
+    speaker2: "Ralph Miarka"
+    abstract: "Warm-Up and Agile Tour 2016 introduction by Christian and Ralph."
+    language: en
+- time: "09:30 - 09:45"
+  break: "Welcome @ Agile Tour 2016"
+- time: "09:45 - 10:45"
+  keynote: 
+  - title: "Awesome Superproblems"
+    speaker: "Luke Hohmann"
+    language: en
+    abstract: 
+    - "The Agile values and practices we all hold dear give us more than the ability to tackle problems associated with software development. They give us the ability to tackle Awesome Superproblems: problems that get worse through inaction and which can only be solved through collaboration. However, when we make progress on solving Awesome Superproblems, we find new patterns that can be applied to solve similar problems and improve our development practices."
+    - "In this keynote, Luke will show how Innovation Games®, shared with the Agile Community at the first Agile Conference in 2003, have evolved into scalable multidimensional frameworks that are being used by agilists around the world to tackle Awesome Superproblems."
+    bio: 
+    - "Luke Hohmann is the Founder and CEO of Conteneo, Inc. Conteneo's cloud-based Weave collaboration platform integrates teams with frameworks to improve Enterprise Agility, Innovation, Strategic Planning and Participatory Budgeting. Luke is co-founder of Every Voice Engaged Foundation, a 501(c)(3) nonprofit that helps citizens and governments tackle technical and wicked social problems. Luke is the producer of Collaboration at Scale, a monthly webinar hosted by the Scrum Alliance that tackles collaboration challenges in organizations with 10 or more Scrum teams. He’s also written four with long titles and has served on the Board of the Agile Alliance. He's a pretty good grill master and doesn't mind getting lost in foreign cities on long runs. "
+- time: "10:45 - 10:50"
+  break: "5 Min Break"
+- time: "10:50 - 11:35"
+  talks:
+  - title: "Team-Optimierung führt zu schlechtem Unternehmens-Output"
+    speaker: "Klaus Leopold"
+    tags: Lean, Agile, Systems Thinking, Enterprise Agility
+    language: de
+    level: 2
+    abstract: 
+    - "Wenn man hohe Team-Performance als Verbesserungs-Ziel hat, bekommt man hohe Team-Performance. Das klingt ja super! Ist es aber leider nicht. Hohe Team-Leistung führt zu geringer System-Leistung und die Leistung dem Kunden gegenüber nimmt ab. Das ist nicht so gut, denn unterm Strich werden die Gehälter vom Kunden bezahlt und nicht von hoch performanten Teams."
+    - "Genau dieser Teamfokus ist auch der Grund, warum viele große agile Initiativen zu keiner Verbesserung der Unternehmensleistung führen. Im besten Fall sieht man bei teamzentrierten Verbesserungsinitiativen keine Verbesserung auf Unternehmensebene, im Normalfall wird die Leistung sogar schlechter. Lokale Optimierung führt zu globaler Suboptimierung! "
+    - "In dieser Session zeige ich, warum man versuchen soll, lokale Optimierung zu vermeiden. Ich zeige auch anhand eines Beispiels, wie man die Agilität teamübergreifend in der Organisation etabliert ohne dabei die Teams bei ihrer Arbeit zu stören. Das Schöne bei diesem Ansatz ist, dass er nahtlos am Ist-Zustand der Organisation anknüpft."
+    bio: 
+    - "Dr. Klaus Leopold, seines Zeichens Informatiker und Kanban-Pionier, verfügt über langjährige Erfahrung als Lean- und Kanban-Berater sowie als Trainer mit ungefähr 1000 Workshop- und Trainings-TeilnehmerInnen pro Jahr. Er berät weltweit tätige Unternehmen bei der Einführung von Lean und Kanban, den damit verbundenen Change-Prozessen und in der Optimierung ihrer Wertschöpfung.  Klaus ist Co-Autor des Standardwerks „Kanban in der IT“ und er veröffentlicht seine aktuellen Gedanken und Erlebnisse in der Welt von Lean, Kanban und Management auf seinen Blog www.LEANability.com. Er spricht regelmäßig auf renommierten Lean- und Kanban-Konferenzen weltweit. 2014 wurde Klaus in San Francisco mit dem Brickell Key Award für „outstanding achievement and leadership“ ausgezeichnet." 
+  - title: "Continuous Delivery in Complex and Heterogeneous Environments"
+    speaker: Josef Puchinger
+    speaker2: Christopher Hejl
+    tags: Continuous Delivery, AgileOps, DevOps, Mode 1 & 2, Automation
+    level: 2
+    language: en
+    abstract: 
+    - "There are three things which will improve your software: \n
+* use your own software (eat your own dog food), \n
+* implement short feedback cycles (Continuous Delivery) and\n
+* react quickly to it (Agile Software Engineering Methodologies)."
+    - "Join Christopher Hejl, Lead Application Architect and Josef Puchinger, Vice President Engineering at Automic to hear how Automic is moving its own software development to a new continuous delivery model. Learn how Automic has managed to enhance \n
+* its build, package, test, upgrade and install processes,\n
+* its fully automated application provisioning capabilities and \n
+* its capability to run zero downtime upgrades\n
+with a big, complex, heterogeneous software product which has grown over the years. Learn how you can gain speed and agility with the software you have today."
+    - "Metrics and pragmatic advice on steps taken will be shared. Get insights on how this is benefiting customers and engineers."
+    bio: 
+    - "__Josef Puchinger:__ More than 20 years of experience in Software Engineering in different roles: Development, Technical QA and Leadership Positions. Experience in many different business domains: Industry (PPS), Banking, Insurance, Online Betting & Gaming, Mobile Applications, Automation Software. Experienced in multi-site Agile Software Engineering across Europe, North America and Asia. Change driver for Agile Software Engineering Methodologies and DevOps practices. Speaker at conferences and leadership circles."
+    - "__Christopher Hejl:__ 10 years in Software Engineering, working in QA, Development, Consulting, IT Security, and IT Governance."
+  - title: "Does Agile mean we have less time for Testing?"
+    speaker: "Alex Schwartz"
+    tags: Agile Testing, Quality
+    language: en
+    level: 2      
+    bio: 
+    - "Alex works as an agile coach/trainer and is a quality evangelist with more than 25 years experience of work within the IT sector. After getting infected with \"the agile virus\" his desire for continuous delivery, DevOps, and agile testing is endless. He is a popular speaker and a recognized expert for conferences f.e. the Agile Testing Days in Potsdam. "
+    - "Alex currently works at HERE Maps in Berlin as well as a Freelancer - he  describes himself as a \"rusty but clean coder\"."   
+    abstract: 
+    - "In the last decade, the speed of our industry has increased greatly. Agile Development, DevOps and Continuous Delivery are the main drivers for this paradigm shift which has now become widely accepted. "
+    - "Ten years ago, it was common to only release a couple of new versions a year. Today, there are companies delivering hundreds of software deployments per day. This isn't only true in IT, but also e.g. for Tesla-Automobile, which delivers its software updates a few times a week. "
+    - "Where does quality happen when we're releasing this often? Is it possible to have proper quality management and is there enough time for testing? How can we reduce what could be weeks of testing to deliver new features to our clients on a daily basis? "
+    - "Alex is a long-term enthusiast for this topic. Based on his experiences with various products and companies, he'll share his insights into the mystery of \"faster testing\". The key questions are: "
+    - "* When – When do we test?"
+    - "* What – What should we test? "
+    - "* Which quality aspects are important?"
+    - "* How – How do we test? Which techniques are helpful?"
+    - "* Who –  Who is involved in testing, test automation, etc.?"
+    - "* How much  –  How much should we test?"
+    - "Furthermore, we discuss the financial benefits of Agile Testing and aiming for Continuous Quality. Last but not least we explore if it only exists in fairy tale land or if it is real."
+  - title: "Bugfixing Level III - Performance Boost Gamification"
+    speaker: "Andreas Scharf"
+    tags: "Gamification, Bugfixing, Motivation"
+    language: "en"
+    level: 2
+    abstract:
+    - "If I tell you, that it is possible to turn your monotonous work into a fun task while increasing productivity, would you want to wait any longer?"
+    - "\"There is a mismatch between what science knows and what business does.\""
+    - "This quote from bestseller author and TED speaker Dan Pink was my starting point, that lead to introducing gamification into our company. Science has known for a long time about the circumstances that increase productivity, but our business models tend to ignore that."
+    - "I will introduce you to gamification and show a hands on example of how you can use it to boost your performance. We use gamification to increase the motivation of an unloved task – Bugfixing. Because developers are the perfect target population for all sorts of games."
+    - "Join this talk to see how we applied gamification in our company, what we already learned from it and how it fits into the context of agile development."
+    bio:
+    - "Andreas Scharf works as a Java Developer for Agfa Healthcare, the leading provider of eHealth & Digital Imaging solutions."
+    - "He is always enthusiastic about innovations and loves to experiment with new ideas to make the working process more effective. In this role he introduced gamification, to create a whole new level for the tedious work of bugfixing."
+- time: "11:35 - 11:50"
+  break: "Coffee Break"
+- time: "11:50 - 12:35" 
+  talks: 
+  - title: "Lean Scrumban-Thinking in der Praxis"
+    speaker: "Alexander Krause"
+    tags: lean startup, Design-Thinking, Scrum 3.0, Scrumban, Kanban
+    language: de
+    level: 3
+    bio: 
+    - "Alexander Krause ist agiler Ruhestifter und Arbeitsweltverbesserer. Er verbindet Scrum, Kanban und Design-Thinking, um Produktentwicklung schneller, günstiger und freudvoller zu machen."
+    abstract: 
+    - "Alexander Krause erzählt die Erfolgsgeschichte eines experimentierfreudigen Entwicklungs-Teams, welches mit lean-startup und Design-Thinking Elementen in ein Projekt gestartet ist, im Story-Mapping die PO-Rolle eingenommen hat und nach und nach Mob-Programming, TDD, Automatisierung & Virtualisierung kennen lernte. Mit dem Single-Story-Taskboard, #NoEstimates und #NoSprints hat sich daraus eine extrem hohe Performance und Lösungskompetenz entwickelt."
+    - "Lassen Sie sich von der Lust an Experimenten, Reflexion, Lernen und Verändern inspirieren."
+  - title: "A voyage through BDD in the financial sector"
+    speaker: "Dirk Rombauts"
+    tags: BDD, Living Documentation, SpecFlow
+    language: en
+    level: 2
+    abstract: 
+    - "I invite you to embark on a voyage with me. It will be a time lapse version of a voyage I undertook myself at my previous employer, a Vienna-based company that develops business applications for data management for the financial services industry. As part of a team that worked on a product for managing corporate actions data, I spearheaded the introduction of Behaviour Driven Development (BDD). Using BDD, we were able to address weaknesses in the way that requirements were analysed, communicated and verified."
+    - "Your voyage with me will take us back to the first steps my team and I took with BDD. Together, we will re-trace the course towards the first specification using examples, and on to the first automated verification of a feature. We will see how the BDD effort achieved critical momentum and started snowballing. We will also analyse several roadblocks that put a ceiling on the effectiveness of BDD, and come up with ways to improve on such situations."
+    - "When you attend this session, you will learn how we approached BDD and made it work for us. You will also learn about the problems we had with BDD. The knowledge of both of these topics will give you guidance on how to apply BDD more effectively in your own projects, and on how to avoid some pitfalls."
+    bio: 
+    - "Dirk Rombauts is the owner of Pickles Pro (http://www.picklespro.com), a Vienna-based company dedicated to making software development teams self-sufficient in BDD. He is also the maintainer of Pickles (http://www.picklesdoc.com), the open source Living Documentation generator."
+    - "Dirk has worked a lot with BDD over the past 6 years. He has helped product owners, developers and customer representatives to better understand the requirements, to develop a ubiquitous language and to improve the chances of success for their projects. In doing so, he experienced both the highs and the lows of BDD."
+    - "Additionally, Dirk has 13 years of experience developing on the Microsoft .NET Platform on a variety of projects and devices. He holds many in-house training courses."
+  - title: "From departments to cross-functional teams. A Story."
+    speaker: "Philipp Pointner"
+    speaker2: "Matyas Bodor"
+    tags: "Organization, leadership, software delivery, teams"
+    language: en
+    level: 1
+    abstract: 
+    - "Like in most other companies software development at Jumio was organized in departments (DEV, QA, PM, OPS,…). Each department with a distinct role in the process and a “Head of” function, but also with increasing friction between the teams and separate agendas of their “Heads”."
+    - "__“No sorry, we have other priorities right now!”, “You need to solve that problem in your department!”, “We always get information last and nobody cares what we need!”__"
+    - "A year ago we turned the organization upside-down, or actually by 90° to the side. "
+    - "The departmental borders were completely removed and cross-functional teams without a lead function were established. Small strike-forces capable of delivering software from requirement to release and beyond."
+    - "In this first-hand experience report we will tell you about our journey from departments to cross-functional teams. You will hear two perspectives describing the transition from the management point of view and also from the teams’ perspective."
+    bio: 
+    - "__Philipp__ serves as Jumio’s VP Product and facilitates Jumio’s product strategy. With his team of product managers and designers he turns visions into products. Prior to Jumio Philipp was responsible for paysafecard, Europe’s most popular prepaid solution for purchasing online. At paysafecard he played a primary role in launching the KYC compliant mypaysafecard wallet. Before that Philipp served 10 years at e-commerce giant First Data where he took a deep dive into the classic payment industry. He graduated from University of Applied Sciences Technikum in Vienna."
+    - "__Matyas__ serves as Jumio’s Agile Coach supporting and improving Jumio’s IT-department. Facilitating communication and creating transparency Matyas makes his teams more productive and more motivated. Prior to Jumio Matyas was a Scrum Master and later Enterprise Architect at BAWAG PSK. At BAWAG he implementing agile methods, aligned company goals, processes and culture in his teams and on department level. Before becoming an agile implementer Matyas worked as a developer, tester and as a software analyst."
+  - title: "“Ein Bild sagt mehr als tausend Worte“ - Visualisieren von Anforderungen mit Wireframes"
+    speaker: "Claudia Oster"
+    workshop: true
+    tags: Adaptability, AgileEstimation, AgilePractices
+    language: de
+    level: 1
+    abstract: 
+    - "Lange Seiten mit Detailspezifikation und alles perfekt dokumentiert und doch kommt es zu langen Diskussionen im Team und mit Stakeholder und zu Missverständnissen bei der Umsetzung. Ein schnelle und unkomplizierte Lösung für dieses Problem sind Wireframes – denn ein Bild sagt mehr als tausend Worte."
+    - "Wireframes sind einfache Darstellungen der Funktionalitäten und können von jedem in kurzer Zeit erstellt werden. In diesem Workshop erhalten Sie einen Überblick über die verschiedenen Arten von Wireframes und deren Einsatzmöglichkeiten im agilen Prozess. Darüber hinaus werden in kurzen Übungen selbst Wireframes erstellt und weiterentwickelt. "
+    - "Ziel dieses Workshops ist es im täglichen Projektalltag Wireframes selbst einsetzen zu können und dadurch die eigenen Vorstellungen besser an die Stakeholder und das Team vermitteln zu können."
+    bio: 
+    - "Claudia Oster begleitet als Usability Engineer viele agile Projekte von der Anforderungsanalyse bis hin zum fertigen Produkt und ist auch als Product Owner oder Scrum Master in die Projekte involviert. Sie unterstützt mit ihrem UX Know-How die Softwareprojekte um benutzerfreundliche Software und zufriedene Benutzer zu erreichen. Dabei nutzt sie ihr Wissen aus den Bereichen Entwicklung, Design, Analyse und Psychologie."
+    - "Seit 2008 ist sie als Usability Engineer bei TechTalk tätig und ist ein aktives Mitglied der UX Community in Wien."
+- time: "12:35 - 12:40"
+  break: "5 Min Break"
+- time: "12:40- 13:25"
+  talks: 
+  - title: "Large Scale Agile Transformations (in IB): Lessons Learned"
+    speaker: "Rickard Jones"
+    speaker2: "Christoforos Nikitas"
+    tags: Agile Transformations, Agile Coaching, Agile Training
+    language: en
+    level: 1
+    abstract: 
+    - "Large Scale Agile transformations are all the rage at the moment. Everyone is busting a gut to say they are doing it. But while they maybe doing Agile, are they being Agile?"
+    - "Join us for this talk on the lessons learned from the many Agile experiences the presenters have gained when being a part of the worlds largest Agile Transformation. Questions that will be answered are:"
+    - "1.  How do you avoid Transformation pitfalls?\n
+    2.  Do Agile Scaling Frameworks really work?\n
+    3.  How should Agile Coaching work in a large transformation?\n
+    4.  Finally we present a Case Study of the worlds largest Agile Transformation by showing the results with real data."
+    bio: 
+    - "__Rickard__ is currently an Agile Coach/Trainer specialising in Agile delivery, for organisations operating within the Enterprise arena. Before becoming an Agile Coach/Trainer, he has been a Developer, Program Manager, Change Manager, Project Manager, Dev Manager, Scrum Master, Infrastructure Manager, Transformation Lead and general dogs body. He has an unhealthy obsession with learning and thus likes to going on as many courses as possible. Even though he believes nothing beats experience."
+    - "__Chris__ is currently working as a Technical Architect/Agile Coach for a Tier-1 Investment Bank in London, UK. He is an active agnostic technologist of complex Enterprise Solutions with over 10 years of IT experience, with a focus on Agile development practices and methodologies. Chris is really passionate about DevOps and team dynamics. Through coaching he has embarked in a journey of personal development by assisting organizations through their Agile Transformations."
+  - title: "Seeding a Tree in a Gherkin - Setting up Complex Scenarios for Automated Tests"
+    speaker: "Paul Rohorzka"
+    tags: Software and code quality, Maintainability, Testing
+    language: en
+    level: 2
+    tags: Testing, Test Automation, Readability, Maintenance, Code
+    abstract: 
+    - "When we are working on tests exercising large parts of our software system (e.g. in an acceptance test suite), we often have to set up a considerable amount of data to set the stage for the scenario under test. This might include several calls to cumbersome APIs. At first, such code can be hard do get right. When it is working properly, many times the intention of the setup is greatly hidden in a convoluted mess of code. Therefore, such code can pose a major hurdle for the evolution of the project. Although intensive refactoring can provide benefits, there are things demanding even better readability. At this point, techniques, patterns and tools like Specflow can provide advantages."
+    - "In this session we will discuss typical problems faced with the setup of test data and means to address those. We will illustrate three cases where non-trivial setup was needed. After understanding the challenges faced we will present and discuss the final solutions. All topics will be supported by code examples from a 10+ year project that has faced all of those issues."
+    bio: 
+    - "Paul Rohorzka is a software gardener working at TechTalk in Vienna, Austria. His passion is great code, i.e. code that works and is easy to read and maintain. He practices Test Driven Development as a tool for purposefully writing high-quality software. Since the early days of his professional career, he is teaching other developers good coding practices in trainings, coding dojos, and talks. Besides living and breathing those topics in his day-projects, he keeps his own skills sharp by attending conferences, dojos and reatreats."
+  - title: "Eine Entdeckungsreise durch die Software – Session Based Testing"
+    speaker: "Vera Gehlen-Baum" 
+    speaker2: "Bettina Stühle"
+    speaker2-img: "bettinastuehle"
+    tags: Session-based testing, Requirements Engineering, Exploratory Testing
+    language: de
+    level: 3
+    abstract: 
+    - "Session-based Testing ist aufgrund seiner Reduzierung von Formalien und seines ganzheitlichen Ansatzes, der durch die Kombination von explorativem Testing und einer hohen Verantwortung des einzelnen Testers entsteht, eine hervorragende Ergänzung zum formalen Testen. Eine ganzheitliche Betrachtung des zu entwickelnden Systems ist auch ein Kernelement des Requirement Engineers (RE). Jedoch gerät diese ganzheitliche Betrachtung z.B. durch eine hohe Formalisierung bisweilen in den Hintergrund. Im Rahmen unseres Vortrages wollen wir Methoden des session-based Testing vorstellen, die Parallelen in den beiden Prozessen aufzeigen und erklären wie wir diese Methoden effektiv im RE eingesetzt haben."
+    bio: 
+    - "__Vera Gehlen-Baum__ arbeitet seit Oktober 2015 bei den QualityMinds. Zuvor hat sie zum Lernen mit neuen Medien an der Hochschule promoviert und eine Lernplattform zur Backchannel-Kommunikation in Vorlesungen mitentwickelt."
+    - "__Bettina Stühle__ ist seit 16 Jahren in der IT-Branche als Consultant und Softwaretester tätig. Dabei konnte sie Erfahrungen in völlig unterschiedlichen Bereichen sammeln und in agilen als auch klassischen Teams arbeiten. Aktuell arbeitet Bettina bei QualityMinds als Test Consultant."
+  - title: "Maintaining Agile Equilibrium"
+    speaker: "Dan Mircea Suciu"
+    tags: Adaptability, AgileEstimation, AgilePractices
+    language: en
+    level: 1
+    abstract: 
+    - "A wise approach when we want to adopt a new methodology, technology or simply a new practice in a project team, is to identify and compare in advance the advantages and disadvantages of its use. Every time such analysis shall be carried out taking into account the context in which it will be adopted."
+    - "__“Which are the benefits of implementing the practice X in my team?“ “What are the main risks for my project in the conditions of implementing the methodology Y?“ “Which is the learning curve of the technology Z and how will it impact the deadlines?“__"
+    - "these are just a few examples of questions we ask ourselves (together with our team) prior to taking a decision. The unexpected trap of this process is that we usually try to fully benefit of the advantages of the methodology/technology/practice we implement and most of the time we exaggerate in this respect. The Yerkes-Dosdon law (also known as 'Inversed U Curve theory') gives an interesting perspective in approaching all these practices."
+    bio: 
+    - "Director of Global Learning & Development at 3Pillar Global and Lecturer PhD at Faculty of Mathematics and Computer Science, Babes Bolyai University Cluj Napoca, Romania." 
+    - "My fields of interest include software development methodologies, object oriented analysis and design and databases."
+    - "I am very passionate about animated movies and video games."
+- time: "13:25 - 14:10"
+  break: "Lunch Break"
+- time: "14:10 - 15:10"
+  keynote: 
+  - title: "Tribes, Squads, Chapters, & Guilds: Agile at Scale at Spotify"
+    speaker: Joakim Sundén
+    speaker-img: joakimsunden
+    language: en
+    abstract: 
+    - "In just a few years, Spotify has grown from a small startup in Sweden to a pretty big company with more than 100 engineering teams in five different development offices on two continents. And they have no intention of slowing down." 
+    - "Such rapid growth carries big challenges. How can they continue to improve their product at great speed, while growing the numbers of users, employees and supported platforms and devices? How do they stay agile when they grow from a small startup to a big corporation? Joakim Sundén, Agile Coach at Spotify, will share how Spotify is addressing these challenges. He will talk about autonomous squads, chapters, tribes, alliances, guilds, hack weeks, and a lot of other ideas they’re experimenting with."
+    bio: 
+    - "Joakim Sundén helps people improve through mentoring and coaching at individual, team, and organizational levels, often using Agile and Lean thinking and methods such as Kanban, Scrum, and XP. Since 2011 Joakim works as an Agile Coach at Spotify, making music available and accessible to the world. He is an organizer of, and active participant in, conferences, networks and user groups in the Agile and Lean communities. Joakim is also the author of “Kanban in Action” (Manning, 2014)."
+- time: "15:10 - 15:15"
+  break: "5 Min Break" 
+- time: "15:15 - 16:00"
+  talks: 
+  - title: "Impact Mapping with Innovation Games™"
+    speaker: Gojko Adzic
+    language: en
+    tags: Impact Mapping, Innovation Games
+    level: 3
+    abstract: 
+    - "Impact Mapping is a lightweight method for strategic planning in product and project development. Although seemingly simple and intuitive, many teams fail to get the most out of it because they jump to conclusions too quickly and skip over important discussions. This is a talk on how to avoid common pitfalls and how to use two innovation games that can help you facilitate impact mapping easily, support innovative ideas and divergent thinking, and help your teams and clients make a big impact through software delivery."
+    bio: 
+    - "Gojko is a strategic software delivery consultant who works with ambitious teams to improve the quality of their software products and processes. He specialises in agile and lean quality improvement, in particular agile testing, specification by example and behaviour driven development."
+  - title: "How the cloud enhances your agile software development"
+    speaker: "Raoul Holzer"
+    speaker2: "David Leitner"
+    tags: OPs, Microservices, Serverless, CrossFunctionalTeams 
+    language: de
+    level: 2
+    abstract:     
+    - "Bereits Anfang 2006 begann Amazon ihre nicht benötigte Serverhardware an Startups zu vermieten. Zehn Jahre später hat sich die Cloud längst als ein fixer Bestandteil der heutigen IT-Industrie etabliert.  Doch Cloud ist nicht gleich Cloud. Anhand ihrer Entwicklungsgeschichte, von virtuellen Maschinen bis hin zur serverless Architecture, werden wir die immer größer werdenden Vorteile und die neu gewonnene Flexibilität in der agilen Softwareentwicklung erläutern. Schlussendlich werden Sie verstehen, wie man durch die Kombination von Agiler Softwareentwicklung und Cloud-Computing, das Beste aus beiden Welten vereint. "
+    bio: 
+    - "__Raoul__ ist in der Firma TechTalk als Senior Entwickler nicht nur in Projekten tätig, sondern auch als Coach und Consultant mit den Themen Application Lifecycle Management und Cloud-Computing unterwegs."
+    - "__David__ ist zertifizierter Scrum-Master und fasziniert von agiler softwareentwicklung und herausfordernden Softwarelösungen. Er arbeitet als Entwickler bei TechTalk und ist zusätzlich als Tutor und freier Angestellter am FH Technikum Wien tätig."
+  - title: "Turkcell Agile Transformation Story"
+    speaker: "Buse Özen"
+    speaker-img: "buseoezen"
+    tags: "Agile, Kanban, Lean, Scrum, IT, Transformation"
+    language: en
+    level: 2
+    abstract: 
+    - "Turkcell (http://www.turkcell.com.tr) is an integrated communication and technology services player in Turkey. Turkcell Group has approximately 68.1 million mobile subscribers in nine countries and over 1.4 million fixed subscribers in Turkey as of September 30, 2015."
+    - "It is necessary to be able to respond dynamic markets, technical changes and customer demands. Associated with the market necessity in Turkcell Turkey, the needs related with the productivity and faster time to market were increased. Before 2015, the Waterfall Model was performed in Turkcell ICT (Information and Communication Technologies) department."
+    - "It became necessary to change this model into more effective one. It was seemed that, agile is appropriate with the ICT business structure. Then, Lean Kanban transformation started and agile teams that were educated by an agile coach were gathered together. Agile transformation takes productivity, efficiency, customer satisfaction and T2M more further. This talk is about the adventure of Agile transformation in Turkcell and improvement of Service, Tariff and Campaigns productivity, T2M and customer satisfaction in return."
+    bio: 
+    - "Buse Özen works as an Agile Master at Corporate Marketing Kanban Team at Turkcell ICT Business Operations Department. She also works as a Business Analyst having a role to work with the marketing teams and help them to develop their scenarios about services according to the technical capabilities."
+    - "She has more than 4 years experience in Information and Communication Technology. During her career, she holds PSM and ITIL certifications."
+    - "Buse Özen received her bachelor's and master's degrees in Engineering of Physics from Istanbul Technical University and holds a Phd in the same subject. She has academic projects and also attended to the academic conferences as a speaker."
+    - "She enjoys taking photos, playing chess and swimming."
+- time: "16:00 - 16:15"
+  break: "Coffee Break"
+- time: "16:15 - 17:00"
+  talks: 
+  - title: "5 Years of Agile Transition: An Agile Journey"
+    speaker: "Maximilian Hantsch-Köller"
+    speaker-img: "maximilianhantschkoeller"
+    tags: Agile transition, corporate culture, change management
+    language: en
+    level: 2
+    abstract: 
+    - "How do you change the corporate culture of a 1300+ employee corporation? What obstacles will you encounter on the path? What measures can you employ?"
+    - "What drives a company such as Frequentis to go on this journey? What are the observable benefits coming out of this transition? What future benefits are foreseen?"
+    - "More than 5 years ago, Frequentis introduced Agile development methods in their projects and product development. This talk presents approaches used, questions that arose, decisions taken, measures implemented, and lessons learned – from team level to corporate overview. Attendees will hear how the company developed their first Scrum teams, established education and training programs, rolled out Agile to more and more teams and departments, implemented a career model for Agile facilitators, measured the performance and transition across the organization, and faced and still faces the challenges of changing a corporate culture based in multiple locations around the globe."
+    - "Witness the transformation of a waterfall-driven business into an increasingly agile organization!"
+    bio: 
+    - "Maximilian Hantsch-Köller graduated from Vienna University of Technology and has worked in numerous small and large-scale organizations from start-ups to international multi-cultural corporations. With a long-standing experience in software development and broad understanding of communication networks and technologies, Maximilian has been leading classic and agile teams in both highly structured and dynamically flexible set-ups. Maximilian is keen on growing teams and organizations, implementing the appropriate processes & communication, and allowing the magic of team spirit to unfold."
+  - title: 'Keep "CALMS", DevOps at Cisco'
+    speaker: "Joachim Niederreiter"
+    tags: DevOps, Agile, Cloud-Native, Lean, Transformation
+    abstract: 
+    - "Pressure on Software Development increases: Stakeholders request reduced time-to-market. Today’s deployment cycles are measured in hours and minutes, not in months. Although Agile methodologies support these requests with continuous integration, they still do not incorporate the daily operations of the continuous delivered code. The use of complex cloud-native architectures forces developers and sys-admins to leave their silos."
+    - "DevOps is the methodology that addresses these issues, though DevOps is much more about culture and people than about tools and location. But beware of the pitfall of creating a new DevOps silo."
+    - "This presentation will show how we are currently building a DevOps culture within Cisco using the “CALMS” methodology. I will talk about success and failure and our ongoing journey to DevOps on the “CALMS” road which has just started..."
+    bio: 
+    - "Joachim Niederreiter is a software developer by heart and an engineering manager by passion. He started as a developer in the early 80s, working for various companies. He was always looking for better ways to make software projects a success and find patterns how that success can be replicated."
+    - "In 2001 he joined SolveDirect, a startup company located in Vienna, Austria as Software Architect and Chief Developer. In 2007 he took over his first management responsibility for the software engineering team and later the responsibility for the technical operations team of SolveDirect. In 2013 SolveDirect was acquired by Cisco, where he continued to transform the startup company into a successful business unit inside Cisco."
+    - "Today Joachim Niederreiter is responsible for the global operations of the Cisco ServiceGrid cloud platforms and the Software Engineering of Cisco ServiceGrid."
+    - "He enjoys playing in a rock band and riding a motorbike."
+    language: en
+    level: 1
+  - title: "Unit Tests in Legacy Code: 4 Erfolgsfaktoren"
+    speaker: "Roland Germ"
+    tags: Unit Testing, Legacy Code, Agile Software Entwicklungspraktiken, Test Doubles, Code Smells, Design Prinzipien
+    language: de
+    level: 1
+    abstract: 
+    - "Unit Tests und Legacy Code – eigentlich ein nicht lösbarer Widerspruch oder doch nicht? Oder ist es nur eine Ausrede von Entwicklern um keine lästigen Unit Tests implementieren zu müssen? Diese Session versucht eine Antwort auf diese Fragen zu geben und praktische Tipps, wie die zu erwartenden Probleme gelöst werden können. Die Themen umfassen sowohl organisatorische Aspekte als auch technische Fragen und Lösungen. "
+    - "Die Einführung einer neuen SW Development Praktik bedeutet eine Veränderung des bestehenden Entwicklungsprozesses. Wie bei jeder Veränderung gibt es unterschiedliche Ausprägungen von Widerstand. Mit organisatorischen Maßnahmen kann dieser reduziert und vorausschauend vermieden werden. Ähnliches gilt für die technische Vorbereitung. Jede neue Hürde wird als Ausrede verwendet. Legacy Code hat Eigenschaften, die die Erstellung von guten Unit Tests erschwert. Welche Code Smells sind typisch und welche Frameworks können diese umgehen. Der Vortrag gibt einen Überblick über die Probleme und wie diese verhindert bzw. gelöst werden können."
+    bio: 
+    - "Roland Germ, geboren und aufgewachsen in Wien, Studium der Informatik auf der TU Wien. Seit 2010 arbeitet er als Senior Java Developer und Architekt für die Firma ANECON, wo er sich auf die Themen Agile Software Entwicklungspraktiken, Software Craftmanship und Clean Code spezialisiert hat. Er hat mehr als 20 Jahre Erfahrung in der Software Entwicklung. Seine Leidenschaft ist sich Gedanken zu machen wie man die Software Entwicklung stetig verbessen kann und dieses Wissen anderen Entwicklern weiter zu geben."
+  - title: "Using Innovation Games for Agile Retrospectives at Scale"
+    workshop: true
+    speaker: "Peter Ferak"
+    speaker2: "Alex Staenke"
+    tags: Innovation Games, Agile Product Development, Visual Facilitation, Agile Transformation
+    level: 1
+    language: en
+    abstract: 
+    - "The new CTO of bwin was faced with a challenging problem: Identifying what hinders people in the organization most. How could he come up with the right initiatives to improve the teams and the enterprise?" 
+    - "The goal: Finding specific initiatives to improve the teams and the enterprise on technical, process and organizational dimensions!"
+    - "The solution: Innovation Games® - a surprisingly simple and highly effective way to gain feedback and insights from team members and customers."
+    - "We will tell the story of how Innovation Games® was used at bwin to initiate a globally scaled Retrospective across all development teams in multiple locations and how the outcomes were used to improve at enterprise level."
+    - "Innovation Games® are collaborative, visual tools that can be used to prioritize, discover, and shape the Features of a Software Product. They can be used in various scenarios, offline or online, for diverse groups."
+    - "This session will focus on how Innovation Games® can be used for Retrospectives and demonstrate techniques that will help you identify bigger underlying issues quicker."
+    bio: 
+    - "__Peter__ joined bwin in 2010 and filled development, management, and project management roles within the Sports betting department. He has experience in the entire life-cycle of designing, building, testing and deploying a large software system and specializes on development of distributed software and collaboration of distributed Software teams."
+    - "__Alex__ is the founder of The Thinking Company. He teaches people how to use Visual Thinking and other modern methods to solve wicked problems, be more effective at collaboration and communication and to generally become better thinkers."
+    - "Alex has 10+ years experience in managing international projects in big companies and small startups.  At one time he managed websites on every continent of the earth. "
+- time: "17:00 - 17:05"
+  break: "5 Min Break" 
+- time: "17:05 -18:05"
+  keynote: 
+  - title: "The Pillars of Agile Testing"
+    speaker: "David Evans"
+    language: en
+    abstract: 
+    - "The craft of agile testing is maturing, and we have plenty of skilled and gifted testers in the industry, honing their skills, sharing experiences and techniques, and advancing the state of the art. But too many organisations have trouble making the success of individual testers scale up, as the great testing of the few gets diluted by the mediocrity of average testing in the organisation."
+    - " For your organisation to succeed with agile testing, you have to understand these things:\n
+    * The goals you are trying to achieve\n
+    * The qualities that influence the goals\n
+    * The prerequisites for success\n
+    * The dependencies and connections between each of the above."
+    - "In this talk I will share my “Pillars of Testing” model, as featured in Lisa Crispin and Janet Gregory’s book “More Agile Testing”. The model sets out the structures and dependencies that influence how effective our overall test effort can be in the organisation as a whole, and gives a basis for creating a strategy for success."
+    bio: 
+    - "David Evans is an experienced agile consultant, coach and trainer with over 25 years of IT experience. A thought-leader in the field of agile quality, he has provided training and consultancy for clients worldwide. An in-demand speaker at events and conferences across Europe, David was voted Best Keynote Speaker at Agile Testing Days 2013. He is co-author of the best-selling books “50 Quick Ideas to Improve your User Stories” and “50 Quick Ideas to improve Your Tests”, was a contributor to the book “More Agile Testing”, and has also had several papers published in international IT journals. He currently lives and works in the UK, where he is a partner in Neuri Consulting LLP."

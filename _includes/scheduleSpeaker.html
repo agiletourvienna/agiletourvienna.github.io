@@ -1,0 +1,152 @@
+<style>
+    .speaker-container {
+        padding: 5px 0;
+    }
+
+    .speaker-container .image-row img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+
+    .speaker-container .name {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .speaker-container .title {
+        font-weight: bold;
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    a.speaker-container {
+        text-decoration: none;
+        color: black;
+    }
+
+    .scheduleSpeaker-modal .tag, .speaker-container .tag {
+        border-radius: 5px;
+        border: 1px solid #bb141a;
+        padding: 5px;
+        font-size: 12px;
+        color: #bb141a;
+        font-family: Arial, sans-serif;
+        margin-right: 2px;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .scheduleSpeaker-modal .tag.primary, .speaker-container .tag.primary, .scheduleSpeaker-modal .tag.workshop, .speaker-container .tag.workshop{
+        color: white;
+        background-color: #bb141a;
+        text-transform: uppercase;
+    }
+
+    .speaker-container .tag.primary {
+        float: right;
+        font-size: 10px;
+    }
+    .tag.primary img{
+        margin: 0;
+        height: 14px;
+    }
+
+    .scheduleSpeaker-modal .modal-content{
+        text-align: left;
+    }
+
+    .scheduleSpeaker-modal .speaker-image {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+</style>
+{% assign moduleName = slot.title | slugify | replace: ' ', '_' | remove: ':' | remove: '?' %}
+
+{% assign speakerImg = slot.speaker | remove: " " | downcase %}
+{% if slot.speaker-img %}{% assign speakerImg = slot.speaker-img %}{%endif %}
+
+{% assign speaker2Img = slot.speaker2 | remove: " " | downcase %}
+{% if slot.speaker2-img %}{% assign speaker2Img = slot.speaker2-img %}{%endif %}
+
+<a class="speaker-container"  href="#scheduleModal-{{moduleName}}" data-toggle="modal">
+    {% if slot.level %}<span class="tag primary"><img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png"/></span>{% endif %}
+    {% if slot.language %}<span class="tag primary">{{ slot.language | uppercase}}</span>{% endif %}
+    <div class="image-row">
+        <img src='{{ site.baseurl }}/img/schedule/{{speakerImg}}.png'/>
+        {% if slot.speaker2 %}<img style="margin-left: -15px;"
+            src='{{ site.baseurl }}/img/schedule/{{speaker2Img}}.png'/>{%
+        endif %}
+    </div>
+    <div class="title">
+            {{slot.title}}
+    </div>
+    <div class="name">
+        by {{slot.speaker}}
+        {% if slot.speaker2 %}
+        and {{slot.speaker2}}
+        {% endif %}
+    </div>
+    <div>
+        {% if slot.workshop %}<span class="tag workshop">workshop</span>{% endif %}
+        {% assign tags = slot.tags | split: ',' %}
+        {% for tag in tags %}
+        <span class="tag">{{ tag | strip }}</span>
+        {% endfor %}
+    </div>
+</a>
+<div class="scheduleSpeaker-modal speaker-modal modal fade" id="scheduleModal-{{moduleName}}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <img class="speaker-image"
+                             src='{{ site.baseurl }}/img/schedule/{{speakerImg}}.png'/>
+                        {% if slot.speaker2 %}
+                        <img class="speaker-image" style="margin-left: 10px;"
+                             src='{{ site.baseurl }}/img/schedule/{{speaker2Img}}.png'/>{%
+                        endif %}
+                        <h2>{{ slot.title }}</h2>
+                        <p>
+                            {% if slot.level %}<span class="tag primary">Level: <img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png"/></span>{% endif %}
+                            {% if slot.language %}<span class="tag primary">{{ slot.language | uppercase}}</span>{% endif %}
+                            {% if slot.workshop %}<span class="tag workshop">workshop</span>{% endif %}
+                            {% assign tags = slot.tags | split: ',' %}
+                            {% for tag in tags %}
+                            <span class="tag">{{ tag | strip }}</span>
+                            {% endfor %}
+                        </p>
+                        <hr class="star-primary">
+                        <h3>Abstract</h3>
+                        {% for row in slot.abstract %}
+                        <p>
+                            {{ row | markdownify  }}
+                        </p>
+                        {% endfor %}
+                        <hr class="star-primary">
+                        <h3>Presenter Bio</h3>
+                        <p><b>{{slot.speaker}} {% if slot.speaker2 %}and {{slot.speaker2}}{% endif %}</b></p>
+                        {% for row in slot.bio %}
+                        <p>
+                            {{ row | markdownify  }}
+                        </p>
+                        {% endfor %}
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i
+                                class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
