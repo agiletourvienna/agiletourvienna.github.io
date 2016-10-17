@@ -293,7 +293,6 @@ with a big, complex, heterogeneous software product which has grown over the yea
     bio: 
     - "Roland Germ, geboren und aufgewachsen in Wien, Studium der Informatik auf der TU Wien. Seit 2010 arbeitet er als Senior Java Developer und Architekt für die Firma ANECON, wo er sich auf die Themen Agile Software Entwicklungspraktiken, Software Craftmanship und Clean Code spezialisiert hat. Er hat mehr als 20 Jahre Erfahrung in der Software Entwicklung. Seine Leidenschaft ist sich Gedanken zu machen wie man die Software Entwicklung stetig verbessen kann und dieses Wissen anderen Entwicklern weiter zu geben."
   - title: "Using Innovation Games for Agile Retrospectives at Scale"
-    workshop: true
     speaker: "Peter Ferak"
     speaker2: "Alex Staenke"
     tags: Innovation Games, Agile Product Development, Visual Facilitation, Agile Transformation
