@@ -115,7 +115,7 @@
                         <img class="speaker-image" style="margin-left: 10px;"
                              src='{{ site.baseurl }}/img/schedule/{{speaker2Img}}.png'/>{%
                         endif %}
-                        <h2>{{ slot.title }}</h2>
+                        <h3>{{ slot.title }}</h3>
                         <p>
                             {% if slot.level %}<span class="tag primary">Level:&nbsp;&nbsp;<img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png"/></span>{% endif %}
                             {% if slot.language %}<span class="tag primary">Language:&nbsp;{{ slot.language | uppercase}}</span>{% endif %}
@@ -126,14 +126,14 @@
                             {% endfor %}
                         </p>
                         <hr class="star-primary">
-                        <h3>Abstract</h3>
+                        <h4>Abstract</h4>
                         {% for row in slot.abstract %}
                         <p>
                             {{ row | markdownify  }}
                         </p>
                         {% endfor %}
                         <hr class="star-primary">
-                        <h3>Presenter Bio</h3>
+                        <h4>Presenter Bio</h4>
                         <p><b>{{slot.speaker}} {% if slot.speaker2 %}and {{slot.speaker2}}{% endif %}</b></p>
                         {% for row in slot.bio %}
                         <p>
