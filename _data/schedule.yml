@@ -70,12 +70,12 @@
     - "Ten years ago, it was common to only release a couple of new versions a year. Today, there are companies delivering hundreds of software deployments per day. This isn't only true in IT, but also e.g. for Tesla-Automobile, which delivers its software updates a few times a week. "
     - "Where does quality happen when we're releasing this often? Is it possible to have proper quality management and is there enough time for testing? How can we reduce what could be weeks of testing to deliver new features to our clients on a daily basis? "
     - "Alex is a long-term enthusiast for this topic. Based on his experiences with various products and companies, he'll share his insights into the mystery of \"faster testing\". The key questions are: "
-    - "* When – When do we test?\n
-      * What – What should we test?\n
-      * Which quality aspects are important?\n
-      * How – How do we test? Which techniques are helpful?\n
-      * Who –  Who is involved in testing, test automation, etc.?\n
-      * How much  –  How much should we test?"
+    - "- When – When do we test?\n
+      - What – What should we test?\n
+      - Which quality aspects are important?\n
+      - How – How do we test? Which techniques are helpful?\n
+      - Who –  Who is involved in testing, test automation, etc.?\n
+      - How much  –  How much should we test?"
     - "Furthermore, we discuss the financial benefits of Agile Testing and aiming for Continuous Quality. Last but not least we explore if it only exists in fairy tale land or if it is real."
   - title: "Bugfixing Level III - Performance Boost Gamification"
     speaker: "Andreas Scharf"
@@ -323,11 +323,11 @@
     language: en
     abstract: 
     - "The craft of agile testing is maturing, and we have plenty of skilled and gifted testers in the industry, honing their skills, sharing experiences and techniques, and advancing the state of the art. But too many organisations have trouble making the success of individual testers scale up, as the great testing of the few gets diluted by the mediocrity of average testing in the organisation."
-    - " For your organisation to succeed with agile testing, you have to understand these things:\n
-    * The goals you are trying to achieve\n
-    * The qualities that influence the goals\n
-    * The prerequisites for success\n
-    * The dependencies and connections between each of the above."
+    - "For your organisation to succeed with agile testing, you have to understand these things:"
+    - "- The goals you are trying to achieve\n
+    - The qualities that influence the goals\n
+    - The prerequisites for success\n
+    - The dependencies and connections between each of the above."
     - "In this talk I will share my “Pillars of Testing” model, as featured in Lisa Crispin and Janet Gregory’s book “More Agile Testing”. The model sets out the structures and dependencies that influence how effective our overall test effort can be in the organisation as a whole, and gives a basis for creating a strategy for success."
     bio: 
     - "David Evans is an experienced agile consultant, coach and trainer with over 25 years of IT experience. A thought-leader in the field of agile quality, he has provided training and consultancy for clients worldwide. An in-demand speaker at events and conferences across Europe, David was voted Best Keynote Speaker at Agile Testing Days 2013. He is co-author of the best-selling books “50 Quick Ideas to Improve your User Stories” and “50 Quick Ideas to improve Your Tests”, was a contributor to the book “More Agile Testing”, and has also had several papers published in international IT journals. He currently lives and works in the UK, where he is a partner in Neuri Consulting LLP."
