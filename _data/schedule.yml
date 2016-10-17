@@ -5,6 +5,11 @@
     speaker2: "Ralph Miarka"
     abstract: "Warm-Up and Agile Tour 2016 introduction by Christian and Ralph."
     language: en
+    abstract: 
+    - "You’re wondering how to get out the most of this day? We’ll give an overview about today’s program, and point out sessions that are in particular suitable for your needs."
+    bio: 
+    - "__Christian__ verantwortet als Geschäftsführer bei TechTalk die technologische und methodische Ausrichtung. Christian ist Product Owner des Story Mapping Werkzeugs SpecLog, und Mitinitiator des Open Source BDD Werkzeugs SpecFlow. Christian ist Spezialist für agile Planungs- und Spezifikationsmethoden, insbesondere Impact Mapping, Story Mapping und Specification-By-Example. "
+    - "__Ralph__ ist zPM, CS(M,PO,P) sowie Business-Coach mit Masterabschluss. Ausgehend von eigener Erfahrung als Projektmanager und Berater, führt er Unternehmen und deren Teams seit Jahren zu erfolgreicher agiler Arbeitsweise."
 - time: "09:30 - 09:45"
   break: "Welcome @ Agile Tour 2016"
 - time: "09:45 - 10:45"
