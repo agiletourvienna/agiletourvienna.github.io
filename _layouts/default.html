@@ -20,4 +20,14 @@
     {% include js.html %}
 
     </body>
+
+    <script>
+        $(function() {
+            //Go to modal if it is set on page load
+            if(location.hash && $(location.hash).length === 1) {
+                $(location.hash).modal("show")
+            }
+        });
+
+    </script>
 </html>
