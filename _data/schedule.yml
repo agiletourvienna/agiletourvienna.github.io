@@ -148,7 +148,7 @@
     - "Seit 2008 ist sie als Usability Engineer bei TechTalk tätig und ist ein aktives Mitglied der UX Community in Wien."
 - time: "12:35 - 12:40"
   break: "5 Min Break"
-- time: "12:40- 13:25"
+- time: "12:40 - 13:25"
   talks: 
   - title: "Large Scale Agile Transformations (in IB): Lessons Learned"
     speaker: "Rickard Jones"
@@ -316,7 +316,7 @@
     - "Alex has 10+ years experience in managing international projects in big companies and small startups.  At one time he managed websites on every continent of the earth. "
 - time: "17:00 - 17:05"
   break: "5 Min Break" 
-- time: "17:05 -18:05"
+- time: "17:05 - 18:05"
   keynote: 
   - title: "The Pillars of Agile Testing"
     speaker: "David Evans"
