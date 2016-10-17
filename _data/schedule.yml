@@ -44,15 +44,15 @@
     level: 2
     language: en
     abstract: 
-    - "There are three things which will improve your software: \n
-* use your own software (eat your own dog food), \n
-* implement short feedback cycles (Continuous Delivery) and\n
-* react quickly to it (Agile Software Engineering Methodologies)."
-    - "Join Christopher Hejl, Lead Application Architect and Josef Puchinger, Vice President Engineering at Automic to hear how Automic is moving its own software development to a new continuous delivery model. Learn how Automic has managed to enhance \n
-* its build, package, test, upgrade and install processes,\n
-* its fully automated application provisioning capabilities and \n
-* its capability to run zero downtime upgrades\n
-with a big, complex, heterogeneous software product which has grown over the years. Learn how you can gain speed and agility with the software you have today."
+    - "There are three things which will improve your software:"
+    - "- use your own software (eat your own dog food), \n
+        - implement short feedback cycles (Continuous Delivery) and\n
+        - react quickly to it (Agile Software Engineering Methodologies)."
+    - "Join Christopher Hejl, Lead Application Architect and Josef Puchinger, Vice President Engineering at Automic to hear how Automic is moving its own software development to a new continuous delivery model. Learn how Automic has managed to enhance"
+    - "- its build, package, test, upgrade and install processes,\n
+      - its fully automated application provisioning capabilities and \n
+      - its capability to run zero downtime upgrades\n"
+    - "with a big, complex, heterogeneous software product which has grown over the years. Learn how you can gain speed and agility with the software you have today."
     - "Metrics and pragmatic advice on steps taken will be shared. Get insights on how this is benefiting customers and engineers."
     bio: 
     - "__Josef Puchinger:__ More than 20 years of experience in Software Engineering in different roles: Development, Technical QA and Leadership Positions. Experience in many different business domains: Industry (PPS), Banking, Insurance, Online Betting & Gaming, Mobile Applications, Automation Software. Experienced in multi-site Agile Software Engineering across Europe, North America and Asia. Change driver for Agile Software Engineering Methodologies and DevOps practices. Speaker at conferences and leadership circles."
@@ -70,12 +70,12 @@ with a big, complex, heterogeneous software product which has grown over the yea
     - "Ten years ago, it was common to only release a couple of new versions a year. Today, there are companies delivering hundreds of software deployments per day. This isn't only true in IT, but also e.g. for Tesla-Automobile, which delivers its software updates a few times a week. "
     - "Where does quality happen when we're releasing this often? Is it possible to have proper quality management and is there enough time for testing? How can we reduce what could be weeks of testing to deliver new features to our clients on a daily basis? "
     - "Alex is a long-term enthusiast for this topic. Based on his experiences with various products and companies, he'll share his insights into the mystery of \"faster testing\". The key questions are: "
-    - "* When – When do we test?"
-    - "* What – What should we test? "
-    - "* Which quality aspects are important?"
-    - "* How – How do we test? Which techniques are helpful?"
-    - "* Who –  Who is involved in testing, test automation, etc.?"
-    - "* How much  –  How much should we test?"
+    - "* When – When do we test?\n
+      * What – What should we test?\n
+      * Which quality aspects are important?\n
+      * How – How do we test? Which techniques are helpful?\n
+      * Who –  Who is involved in testing, test automation, etc.?\n
+      * How much  –  How much should we test?"
     - "Furthermore, we discuss the financial benefits of Agile Testing and aiming for Continuous Quality. Last but not least we explore if it only exists in fairy tale land or if it is real."
   - title: "Bugfixing Level III - Performance Boost Gamification"
     speaker: "Andreas Scharf"
