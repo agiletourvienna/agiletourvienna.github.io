@@ -183,7 +183,7 @@
     speaker2-img: "bettinastuehle"
     tags: Session-based testing, Requirements Engineering, Exploratory Testing
     language: de
-    level: 3
+    level: 1
     abstract: 
     - "Session-based Testing ist aufgrund seiner Reduzierung von Formalien und seines ganzheitlichen Ansatzes, der durch die Kombination von explorativem Testing und einer hohen Verantwortung des einzelnen Testers entsteht, eine hervorragende Ergänzung zum formalen Testen. Eine ganzheitliche Betrachtung des zu entwickelnden Systems ist auch ein Kernelement des Requirement Engineers (RE). Jedoch gerät diese ganzheitliche Betrachtung z.B. durch eine hohe Formalisierung bisweilen in den Hintergrund. Im Rahmen unseres Vortrages wollen wir Methoden des session-based Testing vorstellen, die Parallelen in den beiden Prozessen aufzeigen und erklären wie wir diese Methoden effektiv im RE eingesetzt haben."
     bio: 
@@ -235,7 +235,7 @@
     speaker2: "David Leitner"
     tags: OPs, Microservices, Serverless, CrossFunctionalTeams 
     language: de
-    level: 2
+    level: 1
     abstract:     
     - "Bereits Anfang 2006 begann Amazon ihre nicht benötigte Serverhardware an Startups zu vermieten. Zehn Jahre später hat sich die Cloud längst als ein fixer Bestandteil der heutigen IT-Industrie etabliert.  Doch Cloud ist nicht gleich Cloud. Anhand ihrer Entwicklungsgeschichte, von virtuellen Maschinen bis hin zur serverless Architecture, werden wir die immer größer werdenden Vorteile und die neu gewonnene Flexibilität in der agilen Softwareentwicklung erläutern. Schlussendlich werden Sie verstehen, wie man durch die Kombination von Agiler Softwareentwicklung und Cloud-Computing, das Beste aus beiden Welten vereint. "
     bio: 
