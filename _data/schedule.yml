@@ -136,7 +136,7 @@
   - title: "“Ein Bild sagt mehr als tausend Worte“ - Visualisieren von Anforderungen mit Wireframes"
     speaker: "Claudia Oster"
     workshop: true
-    tags: Adaptability, AgileEstimation, AgilePractices
+    tags: Wireframes, Sketching, Requirements, Hands-On, Product Owner 
     language: de
     level: 1
     abstract: 
@@ -240,7 +240,7 @@
     - "Bereits Anfang 2006 begann Amazon ihre nicht benötigte Serverhardware an Startups zu vermieten. Zehn Jahre später hat sich die Cloud längst als ein fixer Bestandteil der heutigen IT-Industrie etabliert.  Doch Cloud ist nicht gleich Cloud. Anhand ihrer Entwicklungsgeschichte, von virtuellen Maschinen bis hin zur serverless Architecture, werden wir die immer größer werdenden Vorteile und die neu gewonnene Flexibilität in der agilen Softwareentwicklung erläutern. Schlussendlich werden Sie verstehen, wie man durch die Kombination von Agiler Softwareentwicklung und Cloud-Computing, das Beste aus beiden Welten vereint. "
     bio: 
     - "__Raoul__ ist in der Firma TechTalk als Senior Entwickler nicht nur in Projekten tätig, sondern auch als Coach und Consultant mit den Themen Application Lifecycle Management und Cloud-Computing unterwegs."
-    - "__David__ ist zertifizierter Scrum-Master und fasziniert von agiler softwareentwicklung und herausfordernden Softwarelösungen. Er arbeitet als Entwickler bei TechTalk und ist zusätzlich als Tutor und freier Angestellter am FH Technikum Wien tätig."
+    - "__David__ ist zertifizierter Scrum-Master und fasziniert von agiler Softwareentwicklung und herausfordernden Softwarelösungen. Er arbeitet als Entwickler bei TechTalk und ist zusätzlich als Tutor und freier Angestellter am FH Technikum Wien tätig."
   - title: "Turkcell Agile Transformation Story"
     speaker: "Buse Özen"
     speaker-img: "buseoezen"
