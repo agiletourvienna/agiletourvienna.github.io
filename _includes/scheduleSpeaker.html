@@ -3,11 +3,14 @@
         padding: 5px 0;
     }
 
-    .speaker-container .image-row img {
+    .speaker-container .image-row .speaker-image {
         width: 40px;
         height: 40px;
         border-radius: 50%;
         margin-right: 5px;
+    }
+    .speaker-container .image-row .speaker-image2 {
+        margin-left: -17px;
     }
 
     .speaker-container .name {
@@ -75,8 +78,8 @@
     {% if slot.level %}<span class="tag primary"><img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png" title="Level"/></span>{% endif %}
     {% if slot.language %}<span class="tag primary">{{ slot.language | uppercase}}</span>{% endif %}
     <div class="image-row">
-        <img src='{{ site.baseurl }}/img/schedule/{{speakerImg}}.png'/>
-        {% if slot.speaker2 %}<img style="margin-left: -15px;"
+        <img class="speaker-image" src='{{ site.baseurl }}/img/schedule/{{speakerImg}}.png'/>
+        {% if slot.speaker2 %}<img class="speaker-image speaker-image2" style="margin-left: -17px;"
             src='{{ site.baseurl }}/img/schedule/{{speaker2Img}}.png'/>{%
         endif %}
     </div>
