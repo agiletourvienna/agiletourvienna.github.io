@@ -65,7 +65,56 @@
         width: 100px;
         border-radius: 50%;
     }
+
+    .feedback{
+        border: 1px solid #0F8B8D;
+        color: #0F8B8D;
+        background-color: #ecf6f6;
+        margin-bottom: 5px;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 12px;
+        font-family: Arial, sans-serif;
+        margin-right: 2px;
+    }
+    .feedback a, .feedback a:hover {
+        text-decoration: none !important;
+        color: #0F8B8D;
+    }
+
 </style>
+
+{% assign speakerterm = slot.speaker %}
+{% if slot.speaker2 %}
+    {% assign speakerterm = slot.speaker | append: " and " | append: {{slot.speaker2}}%}
+{% endif %}
+
+<!--hacking voteurl togehter-->
+{% assign timesplit = row.time | split: ' ' %}
+{% assign time = timesplit[0] %}
+
+{% assign voteTitle = slot.title | upcase | replace: 'ü', 'Ü' | replace: 'ä', 'Ä' | replace: 'ö', 'Ö' | replace: '&', '%26' | replace: '"', '' %}
+
+{% assign voteUrlPreText = timesplit[0] %}
+{% if voteUrlPreText == '09:00' %}
+    {% assign voteUrlPreText = "Intro" %}
+{% elsif row.keynote %}
+    {% assign voteUrlPreText = "Keynote" %}
+{% endif %}
+
+{% if voteUrlPreText == '09:00' %}
+{% assign voteUrlPreText = "Intro" %}
+{% endif %}
+
+{% assign votespeaker = speakerterm | replace: 'é', 'e'%}
+
+{% assign googleBase = 'https://docs.google.com/forms/d/e/1FAIpQLScX7_fD3MZ_Q2b2uFjA7vKNKJei3J_AQOxw1Pz2BZoEeUWOLg/viewform?entry.313267111=' %}
+{% assign voteurl = googleBase | append: voteUrlPreText | append: ' - '  | append: votespeaker | append: ' - ' | append: voteTitle | replace: ' ', '+'  %}
+
+
+<!-- endHack -->
+
 {% assign moduleName = slot.title | slugify | replace: ' ', '_' | remove: ':' | remove: '?' %}
 
 {% assign speakerImg = slot.speaker | remove: " " | downcase %}
@@ -74,6 +123,7 @@
 {% assign speaker2Img = slot.speaker2 | remove: " " | downcase %}
 {% if slot.speaker2-img %}{% assign speaker2Img = slot.speaker2-img %}{%endif %}
 
+<div>
 <a class="speaker-container"  href="#scheduleModal-{{moduleName}}" data-toggle="modal">
     {% if slot.level %}<span class="tag primary"><img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png" title="Level"/></span>{% endif %}
     {% if slot.language %}<span class="tag primary">{{ slot.language | uppercase}}</span>{% endif %}
@@ -87,10 +137,10 @@
             {{slot.title}}
     </div>
     <div class="name">
-        by {{slot.speaker}}
+        <div>by {{slot.speaker}}
         {% if slot.speaker2 %}
         and {{slot.speaker2}}
-        {% endif %}
+        {% endif %}</div>
     </div>
     <div>
         {% if slot.workshop %}<span class="tag workshop">workshop</span>{% endif %}
@@ -98,8 +148,14 @@
         {% for tag in tags %}
         <span class="tag">{{ tag | strip }}</span>
         {% endfor %}
+
     </div>
 </a>
+</div>
+<div style="margin-top: 10px;">
+    <span class="feedback"><a target="_blank" href="{{voteurl}}"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> give feedback</a></span>
+</div>
+
 <div class="scheduleSpeaker-modal speaker-modal modal fade" id="scheduleModal-{{moduleName}}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -137,7 +193,7 @@
                         {% endfor %}
                         <hr class="star-primary">
                         <h4>Presenter Bio</h4>
-                        <p><b>{{slot.speaker}} {% if slot.speaker2 %}and {{slot.speaker2}}{% endif %}</b></p>
+                        <p><b>{{speakerterm}}</b></p>
                         {% for row in slot.bio %}
                         <p>
                             {{ row | markdownify  }}
