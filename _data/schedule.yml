@@ -274,6 +274,7 @@
     bio: 
     - "Maximilian Hantsch-Köller graduated from Vienna University of Technology and has worked in numerous small and large-scale organizations from start-ups to international multi-cultural corporations. With a long-standing experience in software development and broad understanding of communication networks and technologies, Maximilian has been leading classic and agile teams in both highly structured and dynamically flexible set-ups. Maximilian is keen on growing teams and organizations, implementing the appropriate processes & communication, and allowing the magic of team spirit to unfold."
   - title: 'Keep "CALMS", DevOps at Cisco'
+    cancelled: true
     speaker: "Joachim Niederreiter"
     tags: DevOps, Agile, Cloud-Native, Lean, Transformation
     abstract: 

@@ -1,6 +1,7 @@
 <style>
     .speaker-container {
         padding: 5px 0;
+        display: block;
     }
 
     .speaker-container .image-row .speaker-image {
@@ -27,6 +28,14 @@
     a.speaker-container {
         text-decoration: none;
         color: black;
+    }
+
+    .cancelled {
+        opacity: 0.3;
+    }
+
+    .cancelled .name, .cancelled .title {
+        text-decoration: line-through;
     }
 
     .scheduleSpeaker-modal .tag, .speaker-container .tag {
@@ -124,7 +133,7 @@
 {% if slot.speaker2-img %}{% assign speaker2Img = slot.speaker2-img %}{%endif %}
 
 <div>
-<a class="speaker-container"  href="#scheduleModal-{{moduleName}}" data-toggle="modal">
+<a class="speaker-container{% if slot.cancelled %} cancelled{%endif %}" href="#scheduleModal-{{moduleName}}" data-toggle="modal">
     {% if slot.level %}<span class="tag primary"><img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png" title="Level"/></span>{% endif %}
     {% if slot.language %}<span class="tag primary">{{ slot.language | uppercase}}</span>{% endif %}
     <div class="image-row">
@@ -133,8 +142,11 @@
             src='{{ site.baseurl }}/img/schedule/{{speaker2Img}}.png'/>{%
         endif %}
     </div>
+    {% if slot.cancelled %} <div>
+        <b style="text-decoration: none">CANCELLED: </b>
+    </div>{%endif %}
     <div class="title">
-            {{slot.title}}
+        {{slot.title}}
     </div>
     <div class="name">
         <div>by {{slot.speaker}}
@@ -152,7 +164,7 @@
     </div>
 </a>
 </div>
-<div style="margin-top: 10px;">
+<div style="margin-top: 10px;" {% if slot.cancelled %} class="cancelled"{%endif %}">
     <span class="feedback"><a target="_blank" href="{{voteurl}}"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> give feedback</a></span>
 </div>
 
