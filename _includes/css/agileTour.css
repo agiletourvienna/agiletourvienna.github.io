@@ -1028,3 +1028,11 @@ section h3.quote
     color: white;
     display: block;
 }
+
+.thanks-text{
+    margin-top: 200px; color: white;
+}
+
+.thanks-text h2{
+    font-family: Handlee,Helvetica,Sans-serif; text-transform: none; font-size: 70px;
+}

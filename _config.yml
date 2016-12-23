@@ -7,6 +7,7 @@ year: 2016
 trailer: https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&portrait=0
 
 showCallForProposals: false
+showThanks: true
 
 # Build settings
 markdown: kramdown
