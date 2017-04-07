@@ -1,6 +1,6 @@
 @import 'variables';
 
-nav{
+nav {
   &.navbar-default {
     background-color: #222;
 
@@ -112,6 +112,12 @@ header {
       font-size: 70px;
     }
   }
+  .saveTheDate-panel .long-label {
+    display: none;
+    @media(min-width: 768px) {
+      display: inline;
+    }
+  }
   .trailer-panel {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -147,7 +153,7 @@ header {
       margin: 4rem 0;
     }
 
-    @media(min-width:768px) {
+    @media(min-width: 768px) {
       padding-top: 200px;
       padding-bottom: 200px;
 
@@ -161,11 +167,11 @@ header {
       }
     }
 
-    @media(min-width:992px) {
-      .video{
+    @media(min-width: 992px) {
+      .video {
         display: block;
       }
-      .heading{
+      .heading {
         display: none;
       }
       .content {

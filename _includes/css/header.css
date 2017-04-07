@@ -72,6 +72,11 @@ header {
       font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: none;
       font-size: 70px; }
+  header .saveTheDate-panel .long-label {
+    display: none; }
+    @media (min-width: 768px) {
+      header .saveTheDate-panel .long-label {
+        display: inline; } }
   header .trailer-panel {
     padding-top: 100px;
     padding-bottom: 50px; }
