@@ -1,3 +1,4 @@
 {% include css/bootstrap.min.css %}
 {% include css/agileTour.css %}
+{% include css/header.css %}
 {{ content }}

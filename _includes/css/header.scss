@@ -1,0 +1,178 @@
+@import 'variables';
+
+nav{
+  &.navbar-default {
+    background-color: #222;
+
+    .top-logo {
+      padding: 5px 0 5px 20px;
+
+      @media(min-width: 768px) and (max-width: 992px) {
+        display: none
+      }
+    }
+
+    .navbar-brand {
+      font-family: $primary-font;
+      color: $primary-color;
+
+      :hover, :focus, :active,
+      .active {
+        color: $secondary-color;
+      }
+    }
+
+    .navbar-collapse {
+      border-color: rgba(255, 255, 255, .02);
+    }
+
+    .navbar-toggle {
+      border-color: $primary-color;
+      background-color: $primary-color;
+
+      .icon-bar {
+        background-color: #fff;
+      }
+
+      :hover, :focus {
+        background-color: $primary-color;
+      }
+    }
+
+    .nav li a {
+      text-transform: uppercase;
+      font-family: $primary-font;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: #fff;
+
+      :hover, :focus {
+        outline: 0;
+        color: $primary-color;
+      }
+    }
+
+    .navbar-nav > .active > a {
+      border-radius: 0;
+      color: #fff;
+      background-color: $primary-color;
+
+      :hover, :focus {
+        color: #fff;
+        background-color: $secondary-color;
+      }
+    }
+
+    @media(min-width: 768px) {
+      padding: 25px 0;
+      border: 0;
+      background-color: transparent;
+      -webkit-transition: padding .3s;
+      -moz-transition: padding .3s;
+      transition: padding .3s;
+
+      .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+      }
+
+      .navbar-nav > .active > a {
+        border-radius: 3px;
+      }
+    }
+  }
+  &.navbar-shrink {
+    padding: 10px 0;
+    background-color: #222;
+
+    .navbar-brand {
+      font-size: 1.5em;
+    }
+  }
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  background: url('/img/header-bg.jpg') no-repeat scroll center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  .thanks-panel {
+    margin-top: 200px;
+    color: white;
+
+    h2 {
+      font-family: $handwritten-font;
+      text-transform: none;
+      font-size: 70px;
+    }
+  }
+  .trailer-panel {
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    .video {
+      display: none;
+      float: left;
+    }
+
+    .proposal-btn {
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-color: white;
+      background-color: transparent !important;
+    }
+
+    .register-btn {
+      padding: 10px 20px;
+    }
+
+    .heading {
+      margin: 20px;
+      text-transform: uppercase;
+      font-family: $secondary-font;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 50px;
+    }
+
+    .logo {
+      background: url("/img/agileTourLogoWithDate.png") no-repeat center;
+      height: 156px;
+      margin: 4rem 0;
+    }
+
+    @media(min-width:768px) {
+      padding-top: 200px;
+      padding-bottom: 200px;
+
+      .heading {
+        margin: 20px;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 75px;
+      }
+    }
+
+    @media(min-width:992px) {
+      .video{
+        display: block;
+      }
+      .heading{
+        display: none;
+      }
+      .content {
+        margin-left: 580px;
+      }
+    }
+  }
+}
+
+

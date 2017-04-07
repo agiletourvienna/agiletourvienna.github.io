@@ -1,0 +1,118 @@
+nav.navbar-default {
+  background-color: #222; }
+  nav.navbar-default .top-logo {
+    padding: 5px 0 5px 20px; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      nav.navbar-default .top-logo {
+        display: none; } }
+  nav.navbar-default .navbar-brand {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: "#BB141A"; }
+    nav.navbar-default .navbar-brand :hover, nav.navbar-default .navbar-brand :focus, nav.navbar-default .navbar-brand :active,
+    nav.navbar-default .navbar-brand .active {
+      color: "#A11217"; }
+  nav.navbar-default .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02); }
+  nav.navbar-default .navbar-toggle {
+    border-color: "#BB141A";
+    background-color: "#BB141A"; }
+    nav.navbar-default .navbar-toggle .icon-bar {
+      background-color: #fff; }
+    nav.navbar-default .navbar-toggle :hover, nav.navbar-default .navbar-toggle :focus {
+      background-color: "#BB141A"; }
+  nav.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff; }
+    nav.navbar-default .nav li a :hover, nav.navbar-default .nav li a :focus {
+      outline: 0;
+      color: "#BB141A"; }
+  nav.navbar-default .navbar-nav > .active > a {
+    border-radius: 0;
+    color: #fff;
+    background-color: "#BB141A"; }
+    nav.navbar-default .navbar-nav > .active > a :hover, nav.navbar-default .navbar-nav > .active > a :focus {
+      color: #fff;
+      background-color: "#A11217"; }
+  @media (min-width: 768px) {
+    nav.navbar-default {
+      padding: 25px 0;
+      border: 0;
+      background-color: transparent;
+      -webkit-transition: padding .3s;
+      -moz-transition: padding .3s;
+      transition: padding .3s; }
+      nav.navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s; }
+      nav.navbar-default .navbar-nav > .active > a {
+        border-radius: 3px; } }
+nav.navbar-shrink {
+  padding: 10px 0;
+  background-color: #222; }
+  nav.navbar-shrink .navbar-brand {
+    font-size: 1.5em; }
+
+header {
+  text-align: center;
+  color: #fff;
+  background: url("/img/header-bg.jpg") no-repeat scroll center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  header .thanks-panel {
+    margin-top: 200px;
+    color: white; }
+    header .thanks-panel h2 {
+      font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: none;
+      font-size: 70px; }
+  header .trailer-panel {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+    header .trailer-panel .video {
+      display: none;
+      float: left; }
+    header .trailer-panel .proposal-btn {
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-color: white;
+      background-color: transparent !important; }
+    header .trailer-panel .register-btn {
+      padding: 10px 20px; }
+    header .trailer-panel .heading {
+      margin: 20px;
+      text-transform: uppercase;
+      font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 50px; }
+    header .trailer-panel .logo {
+      background: url("/img/agileTourLogoWithDate.png") no-repeat center;
+      height: 156px;
+      margin: 4rem 0; }
+    @media (min-width: 768px) {
+      header .trailer-panel {
+        padding-top: 200px;
+        padding-bottom: 200px; }
+        header .trailer-panel .heading {
+          margin: 20px;
+          text-transform: uppercase;
+          font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 25px;
+          font-weight: 700;
+          line-height: 75px; } }
+    @media (min-width: 992px) {
+      header .trailer-panel .video {
+        display: block; }
+      header .trailer-panel .heading {
+        display: none; }
+      header .trailer-panel .content {
+        margin-left: 580px; } }
+
+/*# sourceMappingURL=header.css.map */

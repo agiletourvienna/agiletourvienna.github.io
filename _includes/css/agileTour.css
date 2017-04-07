@@ -15,12 +15,6 @@ body {
     padding: 20px 10px;
 }
 
-#header-logo {
-    background: url({{ site.baseurl }}"/img/agileTourLogoWithDate.png") no-repeat center;
-    height: 156px;
-    margin: 4rem 0;
-}
-
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -71,24 +65,6 @@ body {
     color: #fff;
 }
 
-.top-logo {
-    padding: 5px 0 5px 20px;
-}
-.intro-video{
-    display: none;
-    float: left;
-}
-
-.intro-text .proposal-btn{
-    padding: 10px 20px;
-    margin: 0px 10px;
-    border-color: white;
-    background-color: transparent !important;
-}
-
-.intro-text .register-btn{
-    padding: 10px 20px;
-}
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
@@ -247,162 +223,6 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
     background-color: #fff;
-}
-
-.navbar-default {
-    border-color: transparent;
-    background-color: #222;
-}
-
-.navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
-}
-
-.navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
-}
-
-.navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.navbar-default .nav li a {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #fff;
-}
-
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
-    outline: 0;
-    color: #{{ site.data.template.color.primary }};
-}
-
-.navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
-}
-
-@media(min-width:768px) {
-    .top-logo {
-        display: none;
-    }
-
-    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
-}
-
-header .intro-text .intro-heading {
-    margin: 20px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 50px;
-}
-
-@media(min-width:768px) {
-    header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-        disp
-    }
-
-    header .intro-text .intro-heading {
-    margin: 20px;
-        text-transform: uppercase;
-        font-family: {{ site.data.template.font.primary }};
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 75px;
-    }
 }
 
 section {
@@ -668,9 +488,6 @@ section h3.section-subheading {
     .nav>li>a{
         padding: 20px 15px;
     }
-    .top-logo {
-        display: inline;
-    }
     .timeline>li {
         min-height: 150px;
     }
@@ -693,16 +510,6 @@ section h3.section-subheading {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
-    }
-    .intro-video{
-        display: block;
-    }
-    .intro-video-message{
-        display: none;
-    }
-
-    .intro-content {
-        margin-left: 580px;
     }
 }
 
@@ -1027,12 +834,4 @@ section h3.quote
 .speaker-trainings .speaker-trainings-item a{
     color: white;
     display: block;
-}
-
-.thanks-text{
-    margin-top: 200px; color: white;
-}
-
-.thanks-text h2{
-    font-family: Handlee,Helvetica,Sans-serif; text-transform: none; font-size: 70px;
 }
