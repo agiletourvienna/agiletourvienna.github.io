@@ -7,19 +7,19 @@ nav.navbar-default {
         display: none; } }
   nav.navbar-default .navbar-brand {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: "#BB141A"; }
+    color: #BB141A; }
     nav.navbar-default .navbar-brand :hover, nav.navbar-default .navbar-brand :focus, nav.navbar-default .navbar-brand :active,
     nav.navbar-default .navbar-brand .active {
-      color: "#A11217"; }
+      color: #A11217; }
   nav.navbar-default .navbar-collapse {
     border-color: rgba(255, 255, 255, 0.02); }
   nav.navbar-default .navbar-toggle {
-    border-color: "#BB141A";
-    background-color: "#BB141A"; }
+    border-color: #BB141A;
+    background-color: #BB141A; }
     nav.navbar-default .navbar-toggle .icon-bar {
       background-color: #fff; }
     nav.navbar-default .navbar-toggle :hover, nav.navbar-default .navbar-toggle :focus {
-      background-color: "#BB141A"; }
+      background-color: #BB141A; }
   nav.navbar-default .nav li a {
     text-transform: uppercase;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -28,14 +28,14 @@ nav.navbar-default {
     color: #fff; }
     nav.navbar-default .nav li a :hover, nav.navbar-default .nav li a :focus {
       outline: 0;
-      color: "#BB141A"; }
+      color: #BB141A; }
   nav.navbar-default .navbar-nav > .active > a {
     border-radius: 0;
     color: #fff;
-    background-color: "#BB141A"; }
+    background-color: #BB141A; }
     nav.navbar-default .navbar-nav > .active > a :hover, nav.navbar-default .navbar-nav > .active > a :focus {
       color: #fff;
-      background-color: "#A11217"; }
+      background-color: #A11217; }
   @media (min-width: 768px) {
     nav.navbar-default {
       padding: 25px 0;
