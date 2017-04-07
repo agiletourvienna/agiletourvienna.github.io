@@ -28,28 +28,24 @@ sponsors:
 - link: http://www.xing.com/net/scrumaustria/
   pic: scrumusergroup
 
-lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2015
+lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2016
 lookbacks:
-- speaker: Dan North
-  talk: Turning the lights on
-  img: dannorth
-  url: https://vimeo.com/147008712
-  description: Great Keynote by Dan North about "Scaling Agile Delivery"
-- speaker: Joseph Pelrine
-  talk: (How) do I do "real" Scrum?
-  img: josephpelrine
-  url: https://vimeo.com/146987669
-  description: Joseph Pelrine was one of last years keynote speaker, and talked about how he does real Scrum.
-- speaker: Gojko Adzic
-  talk: Test automation without a headache
-  img: gojkoadzic
-  url: https://vimeo.com/146987369
-  description: Five key patterns by Gojko Adzic
-- speaker: Jeff Patton
-  talk: Letting go of Agile
-  img: jeffpatton
-  url: https://vimeo.com/147008711
-  description: Where agile thinking steers us wrong
+- speaker: Joakim Sundén
+  talk: "Tribes, Squads, Chapters and Guilds: Agile at Scale at Spotify"
+  img: joakimsunden
+  url: https://vimeo.com/195431759
+- speaker: Luke Hohmann
+  talk: Awesome Superproblems
+  img: lukehohmann
+  url: https://vimeo.com/195422669
+- speaker: David Evans
+  talk: The Pillars of Agile Testing
+  img: davidevans
+  url: https://vimeo.com/195782469
+- speaker: Klaus Leopold
+  talk: Team-Optimierung führt zu schlechtem Unternehmens-Output
+  img: klausleopold
+  url: https://vimeo.com/195915939
 
 tweets:
 - quote: Thanks for organising a fantastic Agile Tour Vienna. Really glad to be a part of it
@@ -63,7 +59,7 @@ tweets:
 
 hashtag: AT16VIE
 
-speaker: 
+speaker:
 - name: David Evans
   pic: davidevans
   twitter: DavidEvans66

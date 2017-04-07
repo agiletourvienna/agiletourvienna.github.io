@@ -14,16 +14,15 @@
                     {% assign loopindex = forloop.index | modulo: 2 %}
                     {% if loopindex == 1 %} <li> {% else %} <li class="timeline-inverted"> {% endif %}
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/lookback/{{lookback.img}}.png" alt="">
+                            <img class="img-circle img-responsive" src="img/lookback/{{lookback.img}}.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 &nbsp;
                                 <h4>{{lookback.speaker}}</h4>
-                                <h4 class="subheading">{{lookback.talk}}</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">{{lookback.description}}</p>
+                                <p class="text-muted name">"{{lookback.talk}}"</p>
                                 <p><a href="{{lookback.url}}" target="_blank"><i class="fa fa-vimeo-square" aria-hidden="true"></i>&nbsp;talk on vimeo</a></p>
                             </div>
                         </div>
