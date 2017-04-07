@@ -93,3 +93,5 @@ fabric.properties
 # modules.xml
 .idea/agiletourvienna.github.io.iml
 .idea/modules.xml
+
+*.css.map
