@@ -65,10 +65,10 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
-  header .thanks-panel {
+  header .thanks-panel, header .saveTheDate-panel {
     margin-top: 200px;
     color: white; }
-    header .thanks-panel h2 {
+    header .thanks-panel h2, header .saveTheDate-panel h2 {
       font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: none;
       font-size: 70px; }

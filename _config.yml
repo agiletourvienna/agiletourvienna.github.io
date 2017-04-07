@@ -7,7 +7,7 @@ year: 2017
 trailer: https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&portrait=0
 
 showCallForProposals: false
-headerType: trailer # options: thanks, announcement, trailer
+headerType: saveTheDate # options: thanks, saveTheDate, trailer
 
 showRegister: false
 showSchedule: false
