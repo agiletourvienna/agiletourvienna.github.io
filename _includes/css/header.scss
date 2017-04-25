@@ -90,6 +90,10 @@ nav {
     .navbar-brand {
       font-size: 1.5em;
     }
+
+    li a {
+      border-width: 0px !important;
+    }
   }
 }
 

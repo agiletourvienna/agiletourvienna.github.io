@@ -1,0 +1,21 @@
+section.dark {
+  background-color: #222;
+  background-position: center;
+  background-repeat: no-repeat; }
+  section.dark .section-heading {
+    color: #fff; }
+
+#contribute h5 {
+  color: #BB141A;
+  font-style: italic;
+  margin-top: 2rem; }
+#contribute .signature {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  padding-left: 10px; }
+#contribute .img {
+  background-image: url("/img/contribution.jpg");
+  background-size: cover;
+  min-height: 500px; }
+
+/*# sourceMappingURL=contribution.css.map */

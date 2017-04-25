@@ -56,6 +56,8 @@ nav.navbar-shrink {
   background-color: #222; }
   nav.navbar-shrink .navbar-brand {
     font-size: 1.5em; }
+  nav.navbar-shrink li a {
+    border-width: 0px !important; }
 
 header {
   text-align: center;
