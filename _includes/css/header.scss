@@ -1,5 +1,7 @@
 @import 'variables';
 
+.navbar-fixed-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse{max-height:none}
+
 nav {
   &.navbar-default {
     background-color: #222;
@@ -34,7 +36,7 @@ nav {
         background-color: #fff;
       }
 
-      :hover, :focus {
+      &:hover, &:focus {
         background-color: $primary-color;
       }
     }
@@ -57,7 +59,7 @@ nav {
       color: #fff;
       background-color: $primary-color;
 
-      :hover, :focus {
+      &:hover, &:focus {
         color: #fff;
         background-color: $secondary-color;
       }
@@ -113,7 +115,11 @@ header {
     h2 {
       font-family: $handwritten-font;
       text-transform: none;
-      font-size: 70px;
+      font-size: 50px;
+
+      @media(min-width: 768px) {
+        font-size: 70px;
+      }
     }
   }
   .saveTheDate-panel .long-label {

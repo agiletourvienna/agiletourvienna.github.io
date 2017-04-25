@@ -1,3 +1,6 @@
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+  max-height: none; }
+
 nav.navbar-default {
   background-color: #222; }
   nav.navbar-default .top-logo {
@@ -18,7 +21,7 @@ nav.navbar-default {
     background-color: #BB141A; }
     nav.navbar-default .navbar-toggle .icon-bar {
       background-color: #fff; }
-    nav.navbar-default .navbar-toggle :hover, nav.navbar-default .navbar-toggle :focus {
+    nav.navbar-default .navbar-toggle:hover, nav.navbar-default .navbar-toggle:focus {
       background-color: #BB141A; }
   nav.navbar-default .nav li a {
     text-transform: uppercase;
@@ -33,7 +36,7 @@ nav.navbar-default {
     border-radius: 0;
     color: #fff;
     background-color: #BB141A; }
-    nav.navbar-default .navbar-nav > .active > a :hover, nav.navbar-default .navbar-nav > .active > a :focus {
+    nav.navbar-default .navbar-nav > .active > a:hover, nav.navbar-default .navbar-nav > .active > a:focus {
       color: #fff;
       background-color: #A11217; }
   @media (min-width: 768px) {
@@ -73,7 +76,10 @@ header {
     header .thanks-panel h2, header .saveTheDate-panel h2 {
       font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: none;
-      font-size: 70px; }
+      font-size: 50px; }
+      @media (min-width: 768px) {
+        header .thanks-panel h2, header .saveTheDate-panel h2 {
+          font-size: 70px; } }
   header .saveTheDate-panel .long-label {
     display: none; }
     @media (min-width: 768px) {
