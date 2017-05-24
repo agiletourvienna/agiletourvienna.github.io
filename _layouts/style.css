@@ -3,4 +3,5 @@
 {% include css/header.css %}
 {% include css/team.css %}
 {% include css/contribution.css %}
+{% include css/proposals.css %}
 {{ content }}
