@@ -1,0 +1,27 @@
+@import 'variables';
+
+#bootcamp {
+
+  text-align: center;
+
+  .date {
+    font-weight: bold;
+    margin: 50px;
+    font-size: large;
+  }
+
+  .table {
+    margin-top: 20px;
+    text-align: left;
+    border: 10px solid white;
+
+    th{
+      border-bottom: 5px solid white;
+    }
+    .lession{
+      font-weight: bold;
+      border: 2px solid $primary-color;
+      border-width: 2px 0;
+    }
+  }
+}

@@ -496,7 +496,7 @@ Primary style
     min-height: 600px; }
   #register .pricing-info-text {
     text-align: right;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-right: 40px; }
     #register .pricing-info-text .btn-container {
       text-align: right; } }
@@ -554,5 +554,22 @@ Primary style
 
 .content-committee-header h3 {
   margin: 40px 0; }
+
+#bootcamp {
+  text-align: center; }
+  #bootcamp .date {
+    font-weight: bold;
+    margin: 50px;
+    font-size: large; }
+  #bootcamp .table {
+    margin-top: 20px;
+    text-align: left;
+    border: 10px solid white; }
+    #bootcamp .table th {
+      border-bottom: 5px solid white; }
+    #bootcamp .table .lession {
+      font-weight: bold;
+      border: 2px solid #BB141A;
+      border-width: 2px 0; }
 
 /*# sourceMappingURL=bundle.css.map */
