@@ -19,10 +19,12 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
+                {% if site.showSpeaker== true %}
                 <li>
                     <a class="page-scroll" href="#speaker">Speakers</a>
                 </li>
-               {% if site.showSchedule == true %}
+                {% endif %}
+                {% if site.showSchedule == true %}
                 <li>
                     <a class="page-scroll" href="#schedule">Schedule</a>
                 </li>

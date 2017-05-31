@@ -11,6 +11,7 @@ headerType: saveTheDate # options: thanks, saveTheDate, trailer
 showCallForProposals: true
 showRegister: true
 showSchedule: false
+showSpeaker: false
 
 # Build settings
 markdown: kramdown
