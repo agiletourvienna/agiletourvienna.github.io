@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-sm-0 col-lg-2"></div>
             {% for member in site.team %}
-            <div class="col-sm-6 col-lg-4 team-member">
+            <div class="col-sm-6 col-lg-3 team-member">
                 <div class="container img-responsive img-circle">
                     <a href="mailto:{{ member.mail }}">
                         <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
@@ -29,6 +29,21 @@
                 <div class="text-muted">{{ member.position }}</div>
             </div>
             {% endfor %}
+            <div class="col-sm-6 col-lg-3 team-member">
+                <div class="container img-responsive img-circle">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=RWLlalCwX-Y">
+                        <div style="background-image: url('img/team/teamvideo.png')" class="img">
+                            <div class="team-hover">
+                                <div class="team-hover-content">
+                                    <i class="fa fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <h4 style="font-size: 16px"><i class="fa fa-youtube-play" aria-hidden="true"></i> An Introduction</h4>
+                <div class="text-muted">from the Organization Team</div>
+            </div>
             <div class="col-sm-0 col-lg-2"></div>
         </div>
         <div class="row content-committee-header">
