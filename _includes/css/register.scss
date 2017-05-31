@@ -7,25 +7,33 @@
     }
 
     .btn-container{
-      margin-top: 40px;
+      margin: 50px;
       text-align: center;
     }
   }
 
+  .pricing-info-pic{
+    background: url("/img/register/pricing.png") no-repeat center center;
+    background-size: contain;
+    min-height: 650px;
+    margin-bottom: 50px;
+  }
+
   @media(min-width: 992px) {
+
     .pricing-info-pic{
-      background: url("/img/register/pricing.png") no-repeat center left;
-      background-size: contain;
-      min-height: 600px;
+      background-position: center left;
+      margin-bottom: 0px;
     }
 
     .pricing-info-text{
       text-align: right;
-      padding-top: 40px;
+      padding-top: 10px;
 
       padding-right: 40px;
 
       .btn-container {
+        margin: 50px 0px;
         text-align: right;
       }
     }
