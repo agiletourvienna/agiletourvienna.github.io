@@ -1,7 +1,4 @@
 {% include css/bootstrap.min.css %}
 {% include css/agileTour.css %}
-{% include css/header.css %}
-{% include css/team.css %}
-{% include css/contribution.css %}
-{% include css/proposals.css %}
+{% include css/bundle.css %}
 {{ content }}

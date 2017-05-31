@@ -1,0 +1,33 @@
+#register{
+
+  .pricing-info-text
+  {
+    h4{
+      margin: 40px 0 10px;
+    }
+
+    .btn-container{
+      margin-top: 40px;
+      text-align: center;
+    }
+  }
+
+  @media(min-width: 992px) {
+    .pricing-info-pic{
+      background: url("/img/register/pricing.png") no-repeat center left;
+      background-size: contain;
+      min-height: 600px;
+    }
+
+    .pricing-info-text{
+      text-align: right;
+      padding-top: 40px;
+
+      padding-right: 40px;
+
+      .btn-container {
+        text-align: right;
+      }
+    }
+  }
+}
