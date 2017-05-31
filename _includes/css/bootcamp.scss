@@ -13,15 +13,13 @@
   .table {
     margin-top: 20px;
     text-align: left;
-    border: 10px solid white;
+    border: 2px solid #e4e4e4;
 
     th{
-      border-bottom: 5px solid white;
+      background-color: #e4e4e4;
     }
     .lession{
-      font-weight: bold;
-      border: 2px solid $primary-color;
-      border-width: 2px 0;
+      background-color: #f2e1e2;
     }
   }
 }

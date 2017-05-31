@@ -569,12 +569,10 @@ Primary style
   #bootcamp .table {
     margin-top: 20px;
     text-align: left;
-    border: 10px solid white; }
+    border: 2px solid #e4e4e4; }
     #bootcamp .table th {
-      border-bottom: 5px solid white; }
+      background-color: #e4e4e4; }
     #bootcamp .table .lession {
-      font-weight: bold;
-      border: 2px solid #BB141A;
-      border-width: 2px 0; }
+      background-color: #f2e1e2; }
 
 /*# sourceMappingURL=bundle.css.map */
