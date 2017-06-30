@@ -4,7 +4,7 @@
         <h4>Organisers:</h4>
         <div class="row">
             {% for organiser in site.organisers %}
-            <div class="col-md-4 col-sm-4">
+            <div class="col-sm-4">
                 <a href="{{organiser.link}}" target="_blank">
                     <img src="img/partners/{{organiser.pic}}.png" class="img-responsive img-centered" alt="">
                 </a>
@@ -14,14 +14,14 @@
         <h4>Sponsors:</h4>
         <div class="row sponsors">
             {% for sponsor in site.sponsors %}
-            <div class="col-md-12 col-sm-12">
+            <div class="col-sm-6">
                 <a href="{{sponsor.link}}" target="_blank">
                     <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
                 </a>
             </div>
             {% endfor %}
         </div>
-        <div class="row text-center" style="margin-bottom: 80px">
+        <div class="row text-center" style="margin: 60px">
             <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
         </div>
     </div>
