@@ -510,6 +510,15 @@ Primary style
   background-size: contain;
   min-height: 650px;
   margin-bottom: 50px; }
+#register .catering {
+  background-image: url(img/marriot.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  line-height: 18px;
+  margin-top: 10px;
+  padding: 20px;
+  padding-right: 80px; }
 @media (min-width: 992px) {
   #register .pricing-info-pic {
     background-position: center left;
@@ -519,7 +528,7 @@ Primary style
     padding-top: 10px;
     padding-right: 40px; }
     #register .pricing-info-text .btn-container {
-      margin: 50px 0px;
+      margin: 20px 0px;
       text-align: right; } }
 
 .team-member {
