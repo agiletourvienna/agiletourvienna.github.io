@@ -4,20 +4,21 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Speakers</h2>
-                <h3 class="section-subheading text-muted">a selection of <b>last year's</b> keynote speakers:</h3>
+                <h3 class="section-subheading text-muted">a selection of <b>this year's</b> keynote speakers:</h3>
             </div>
         </div>
         <div class="row">
             {% for speaker in site.speaker %}
             {% assign loopindex = forloop.index %}
-                <div class="col-md-4 col-sm-6 speaker-item">
+                <div class="col-sm-3 col-xs-6 speaker-item">
+                    <div class="max-width-wrapper">
                     <div href="#speakerModal{{loopindex}}" class="speaker-link" data-toggle="modal">
                         <div class="speaker-hover">
                             <div class="speaker-hover-content">
                                 <i class="fa fa-ellipsis-h fa-3x"></i>
                             </div>
                         </div>
-                        <a href="#speakerModal{{loopindex}}"><img src="img/speaker/{{ speaker.pic }}-thumbnail.png" class="img-responsive img-centered" alt=""></a>
+                        <a href="#speakerModal{{loopindex}}"><img src="img/speaker/{{ speaker.pic }}.png" class="img-responsive img-centered" alt=""></a>
                         {% if speaker.trainings %}
                         <div class="speaker-trainings">
                             <div class="speaker-trainings-header"><i class="fa fa-graduation-cap" aria-hidden="true"></i> upcoming trainings: </div>
@@ -32,6 +33,7 @@
                     <div class="speaker-caption">
                         <h4>{{ speaker.name }}</h4>
                         <p class="text-muted"><a href="http://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></p>
+                    </div>
                     </div>
                 </div>
             {% endfor %}

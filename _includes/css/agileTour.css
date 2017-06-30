@@ -207,7 +207,12 @@ section h3.section-subheading {
 
 #speaker .speaker-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 30px;
+}
+
+#speaker .speaker-item .max-width-wrapper {
+    max-width: 250px;
+    margin: auto;
 }
 
 #speaker .speaker-item .speaker-link {
