@@ -490,7 +490,7 @@ Primary style
   margin: 50px;
   text-align: center; }
 #register .pricing-info-pic {
-  background: url("/img/register/pricing.png") no-repeat center center;
+  background: no-repeat center center;
   background-size: contain;
   min-height: 650px;
   margin-bottom: 50px; }

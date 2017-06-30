@@ -14,7 +14,17 @@
             <div class="col-md-10 col-md-offset-1">
                 <div class="grid">
                     <div class="row">
-                        <div class="col-md-6 col-md-push-6 pricing-info-pic"></div>
+                        {% assign month = 'now' | date: "%m" %}
+                        {% assign image = "/img/register/pricing.png" %}
+
+                        {% if month == "07" %} {% assign image = "/img/register/pricing07.png" %} {% endif %}
+                        {% if month == "08" %} {% assign image = "/img/register/pricing08.png" %} {% endif %}
+                        {% if month == "09" %} {% assign image = "/img/register/pricing09.png" %} {% endif %}
+                        {% if month == "10" %} {% assign image = "/img/register/pricing10.png" %} {% endif %}
+                        {% if month == "11" %} {% assign image = "/img/register/pricing11.png" %} {% endif %}
+
+                        <div class="col-md-6 col-md-push-6 pricing-info-pic" style="background-image: url('{{ image }}')"></div>
+
                         <div class="col-md-6 col-md-pull-6 pricing-info-text">
                             <h4>Prices</h4>
                             <p>
