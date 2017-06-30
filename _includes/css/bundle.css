@@ -5,18 +5,34 @@ section.dark {
   section.dark .section-heading {
     color: #fff; }
 
-#contribute h5 {
-  color: #BB141A;
-  font-style: italic;
-  margin-top: 2rem; }
-#contribute .signature {
-  font-family: "Reenie Beanie", cursive;
-  font-size: 40px;
-  padding-left: 10px; }
-#contribute .img {
-  background-image: url("/img/contribution.jpg");
-  background-size: cover;
-  min-height: 500px; }
+#contribute {
+  text-align: center; }
+  #contribute li {
+    margin: 0.5rem;
+    text-align: center;
+    list-style: none; }
+    #contribute li i {
+      color: #BB141A;
+      margin-right: 10px;
+      font-size: large;
+      margin-left: -40px;
+      font-style: normal; }
+  #contribute h4 {
+    margin: 40px 0;
+    display: inline-block;
+    padding: 15px;
+    border: 3px solid white;
+    color: white; }
+  #contribute h5 {
+    color: #BB141A; }
+  #contribute .signature {
+    font-family: "Reenie Beanie", cursive;
+    font-size: 40px;
+    padding-left: 10px; }
+  #contribute .img {
+    background-image: url("/img/contribution.jpg");
+    background-size: cover;
+    min-height: 500px; }
 
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
   max-height: none; }
