@@ -91,6 +91,12 @@ team:
   position: Organization
   mail: david.leitner@techtalk.at
 
+- name: Milena Krnjic
+  pic: mkr
+  position: Organization
+  mail: milena.krnjic@techtalk.at
+
+
 committee:
 
 - name: Florian Eckkrammer
