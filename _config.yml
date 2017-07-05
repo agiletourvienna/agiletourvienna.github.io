@@ -12,7 +12,7 @@ showCallForProposals: true
 showRegister: true
 showSchedule: false
 showAbout: true
-showSpeaker: false
+showSpeaker: true
 
 # Build settings
 markdown: kramdown
