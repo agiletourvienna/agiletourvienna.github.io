@@ -28,11 +28,15 @@ $(document).ready(function($){
 			//detect click on the next arrow
 			timelineComponents['timelineNavigation'].on('click', '.next', function(event){
 				event.preventDefault();
+				//wohoo this is hack under time pressure
+				$(".events-wrapper").find(".selected").first().parent().next().children().first().click();
 				updateSlide(timelineComponents, timelineTotWidth, 'next');
 			});
 			//detect click on the prev arrow
 			timelineComponents['timelineNavigation'].on('click', '.prev', function(event){
 				event.preventDefault();
+				//wohoo this is hack under time pressure
+				$(".events-wrapper").find(".selected").first().parent().prev().children().first().click();
 				updateSlide(timelineComponents, timelineTotWidth, 'prev');
 			});
 			//detect click on the a single event - show new event content
@@ -113,8 +117,9 @@ $(document).ready(function($){
 		value = ( !(typeof totWidth === 'undefined') &&  value < totWidth ) ? totWidth : value; //do not translate more than timeline width
 		setTransformValue(eventsWrapper, 'translateX', value+'px');
 		//update navigation arrows visibility
-		(value == 0 ) ? timelineComponents['timelineNavigation'].find('.prev').addClass('inactive') : timelineComponents['timelineNavigation'].find('.prev').removeClass('inactive');
-		(value == totWidth ) ? timelineComponents['timelineNavigation'].find('.next').addClass('inactive') : timelineComponents['timelineNavigation'].find('.next').removeClass('inactive');
+
+		//(value == 0 ) ? timelineComponents['timelineNavigation'].find('.prev').addClass('inactive') : timelineComponents['timelineNavigation'].find('.prev').removeClass('inactive');
+		//(value == totWidth ) ? timelineComponents['timelineNavigation'].find('.next').addClass('inactive') : timelineComponents['timelineNavigation'].find('.next').removeClass('inactive');
 	}
 
 	function updateFilling(selectedEvent, filling, totWidth) {
