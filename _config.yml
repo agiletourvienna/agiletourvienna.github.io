@@ -112,25 +112,50 @@ committee:
 
 - name: Florian Eckkrammer
   pic: fe
-  position: Content Committee
   mail: eckkramm@technikum-wien.at
   
 - name: Veronika Kotrba & Ralph Miarka
   pic: rv
-  position: Content Committee
   mail: office@sinnvoll-fuehren.com
 
 - name: Rudolf Groetz
   pic: rg
-  position: Content Committee
   mail: rudolf.groetz@gmail.com
 
 - name: Franz Hofer
   pic: fh
-  position: Content Committee
   mail: franz.hofer@utanet.at
 
 - name: Christian Hassa
   pic: ch
-  position: Content Committee
   mail: christian.hassa@techtalk.at
+
+- name: Elisabeth Binder
+  pic: eb
+  mail: binder.e@gmail.com
+
+- name: Thomas Mantsch
+  pic: tm
+  mail: thomas.mantsch@ebcont.com
+
+- name: Igor Petrovic
+  pic: ip
+  mail: ip@irpc.at 
+
+- name: Alexander Neuhaus
+  pic: an
+  mail: alexander.neuhaus@frequentis.com
+
+- name: Roland Tiefenbrunner
+  pic: rt
+  mail: roland.tiefenbrunner@gmail.com
+
+- name: Christian Ploninger
+  pic: cp
+  mail: c.ploninger@aon.at
+
+- name: Christian Biegler
+  pic: cb
+  mail: christian.biegler@gmx.at
+
+

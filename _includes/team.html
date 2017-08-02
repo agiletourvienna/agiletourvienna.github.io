@@ -50,8 +50,12 @@
             </div>
         </div>
         <div class="row content-committee">
-            <div class="col-sm-0 col-lg-1"></div>
             {% for member in site.committee %}
+            {% capture modulo %}{{ forloop.index0 | mod:6 }}{% endcapture %}
+
+            {% if modulo == '0' or forloop.first %}
+            <div>
+                {% endif %}
             <div class="col-sm-6 col-lg-2 team-member">
                 <div class="container img-responsive img-circle">
                     <a href="mailto:{{ member.mail }}">
@@ -64,11 +68,9 @@
                         </div>
                     </a>
                 </div>
-                <h4 style="font-size: 16px">{{ member.name }}</h4>
-                <div class="text-muted">{{ member.position }}</div>
+                <h4 style="font-size: 16px; height: 40px">{{ member.name }}</h4>
             </div>
             {% endfor %}
-            <div class="col-sm-0 col-lg-1"></div>
         </div>
     </div>
 </section>

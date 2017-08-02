@@ -438,8 +438,8 @@ Primary style
   .cd-horizontal-timeline .events-content em {
     display: block;
     font-style: italic;
-    color: #BB141A;
-    margin: 10px auto; }
+    margin: 10px auto;
+    color: #333; }
   .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
     line-height: 1.6; }
 
