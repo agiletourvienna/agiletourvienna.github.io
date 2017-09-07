@@ -790,3 +790,9 @@ section h3.quote
     color: white;
     display: block;
 }
+
+.clients .logo{
+    min-height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
