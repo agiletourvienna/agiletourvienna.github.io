@@ -10,67 +10,100 @@
                 </h3>
             </div>
         </div>
-        <div class="row">
-            {% for member in site.team %}
-            <div class="col-sm-6 col-lg-3 team-member">
-                <div class="container img-responsive img-circle">
-                    <a href="mailto:{{ member.mail }}">
-                        <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
-                            <div class="team-hover">
-                                <div class="team-hover-content">
-                                    <i class="fa fa-envelope-o"></i>
-                                </div>
-                            </div>
-                        </div>
+    </div>
+        <div class="row sponsors">
+            <div style="max-width: 960px; margin: auto;">
+            {% for organiser in site.organisers %}
+                <div class="col-sm-4 sponsor">
+                    <a href="{{organiser.link}}" target="_blank">
+                        <img src="img/partners/{{organiser.pic}}.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
-                <h4 style="font-size: 16px">{{ member.name }}</h4>
-                <div class="text-muted">{{ member.position }}</div>
-            </div>
             {% endfor %}
-            <div class="col-sm-6 col-lg-3 team-member">
-                <div class="container img-responsive img-circle">
-                    <a target="_blank" href="https://www.youtube.com/watch?v=RWLlalCwX-Y">
-                        <div style="background-image: url('img/team/teamvideo.png')" class="img">
-                            <div class="team-hover">
-                                <div class="team-hover-content">
-                                    <i class="fa fa-play"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <h4 style="font-size: 16px"><i class="fa fa-youtube-play" aria-hidden="true"></i> An Introduction</h4>
-                <div class="text-muted">from the Organization Team</div>
             </div>
         </div>
+    <div class="container">
+    <div class="row">
+        {% for member in site.team %}
+        <div class="col-sm-6 col-lg-3 team-member">
+            <div class="container img-responsive img-circle">
+                <a href="mailto:{{ member.mail }}">
+                    <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
+                        <div class="team-hover">
+                            <div class="team-hover-content">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <h4 style="font-size: 16px">{{ member.name }}</h4>
+            <div class="text-muted">{{ member.position }}</div>
+        </div>
+        {% endfor %}
+        <div class="col-sm-6 col-lg-3 team-member">
+            <div class="container img-responsive img-circle">
+                <a target="_blank" href="https://www.youtube.com/watch?v=RWLlalCwX-Y">
+                    <div style="background-image: url('img/team/teamvideo.png')" class="img">
+                        <div class="team-hover">
+                            <div class="team-hover-content">
+                                <i class="fa fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <h4 style="font-size: 16px"><i class="fa fa-youtube-play" aria-hidden="true"></i> An Introduction</h4>
+            <div class="text-muted">from the Organization Team</div>
+        </div>
+    </div>
+    </div>
         <div class="row content-committee-header">
             <div class="col-lg-12 text-center">
-                <h3>Content Committee</h3>
+                <h3>Sponsors</h3>
             </div>
         </div>
-        <div class="row content-committee">
-            {% for member in site.committee %}
-            {% capture modulo %}{{ forloop.index0 | mod:6 }}{% endcapture %}
-
-            {% if modulo == '0' or forloop.first %}
-            <div>
-                {% endif %}
-            <div class="col-sm-6 col-lg-2 team-member">
-                <div class="container img-responsive img-circle">
-                    <a href="mailto:{{ member.mail }}">
-                        <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
-                            <div class="team-hover">
-                                <div class="team-hover-content">
-                                    <i class="fa fa-envelope-o"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <h4 style="font-size: 16px; height: 40px">{{ member.name }}</h4>
+        <div class="row sponsors">
+            {% for sponsor in site.sponsors %}
+            <div class="col-sm-4 sponsor">
+                <a href="{{sponsor.link}}" target="_blank">
+                    <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
+                </a>
             </div>
             {% endfor %}
         </div>
+        <div class="row text-center" style="margin: 60px">
+            <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
+        </div>
+    <div class="container">
+    <div class="row content-committee-header">
+        <div class="col-lg-12 text-center">
+            <h3>Content Committee</h3>
+        </div>
+    </div>
+    <div class="row content-committee">
+        {% for member in site.committee %}
+        {% capture modulo %}{{ forloop.index0 | mod:6 }}{% endcapture %}
+            {% if modulo == '0' or forloop.first %}
+            <div>
+            {% endif %}
+                <div class="col-sm-6 col-lg-2 team-member">
+                    <div class="container img-responsive img-circle">
+                        <a href="mailto:{{ member.mail }}">
+                            <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
+                                <div class="team-hover">
+                                    <div class="team-hover-content">
+                                        <i class="fa fa-envelope-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <h4 style="font-size: 16px; height: 40px">{{ member.name }}</h4>
+                </div>
+            {% if modulo == '0' or forloop.first %}
+            </div>
+            {% endif %}
+        {% endfor %}
     </div>
 </section>

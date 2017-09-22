@@ -791,8 +791,12 @@ section h3.quote
     display: block;
 }
 
-.clients .logo{
-    min-height: 150px;
-    background-position: center center;
-    background-repeat: no-repeat;
+.sponsor{
+    margin: 50px 0;
+}
+
+.sponsors{
+    background-color: rgba(107, 107, 107, 0.09);
+    border-radius: 20px;
+    margin-bottom: 50px;
 }
