@@ -177,6 +177,7 @@ fieldset[disabled] .btn-xl.active {
 
 section {
     padding: 100px 0;
+    overflow: hidden;
 }
 
 section h2.section-heading {
@@ -797,6 +798,5 @@ section h3.quote
 
 .sponsors{
     background-color: rgba(107, 107, 107, 0.09);
-    border-radius: 20px;
     margin-bottom: 50px;
 }

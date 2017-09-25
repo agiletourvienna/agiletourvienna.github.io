@@ -11,8 +11,8 @@
             </div>
         </div>
     </div>
-        <div class="row sponsors">
-            <div style="max-width: 960px; margin: auto;">
+        <div class="sponsors">
+            <div class="container">
             {% for organiser in site.organisers %}
                 <div class="col-sm-4 sponsor">
                     <a href="{{organiser.link}}" target="_blank">
@@ -23,7 +23,7 @@
             </div>
         </div>
     <div class="container">
-    <div class="row">
+    <div>
         {% for member in site.team %}
         <div class="col-sm-6 col-lg-3 team-member">
             <div class="container img-responsive img-circle">
@@ -63,7 +63,8 @@
                 <h3>Sponsors</h3>
             </div>
         </div>
-        <div class="row sponsors">
+        <div class="sponsors">
+            <div class="container">
             {% for sponsor in site.sponsors %}
             <div class="col-sm-4 sponsor">
                 <a href="{{sponsor.link}}" target="_blank">
@@ -71,6 +72,7 @@
                 </a>
             </div>
             {% endfor %}
+            </div>
         </div>
         <div class="row text-center" style="margin: 60px">
             <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
