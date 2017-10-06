@@ -11,7 +11,7 @@ headerType: trailer # options: thanks, saveTheDate, trailer
 showCallForProposals: true
 showRegister: true
 showSchedule: false
-showAbout: false
+showAbout: true
 showSpeaker: true
 
 # Build settings
@@ -97,10 +97,10 @@ team:
   position: Organization
   mail: veronika.winter@techtalk.at
 
-- name: David Leitner
-  pic: dl
+- name: Katharina Leitner
+  pic: kl
   position: Organization
-  mail: david.leitner@techtalk.at
+  mail: katharina.leitner@techtalk.at
 
 - name: Milena Krnjic
   pic: mkr
@@ -110,63 +110,63 @@ team:
 
 committee:
 
-- name: Florian Eckkrammer
-  pic: fe
-  mail: eckkramm@technikum-wien.at
-  
-- name: Veronika Kotrba & Ralph Miarka
-  pic: rv
-  mail: office@sinnvoll-fuehren.com
-
-- name: Rudolf Groetz
-  pic: rg
-  mail: rudolf.groetz@gmail.com
-
-- name: Franz Hofer
-  pic: fh
-  mail: franz.hofer@utanet.at
-
-- name: Christian Hassa
-  pic: ch
-  mail: christian.hassa@techtalk.at
+- name: Christian Biegler
+  pic: cb
+  mail: christian.biegler@gmx.at
 
 - name: Elisabeth Binder
   pic: eb
   mail: binder.e@gmail.com
 
+- name: Florian Eckkrammer
+  pic: fe
+  mail: eckkramm@technikum-wien.at
+
+- name: Rudolf Groetz
+  pic: rg
+  mail: rudolf.groetz@gmail.com
+
+- name: Christian Hassa
+  pic: ch
+  mail: christian.hassa@techtalk.at
+
+- name: Franz Hofer
+  pic: fh
+  mail: franz.hofer@utanet.at
+
+- name: Michaela Kinberger
+  pic: mk
+  mail: michaela.kinberger@gmail.com
+  
+- name: Veronika Kotrba & Ralph Miarka
+  pic: rv
+  mail: office@sinnvoll-fuehren.com
+
 - name: Thomas Mantsch
   pic: tm
   mail: thomas.mantsch@ebcont.com
-
-- name: Igor Petrovic
-  pic: ip
-  mail: ip@irpc.at 
 
 - name: Alexander Neuhaus
   pic: an
   mail: alexander.neuhaus@frequentis.com
 
-- name: Roland Tiefenbrunner
-  pic: rt
-  mail: roland.tiefenbrunner@gmail.com
+- name: Barbara Neumayr
+  pic: bn
+  mail: barbara.neumayr@gmail.com
+
+- name: Igor Petrovic
+  pic: ip
+  mail: ip@irpc.at
 
 - name: Christian Ploninger
   pic: cp
   mail: c.ploninger@aon.at
 
-- name: Christian Biegler
-  pic: cb
-  mail: christian.biegler@gmx.at
-
-- name: Barbara Neumayr
-  pic: bn
-  mail: barbara.neumayr@gmail.com
-
-- name: Michaela Kinberger
-  pic: mk
-  mail: michaela.kinberger@gmail.com
-
 - name: Ursula Simo
   pic: us
   mail: simo@deepimpact.at
+
+- name: Roland Tiefenbrunner
+  pic: rt
+  mail: roland.tiefenbrunner@gmail.com
 
