@@ -31,8 +31,12 @@ sponsors:
   pic: rbi
 - link: https://www.s-itsolutions.at/de/home
   pic: sit
+  name: s IT Solutions Austria
+  text: s IT Solutions Austria ist seit über 50 Jahren der IT-Partner der Erste Bank und Sparkassen und hat als solcher die Anfänge der IT nicht nur miterlebt, sondern mitgeprägt. Für die mehr als 900 IT-Experten im Unternehmen ist agile Software-Entwicklung basierend auf Scrum und Kanban längst gelebte Realität. Co-Creation und iteratives Vorgehen fördern perfekt auf Kundenbedürfnisse zugeschnittene Produkte wie George zutage. Doch nicht nur innovative Bank-IT-Lösungen sind ein Steckenpferd der sIT-Mitarbeiter, auch die Millionen an Kundendaten sind in unseren Rechenzentren dank unserer Operations-Spezialisten in den allerbesten Händen.
 - link: http://bearingpoint.com/
   pic: bearingpoint
+  name: BearingPoint Technology
+  text: For BearingPoint Technology agile methods are not just a buzzword, but an essential part of our daily work. Since 2002, starting with the techniques of XP, we were one of the first companies in Austria to use agile methods in our entire company. Currently more than 400 people work in our offices in Vienna&Graz in a large number of Scrum & Kanban teams with great passion for the development of our product Infonova R6, as well as numerous software solutions for various customers. As a partner for the entire software lifecycle, we offer our more than 10 years of experience in agile methods as consultancy service, as well as the E2E provision of complex digital solutions for business customers in various industries, accompanying companies as agile coaches on their journey of agile transformation and advise companies in the field of enterprise architecture, solution design and software craftmanship.
 
 lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2016
 lookbacks:
@@ -52,6 +56,12 @@ lookbacks:
   talk: Team-Optimierung führt zu schlechtem Unternehmens-Output
   img: klausleopold
   url: https://vimeo.com/195915939
+
+eventtips:
+- name: Specification by Example
+  url: https://techtalk.at/trainings/specification-by-example
+- name: Citcon
+  url: http://citconf.com/vienna2018
 
 tweets:
 - quote: Thanks for organising a fantastic Agile Tour Vienna. Really glad to be a part of it

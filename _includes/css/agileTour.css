@@ -624,6 +624,7 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+.sponsor-modal .modal-content,
 .speaker-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -635,15 +636,18 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
+.sponsor-modal .modal-content h2
 .speaker-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
 }
 
+.sponsor-modal .modal-content p,
 .speaker-modal .modal-content p {
     margin-bottom: 30px;
 }
 
+.sponsor-modal .modal-content p.item-intro,
 .speaker-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: {{ site.data.template.font.secondary }};
@@ -651,15 +655,18 @@ ul.social-buttons li a:active {
     font-style: italic;
 }
 
+.sponsor-modal .modal-content ul.list-inline,
 .speaker-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
+.sponsor-modal .modal-content img,
 .speaker-modal .modal-content img {
     margin-bottom: 30px;
 }
 
+.sponsor-modal .close-modal,
 .speaker-modal .close-modal {
     position: absolute;
     top: 25px;
@@ -670,10 +677,12 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
+.sponsor-modal .close-modal:hover,
 .speaker-modal .close-modal:hover {
     opacity: .3;
 }
 
+.sponsor-modal .close-modal .lr,
 .speaker-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
@@ -685,6 +694,7 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
+.sponsor-modal .close-modal .lr .rl,
 .speaker-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;

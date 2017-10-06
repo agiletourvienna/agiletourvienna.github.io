@@ -11,84 +11,93 @@
             </div>
         </div>
     </div>
-        <div class="sponsors">
-            <div class="container">
+    <div class="sponsors">
+        <div class="container">
             {% for organiser in site.organisers %}
-                <div class="col-sm-4 sponsor">
-                    <a href="{{organiser.link}}" target="_blank">
-                        <img src="img/partners/{{organiser.pic}}.png" class="img-responsive img-centered" alt="">
+            <div class="col-sm-4 sponsor">
+                <a href="{{organiser.link}}" target="_blank">
+                    <img src="img/partners/{{organiser.pic}}.png" class="img-responsive img-centered" alt="">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            {% for member in site.team %}
+            <div class="col-sm-6 col-lg-3 team-member">
+                <div class="container img-responsive img-circle">
+                    <a href="mailto:{{ member.mail }}">
+                        <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
+                            <div class="team-hover">
+                                <div class="team-hover-content">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+                            </div>
+                        </div>
                     </a>
                 </div>
+                <h4 style="font-size: 16px">{{ member.name }}</h4>
+                <div class="text-muted">{{ member.position }}</div>
+            </div>
             {% endfor %}
-            </div>
-        </div>
-    <div class="container">
-    <div>
-        {% for member in site.team %}
-        <div class="col-sm-6 col-lg-3 team-member">
-            <div class="container img-responsive img-circle">
-                <a href="mailto:{{ member.mail }}">
-                    <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
-                        <div class="team-hover">
-                            <div class="team-hover-content">
-                                <i class="fa fa-envelope-o"></i>
+            <div class="col-sm-6 col-lg-3 team-member">
+                <div class="container img-responsive img-circle">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=RWLlalCwX-Y">
+                        <div style="background-image: url('img/team/teamvideo.png')" class="img">
+                            <div class="team-hover">
+                                <div class="team-hover-content">
+                                    <i class="fa fa-play"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
+                <h4 style="font-size: 16px"><i class="fa fa-youtube-play" aria-hidden="true"></i> An Introduction</h4>
+                <div class="text-muted">from the Organization Team</div>
             </div>
-            <h4 style="font-size: 16px">{{ member.name }}</h4>
-            <div class="text-muted">{{ member.position }}</div>
-        </div>
-        {% endfor %}
-        <div class="col-sm-6 col-lg-3 team-member">
-            <div class="container img-responsive img-circle">
-                <a target="_blank" href="https://www.youtube.com/watch?v=RWLlalCwX-Y">
-                    <div style="background-image: url('img/team/teamvideo.png')" class="img">
-                        <div class="team-hover">
-                            <div class="team-hover-content">
-                                <i class="fa fa-play"></i>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <h4 style="font-size: 16px"><i class="fa fa-youtube-play" aria-hidden="true"></i> An Introduction</h4>
-            <div class="text-muted">from the Organization Team</div>
         </div>
     </div>
-    </div>
-        <div class="row content-committee-header">
-            <div class="col-lg-12 text-center">
-                <h3>Sponsors</h3>
-            </div>
+    <div class="row content-committee-header">
+        <div class="col-lg-12 text-center">
+            <h3>Sponsors</h3>
         </div>
-        <div class="sponsors">
-            <div class="container">
+    </div>
+    <div class="sponsors">
+        <div class="container">
             {% for sponsor in site.sponsors %}
+            {% assign loopindex = forloop.index %}
             <div class="col-sm-4 sponsor">
+                {% if sponsor.text %}
+                <div href="#sponsorModal{{loopindex}}" class="sponsor-link" data-toggle="modal">
+                    <a href="#sponsorModal{{loopindex}}">
+                        <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                {% else %}
                 <a href="{{sponsor.link}}" target="_blank">
                     <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
                 </a>
+                {% endif %}
             </div>
             {% endfor %}
-            </div>
-        </div>
-        <div class="row text-center" style="margin: 60px">
-            <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
-        </div>
-    <div class="container">
-    <div class="row content-committee-header">
-        <div class="col-lg-12 text-center">
-            <h3>Content Committee</h3>
         </div>
     </div>
-    <div class="row content-committee">
-        {% for member in site.committee %}
-        {% capture modulo %}{{ forloop.index0 | mod:6 }}{% endcapture %}
+    <div class="row text-center" style="margin: 60px">
+        <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
+    </div>
+    <div class="container">
+        <div class="row content-committee-header">
+            <div class="col-lg-12 text-center">
+                <h3>Content Committee</h3>
+            </div>
+        </div>
+        <div class="row content-committee">
+            {% for member in site.committee %}
+            {% capture modulo %}{{ forloop.index0 | mod:6 }}{% endcapture %}
             {% if modulo == '0' or forloop.first %}
             <div>
-            {% endif %}
+                {% endif %}
                 <div class="col-sm-6 col-lg-2 team-member">
                     <div class="container img-responsive img-circle">
                         <a href="mailto:{{ member.mail }}">
@@ -103,9 +112,47 @@
                     </div>
                     <h4 style="font-size: 16px; height: 40px">{{ member.name }}</h4>
                 </div>
-            {% if modulo == '0' or forloop.first %}
+                {% if modulo == '0' or forloop.first %}
             </div>
             {% endif %}
-        {% endfor %}
-    </div>
+            {% endfor %}
+        </div>
 </section>
+
+
+{% for sponsor in site.sponsors %}
+{% assign loopindex = forloop.index %}
+<div class="sponsor-modal modal fade" id="sponsorModal{{loopindex}}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>{{ sponsor.name }}</h2>
+                        <hr class="star-primary">
+                        <a href="{{sponsor.link}}" target="_blank">
+                            <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="{{ sponsor.name }}">
+                        </a>
+                        <p> {{ sponsor.text }}</p>
+                        <ul class="list-inline item-details">
+                            <li>
+                                www:
+                                <strong>
+                                    <a href="{{sponsor.link}}" target="_blank">{{sponsor.link}}</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
