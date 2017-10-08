@@ -289,6 +289,17 @@ section h3.section-subheading {
     }
 }
 
+#eventtips .eventtip-item{
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#eventtips .eventtip-item img{
+    width: 100%;
+    max-width: 200px;
+}
+
 .timeline {
     position: relative;
     padding: 0;

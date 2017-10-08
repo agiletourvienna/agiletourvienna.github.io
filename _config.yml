@@ -59,8 +59,14 @@ lookbacks:
 
 eventtips:
 - name: Specification by Example
+  date: 27-28 November 2017, 19-20 April 2018
+  img: specificationbyexample
+  text: Specification by example is the corner-stone of any successful testing and requirements strategy with agile and lean processes, such as Scrum, Extreme Programming and Kanban. This two day workshop teaches you how to apply specification by example to bridge the communication gap between stakeholders and implementation teams, build quality into software from the start, design, develop and deliver systems fit for purpose.
   url: https://techtalk.at/trainings/specification-by-example
 - name: Citcon
+  date: 20-21 April 2018
+  img: citcon
+  text: CITCON (Continuous Integration and Testing Conference) is the Continuous Delivery conference that pre-dates the term "Continuous Delivery". CITCON brings together people from every corner of the software development industry to discuss Continuous Delivery and the practices (e.g. Continuous Integration and Testing) that go along with it.
   url: http://citconf.com/vienna2018
 
 tweets:
