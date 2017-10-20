@@ -11,7 +11,7 @@ headerType: trailer # options: thanks, saveTheDate, trailer
 showCallForProposals: false
 showRegister: true
 showSchedule: true
-showScheduleDetails: false
+showScheduleDetails: true
 showAbout: true
 showSpeaker: true
 
