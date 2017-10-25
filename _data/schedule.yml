@@ -16,8 +16,13 @@
     speaker: "Joseph Pelrine"
     speaker2: "Jasmine Zahno"
     language: en
-    abstract: ""
-    bio: ""
+    abstract: 
+    - "Are you interested in learning how to make your team become smarter and work better together?"
+    - "The concepts of intelligent teams and psychological safety are currently hot topics in the agile world, with numerous blog posts and conference presentations about them appearing. Like most psychological topics, though, they go much deeper than most blog posts and conference presentations would suggest."
+    - "In this talk, we’ll take a look behind the scenes at the psychological research on team intelligence and psychological safety, exploring not only how they are tested, but also discussing how they can be trained. You’ll learn some simple and fun techniques that you can use to help your team improve. Along the way, we’ll also do some myth-busting on things like 7 plus/minus 2 and the Tuckman model."
+    bio: 
+    - "As Kent Beck’s assistant, __Joseph Pelrine__ was one of the first in the world who worked with eXtreme Programming. As Europe’s first certified ScrumMaster and Trainer, he was largely responsible for introducing Scrum to the german-speaking part of Europe. For almost 20 years, Joseph Pelrine has been helping some of the world’s most important companies improve their software development process and successfully transition to Agile. A noted international speaker, he conducts research in the field of social complexity theory and its application to Agile processes, and is currently pursuing a PhD in psychology."
+    - "__Jasmine Zahno__ is an Agile coach who is passionate about the people side of product development. Her master’s degree in organisational psychology uniquely qualifies her to deal with the human issues that arise when the Agile paradigm collides with traditional organisational structures. A firm believer in “inspect and adapt”, she has made it her goal to help organisations create productive and motivating environments that encourage and inspire employees to do their best work."
 - time: "10:45 - 11:00"
   break: "Coffee Break"
 - time: "11:00 - 11:45"
@@ -27,8 +32,13 @@
     tags: 
     language: en
     level: 2
-    abstract: 
-    bio: 
+    abstract:
+    - "When visuals come under test automation, the outcome rarely justifies the cost. Visual tests tend to be too brittle, to difficult to maintain, and too slow to execute for quick iterative delivery cycles."
+    - "However, recent improvements in cloud computing and browser capabilities make it possible to change the economics of the test automation pyramid. Gojko will talk about how trends such as approval testing, cloud functions and automated image analysis can help us automate acceptance/regression tests for visual look and feel in a visual language, rather than xUnit style code, and make such tests easy to write, understand, execute and maintain."
+    bio:
+    - "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010."
+    - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
+    - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
   - title: "Why is the Sprint Goal so important?"
     speaker: "Raluca Bejan"
     tags: scrum, agile, sprint goal
@@ -101,8 +111,10 @@
     speaker: Harry Harrold 
     speaker2: "Rupert Redington"
     language: en
-    abstract: 
+    abstract: "Harry and Rupert present a survey of the cults, sects and heresies they’ve encountered while working with people \"doing agile\", culminating in their formulation of a new “ad-hoc” manifesto. Doctrinal purists are invited to be appalled."
     bio: 
+    - "In the first dot-com boom, __Harry__ helped take an Internet security start up from 3 employees to acquisition by Sun Microsystems. Since leaving software marketing, he’s been helping organisations think about how their objectives relate to their peoples, designing interactions in the resulting projects, and making the best decisions possible about the products that come out of them. He occasionally speaks at conferences, usually about the things he's learned about making developing software less painful and more effective. He's particularly proud of his work on Neontribe's projects for social good like Mind Of My Own, Doc Ready and the Great British Public Toilet Map amongst others."
+    - "__Rupert__ ran away from the theatre to become a web developer at the turn of the century. Since then he’s been making mistakes at Neontribe as fast as he can, learning from a reasonable percentage of them. Recently he’s been using Javascript to help teenagers talk to doctors, Americans to buy airline tickets and everybody to find their way to the loo."
 - time: "14:45 - 15:00"
   break: "Coffee Break" 
 - time: "15:00 - 15:45"
