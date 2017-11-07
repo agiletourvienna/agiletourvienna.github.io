@@ -1,6 +1,6 @@
 - time: "08:50 - 09:20"
   keynote:
-  - title: "Hitchhikers Session Guide"
+  - title: "Hitchhiker's Session Guide"
     speaker: "Christian Hassa"
     speaker2: "Ralph Miarka"
     abstract: 
@@ -9,7 +9,7 @@
     - "__Christian__ verantwortet als Geschäftsführer bei TechTalk die technologische und methodische Ausrichtung. Christian ist Product Owner des Story Mapping Werkzeugs SpecLog, und Mitinitiator des Open Source BDD Werkzeugs SpecFlow. Christian ist Spezialist für agile Planungs- und Spezifikationsmethoden, insbesondere Impact Mapping, Story Mapping und Specification-By-Example. "
     - "__Ralph__ ist zPM, CS(M,PO,P) sowie Business-Coach mit Masterabschluss. Ausgehend von eigener Erfahrung als Projektmanager und Berater, führt er Unternehmen und deren Teams seit Jahren zu erfolgreicher agiler Arbeitsweise."
 - time: "09:20 - 09:45"
-  break: "Welcome @ Agile Tour 2017"
+  break: "Welcome to Agile Tour Vienna 2017"
 - time: "09:45 - 10:45"
   keynote: 
   - title: "On psychological safety, intelligent teams, and other cool psychology buzzwords"
@@ -39,7 +39,7 @@
     - "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010."
     - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
     - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
-  - title: "Why is the Sprint Goal so important?"
+  - title: "Why is the sprint goal so important?"
     speaker: "Raluca Bejan"
     tags: scrum, agile, sprint goal
     language: en
@@ -53,7 +53,7 @@
     bio: 
     - "Raluca loves to work as an Engineering Manager and has been present in software world for over 15 years. Her career has taken various twists and turns: From C++ developer & team lead for an antivirus company, to software manager putting the basis of the automated deployment for a large bank, from scrum master for SAP projects, to engineering manager for big data projects. Now she is manager for one of the analytics projects in Adobe, the leader in the industry. Her hobbies include more development, climbing and diving. "
     - "https://www.linkedin.com/in/raluca-nicoleta-bejan-ioan-9a123a6/"   
-  - title: "Assess your Agility! - raising the level of agility across an organisation"
+  - title: "Assess your agility! Raising the level of agility across an organisation"
     speaker: "Maximilian Hantsch-Köller"
     speaker-img: "maximilianhantschkoeller"
     tags: "assessment, team level, agility, practices, measurement, KPIs, metrics, large organisations, continuous improvement, kaizen"
@@ -61,7 +61,7 @@
     level: 3
     bio: "Maximilian Hantsch-Köller graduated from Vienna University of Technology and has worked in numerous small and large-scale organizations from start-ups to international multi-cultural corporations. With a long-standing experience in software development and broad understanding of communication networks and technologies, Maximilian has been leading classic and agile teams in both highly structured and dynamically flexible set-ups. Maximilian is keen on growing teams and organizations, implementing the appropriate processes & communication, and allowing the magic of team spirit to unfold. Recently, he has helped guiding Frequentis along the path of a multi-year agile transition."
     abstract: "How can you measure the effect of a large-scale agile transition in a 1000+ person organisation? How can teams determine where they stand on their transition path, and which other teams can help them improve their agile practices further? How do you increase motivation for the next steps? How can the organisation measure the overall take-up of \"agility\" measures? Which measures are already effective in the organisation, and where should the focus for trainings, guidance and coaching be directed in the future? Frequentis, an organisation with 1500+ employees, has selected and implemented an \"Agile Assessment\". This talk presents their approach and findings from their first year of running this assessment across the organisation in 2016. It ends with an outlook on the next evolution of the assessment for 2017."
-  - title: "Agile Fixprice – a thing of impossibility?"
+  - title: "Agile zum Fixpreis – ein Ding der Unmöglichkeit?"
     speaker: "Andreas Mitter"
     tags: "Agile Fixed Price, Agiler Festpreis, Vertragsmodelle, Agile Zusammenarbeit trotz Fixpreis"
     language: "de"
@@ -73,7 +73,7 @@
 - time: "12:15 - 13:00" 
   talks: 
   - title: "Scaled Agile @ Rewe - Planung mit mehreren Kunden und Produkten"
-    speaker: "Andre Mauritz and Harald Wawra"
+    speaker: "Harald Wawra and Tanja Baricic-Böhm"
     speaker-img: "andremauritz"
     tags: "Scaled Agile, Quartalsplanung, Planung, Kunden, Produkte"
     language: de
@@ -87,7 +87,7 @@
     level: 2
     abstract: "The concept of the testing pyramid was introduced by Mike Cohn many years ago. Although a lot of people have heard about it, there are not many who are actually implementing it. Maybe one reason for this is that the pyramid helps us to map the tests to the testing technology only (unit, integration, UI), but not to the purpose, the different testing goals. The concept of testing iceberg puts the testing pyramid into this context. At the session I am going to show you the concept of the testing iceberg through a concrete example. We will see how the \"undersea\" tests can support the ones on the tip, focusing on business requirements. We will see how you can move tests between the different levels so that finally we get more insight how the testing pyramid can be used in your own projects."
     bio: "Gáspár Nagy is the creator and main contributor of SpecFlow, the most widely used ATDD/BDD framework for .NET. Gáspár is an independent coach, trainer and test automation expert focusing on helping teams implementing BDD and SpecFlow through his company, called Spec Solutions. He has more than 15 years of experience in enterprise software development as he worked as an architect and agile developer coach. He shares useful BDD and test automation related tips on his blog (http://gasparnagy.com) and on Twitter (@gasparnagy). He edits a monthly newsletter (http://bddaddict.com) about interesting articles, videos and news related to BDD, SpecFlow and Cucumber."
-  - title: "Live Demo: CQRS + Event Sourcing in brief."
+  - title: "Live demo: CQRS + event sourcing in brief."
     speaker: "Aki Salmi"
     tags: "cqrs, event sourcing, live demo, tdd, bdd, atdd, test-driven development"
     language: en
@@ -119,28 +119,28 @@
   break: "Coffee Break" 
 - time: "15:15 - 16:00"
   talks: 
-  - title: "Rethinking Agile Leadership"
+  - title: "Rethinking agile leadership"
     speaker: "Andrea Provaglio"
     language: en
     tags: "leadership, management, self-organization, teamwork, agile, innovation, organizational change"
     level: 3
     abstract: "The Agile world seems to have recently discovered the importance of \"leadership\". This can be very good news and it can also very bad news. It's bad news if the so-called \"Agile Leadership\" is a way to rebrand traditional management models, along with their underlying mindset, so that they could survive in a rather different cultural ecosystem — namely, Agile. On the other hand, this interest can be very good news if Agile Leadership is seen as something almost entirely new. Something tightly connected to Agile and, therefore, deeply rooted in complexity and empiricism. Something that carries a deep understanding of human dynamics in highly cooperative, intellectually intense social environments. Something that — last but not least — is equipped with a good deal of self-awareness, system-awareness and self-transcendence. Modern and truly Agile organizations want and need to, among other things: explore and validate multiple options, not sticking to predefined plans; learn constantly, re-plan as needed; leverage the collective intelligence of their teams, for better exploration of options and smarter learning; have built-in resiliency when facing sudden change; getting results out of people's participation, not out of people's compliance. In this sense the whole concept of true Agile Leadership is quite important indeed, because it's fundamental to nurture and support those organizations that really embody an Agile culture, and that are so far away from the \"organization as a machine\" approach that's so typical of traditional leadership and management disciplines. Agile Leadership or, rather, the act of \"leading\" in Agile is so much different from those disciplines because it's inherently organic, meaning that it has influence and is influenced on a number of different levels in the individual and in the organization: on the personal level; on the collective level; on current behaviors; on future behaviors; on the social relationship level (trust); on the personal responsibility level (participation); on the formal responsibility level (accountability); on the motivational level and many more. This richness and multidimensionality of the act of leading in Agile is such that simplistic mental models (such as the leader being the \"guy at the top\") simply won't suffice and therefore a more mature understanding and practice of leading is called for, in the entire organization."
     bio: "I help knowledge-based organizations, including IT companies, to rethink their organizational dynamics, their organizational structures, their mental models, their practices and their processes, to let them operate better in the 21st century. I work closely with executives, managers and teams and I do a number of things including one-on-one coaching, team coaching, consulting on specific practices and, occasionally, hands-on training. I’m especially interested in distributed leadership and self-organization for knowledge-based organizations, a topic that touches on a number on subjects, including non-conventional organizational structures and individual and collective communication and social skills. And, I’m a long-standing Agile practitioner. In over 20 years of professional experience, I worked with organizations as big the United Nations’ FAO and as small as dynamic post-startup companies, in many different countries. I have a wide range of expertise, in both the public and private sector, with both large and small organizations and with different cultures. Currently I work in Europe. I've also worked in the USA on a O-1 visa for \"extraordinary abilities in Sciences\"."
-  - title: "Wie eine WebtestSuite mit einer umfangreichen Applikation Schritt halten kann - ein Erfahrungsbericht"
+  - title: "Wie eine Webtest-Suite mit einer umfangreichen Applikation Schritt halten kann - ein Erfahrungsbericht"
     speaker: "Florian Decker"
     tags: "Page Objects, Webtesting, Selenium"
     language: de
     level: 2
     abstract: "Für das agile Testen braucht es einen hohen Automatisierungsgrad. Um diesen für eine Webapplikation zu erreichen, hat man mit mehreren Herausforderungen zu kämpfen. So auch für unser eigenes Webprodukt, wo unsere integrative Testsuite trotz einer überschaubaren Testanzahl einen hohen Wartungsaufwand und hohe Durchlaufzeit mit sich brachte. Aus diesem Grund wurde der Entschluss gefasst, eine eigene Lösung entwickelt, die Konzepte der Webapplikation und Selenium verbindet und diese als Abstraktionsschicht dem Webtestentwickler bereitstellt. Während die meisten Ansätze für hohe Testautomatisierung viel Entwicklungsverantwortung auf die Rücken der Tester legen, haben wir durch unser Abstraktionsschicht den größten Teil der Entwicklungsverantwortung in die Applikationsentwicklung verlagert. Auf Basis dieser Abstraktionsschicht ist es den Testern möglich, ohne viel Programmiererfahrung stabile, performante und gut lesbare Tests zu schreiben. Die Applikation kann so angesprochen werden, wie auch ein Benutzer die Applikation ansprechen würde, indem für die angebotenen UserInterfaceParadigmen benannte/dedizierte Operationen zur Verfügung gestellt werden. Außerdem werden einige Konzepte präsentiert, die für stabile und performante Tests notwendig sind, wie etwa die Detektierung von vollendeten Aktionen, Kommunikation zwischen Applikation und Testing Layer, sowie Page Object Generierung."     
     bio: "Florian Decker ist Entwickler bei der rubicon IT-GmbH. Dabei beschäftigt er sich vor allem mit der Weiterentwicklung eines Webtesting-Frameworks, auf dessen Basis die Testautomatisierung für interne Produkte aufbaut. Im Kontext dieser Arbeit sieht er täglich, welchen Einfluss die gewählten Webtesting-Konzepte auf das Automatisieren von Tests in den agilen Produktteams hat. Berufsbegleitend studiert er im Masterstudium \"Software Engineering\" an der FH Technikum Wien."
-  - title: "Metrics we can gain from our (Kanban) system and what we can learn out of it…"
+  - title: "Metrics we can gain from our (Kanban) system and what we can learn from it…"
     speaker: "Martin Putz"
     tags: "Kanban, (Competitive) Metrics, How to gain metrics, How to use metrics to manage the system, Simulation, Forecasting"
     language: de
-    level: 3
+    level: 2
     abstract: "In dieser Session wird gezeigt, wie man auf einfache Art und Weise Metriken generieren kann, welche Metriken sinnvollerweise herangezogen werden sollten, und wie diese helfen datenbasierte und somit fundiertere Entscheidungen zu treffen und wie man diese Daten verwenden kann, um das zukünftige Verhalten des Systems zu prognostizieren."
     bio: "Martin Putz ist Head of Engineering bei avedos GRC GmbH und hat 15+ Jahre Erfahrung in Leading, Coaching und Developing von R&D Teams im Enterprise Software Umfeld. Inhaltlicher Schwerpunkt seiner Tätigkeit war neben Coaching und Weiterentwicklung der Teams die Industrialisierung und Automatisierung des Softwareentwicklungsprozess, sowie die strategische Planung von Software Releases inklusive technischer Entscheidungen hinsichtlich Plattformen und Tools."
-  - title: "Event Storming the Game Changer"
+  - title: "Event storming - the game changer  (Part 1)"
     speaker: "Adrian Weidermann and Mirsad Kozlica"
     speaker-img: "adrianweidermann"
     workshop: true
@@ -168,7 +168,7 @@
     bio: "Robert baut seit fast zwei Dekaden Software aus Leidenschaft. In dieser Zeit nahm er an der Umsetzung verschiedenster Projekte Teil, von den ersten Ideen bis hin zum fertigen Produkt, für Kunden aus den unterschiedlichsten Bereichen von Start-Ups bis hin zu multinationalen Konzernen. Er ist seit sechs Jahren für die 25th-floor GmbH als Full Stack Developer und Product Owner für unterschiedliche Projekte tätig. Privat interessiert er sich besonders für Psychologie, Verhanltensökonomie und Origami."
     language: de
     level: 2
-  - title: "From Zero to Continuous Delivery"
+  - title: "From zero to continuous deliver"
     speaker: "Paolo D'Incau"
     speaker-img: "paolodIncau"
     tags: "continuous delivery, jenkins, docker, kubernetes"
@@ -176,7 +176,7 @@
     level: 2
     abstract: "Once you understood what Continuous Delivery, you can start adopting it by using practices, tools and technologies that helps you to improve the way you release software in production. In this session you will see how you can implement a Continuous Delivery process from scratch adopting well known tools such as Docker, Jenkins and an orchestrator of your choice"
     bio: "Paolo D'Incau is an Italian agile developer. During the last years he discovered how culture supported by technical practices can reshape companies and organizations."
-  - title: "Event Storming the Game Changer"
+  - title: "Event storming - the game changer (Part 2)"
     speaker: "Adrian Weidermann and Mirsad Kozlica"
     speaker-img: "adrianweidermann"
     workshop: true
