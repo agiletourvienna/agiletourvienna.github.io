@@ -6,22 +6,26 @@ DESCRIPTION:by Christian Hassa and Ralph Miarka\n\nYou’re wondering how to
   get out the most of this day? We’ll give an overview about today’s progr
  am\, and point out sessions that are in particular suitable for your need
  s.
-DTEND:20171125T092000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T085000
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T092000
+DTSTAMP:20171110T201357Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T085000
 LOCATION:FH Technikum Wien\, F0.01
 SEQUENCE:0
 SUMMARY:Hitchhiker’s Session Guide
-UID:12e2a5f2-8ebc-4c69-ade6-1ed9b3cd21f6
+UID:fa7c79ad-9ed7-4bcc-8aed-686ce4bda152
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20171125T094500
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T092000
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T094500
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T092000
 LOCATION:FH Technikum Wien\, F0.01
 SEQUENCE:0
 SUMMARY:Welcome to Agile Tour Vienna 2017
-UID:6d14c996-c4e5-42ee-98d1-1a8ae564b4de
+UID:d8fb820b-a5fc-4348-b51a-d3e26e462dec
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Joseph Pelrine and Jasmine Zahno\n\nAre you interested in l
@@ -36,14 +40,16 @@ DESCRIPTION:by Joseph Pelrine and Jasmine Zahno\n\nAre you interested in l
  be trained. You’ll learn some simple and fun techniques that you can use 
  to help your team improve. Along the way\, we’ll also do some myth-bustin
  g on things like 7 plus/minus 2 and the Tuckman model.
-DTEND:20171125T104500
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T094500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T104500
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T094500
 LOCATION:FH Technikum Wien\, F0.01
 SEQUENCE:0
 SUMMARY:On psychological safety\, intelligent teams\, and other cool psych
  ology buzzwords
-UID:7391659f-8aa5-4bb4-9455-1c813e3381cb
+UID:b5c5a6b4-99a0-4d22-ab15-d10c4d5105b4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Gojko Adzic\n\nWhen visuals come under test automation\, th
@@ -56,13 +62,15 @@ DESCRIPTION:by Gojko Adzic\n\nWhen visuals come under test automation\, th
  cceptance/regression tests for visual look and feel in a visual language\
  , rather than xUnit style code\, and make such tests easy to write\, unde
  rstand\, execute and maintain.
-DTEND:20171125T120000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T111500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T120000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T111500
 LOCATION:FH Technikum Wien\, F0.01
 SEQUENCE:0
 SUMMARY:Painless visual testing
-UID:2b43b071-2468-4b87-8ec7-48099a5f5eb7
+UID:8589c45f-7d57-46b5-a5a4-9f27f7fdf578
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Raluca Bejan\n\n"Do we know exactly where are we going?"\n"
@@ -73,13 +81,15 @@ DESCRIPTION:by Raluca Bejan\n\n"Do we know exactly where are we going?"\n"
  r all of them after a day or two. Would be way better\, in order to keep 
  the focus\, to make them understand the idea behind their work. This is w
  hen the Sprint Goal comes into discussion.
-DTEND:20171125T120000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T111500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T120000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T111500
 LOCATION:FH Technikum Wien\, F2.01
 SEQUENCE:0
 SUMMARY:Why is the sprint goal so important?
-UID:524bbc44-3a60-4564-acdc-cd6e8a450f24
+UID:02e72909-719e-4ba1-b84c-c541ca33a31c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Maximilian Hantsch-Köller\n\nHow can you measure the effect
@@ -94,14 +104,16 @@ DESCRIPTION:by Maximilian Hantsch-Köller\n\nHow can you measure the effect
  sment". This talk presents their approach and findings from their first y
  ear of running this assessment across the organisation in 2016. It ends w
  ith an outlook on the next evolution of the assessment for 2017.
-DTEND:20171125T120000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T111500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T120000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T111500
 LOCATION:FH Technikum Wien\, F2.02
 SEQUENCE:0
 SUMMARY:Assess your agility! Raising the level of agility across an organi
  sation
-UID:1db3900f-8a0b-44d8-a8fd-0d9cfb4111ef
+UID:29e4ee93-86b9-4bbe-aa65-02a40df9039e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Andreas Mitter\n\nAgile methodologies have established them
@@ -123,13 +135,15 @@ DESCRIPTION:by Andreas Mitter\n\nAgile methodologies have established them
  ontract and how define the scope of the project without creating a final 
  specification. Mr. Mitter will also pay attention to the successful use o
  f the agile fixed price model in various companies and projects.
-DTEND:20171125T120000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T111500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T120000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T111500
 LOCATION:FH Technikum Wien\, F2.03
 SEQUENCE:0
 SUMMARY:Agile zum Fixpreis – ein Ding der Unmöglichkeit?
-UID:a69eb738-6677-449f-82e3-492865b154eb
+UID:9f737b31-6387-4a23-afc1-bb69b38e0e88
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Harald Wawra and Tanja Baricic - Böhm\n\nIn einer Welt\, in
@@ -139,13 +153,15 @@ DESCRIPTION:by Harald Wawra and Tanja Baricic - Böhm\n\nIn einer Welt\, in
  rprobt und an die Bedürfnisse des Umfeld angepasst. In unserem Vortrag we
  rden Sie von uns lernen\, wie wir diese Problem gelöst haben und welche E
  rfahrungen wir dabei gesammelt haben.
-DTEND:20171125T130000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T121500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T130000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T121500
 LOCATION:FH Technikum Wien\, F0.01
 SEQUENCE:0
 SUMMARY:Scaled Agile @ Rewe - Planung mit mehreren Kunden und Produkten
-UID:9bb9d78f-7b1f-4180-821b-3b41d879f90a
+UID:e27034c4-64a3-4617-91d2-edf2bad2bf09
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Gaspar Nagy\n\nThe concept of the testing pyramid was intro
@@ -160,13 +176,15 @@ DESCRIPTION:by Gaspar Nagy\n\nThe concept of the testing pyramid was intro
  ess requirements. We will see how you can move tests between the differen
  t levels so that finally we get more insight how the testing pyramid can 
  be used in your own projects.
-DTEND:20171125T130000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T121500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T130000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T121500
 LOCATION:FH Technikum Wien\, F2.01
 SEQUENCE:0
 SUMMARY:We are sinking: Hitting the testing iceberg
-UID:94631504-4217-43c4-8ff0-92cd5fe03283
+UID:1bfa88ee-d83a-4180-bbd0-a710e11c710a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Aki Salmi\n\n<I'd like to work on this - now this is mostly
@@ -190,39 +208,45 @@ DESCRIPTION:by Aki Salmi\n\n<I'd like to work on this - now this is mostly
   that represents the state of an event at given time. The code exists in 
  Github\, with a separate branch for test-driving it oneself after the eve
  nt. Code is written in Java\, making the live programming easy to follow.
-DTEND:20171125T130000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T121500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T130000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T121500
 LOCATION:FH Technikum Wien\, F2.02
 SEQUENCE:0
 SUMMARY:Live demo: CQRS + event sourcing in brief.
-UID:f68f7c5b-a892-435d-a18d-eee56d96231a
+UID:adf65ad1-5a7a-4aef-bd2b-522023879dbf
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Artur Margonari\n\nAgile is very tasty. We are used to tast
  e it in software development. But what about the other areas? I’ll share 
  my experience in conducting the Agile transition in HR and Financial depa
  rtments of an agile consulting company.
-DTEND:20171125T130000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T121500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T130000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T121500
 LOCATION:FH Technikum Wien\, F2.03
 SEQUENCE:0
 SUMMARY:Agile is tasty. Eat your own dogfood
-UID:f2fcf3e1-b1f5-454a-8c7f-0d69bb81b709
+UID:118dd782-5c6b-4f99-91f6-893ba0c7c2fe
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Harry Harrold and Rupert Redington\n\nHarry and Rupert pres
  ent a survey of the cults\, sects and heresies they’ve encountered while 
  working with people "doing agile"\, culminating in their formulation of a
   new “ad-hoc” manifesto. Doctrinal purists are invited to be appalled.
-DTEND:20171125T150000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T140000
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T150000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T140000
 LOCATION:FH Technikum Wien\, F0.01
 SEQUENCE:0
 SUMMARY:A new “ad-hoc” manifesto
-UID:b446b1e4-f49c-4da0-9a42-349b02339d6e
+UID:63f0f975-e76c-407a-81b0-bac0a1242dd9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Andrea Provaglio\n\nThe Agile world seems to have recently 
@@ -259,13 +283,15 @@ DESCRIPTION:by Andrea Provaglio\n\nThe Agile world seems to have recently
  s such that simplistic mental models (such as the leader being the "guy a
  t the top") simply won't suffice and therefore a more mature understandin
  g and practice of leading is called for\, in the entire organization.
-DTEND:20171125T160000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T151500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T160000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T151500
 LOCATION:FH Technikum Wien\, F0.01
 SEQUENCE:0
 SUMMARY:Rethinking agile leadership
-UID:556a3fc2-072a-4cf3-be6d-d19ea88d7e00
+UID:9e4dabc2-e7a6-4399-9a9d-bcb8ce0d997b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Florian Decker\n\nFür das agile Testen braucht es einen hoh
@@ -288,14 +314,16 @@ DESCRIPTION:by Florian Decker\n\nFür das agile Testen braucht es einen hoh
  entiert\, die für stabile und performante Tests notwendig sind\, wie etwa
   die Detektierung von vollendeten Aktionen\, Kommunikation zwischen Appli
  kation und Testing Layer\, sowie Page Object Generierung.
-DTEND:20171125T160000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T151500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T160000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T151500
 LOCATION:FH Technikum Wien\, F2.01
 SEQUENCE:0
 SUMMARY:Wie eine Webtest-Suite mit einer umfangreichen Applikation Schritt
   halten kann - ein Erfahrungsbericht
-UID:1ac06fbe-1fce-4858-ba60-d9d3ab4d6fa0
+UID:1dc6828d-9480-40d3-a7b8-1c49c9e27cf9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Martin Putz\n\nIn dieser Session wird gezeigt\, wie man auf
@@ -304,14 +332,16 @@ DESCRIPTION:by Martin Putz\n\nIn dieser Session wird gezeigt\, wie man auf
  e und somit fundiertere Entscheidungen zu treffen und wie man diese Daten
   verwenden kann\, um das zukünftige Verhalten des Systems zu prognostizie
  ren.
-DTEND:20171125T160000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T151500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T160000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T151500
 LOCATION:FH Technikum Wien\, F2.02
 SEQUENCE:0
 SUMMARY:Metrics we can gain from our (Kanban) system and what we can learn
   from it…
-UID:317077c1-bfe8-486d-85ac-57518538e1b0
+UID:bbc7f70f-d1dd-4712-92ec-04f5ca023111
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Adrian Weidermann and Mirsad Kozlica\n\nUrsprünglich als Er
@@ -332,13 +362,15 @@ DESCRIPTION:by Adrian Weidermann and Mirsad Kozlica\n\nUrsprünglich als Er
  h ohne Probleme ein Einsatz in der User Experience (UX) möglich. Anhänger
   des DDD schätzen auch die vom Kunden unbewusst skizzierte Architektur un
  d spart hierdurch im Entwicklungsbereich somit sogar Arbeit ein.
-DTEND:20171125T160000
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T151500
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T160000
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T151500
 LOCATION:FH Technikum Wien\, F2.03
 SEQUENCE:0
 SUMMARY:Event storming - the game changer (Workshop Part 1)
-UID:ae875239-b748-44d5-bef7-ea20c86ef280
+UID:5edba387-5490-4e5e-b3ec-690ea5bd37e0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Guðfinnur Sveinsson\n\nIn his talk\, Learnings from an agil
@@ -358,13 +390,15 @@ DESCRIPTION:by Guðfinnur Sveinsson\n\nIn his talk\, Learnings from an agil
  ches to step aside as the team’s coach from time to time. Attendees can e
  xpect to hear an honest and unpolished story about the speaker’s experien
  ces along with gaining some hopefully useful advice.
-DTEND:20171125T171500
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T163000
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T171500
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T163000
 LOCATION:FH Technikum Wien\, F0.01
 SEQUENCE:0
 SUMMARY:Learnings from an agile coach and how to coach executive teams
-UID:60b07b3b-c636-4e24-a74a-da9156d57879
+UID:56238b37-40b0-457d-aca2-78aa84d3f390
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Robert Prosenc\n\nIch erzähle die Geschichte einer kleinen 
@@ -383,14 +417,16 @@ DESCRIPTION:by Robert Prosenc\n\nIch erzähle die Geschichte einer kleinen
  indung auf verschiedensten Ebenen\, Selbstorganisation\, Diskussionskultu
  r und Meeting-Effizienz. Scrum mit einem kleinen Team ist anders als im k
  lassischen Enterprise-Umfeld\, macht aber viel mehr Spass.
-DTEND:20171125T171500
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T163000
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T171500
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T163000
 LOCATION:FH Technikum Wien\, F2.01
 SEQUENCE:0
 SUMMARY:Alle kochen nur mit Wasser - Theorie und Wirklichkeit für kleine T
  eams mit großen Projekten.
-UID:528e4d8d-4cc1-4f4f-af29-15aa1289aedc
+UID:1e888f0e-e4f8-4b6f-95d7-7f63326cba1b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Paolo D'Incau\n\nOnce you understood what Continuous Delive
@@ -399,13 +435,15 @@ DESCRIPTION:by Paolo D'Incau\n\nOnce you understood what Continuous Delive
  n this session you will see how you can implement a Continuous Delivery p
  rocess from scratch adopting well known tools such as Docker\, Jenkins an
  d an orchestrator of your choice
-DTEND:20171125T171500
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T163000
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T171500
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T163000
 LOCATION:FH Technikum Wien\, F2.02
 SEQUENCE:0
 SUMMARY:From zero to continuous delivery
-UID:41434b75-2e82-427b-bf7d-40cb2c2dc390
+UID:77b727d1-b45a-401b-b99f-f74d35d7743f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Adrian Weidermann and Mirsad Kozlica\n\nUrsprünglich als Er
@@ -426,12 +464,14 @@ DESCRIPTION:by Adrian Weidermann and Mirsad Kozlica\n\nUrsprünglich als Er
  h ohne Probleme ein Einsatz in der User Experience (UX) möglich. Anhänger
   des DDD schätzen auch die vom Kunden unbewusst skizzierte Architektur un
  d spart hierdurch im Entwicklungsbereich somit sogar Arbeit ein.
-DTEND:20171125T171500
-DTSTAMP:20171110T195722Z
-DTSTART:20171125T163000
+DTEND;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vien
+ na:20171125T171500
+DTSTAMP:20171110T201358Z
+DTSTART;TZID=(GMT+01.00) Amsterdam / Berlin / Bern / Rome / Stockholm / Vi
+ enna:20171125T163000
 LOCATION:FH Technikum Wien\, F2.03
 SEQUENCE:0
 SUMMARY:Event storming - the game changer (Workshop Part 2)
-UID:1b00fe66-4172-40a3-983c-808b64d679ae
+UID:916a6628-9358-4c6a-acd0-6ea786c26e05
 END:VEVENT
 END:VCALENDAR
