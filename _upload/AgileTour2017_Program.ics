@@ -1,0 +1,437 @@
+BEGIN:VCALENDAR
+PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 2.2//EN
+VERSION:2.0
+BEGIN:VEVENT
+DESCRIPTION:by Christian Hassa and Ralph Miarka\n\nYou’re wondering how to
+  get out the most of this day? We’ll give an overview about today’s progr
+ am\, and point out sessions that are in particular suitable for your need
+ s.
+DTEND;TZID=1340:20171125T092000
+DTSTAMP:20171110T193933Z
+DTSTART;TZID=1340:20171125T085000
+LOCATION:FH Technikum Wien\, F0.01
+SEQUENCE:0
+SUMMARY:Hitchhiker’s Session Guide
+UID:c65f8743-b0e7-4f55-969b-86b26b59ddff
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=1340:20171125T094500
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T092000
+LOCATION:FH Technikum Wien\, F0.01
+SEQUENCE:0
+SUMMARY:Welcome to Agile Tour Vienna 2017
+UID:a0c40553-94e4-49f4-8850-694033896ea9
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Joseph Pelrine and Jasmine Zahno\n\nAre you interested in l
+ earning how to make your team become smarter and work better together?\nT
+ he concepts of intelligent teams and psychological safety are currently h
+ ot topics in the agile world\, with numerous blog posts and conference pr
+ esentations about them appearing. Like most psychological topics\, though
+ \, they go much deeper than most blog posts and conference presentations 
+ would suggest.\nIn this talk\, we’ll take a look behind the scenes at the
+  psychological research on team intelligence and psychological safety\, e
+ xploring not only how they are tested\, but also discussing how they can 
+ be trained. You’ll learn some simple and fun techniques that you can use 
+ to help your team improve. Along the way\, we’ll also do some myth-bustin
+ g on things like 7 plus/minus 2 and the Tuckman model.
+DTEND;TZID=1340:20171125T104500
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T094500
+LOCATION:FH Technikum Wien\, F0.01
+SEQUENCE:0
+SUMMARY:On psychological safety\, intelligent teams\, and other cool psych
+ ology buzzwords
+UID:e448f574-6622-475f-9e07-5b89a585483c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Gojko Adzic\n\nWhen visuals come under test automation\, th
+ e outcome rarely justifies the cost. Visual tests tend to be too brittle\
+ , to difficult to maintain\, and too slow to execute for quick iterative 
+ delivery cycles.\nHowever\, recent improvements in cloud computing and br
+ owser capabilities make it possible to change the economics of the test a
+ utomation pyramid. Gojko will talk about how trends such as approval test
+ ing\, cloud functions and automated image analysis can help us automate a
+ cceptance/regression tests for visual look and feel in a visual language\
+ , rather than xUnit style code\, and make such tests easy to write\, unde
+ rstand\, execute and maintain.
+DTEND;TZID=1340:20171125T120000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T111500
+LOCATION:FH Technikum Wien\, F0.01
+SEQUENCE:0
+SUMMARY:Painless visual testing
+UID:dd59e0bc-a197-4317-bf19-c0695897cc0f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Raluca Bejan\n\n"Do we know exactly where are we going?"\n"
+ No !!..."\n"Then ... how will we know when we get there?"\n"No clue ..."\
+ n\nI understood early in my work how important is for a team to be focuse
+ d. The problem is that you can’t keep a team focused only by giving them 
+ a long list of user stories to work on. It will be pretty hard to remembe
+ r all of them after a day or two. Would be way better\, in order to keep 
+ the focus\, to make them understand the idea behind their work. This is w
+ hen the Sprint Goal comes into discussion.
+DTEND;TZID=1340:20171125T120000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T111500
+LOCATION:FH Technikum Wien\, F2.01
+SEQUENCE:0
+SUMMARY:Why is the sprint goal so important?
+UID:58c164b2-c510-46d6-8a1b-1e26fe7902cf
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Maximilian Hantsch-Köller\n\nHow can you measure the effect
+  of a large-scale agile transition in a 1000+ person organisation? How ca
+ n teams determine where they stand on their transition path\, and which o
+ ther teams can help them improve their agile practices further? How do yo
+ u increase motivation for the next steps? How can the organisation measur
+ e the overall take-up of "agility" measures? Which measures are already e
+ ffective in the organisation\, and where should the focus for trainings\,
+  guidance and coaching be directed in the future? Frequentis\, an organis
+ ation with 1500+ employees\, has selected and implemented an "Agile Asses
+ sment". This talk presents their approach and findings from their first y
+ ear of running this assessment across the organisation in 2016. It ends w
+ ith an outlook on the next evolution of the assessment for 2017.
+DTEND;TZID=1340:20171125T120000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T111500
+LOCATION:FH Technikum Wien\, F2.02
+SEQUENCE:0
+SUMMARY:Assess your agility! Raising the level of agility across an organi
+ sation
+UID:5861181d-6f0c-4ac9-ada3-07c7ffda9770
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Andreas Mitter\n\nAgile methodologies have established them
+ selves as a de facto standard in software development in recent years. In
+  many cases\, however\, only the development approach is agile\; the unde
+ rlying contract is usually designed in a classic manner - either by a cla
+ ssical fixed price with a given scope or by T&M contracts. For classic fi
+ xed prices\, the customer receives exactly what he has desired in the spe
+ cification. Any deviations are either rejected by the "Change Management"
+  or the contractor is paid for the changes. Many calculations of fixed pr
+ ices already assume that the project is profitable only through the chang
+ es. Not only does the customer not get what he wants\, but also a lot of 
+ time and energy is lost in meetings\, in which one discusses whether some
+ thing is a change request or not. In his speech\, Mr.Mitter shows alterna
+ tives how a contract model can be designed\, which combines\, on the one 
+ hand\, principles of cooperation and flexibility\, but nevertheless takes
+  budgetary security into consideration by means of a price ceiling. The a
+ im is to show which elements are necessary for the creation of an agile c
+ ontract and how define the scope of the project without creating a final 
+ specification. Mr. Mitter will also pay attention to the successful use o
+ f the agile fixed price model in various companies and projects.
+DTEND;TZID=1340:20171125T120000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T111500
+LOCATION:FH Technikum Wien\, F2.03
+SEQUENCE:0
+SUMMARY:Agile zum Fixpreis – ein Ding der Unmöglichkeit?
+UID:3fabd10a-bff8-4b54-8f26-f61137b65bb8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Harald Wawra and Tanja Baricic - Böhm\n\nIn einer Welt\, in
+  der wenige Teams viele Produkte und Kunden betreuen müssen\, ist die ric
+ htige Skalierung agiler Prozesse entscheidend. Die RIAG Digital hat viel 
+ Zeit und Energie investiert\, agile Modelle wie z.B. Scrum und SAFE 4.0 e
+ rprobt und an die Bedürfnisse des Umfeld angepasst. In unserem Vortrag we
+ rden Sie von uns lernen\, wie wir diese Problem gelöst haben und welche E
+ rfahrungen wir dabei gesammelt haben.
+DTEND;TZID=1340:20171125T130000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T121500
+LOCATION:FH Technikum Wien\, F0.01
+SEQUENCE:0
+SUMMARY:Scaled Agile @ Rewe - Planung mit mehreren Kunden und Produkten
+UID:da14b2a4-8ddd-4f48-be28-3e262fb510f1
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Gaspar Nagy\n\nThe concept of the testing pyramid was intro
+ duced by Mike Cohn many years ago. Although a lot of people have heard ab
+ out it\, there are not many who are actually implementing it. Maybe one r
+ eason for this is that the pyramid helps us to map the tests to the testi
+ ng technology only (unit\, integration\, UI)\, but not to the purpose\, t
+ he different testing goals. The concept of testing iceberg puts the testi
+ ng pyramid into this context. At the session I am going to show you the c
+ oncept of the testing iceberg through a concrete example. We will see how
+  the "undersea" tests can support the ones on the tip\, focusing on busin
+ ess requirements. We will see how you can move tests between the differen
+ t levels so that finally we get more insight how the testing pyramid can 
+ be used in your own projects.
+DTEND;TZID=1340:20171125T130000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T121500
+LOCATION:FH Technikum Wien\, F2.01
+SEQUENCE:0
+SUMMARY:We are sinking: Hitting the testing iceberg
+UID:d333b489-a04f-43f2-99d8-fac72d5119d8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Aki Salmi\n\n<I'd like to work on this - now this is mostly
+  an MVP abstract\, aiming to find if there is need for this kind of sessi
+ on >\nCQRS (Command-Query Responsibility Segregation) is not anything new
+  - it’s been a known for quite some time now. In the simplest form\, CQRS
+  only states that commands and queries are executed on different objects.
+  Event Sourcing is a way to handle entity state as a sequence of events i
+ nstead of the current state (and possible snapshots of the history). Ofte
+ n-heard complait about CQRS is that it introduces unnecessary complexity 
+ to a system. Surely\, CQRS+ES systems do add quite a few classes/objects\
+ ; messages\; commands\; queries\; projections\; events. But\, all of thos
+ e are themselves simple and often does only one thing\, following Single 
+ Responsibility Principle. In this interactive talk\, I hope to demystify 
+ most parts of the CQRS+Event Sourcing approach. In this live demo\, we st
+ art with existing acceptance test describing a full use case (scenario) a
+ nd already existing controller and repository layers. The coding happens 
+ ”one path at a time” showing how * to handle create a command in controll
+ er * to handle commands\, logic touching multiple domain services / entit
+ ies * to create an entity that is event sourced. * to create a projection
+  that represents the state of an event at given time. The code exists in 
+ Github\, with a separate branch for test-driving it oneself after the eve
+ nt. Code is written in Java\, making the live programming easy to follow.
+DTEND;TZID=1340:20171125T130000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T121500
+LOCATION:FH Technikum Wien\, F2.02
+SEQUENCE:0
+SUMMARY:Live demo: CQRS + event sourcing in brief.
+UID:e2e23215-4ea9-4c3e-abfe-32899f5de73a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Artur Margonari\n\nAgile is very tasty. We are used to tast
+ e it in software development. But what about the other areas? I’ll share 
+ my experience in conducting the Agile transition in HR and Financial depa
+ rtments of an agile consulting company.
+DTEND;TZID=1340:20171125T130000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T121500
+LOCATION:FH Technikum Wien\, F2.03
+SEQUENCE:0
+SUMMARY:Agile is tasty. Eat your own dogfood
+UID:768d1a72-c116-4c21-a0bd-6376ef308f2f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Harry Harrold and Rupert Redington\n\nHarry and Rupert pres
+ ent a survey of the cults\, sects and heresies they’ve encountered while 
+ working with people "doing agile"\, culminating in their formulation of a
+  new “ad-hoc” manifesto. Doctrinal purists are invited to be appalled.
+DTEND;TZID=1340:20171125T150000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T140000
+LOCATION:FH Technikum Wien\, F0.01
+SEQUENCE:0
+SUMMARY:A new “ad-hoc” manifesto
+UID:8052f8bf-8413-435e-a06c-651beb36a5e7
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Andrea Provaglio\n\nThe Agile world seems to have recently 
+ discovered the importance of "leadership". This can be very good news and
+  it can also very bad news. It's bad news if the so-called "Agile Leaders
+ hip" is a way to rebrand traditional management models\, along with their
+  underlying mindset\, so that they could survive in a rather different cu
+ ltural ecosystem — namely\, Agile. On the other hand\, this interest can 
+ be very good news if Agile Leadership is seen as something almost entirel
+ y new. Something tightly connected to Agile and\, therefore\, deeply root
+ ed in complexity and empiricism. Something that carries a deep understand
+ ing of human dynamics in highly cooperative\, intellectually intense soci
+ al environments. Something that — last but not least — is equipped with a
+  good deal of self-awareness\, system-awareness and self-transcendence. M
+ odern and truly Agile organizations want and need to\, among other things
+ : explore and validate multiple options\, not sticking to predefined plan
+ s\; learn constantly\, re-plan as needed\; leverage the collective intell
+ igence of their teams\, for better exploration of options and smarter lea
+ rning\; have built-in resiliency when facing sudden change\; getting resu
+ lts out of people's participation\, not out of people's compliance. In th
+ is sense the whole concept of true Agile Leadership is quite important in
+ deed\, because it's fundamental to nurture and support those organization
+ s that really embody an Agile culture\, and that are so far away from the
+  "organization as a machine" approach that's so typical of traditional le
+ adership and management disciplines. Agile Leadership or\, rather\, the a
+ ct of "leading" in Agile is so much different from those disciplines beca
+ use it's inherently organic\, meaning that it has influence and is influe
+ nced on a number of different levels in the individual and in the organiz
+ ation: on the personal level\; on the collective level\; on current behav
+ iors\; on future behaviors\; on the social relationship level (trust)\; o
+ n the personal responsibility level (participation)\; on the formal respo
+ nsibility level (accountability)\; on the motivational level and many mor
+ e. This richness and multidimensionality of the act of leading in Agile i
+ s such that simplistic mental models (such as the leader being the "guy a
+ t the top") simply won't suffice and therefore a more mature understandin
+ g and practice of leading is called for\, in the entire organization.
+DTEND;TZID=1340:20171125T160000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T151500
+LOCATION:FH Technikum Wien\, F0.01
+SEQUENCE:0
+SUMMARY:Rethinking agile leadership
+UID:bfcafaa7-6ed2-4ca4-848a-b9827d743edb
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Florian Decker\n\nFür das agile Testen braucht es einen hoh
+ en Automatisierungsgrad. Um diesen für eine Webapplikation zu erreichen\,
+  hat man mit mehreren Herausforderungen zu kämpfen. So auch für unser eig
+ enes Webprodukt\, wo unsere integrative Testsuite trotz einer überschauba
+ ren Testanzahl einen hohen Wartungsaufwand und hohe Durchlaufzeit mit sic
+ h brachte. Aus diesem Grund wurde der Entschluss gefasst\, eine eigene Lö
+ sung entwickelt\, die Konzepte der Webapplikation und Selenium verbindet 
+ und diese als Abstraktionsschicht dem Webtestentwickler bereitstellt. Wäh
+ rend die meisten Ansätze für hohe Testautomatisierung viel Entwicklungsve
+ rantwortung auf die Rücken der Tester legen\, haben wir durch unser Abstr
+ aktionsschicht den größten Teil der Entwicklungsverantwortung in die Appl
+ ikationsentwicklung verlagert. Auf Basis dieser Abstraktionsschicht ist e
+ s den Testern möglich\, ohne viel Programmiererfahrung stabile\, performa
+ nte und gut lesbare Tests zu schreiben. Die Applikation kann so angesproc
+ hen werden\, wie auch ein Benutzer die Applikation ansprechen würde\, ind
+ em für die angebotenen UserInterfaceParadigmen benannte/dedizierte Operat
+ ionen zur Verfügung gestellt werden. Außerdem werden einige Konzepte präs
+ entiert\, die für stabile und performante Tests notwendig sind\, wie etwa
+  die Detektierung von vollendeten Aktionen\, Kommunikation zwischen Appli
+ kation und Testing Layer\, sowie Page Object Generierung.
+DTEND;TZID=1340:20171125T160000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T151500
+LOCATION:FH Technikum Wien\, F2.01
+SEQUENCE:0
+SUMMARY:Wie eine Webtest-Suite mit einer umfangreichen Applikation Schritt
+  halten kann - ein Erfahrungsbericht
+UID:83961fc8-d293-44d2-944c-b081ab598b90
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Martin Putz\n\nIn dieser Session wird gezeigt\, wie man auf
+  einfache Art und Weise Metriken generieren kann\, welche Metriken sinnvo
+ llerweise herangezogen werden sollten\, und wie diese helfen datenbasiert
+ e und somit fundiertere Entscheidungen zu treffen und wie man diese Daten
+  verwenden kann\, um das zukünftige Verhalten des Systems zu prognostizie
+ ren.
+DTEND;TZID=1340:20171125T160000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T151500
+LOCATION:FH Technikum Wien\, F2.02
+SEQUENCE:0
+SUMMARY:Metrics we can gain from our (Kanban) system and what we can learn
+  from it…
+UID:b53efa7b-9252-465d-8668-3aee60ff8a91
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Adrian Weidermann and Mirsad Kozlica\n\nUrsprünglich als Er
+ gänzung zum Domain Driven Design (DDD) gedacht\, hat sich Event Storming 
+ mittlerweile zu einem Geheimtipp auch außerhalb der DDD Welt gemausert. E
+ inordnen lässt es sich in die Welt des Gamestorming\, auch wenn es dort n
+ och nicht häufig anzutreffen ist und eignet sich optimal zur Prozessskizz
+ ierung\, Anforderungsanalyse und zum Wissenstransfer. Das Besondere am Ev
+ ent Storming ist die Leichtigkeit mit der man in der Lage ist Information
+ en von einem Domänenexperten zu erhalten und zu visualisieren\, wobei es 
+ vollkommen ausreichend ist\, wenn der Moderator die Regeln kennt. Da man 
+ einen Prozess beim Event Storming von Anfang bis Ende mit Domänenexperten
+  skizziert und gezielt hinterfragt erreicht man einen optimalen Wissenstr
+ ansfer vom Wissensträger zu allen anderen Teilnehmern und erreicht einen 
+ tiefen Einblick in den hinterfragten Prozess. Dies kann zu einem Big Pict
+ ure oder aber auch zu einem Deep Dive führen\, wobei sich das Event Storm
+ ing nicht nur eignet um einen Business Prozess zu skizzieren\, es ist auc
+ h ohne Probleme ein Einsatz in der User Experience (UX) möglich. Anhänger
+  des DDD schätzen auch die vom Kunden unbewusst skizzierte Architektur un
+ d spart hierdurch im Entwicklungsbereich somit sogar Arbeit ein.
+DTEND;TZID=1340:20171125T160000
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T151500
+LOCATION:FH Technikum Wien\, F2.03
+SEQUENCE:0
+SUMMARY:Event storming - the game changer (Workshop Part 1)
+UID:7b4d6595-7c3d-473d-8005-ee1f699d7311
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Guðfinnur Sveinsson\n\nIn his talk\, Learnings from an agil
+ e coach and how to coach executive teams\, Guðfinnur shares his learnings
+  and insights from transforming a startup in hypergrowth into an agile or
+ ganization and later from consulting and coaching executive teams. Guðfin
+ nur begins with sharing his story from QuizUp\, where he joined as an ear
+ ly employee knowing little as nothing about software development but was 
+ given the opportunity to learn the art of team coaching. Following the Qu
+ izUp story\, Guðfinnur shares his experience as a consultant where he has
+  mainly focused on applying agile tools and methods to coach executive te
+ ams at companies in various sectors. He will reflect on the differences o
+ f executive teams compared to typical agile teams in software development
+ \, identify the factors which a successful executive team has to fulfill 
+ and share advice on how to coach a team of managers. In the talk\, Guðfin
+ nur will offer new ways to think about coaching and even advices team coa
+ ches to step aside as the team’s coach from time to time. Attendees can e
+ xpect to hear an honest and unpolished story about the speaker’s experien
+ ces along with gaining some hopefully useful advice.
+DTEND;TZID=1340:20171125T171500
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T163000
+LOCATION:FH Technikum Wien\, F0.01
+SEQUENCE:0
+SUMMARY:Learnings from an agile coach and how to coach executive teams
+UID:93f8e63d-5239-426f-8358-6f07565ba096
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Robert Prosenc\n\nIch erzähle die Geschichte einer kleinen 
+ agilen Firma\, die sich aufmachte\, mit Scrum erfolgreich zu werden. Mit 
+ wechselnder Mitarbeiteranzahl\, und stets viel mehr Projekten als Teammit
+ gliedern\, entwickelten und entwickeln wir laufend eine gemeinsame Team- 
+ und Firmenkultur\, und ein für uns passendes Verständnis von Scrum. Als D
+ ienstleister bauen wir enge Beziehungen zu unseren Kunden auf\, deren Pro
+ dukte wir entwickeln. Im Laufe von 6 Jahren wuchsen und erwuchsen wir als
+  Team und als Firma\, entwickelten eine gemeinsame Kultur\, in der sowohl
+  Platz für Grösse\, als auch für Fehler zu finden ist. Aus manchen Fehler
+ n lernten wir schnell\, aus anderen nur langsam\, aber wir ließen nur wen
+ ige aus. Wir entwickelten für uns funktionierende Zugänge zu verschiedene
+ n Themen und Herausforderungen: Scrum im Multiprojekt-Umfeld\, starke Tec
+ hnologie- und Domänenwechsel\, Pair- und Mob-Programming\, Entscheidungsf
+ indung auf verschiedensten Ebenen\, Selbstorganisation\, Diskussionskultu
+ r und Meeting-Effizienz. Scrum mit einem kleinen Team ist anders als im k
+ lassischen Enterprise-Umfeld\, macht aber viel mehr Spass.
+DTEND;TZID=1340:20171125T171500
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T163000
+LOCATION:FH Technikum Wien\, F2.01
+SEQUENCE:0
+SUMMARY:Alle kochen nur mit Wasser - Theorie und Wirklichkeit für kleine T
+ eams mit großen Projekten.
+UID:dbc60da1-6dc9-47cb-97a1-0e99139059a9
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Paolo D'Incau\n\nOnce you understood what Continuous Delive
+ ry\, you can start adopting it by using practices\, tools and technologie
+ s that helps you to improve the way you release software in production. I
+ n this session you will see how you can implement a Continuous Delivery p
+ rocess from scratch adopting well known tools such as Docker\, Jenkins an
+ d an orchestrator of your choice
+DTEND;TZID=1340:20171125T171500
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T163000
+LOCATION:FH Technikum Wien\, F2.02
+SEQUENCE:0
+SUMMARY:From zero to continuous delivery
+UID:d78f25a6-418b-4e61-a31b-95046620cd52
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:by Adrian Weidermann and Mirsad Kozlica\n\nUrsprünglich als Er
+ gänzung zum Domain Driven Design (DDD) gedacht\, hat sich Event Storming 
+ mittlerweile zu einem Geheimtipp auch außerhalb der DDD Welt gemausert. E
+ inordnen lässt es sich in die Welt des Gamestorming\, auch wenn es dort n
+ och nicht häufig anzutreffen ist und eignet sich optimal zur Prozessskizz
+ ierung\, Anforderungsanalyse und zum Wissenstransfer. Das Besondere am Ev
+ ent Storming ist die Leichtigkeit mit der man in der Lage ist Information
+ en von einem Domänenexperten zu erhalten und zu visualisieren\, wobei es 
+ vollkommen ausreichend ist\, wenn der Moderator die Regeln kennt. Da man 
+ einen Prozess beim Event Storming von Anfang bis Ende mit Domänenexperten
+  skizziert und gezielt hinterfragt erreicht man einen optimalen Wissenstr
+ ansfer vom Wissensträger zu allen anderen Teilnehmern und erreicht einen 
+ tiefen Einblick in den hinterfragten Prozess. Dies kann zu einem Big Pict
+ ure oder aber auch zu einem Deep Dive führen\, wobei sich das Event Storm
+ ing nicht nur eignet um einen Business Prozess zu skizzieren\, es ist auc
+ h ohne Probleme ein Einsatz in der User Experience (UX) möglich. Anhänger
+  des DDD schätzen auch die vom Kunden unbewusst skizzierte Architektur un
+ d spart hierdurch im Entwicklungsbereich somit sogar Arbeit ein.
+DTEND;TZID=1340:20171125T171500
+DTSTAMP:20171110T193934Z
+DTSTART;TZID=1340:20171125T163000
+LOCATION:FH Technikum Wien\, F2.03
+SEQUENCE:0
+SUMMARY:Event storming - the game changer (Workshop Part 2)
+UID:d9f3c050-619e-4d81-a323-349ff96a0746
+END:VEVENT
+END:VCALENDAR
