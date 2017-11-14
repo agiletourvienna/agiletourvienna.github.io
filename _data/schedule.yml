@@ -168,7 +168,7 @@
     bio: "Robert baut seit fast zwei Dekaden Software aus Leidenschaft. In dieser Zeit nahm er an der Umsetzung verschiedenster Projekte Teil, von den ersten Ideen bis hin zum fertigen Produkt, für Kunden aus den unterschiedlichsten Bereichen von Start-Ups bis hin zu multinationalen Konzernen. Er ist seit sechs Jahren für die 25th-floor GmbH als Full Stack Developer und Product Owner für unterschiedliche Projekte tätig. Privat interessiert er sich besonders für Psychologie, Verhanltensökonomie und Origami."
     language: de
     level: 2
-  - title: "From zero to continuous deliver"
+  - title: "From zero to continuous delivery"
     speaker: "Paolo D'Incau"
     speaker-img: "paolodIncau"
     tags: "continuous delivery, jenkins, docker, kubernetes"
