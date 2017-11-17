@@ -9,11 +9,12 @@ trailer: https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&
 headerType: trailer # options: thanks, saveTheDate, trailer
 
 showCallForProposals: false
-showRegister: true
+showRegister: false
 showSchedule: true
 showScheduleDetails: true
-showAbout: true
+showAbout: false
 showSpeaker: true
+showContribution: false
 
 # Build settings
 markdown: kramdown

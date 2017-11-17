@@ -56,9 +56,11 @@
                 <li>
                     <a class="page-scroll" href="#team">Team</a>
                 </li>
+                {% if site.showContribution == true %}
                 <li>
                     <a class="page-scroll" href="#contribute" style="border-bottom: 2px solid white"><i class="fa fa-bullhorn"></i> Join Us</a>
                 </li>
+                {% endif %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -126,14 +128,21 @@
             <div class="content">
                 <div class="logo"></div>
                 <div>
+                    <h2>
+                        <a class="twitter-link" href="https://twitter.com/hashtag/{{site.hashtag}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;#{{site.hashtag}}</a>
+                    </h2>
+                </div>
+                <div>
+                    {% if site.showRegister == true %}
                     <a href="#register" class="register-btn page-scroll btn btn-xl">Tickets</a>
+                    {% endif %}
                     <!--
                     {% if site.showCallForProposals == true %}
                     <a href="#proposal" class="proposal-btn page-scroll btn btn-xl">Proposal</a>
                     {% endif %}
                     -->
                     <a href="mailto:info@agiletourvienna.at?subject=Anmeldung zum Agile Tour Vienna Newsletter" class="register-btn page-scroll btn btn-xl">
-                        Newsletter
+                        Sign up for Newsletter
                     </a>
                 </div>
                 <div class="heading">

@@ -1,4 +1,3 @@
-{% if site.showRegister == true %}
 <!-- Team Section -->
 <section id="bootcamp" class="bg-light-gray">
     <div class="container">
@@ -80,9 +79,10 @@
                     <div style="margin-bottom: 10px"><a href="https://github.com/agiletourvienna/agiletourvienna.github.io/raw/master/_upload/AgileTour2017-Bootcamp.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Gesamtes Programm als PDF</a></div>
                     <div><i class="fa fa-calendar-o" aria-hidden="true"></i>&nbsp;24 November 2017 (2 pm - 7 pm) at FH Technikum Wien</div>
                 </div>
-
+                {% if site.showRegister == true %}
                 <a href="#register"
                    class="page-scroll btn btn-xl">Get your ticket</a>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -194,7 +194,5 @@
         </div>
     </div>
 </div>
-
-{% endif %}
 
 
