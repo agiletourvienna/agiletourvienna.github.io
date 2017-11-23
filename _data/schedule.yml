@@ -74,11 +74,11 @@
   talks: 
   - title: "Scaled Agile @ Rewe - Planung mit mehreren Kunden und Produkten"
     speaker: "Harald Wawra and Tanja Baricic-Böhm"
-    speaker-img: "andremauritz"
+    speaker-img: "tanjabaricicboehm"
     tags: "Scaled Agile, Quartalsplanung, Planung, Kunden, Produkte"
     language: de
     level: 2
-    bio: "Andre Mauritz und Harald Wawra unterstützen seit 2016 die agile Transformation der Rewe Group in Österreich. In den Rollen als Agile Coaches und Scrum Masters betreuen sie die Teams, welche sowohl Marketing Websites und Online Shops als auch die dahinterliegenden eCommerce-Prozesse entwickeln. Beide haben vor ihrer Karriere bei der REWE bereits sehr unterschiedliche Erfahrungen im agilen Umfeld gesammelt."
+    bio: "Die Begeisterung für Agile hat Tanja vor fast 5 Jahren in einer fortgeschrittenen agilen Umgebung gefunden und seitdem schon einige Erfahrungen als Scrum Master und Product Owner gesammelt. Nun unterstützt sie seit 2016 gemeinsam mit ihren Kollegen eine agile Transformation in der REWE International. In der Rolle als Agile Coach und Scrum Master betreut sie Teams, die eCommerce-Prozesse für Marketing-Websites, Backoffice-Applikationen und Online Shops entwickeln."
     abstract: "In einer Welt, in der wenige Teams viele Produkte und Kunden betreuen müssen, ist die richtige Skalierung agiler Prozesse entscheidend. Die RIAG Digital hat viel Zeit und Energie investiert, agile Modelle wie z.B. Scrum und SAFE 4.0 erprobt und an die Bedürfnisse des Umfeld angepasst. In unserem Vortrag werden Sie von uns lernen, wie wir diese Problem gelöst haben und welche Erfahrungen wir dabei gesammelt haben."
   - title: "We are sinking: Hitting the testing iceberg"
     speaker: "Gaspar Nagy"
