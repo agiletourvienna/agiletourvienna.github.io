@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-VERSION:1.0
+VERSION:1.1
 PRODID:AgileTour 2017
 BEGIN:VTIMEZONE
 TZID:Europe/Vienna
@@ -121,25 +121,27 @@ SUMMARY:Assess your agility! Raising the level of agility across an organi
 UID:ea243b8e-2e6e-4494-9dd0-762a58e3a30c
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:by Andreas Mitter\n\nAgile methodologies have established them
- selves as a de facto standard in software development in recent years. In
-  many cases\, however\, only the development approach is agile\; the unde
- rlying contract is usually designed in a classic manner - either by a cla
- ssical fixed price with a given scope or by T&M contracts. For classic fi
- xed prices\, the customer receives exactly what he has desired in the spe
- cification. Any deviations are either rejected by the "Change Management"
-  or the contractor is paid for the changes. Many calculations of fixed pr
- ices already assume that the project is profitable only through the chang
- es. Not only does the customer not get what he wants\, but also a lot of 
- time and energy is lost in meetings\, in which one discusses whether some
- thing is a change request or not. In his speech\, Mr.Mitter shows alterna
- tives how a contract model can be designed\, which combines\, on the one 
- hand\, principles of cooperation and flexibility\, but nevertheless takes
-  budgetary security into consideration by means of a price ceiling. The a
- im is to show which elements are necessary for the creation of an agile c
- ontract and how define the scope of the project without creating a final 
- specification. Mr. Mitter will also pay attention to the successful use o
- f the agile fixed price model in various companies and projects.
+DESCRIPTION:by Andreas Mitter\n\nAgile Methoden haben sich in den letzten 
+ Jahren als De-facto-Standard in der Softwareentwicklung etabliert. In vie
+ len Fällen ist jedoch nur der Entwicklungsansatz agil\; Der zugrundeliege
+ nde Vertrag wird in der Regel klassisch gestaltet - entweder durch einen 
+ klassischen Festpreis mit einem festgelegten Scope oder durch T & M-Vertr
+ äge. Bei klassischen Festpreis-Verträgen erhält der Kunde genau das\, was
+  man in der Spezifikation definiert hat. Abweichungen werden entweder vom
+  Change Management abgelehnt oder der Auftragnehmer wird für die Änderung
+ en zusätzlich bezahlt. Viele Festpreis-Projekte gehen bereits davon aus\,
+  dass das Projekt nur durch die Änderungen profitabel ist. Daraus resulti
+ erend\, bekommt der Kunden nicht nur das nicht\, was er eigentlich benöti
+ gt\, sondern es geht auch viel Zeit und Energie in Meetings verloren\, in
+  denen diskutiert wird\, ob etwas ein Änderungswunsch ist oder nicht. In 
+ seiner Rede zeigt Herr Mitter Alternativen auf\, wie ein Vertragsmodell g
+ estaltet werden kann\, das einerseits Kooperations- und Flexibilitätsprin
+ zipien kombiniert\, andererseits aber die Budgetsicherheit durch eine Pre
+ isobergrenze berücksichtigt. Das Ziel ist es\, zu zeigen\, welche Element
+ e für die Erstellung eines agilen Vertrags erforderlich sind und wie der 
+ Umfang des Projekts definiert wird\, ohne eine endgültige Spezifikation z
+ u erstellen. Herr Mitter wird auch auf die erfolgreiche Anwendung des agi
+ len Festpreismodells in verschiedenen Unternehmen und Projekten achten.
 DTEND;TZID=Europe/Vienna:20171125T120000
 DTSTAMP:20171110T201910Z
 DTSTART;TZID=Europe/Vienna:20171125T111500
