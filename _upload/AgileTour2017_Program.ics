@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-VERSION:1.1
+VERSION:1.2
 PRODID:AgileTour 2017
 BEGIN:VTIMEZONE
 TZID:Europe/Vienna
@@ -78,7 +78,7 @@ DTSTAMP:20171110T201910Z
 DTSTART;TZID=Europe/Vienna:20171125T111500
 LOCATION:FH Technikum Wien\, F0.01
 SEQUENCE:0
-SUMMARY:Painless visual testing
+SUMMARY:Cancelled! - Painless visual testing
 UID:02d943a1-933c-457d-b17c-076c808ecbb5
 END:VEVENT
 BEGIN:VEVENT
@@ -167,25 +167,18 @@ SUMMARY:Scaled Agile @ Rewe - Planung mit mehreren Kunden und Produkten
 UID:dd1d2ad9-ddaf-4429-9e20-f99751110a55
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:by Gaspar Nagy\n\nThe concept of the testing pyramid was intro
- duced by Mike Cohn many years ago. Although a lot of people have heard ab
- out it\, there are not many who are actually implementing it. Maybe one r
- eason for this is that the pyramid helps us to map the tests to the testi
- ng technology only (unit\, integration\, UI)\, but not to the purpose\, t
- he different testing goals. The concept of testing iceberg puts the testi
- ng pyramid into this context. At the session I am going to show you the c
- oncept of the testing iceberg through a concrete example. We will see how
-  the "undersea" tests can support the ones on the tip\, focusing on busin
- ess requirements. We will see how you can move tests between the differen
- t levels so that finally we get more insight how the testing pyramid can 
- be used in your own projects.
+DESCRIPTION:by Gojko Adzic\n\nWhat happens to people whose last name makes
+  them invisible to software\, how the world's longest name broke a superc
+ omputer\, and why it's so hard to detect false names online. Gojko will p
+ resent stories about problems caused by wrong assumptions in computer sys
+ tems\, when they face the hard\, unforgiving punch of reality.
 DTEND;TZID=Europe/Vienna:20171125T130000
-DTSTAMP:20171110T201910Z
+DTSTAMP:20171125T071919Z
 DTSTART;TZID=Europe/Vienna:20171125T121500
 LOCATION:FH Technikum Wien\, F2.01
 SEQUENCE:0
-SUMMARY:We are sinking: Hitting the testing iceberg
-UID:211ee0aa-a029-4991-a825-daba9fa97ef6
+SUMMARY:People that make computers go crazy
+UID:24bff480-e914-459c-95b4-1e20d0f3f29a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:by Aki Salmi\n\n<I'd like to work on this - now this is mostly

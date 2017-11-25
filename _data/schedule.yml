@@ -41,6 +41,7 @@
     - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
   - title: "Why is the sprint goal so important?"
     speaker: "Raluca Bejan"
+    cancelled: true
     tags: scrum, agile, sprint goal
     language: en
     level: 1
@@ -80,13 +81,15 @@
     level: 2
     bio: "Die Begeisterung für Agile hat Tanja vor fast 5 Jahren in einer fortgeschrittenen agilen Umgebung gefunden und seitdem schon einige Erfahrungen als Scrum Master und Product Owner gesammelt. Nun unterstützt sie seit 2016 gemeinsam mit ihren Kollegen eine agile Transformation in der REWE International. In der Rolle als Agile Coach und Scrum Master betreut sie Teams, die eCommerce-Prozesse für Marketing-Websites, Backoffice-Applikationen und Online Shops entwickeln."
     abstract: "In einer Welt, in der wenige Teams viele Produkte und Kunden betreuen müssen, ist die richtige Skalierung agiler Prozesse entscheidend. Die RIAG Digital hat viel Zeit und Energie investiert, agile Modelle wie z.B. Scrum und SAFE 4.0 erprobt und an die Bedürfnisse des Umfeld angepasst. In unserem Vortrag werden Sie von uns lernen, wie wir diese Problem gelöst haben und welche Erfahrungen wir dabei gesammelt haben."
-  - title: "We are sinking: Hitting the testing iceberg"
-    speaker: "Gaspar Nagy"
-    tags: "test automation, agile, bdd"
+  - title: "People that make computers go crazy"
+    speaker: "Gojko Adzic"
     language: en
-    level: 2
-    abstract: "The concept of the testing pyramid was introduced by Mike Cohn many years ago. Although a lot of people have heard about it, there are not many who are actually implementing it. Maybe one reason for this is that the pyramid helps us to map the tests to the testing technology only (unit, integration, UI), but not to the purpose, the different testing goals. The concept of testing iceberg puts the testing pyramid into this context. At the session I am going to show you the concept of the testing iceberg through a concrete example. We will see how the \"undersea\" tests can support the ones on the tip, focusing on business requirements. We will see how you can move tests between the different levels so that finally we get more insight how the testing pyramid can be used in your own projects."
-    bio: "Gáspár Nagy is the creator and main contributor of SpecFlow, the most widely used ATDD/BDD framework for .NET. Gáspár is an independent coach, trainer and test automation expert focusing on helping teams implementing BDD and SpecFlow through his company, called Spec Solutions. He has more than 15 years of experience in enterprise software development as he worked as an architect and agile developer coach. He shares useful BDD and test automation related tips on his blog (http://gasparnagy.com) and on Twitter (@gasparnagy). He edits a monthly newsletter (http://bddaddict.com) about interesting articles, videos and news related to BDD, SpecFlow and Cucumber."
+    level: 1
+    abstract: "What happens to people whose last name makes them invisible to software, how the world's longest name broke a supercomputer, and why it's so hard to detect false names online. Gojko will present stories about problems caused by wrong assumptions in computer systems, when they face the hard, unforgiving punch of reality."
+    bio:
+    - "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010."
+    - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
+    - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
   - title: "Live demo: CQRS + event sourcing in brief."
     speaker: "Aki Salmi"
     tags: "cqrs, event sourcing, live demo, tdd, bdd, atdd, test-driven development"
