@@ -40,24 +40,32 @@ sponsors:
   name: BearingPoint Technology
   text: For BearingPoint Technology agile methods are not just a buzzword, but an essential part of our daily work. Since 2002, starting with the techniques of XP, we were one of the first companies in Austria to use agile methods in our entire company. Currently more than 400 people work in our offices in Vienna&Graz in a large number of Scrum & Kanban teams with great passion for the development of our product Infonova R6, as well as numerous software solutions for various customers. As a partner for the entire software lifecycle, we offer our more than 10 years of experience in agile methods as consultancy service, as well as the E2E provision of complex digital solutions for business customers in various industries, accompanying companies as agile coaches on their journey of agile transformation and advise companies in the field of enterprise architecture, solution design and software craftmanship.
 
-lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2016
+lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2017
 lookbacks:
-- speaker: Joakim Sundén
-  talk: "Tribes, Squads, Chapters and Guilds: Agile at Scale at Spotify"
-  img: joakimsunden
-  url: https://vimeo.com/195431759
-- speaker: Luke Hohmann
-  talk: Awesome Superproblems
-  img: lukehohmann
-  url: https://vimeo.com/195422669
-- speaker: David Evans
-  talk: The Pillars of Agile Testing
-  img: davidevans
-  url: https://vimeo.com/195782469
-- speaker: Klaus Leopold
-  talk: Team-Optimierung führt zu schlechtem Unternehmens-Output
-  img: klausleopold
-  url: https://vimeo.com/195915939
+- speaker: Andrea Provaglio
+  talk: Rethinking agile leadership
+  img: andreaprovaglio
+  url: https://vimeo.com/album/4897573/video/247328442
+- speaker: Gojko Adzic
+  talk: Painless visual testing
+  img: gojkoadzic
+  url: https://vimeo.com/album/4897573/video/247763289
+- speaker: Guðfinnur Sveinsson
+  talk: Learnings from an agile coach and how to coach executive teams
+  img: guofinnursveinsson
+  url: https://vimeo.com/album/4897573/video/247766769
+- speaker: Harry Harrold and Rupert Redington
+  talk: A new “ad-hoc” manifesto
+  img: harryharroldrupertredington
+  url: https://vimeo.com/album/4897573/video/247308385
+- speaker: Joseph Pelrine and Jasmine Zahno
+  talk: On psychological safety, intelligent teams..
+  img: josephpelrinejasminezahno
+  url: https://vimeo.com/album/4897573/video/247307155
+- speaker: Tanja Baricic-Böhm
+  talk: Scaled Agile @ Rewe - Planung mit mehreren Kunden und Produkten
+  img: tanjabaricicboehm
+  url: https://vimeo.com/album/4897573/video/247770446
 
 eventtips:
 - name: Specification by Example
