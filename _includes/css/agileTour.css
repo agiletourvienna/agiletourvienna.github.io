@@ -821,3 +821,19 @@ section h3.quote
     background-color: rgba(107, 107, 107, 0.09);
     margin-bottom: 50px;
 }
+
+.carousel-inner{
+    background-color: #222
+}
+.carousel-inner > .item > img{
+    margin:auto;
+    height: 600px;
+    padding: 15px;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .fa-chevron-left, .carousel-control .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
