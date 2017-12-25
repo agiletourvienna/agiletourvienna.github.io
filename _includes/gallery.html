@@ -11,7 +11,7 @@
         <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                {% for lookback in site.lookbacks %}
+                {% for gallery in site.gallery %}
                 {% assign loopindex = forloop.index | minus:1 %}
                 {% if loopindex == 0 %}
                 <li data-target="#galleryCarousel" data-slide-to="{{loopindex}}" class="active"></li>
@@ -23,18 +23,18 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
-                {% for lookback in site.lookbacks %}
+                {% for gallery in site.gallery %}
                 {% assign loopindex = forloop.index | minus:1 %}
                 {% if loopindex == 0 %}
                 <div class="item active">
-                    <img src="img/lookback/{{lookback.img}}.png" alt="">
+                    <a href="#galleryModal{{loopindex}}" data-toggle="modal"><img src="img/gallery/{{gallery.img}}.jpg" class="img-responsive img-centered" alt=""></a>
                 </div>
                 {% else %}
                 <div class="item">
-                    <img src="img/lookback/{{lookback.img}}.png" alt="">
+                    <a href="#galleryModal{{loopindex}}" data-toggle="modal"><img src="img/gallery/{{gallery.img}}.jpg" class="img-responsive img-centered" alt=""></a>
                 </div>
                 {% endif %}
-                {% endfor %}               
+                {% endfor %}
             </div>
 
             <!-- Left and right controls -->
@@ -49,3 +49,28 @@
         </div>
     </div>
 </section>
+
+{% for gallery in site.gallery %}
+{% assign loopindex = forloop.index | minus:1 %}
+<div class="gallery-modal modal fade" id="galleryModal{{loopindex}}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="modal-body">
+                        <img src="img/gallery/{{gallery.img}}.jpg" class="img-responsive img-centered" alt="{{ speaker.name }}">
+                        <hr>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

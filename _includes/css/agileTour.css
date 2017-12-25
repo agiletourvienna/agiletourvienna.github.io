@@ -635,6 +635,7 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+.gallery-modal .modal-content,
 .sponsor-modal .modal-content,
 .speaker-modal .modal-content {
     padding: 100px 0;
@@ -672,11 +673,13 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
+.gallery-modal .modal-content img
 .sponsor-modal .modal-content img,
 .speaker-modal .modal-content img {
     margin-bottom: 30px;
 }
 
+.gallery-modal .close-modal,
 .sponsor-modal .close-modal,
 .speaker-modal .close-modal {
     position: absolute;
@@ -688,11 +691,13 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
+.gallery-modal .close-modal:hover,
 .sponsor-modal .close-modal:hover,
 .speaker-modal .close-modal:hover {
     opacity: .3;
 }
 
+.gallery-modal .close-modal .lr,
 .sponsor-modal .close-modal .lr,
 .speaker-modal .close-modal .lr {
     z-index: 1051;
@@ -705,6 +710,7 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
+.gallery-modal .close-modal .lr .rl,
 .sponsor-modal .close-modal .lr .rl,
 .speaker-modal .close-modal .lr .rl {
     z-index: 1052;
@@ -824,11 +830,6 @@ section h3.quote
 
 .carousel-inner{
     background-color: #222
-}
-.carousel-inner > .item > img{
-    margin:auto;
-    height: 600px;
-    padding: 15px;
 }
 
 .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .fa-chevron-left, .carousel-control .fa-chevron-right {
