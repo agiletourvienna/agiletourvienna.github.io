@@ -5,6 +5,22 @@ section.dark {
   section.dark .section-heading {
     color: #fff; }
 
+
+#contributeReviewer h5 {
+  color: #BB141A;
+  font-style: italic;
+  margin-top: 2rem; }
+
+#contributeReviewer .signature {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 40px;
+  padding-left: 10px; }
+
+#contributeReviewer .img{
+  background-image: url("/img/contribution.jpg");
+  background-size: cover;
+  min-height: 500px; }
+
 #contribute {
   text-align: center; }
   #contribute li {

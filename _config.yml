@@ -15,6 +15,7 @@ showScheduleDetails: true
 showAbout: false
 showSpeaker: true
 showContribution: false
+showReviewerContribution: true
 
 # Build settings
 markdown: kramdown
@@ -90,7 +91,7 @@ gallery:
 
 eventtips:
 - name: Specification by Example
-  date: 27-28 November 2017, 19-20 April 2018
+  date: 19-20 April 2018
   img: specificationbyexample
   text: Specification by example is the corner-stone of any successful testing and requirements strategy with agile and lean processes, such as Scrum, Extreme Programming and Kanban. This two day workshop teaches you how to apply specification by example to bridge the communication gap between stakeholders and implementation teams, build quality into software from the start, design, develop and deliver systems fit for purpose.
   url: https://techtalk.at/trainings/specification-by-example
