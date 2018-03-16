@@ -86,6 +86,23 @@
     <div class="row text-center" style="margin: 60px">
         <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
     </div>
+    <div class="row content-committee-header">
+        <div class="col-lg-12 text-center">
+            <h3>Partners</h3>
+        </div>
+    </div>
+    <div class="sponsors">
+        <div class="container">
+            {% for partner in site.partners %}
+            {% assign loopindex = forloop.index %}
+            <div class="col-sm-12 sponsor">
+                <a href="{{partner.link}}" target="_blank">
+                    <img src="img/partners/{{partner.pic}}.png" class="img-responsive img-centered" alt="">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
     <div class="container">
         <div class="row content-committee-header">
             <div class="col-lg-12 text-center">

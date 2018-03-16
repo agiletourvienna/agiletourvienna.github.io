@@ -41,6 +41,10 @@ sponsors:
   name: BearingPoint Technology
   text: For BearingPoint Technology agile methods are not just a buzzword, but an essential part of our daily work. Since 2002, starting with the techniques of XP, we were one of the first companies in Austria to use agile methods in our entire company. Currently more than 400 people work in our offices in Vienna&Graz in a large number of Scrum & Kanban teams with great passion for the development of our product Infonova R6, as well as numerous software solutions for various customers. As a partner for the entire software lifecycle, we offer our more than 10 years of experience in agile methods as consultancy service, as well as the E2E provision of complex digital solutions for business customers in various industries, accompanying companies as agile coaches on their journey of agile transformation and advise companies in the field of enterprise architecture, solution design and software craftmanship.
 
+partners:
+- link: https://www.agile-austria.org
+  pic: aac
+
 lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2017
 lookbacks:
 - speaker: Andrea Provaglio
