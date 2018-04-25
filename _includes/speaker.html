@@ -10,7 +10,7 @@
         <div class="row">
             {% for speaker in site.speaker %}
             {% assign loopindex = forloop.index %}
-                <div class="col-sm-3 col-xs-6 speaker-item">
+                <div class="col-sm-12 col-xs-12 speaker-item">
                     <div class="max-width-wrapper">
                     <div href="#speakerModal{{loopindex}}" class="speaker-link" data-toggle="modal">
                         <div class="speaker-hover">
@@ -32,7 +32,9 @@
                     </div>
                     <div class="speaker-caption">
                         <h4>{{ speaker.name }}</h4>
+                        {% if speaker.twitter %}
                         <p class="text-muted"><a href="http://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></p>
+                        {% endif %}
                     </div>
                     </div>
                 </div>
@@ -57,13 +59,15 @@
                     <div class="modal-body">
                         <h2>{{ speaker.name }}</h2>
                         <hr class="star-primary">
-                        <img src="img/speaker/{{ speaker.pic }}.png" class="img-responsive img-centered" alt="{{ speaker.name }}">
+                        <img style="max-height: 250px" src="img/speaker/{{ speaker.pic }}.png" class="img-responsive img-centered" alt="{{ speaker.name }}">
                         <p> {{ speaker.bio }}</p>
                         <ul class="list-inline item-details">
+                            {% if speaker.twitter %}
                             <li>twitter:
                                 <strong><a href="http://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a>
                                 </strong>
                             </li>
+                            {% endif %}
                             <li>www:
                                 <strong><a href="http://{{speaker.www}}" target="_blank">{{ speaker.www }}</a>
                                 </strong>
