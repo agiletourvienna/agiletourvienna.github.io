@@ -201,10 +201,10 @@ Primary style
   margin: 20px 0; }
 .cd-horizontal-timeline .events-content li h2 {
   margin: 10px 0; }
-.cd-horizontal-timeline .events-content li .alternativeList {
+.alternativeList {
   list-style: square;
   margin: 10px 0; }
-  .cd-horizontal-timeline .events-content li .alternativeList > div {
+.alternativeList > div {
     display: list-item;
     margin-left: 20px; }
 .cd-horizontal-timeline .events-content li p, .cd-horizontal-timeline .events-content li div {
