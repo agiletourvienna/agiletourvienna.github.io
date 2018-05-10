@@ -1,9 +1,9 @@
 url: https://agiletourvienna.github.io
 
 # Site settings
-title: Agile Tour Vienna 2017
+title: Agile Tour Vienna 2018
 description: "The Agile Tour Vienna is a non-profit event that aims at bringing together experts, practioners and everybody else who is interested in agile software development. The main conference language is German but we welcome talks in English and are looking forward to an exchange with international participants."
-year: 2017
+year: 2018
 trailer: https://player.vimeo.com/video/169234910?color=BB141A&title=0&byline=0&portrait=0
 
 headerType: saveTheDate # options: thanks, saveTheDate, trailer
@@ -94,16 +94,16 @@ gallery:
 - img: 20171125_180804_techtalk_agile_tour_74473
 
 eventtips:
+- name: Product Owner Key Skills
+  date: 11-12 October 2018
+  img: poskills
+  text: Have you struggled to split user stories into small but valuable chunks? Do you have problems prioritising stories or getting a commitment from business stakeholders on what they want to achieve? Do you have issues deciding when a story is done or how many other stories you really need to achieve a business objective? Are you managing large amounts of stories that are problematic to estimate, prioritise or plan for? If so, join this interactive workshop and bring your product owners and business sponsors to learn how to get the most out of user stories.
+  url: https://techtalk.at/trainings/product-owner-key-skills-in-vienna/
 - name: Specification by Example
-  date: 19-20 April 2018
+  date: 26-27 November 2018
   img: specificationbyexample
   text: Specification by example is the corner-stone of any successful testing and requirements strategy with agile and lean processes, such as Scrum, Extreme Programming and Kanban. This two day workshop teaches you how to apply specification by example to bridge the communication gap between stakeholders and implementation teams, build quality into software from the start, design, develop and deliver systems fit for purpose.
   url: https://techtalk.at/trainings/specification-by-example
-- name: Citcon
-  date: 20-21 April 2018
-  img: citcon
-  text: CITCON (Continuous Integration and Testing Conference) is the Continuous Delivery conference that pre-dates the term "Continuous Delivery". CITCON brings together people from every corner of the software development industry to discuss Continuous Delivery and the practices (e.g. Continuous Integration and Testing) that go along with it.
-  url: http://citconf.com/vienna2018
 
 tweets:
 - quote: Thanks for organising a fantastic Agile Tour Vienna. Really glad to be a part of it
@@ -172,14 +172,6 @@ committee:
 - name: Veronika Kotrba & Ralph Miarka
   pic: rv
   mail: office@sinnvoll-fuehren.com
-
-- name: Thomas Mantsch
-  pic: tm
-  mail: thomas.mantsch@ebcont.com
-
-- name: Alexander Neuhaus
-  pic: an
-  mail: alexander.neuhaus@frequentis.com
 
 - name: Barbara Neumayr
   pic: bn
