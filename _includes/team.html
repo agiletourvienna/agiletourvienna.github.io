@@ -69,7 +69,7 @@
         <div class="container">
             {% for sponsor in site.sponsors %}
             {% assign loopindex = forloop.index %}
-            <div class="col-sm-4 sponsor">
+            <div class="col-sm-6 sponsor">
                 {% if sponsor.text %}
                 <div href="#sponsorModal{{loopindex}}" class="sponsor-link" data-toggle="modal">
                     <a href="#sponsorModal{{loopindex}}">
