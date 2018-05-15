@@ -118,6 +118,7 @@
             <div>
                 {% endif %}
                 <div class="col-sm-6 col-lg-2 team-member">
+                    {% if member.mail %}
                     <div class="container img-responsive img-circle">
                         <a href="mailto:{{ member.mail }}">
                             <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
@@ -129,6 +130,11 @@
                             </div>
                         </a>
                     </div>
+                    {% else %}
+                    <div class="container img-responsive img-circle">
+                        <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img"></div>
+                    </div>
+                    {% endif %}
                     <h4 style="font-size: 16px; height: 40px">{{ member.name }}</h4>
                 </div>
                 {% if modulo == '0' or forloop.first %}
