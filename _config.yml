@@ -15,7 +15,7 @@ showScheduleDetails: true
 showAbout: false
 showSpeaker: true
 showContribution: false
-showReviewerContribution: true
+showReviewerContribution: false
 
 # Build settings
 markdown: kramdown
