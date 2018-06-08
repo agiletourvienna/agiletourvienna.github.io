@@ -147,6 +147,9 @@ team:
 
 committee:
 
+- name: Susanne Albinger
+  pic: sa
+
 - name: Christian Biegler
   pic: cb
   mail: christian.biegler@gmx.at
@@ -163,6 +166,10 @@ committee:
   pic: ch
   mail: christian.hassa@techtalk.at
 
+- name: Laura Hermann
+  pic: lh
+  mail: laura.hermann@drei.com
+
 - name: Franz Hofer
   pic: fh
   mail: franz.hofer@utanet.at
@@ -174,6 +181,21 @@ committee:
 - name: Veronika Kotrba & Ralph Miarka
   pic: rv
   mail: office@sinnvoll-fuehren.com
+
+- name: Maxim Kuul
+  pic: mku
+  mail: maxim.kuul@gmail.com
+
+- name: Paul Lanzerstorfer
+  pic: pl
+  mail: paul.lanzerstorfer@gmail.com
+
+- name: Cosima Laube
+  pic: cl
+  mail: cosima.laube@posteo.de
+
+- name: Igor Miladinovic
+  pic: im
 
 - name: Barbara Neumayr
   pic: bn
@@ -187,6 +209,10 @@ committee:
   pic: cp
   mail: c.ploninger@aon.at
 
+- name: Sigrid Schefer-Wenzl
+  pic: ssw
+  mail: sigrid.schefer-wenzl@fh-campuswien.ac.at
+
 - name: Ursula Simo
   pic: us
   mail: simo@deepimpact.at
@@ -195,14 +221,8 @@ committee:
   pic: rt
   mail: roland.tiefenbrunner@gmail.com
 
-- name: Sigrid Schefer-Wenzl
-  pic: ssw
-  mail: sigrid.schefer-wenzl@fh-campuswien.ac.at
 
-- name: Laura Hermann
-  pic: lh
-  mail: laura.hermann@drei.com
 
-- name: Igor Miladinovic
-  pic: im
+
+
 
