@@ -128,21 +128,25 @@ speaker:
   twitter: jbrains
     
 team:
-
-- name: Veronika Winter
-  pic: vw
+- name: Daniel Fellegger
+  pic: dfe
   position: Organization
-  mail: veronika.winter@techtalk.at
+  mail: daniel.fellegger@techtalk.at
+
+- name: Milena Krnjic
+  pic: mkr
+  position: Organization
+  mail: milena.krnjic@techtalk.at
 
 - name: Katharina Leitner
   pic: kl
   position: Organization
   mail: katharina.leitner@techtalk.at
 
-- name: Milena Krnjic
-  pic: mkr
+- name: Veronika Winter
+  pic: vw
   position: Organization
-  mail: milena.krnjic@techtalk.at
+  mail: veronika.winter@techtalk.at
 
 
 committee:
