@@ -159,6 +159,7 @@ header {
       line-height: 50px; }
     header .trailer-panel .logo {
       background: url("/img/agileTourLogoWithDate.png") no-repeat center;
+      background-size: 210px 156px;
       height: 156px;
       margin: 4rem 0; }
     @media (min-width: 768px) {
@@ -533,7 +534,7 @@ Primary style
   background-position: right;
   background-repeat: no-repeat;
   line-height: 18px;
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 20px;
   padding-right: 80px; }
 @media (min-width: 992px) {
