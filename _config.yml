@@ -113,7 +113,7 @@ tweets:
 
 hashtag: ATVIE18
 
-speaker:
+keynote:
 - name: David Anania
   pic: davidanania
   bio: —drummer, singer/songwriter, producer— <br><br>has been a member of Blue Man Group since 2000 (NY, Berlin) and has performed with BMG all over the world, including Moby’s Area II Tour (2002, w/Moby, David Bowie and Bustah Rhymes), The Complex Rock Tour (and coinciding multiplatinum-selling DVD) and The Royal Variety Performance (in front of Queen Elizabeth II). With artists such as Blue Man Group and blues-rocker Shannon Curfman (Kid Rock), David has performed on many hi-profile TV shows, both in the US (“The Tonight Show w/Jay Leno“, “Good Morning America“, “Rosie O’Donnell“, “CBS This Morning“) and in Europe (“Royal Variety Performance2, “Wetten dass..?“, “TV Total“, “Schlag den Raab“, and “The Voice of Germany“). David has composed music in many styles for himself and other artists, including Jaimi Faulkner (“It Ain’t Easy“ 2015 on V2 records) Jessica Gall (“You’ll Feel“ and “World to Me“, 2016) and Nnenna Yvonne (“Believe in Me“, 2015 on Shanachie Records). David is also a sought-after Team Building Event Leader and Public Speaker throughout Europe and the US.<br><br>Since 2012, David has been actively composing for soundtracks, partnering with Snap 180 Media on 3 documentary films (“Return to Pearl“, “Yellow Ribbon“, “They Fought for Freedom“).<br><br>2018 marks a milestone in his career as he will release his first solo CD in June entitled, “Reinvent the Feel“. This 9-song debut is influenced heavily by the music that helped shape his career—progressive rock, pop, and funk. The CD features world class musicians who have performed/recorded with international heavyweights such as, Jonas Brothers, Mandy Moore, Jonny Lang, Prince, and Cory Wong. David is excited about this major new chapter in his career and hopes to reach and positively affect people around the world through his music.
@@ -126,7 +126,19 @@ speaker:
   bio: J. B. Rainsberger helps software companies better satisfy their customers and the business that they support. He travels the world sharing what he's learned about programming, managing his workload, and designing his lifestyle. He spends a lot of his professional time helping programmers do good work with less stress. Not only does he consult with and train for companies, he also provides personalized one-on-one coaching and online training through <a href="https://online-training.jbrains.ca/" target="_blank">http://online-training.jbrains.ca</a>. He lives in Atlantic Canada with his wife, Sarah.
   www: www.jbrains.ca/
   twitter: jbrains
-    
+
+speaker:
+- name: Gojko Adzic
+  pic: gojkoadzic
+  bio:
+  - "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010."
+  - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
+  - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
+
+- name: David Evans
+  pic: davidevans2
+  bio: David Evans is an experienced agile consultant, coach and trainer with over 25 years of IT experience. A thought-leader in the field of agile quality, he provides training and consultancy for clients worldwide and is in-demand as a speaker at events and conferences across Europe. He is co-author of the best-selling books “50 Quick Ideas to Improve your User Stories” and “50 Quick Ideas to improve Your Tests”, was a contributor to the book “More Agile Testing”, and has also had several papers published in international IT journals. He currently lives and works in the UK, where he is a partner in Neuri Consulting LLP. He can be reached at david.evans@neuri.co.uk on email and @DavidEvans66 on Twitter.  
+  
 team:
 - name: Daniel Fellegger
   pic: dfe

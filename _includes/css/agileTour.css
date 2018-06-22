@@ -206,16 +206,19 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+#keynote .speaker-item,
 #speaker .speaker-item {
     right: 0;
     margin: 0 0 30px;
 }
 
+#keynote .speaker-item .max-width-wrapper,
 #speaker .speaker-item .max-width-wrapper {
     max-width: 250px;
     margin: auto;
 }
 
+#keynote .speaker-item .speaker-link,
 #speaker .speaker-item .speaker-link {
     display: block;
     position: relative;
@@ -223,6 +226,7 @@ section h3.section-subheading {
     max-width: 400px;
 }
 
+#keynote .speaker-item .speaker-link .speaker-hover,
 #speaker .speaker-item .speaker-link .speaker-hover {
     position: absolute;
     width: 100%;
@@ -235,10 +239,12 @@ section h3.section-subheading {
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
+#keynote .speaker-item .speaker-link .speaker-hover:hover,
 #speaker .speaker-item .speaker-link .speaker-hover:hover {
     opacity: 1;
 }
 
+#keynote .speaker-item .speaker-link .speaker-hover .speaker-hover-content,
 #speaker .speaker-item .speaker-link .speaker-hover .speaker-hover-content {
     position: absolute;
     top: 50%;
@@ -250,15 +256,19 @@ section h3.section-subheading {
     color: #fff;
 }
 
+#keynote .speaker-item .speaker-link .speaker-hover .speaker-hover-content i,
 #speaker .speaker-item .speaker-link .speaker-hover .speaker-hover-content i {
     margin-top: -12px;
 }
 
+#keynote .speaker-item .speaker-link .speaker-hover .speaker-hover-content h3,
+#keynote .speaker-item .speaker-link .speaker-hover .speaker-hover-content h4,
 #speaker .speaker-item .speaker-link .speaker-hover .speaker-hover-content h3,
 #speaker .speaker-item .speaker-link .speaker-hover .speaker-hover-content h4 {
     margin: 0;
 }
 
+#keynote .speaker-item .speaker-caption,
 #speaker .speaker-item .speaker-caption {
     margin: 0 auto;
     padding: 25px;
@@ -267,11 +277,13 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
+#keynote .speaker-item .speaker-caption h4,
 #speaker .speaker-item .speaker-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
+#keynote .speaker-item .speaker-caption p,
 #speaker .speaker-item .speaker-caption p {
     margin: 0;
     font-family: {{ site.data.template.font.secondary }};
@@ -279,11 +291,13 @@ section h3.section-subheading {
     font-style: italic;
 }
 
+#keynote *,
 #speaker * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
+    #keynote .speaker-item,
     #speaker .speaker-item {
         margin: 0 0 30px;
     }
