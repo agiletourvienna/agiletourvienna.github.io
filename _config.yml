@@ -140,11 +140,6 @@ speaker:
   bio: David Evans is an experienced agile consultant, coach and trainer with over 25 years of IT experience. A thought-leader in the field of agile quality, he provides training and consultancy for clients worldwide and is in-demand as a speaker at events and conferences across Europe. He is co-author of the best-selling books “50 Quick Ideas to Improve your User Stories” and “50 Quick Ideas to improve Your Tests”, was a contributor to the book “More Agile Testing”, and has also had several papers published in international IT journals. He currently lives and works in the UK, where he is a partner in Neuri Consulting LLP. He can be reached at david.evans@neuri.co.uk on email and @DavidEvans66 on Twitter.  
   
 team:
-- name: Daniel Fellegger
-  pic: dfe
-  position: Organization
-  mail: daniel.fellegger@techtalk.at
-
 - name: Milena Krnjic
   pic: mkr
   position: Organization
@@ -173,6 +168,9 @@ committee:
 - name: Elisabeth Binder
   pic: eb
   mail: binder.e@gmail.com
+
+- name: Daniel Fellegger
+  pic: dfe
 
 - name: Doris Fidler 
   pic: df

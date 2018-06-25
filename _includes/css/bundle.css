@@ -529,14 +529,14 @@ Primary style
   min-height: 650px;
   margin-bottom: 50px; }
 #register .catering {
-  background-image: url(img/marriot.png);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
-  line-height: 18px;
-  margin-top: 0px;
-  padding: 20px;
-  padding-right: 80px; }
+    background-image: url(img/marriot.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    line-height: 18px;
+    margin-top: 0px;
+    padding: 20px;
+    padding-left: 80px; }
 @media (min-width: 992px) {
   #register .pricing-info-pic {
     background-position: center left;
