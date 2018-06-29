@@ -118,22 +118,23 @@
             <div>
                 {% endif %}
                 <div class="col-sm-6 col-lg-3 team-member">
-                    {% comment %}
+                    {% if member.www %}
                     <div class="container img-responsive img-circle">
-                        <a href="mailto:{{ member.mail }}">
+                        <a href="http://{{member.www}}" target="_blank">
                             <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
                                 <div class="team-hover">
                                     <div class="team-hover-content">
-                                        <i class="fa fa-envelope-o"></i>
+                                        <i class="fa fa-external-link"></i>
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    {% endcomment %}
+                    {% else %}
                     <div class="container img-responsive img-circle">
                         <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img"></div>
                     </div>
+                    {% endif %}
                     <h4 style="font-size: 16px; height: 40px">{{ member.name }}</h4>
                 </div>
                 {% if modulo == '0' or forloop.first %}

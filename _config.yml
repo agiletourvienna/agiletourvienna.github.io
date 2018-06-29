@@ -165,20 +165,25 @@ committee:
 
 - name: Susanne Albinger
   pic: sa
+  www: www.xing.com/profile/Susanne_Albinger/cv
 
 - name: Christian Biegler
   pic: cb
   mail: christian.biegler@gmx.at
+  www: www.xing.com/profile/Christian_Biegler
 
 - name: Elisabeth Binder
   pic: eb
   mail: binder.e@gmail.com
+  www: www.xing.com/profile/Elisabeth_Binder4/
 
 - name: Daniel Fellegger
   pic: dfe
+  www: www.xing.com/profile/Daniel_Fellegger
 
 - name: Doris Fidler 
   pic: df
+  www: www.xing.com/profile/Doris_Fidler/cv
 
 - name: Peter Graff
   pic: pg
@@ -206,6 +211,7 @@ committee:
 - name: Veronika Kotrba & Ralph Miarka
   pic: rv
   mail: office@sinnvoll-fuehren.com
+  www: sinnvoll-fuehren.com
 
 - name: Maxim Kuul
   pic: mku
@@ -214,6 +220,7 @@ committee:
 - name: Paul Lanzerstorfer
   pic: pl
   mail: paul.lanzerstorfer@gmail.com
+  www: www.xing.com/profile/Paul_Lanzerstorfer2/cv
 
 - name: Cosima Laube
   pic: cl
@@ -221,6 +228,7 @@ committee:
 
 - name: Igor Miladinovic
   pic: im
+  www: www.linkedin.com/in/igor-miladinovic-176b272
 
 - name: Barbara Neumayr
   pic: bn
@@ -229,22 +237,27 @@ committee:
 - name: Igor Petrovic
   pic: ip
   mail: ip@irpc.at
+  www: www.linkedin.com/in/igor-petrovic-2350b4109
 
 - name: Christian Ploninger
   pic: cp
   mail: c.ploninger@aon.at
+  www: www.xing.com/profile/ChristianP_PLONINGER/cv
 
 - name: Sigrid Schefer-Wenzl
   pic: ssw
   mail: sigrid.schefer-wenzl@fh-campuswien.ac.at
+  www: www.xing.com/profile/Sigrid_ScheferWenzl 
 
 - name: Ursula Simo
   pic: us
   mail: simo@deepimpact.at
+  www: www.xing.com/profile/Ursula_Simo/cv
 
 - name: Roland Tiefenbrunner
   pic: rt
   mail: roland.tiefenbrunner@gmail.com
+  www: www.linkedin.com/in/roland-tiefenbrunner/
 
 
 
