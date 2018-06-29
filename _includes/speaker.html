@@ -10,7 +10,7 @@
         <div class="row">
             {% for speaker in site.keynote %}
             {% assign loopindex = forloop.index %}
-            <div class="col-sm-6 col-xs-12 speaker-item">
+            <div class="col-sm-4 col-xs-12 speaker-item">
                 <div class="max-width-wrapper">
                     <div href="#keynoteModal{{loopindex}}" class="speaker-link" data-toggle="modal">
                         <div class="speaker-hover">
@@ -126,10 +126,12 @@
                                 </strong>
                             </li>
                             {% endif %}
+                            {% if speaker.www %}
                             <li>www:
                                 <strong><a href="http://{{speaker.www}}" target="_blank">{{ speaker.www }}</a>
                                 </strong>
                             </li>
+                            {% endif %}
                             {% if speaker.soundcloud %}
                             <li>
                                 soundcloud:
