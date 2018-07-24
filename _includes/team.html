@@ -69,21 +69,28 @@
         <div class="container">
             {% for sponsor in site.sponsors %}
             {% assign loopindex = forloop.index %}
-            <div class="col-sm-6 sponsor">
-                {% if sponsor.text %}
-                <div href="#sponsorModal{{loopindex}}" class="sponsor-link" data-toggle="modal">
-                    <a href="#sponsorModal{{loopindex}}">
+            {% capture modulo %}{{ loopindex | modulo:2 }}{% endcapture %}
+                {% if modulo == '1' %}
+            <div class="row">
+                {% endif %}
+                <div class="col-sm-6 sponsor">
+                    {% if sponsor.text %}
+                    <div href="#sponsorModal{{loopindex}}" class="sponsor-link" data-toggle="modal">
+                        <a href="#sponsorModal{{loopindex}}">
+                            <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
+                        </a>
+                    </div>
+                    {% else %}
+                    <a href="{{sponsor.link}}" target="_blank">
                         <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
                     </a>
+                    {% endif %}
                 </div>
-                {% else %}
-                <a href="{{sponsor.link}}" target="_blank">
-                    <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
-                </a>
-                {% endif %}
+                {% if modulo == '0' %}
             </div>
-            {% endfor %}
-        </div>
+            {% endif %}
+                    {% endfor %}
+         </div>
     </div>
     <div class="row text-center" style="margin: 60px">
         <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
