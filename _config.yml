@@ -143,6 +143,15 @@ speaker:
 - name: David Evans
   pic: davidevans2
   bio: David Evans is an experienced agile consultant, coach and trainer with over 25 years of IT experience. A thought-leader in the field of agile quality, he provides training and consultancy for clients worldwide and is in-demand as a speaker at events and conferences across Europe. He is co-author of the best-selling books “50 Quick Ideas to Improve your User Stories” and “50 Quick Ideas to improve Your Tests”, was a contributor to the book “More Agile Testing”, and has also had several papers published in international IT journals. He currently lives and works in the UK, where he is a partner in Neuri Consulting LLP. He can be reached at david.evans@neuri.co.uk on email and @DavidEvans66 on Twitter.  
+
+- name: Marcus Hammarberg
+  pic: marcushammarberg
+  bio: 
+  - "For 15 years Marcus Hammarberg has been doing agile and lean software development and helping others do it. He has worked in many different settings, from big banks and insurance companies, to start-ups and within retail. At one big insurance company, the first agile team, started by Marcus, eventually spread to a lean initiative across the business. As a consultant Marcus helps individuals, teams, and whole organizations improve their value delivery flow. Marcus is still a keen programmer and continues to practice and teach the concepts that helped him become a good programmer: TDD, Specification by example, functional programming and Node."
+  - "Marcus is a keynote speaker and co-author of Kanban In Action, which has been translated into 5 languages across the globe. He has blogged since 2006 at www.marcusoft.net and spend his spare time playing euphonium in the Salvation Army band at Vasakåren, Stockholm."
+  - "2014-2015 Marcus moved to Indonesia with his family to work for the Salvation Army. Unexpectedly his previous experience with lean, agile and kanban was soon put to great use there too. This story is retold as it happened in his second book; Salvation: The Bungsu story"
+  www: www.marcusoft.net
+  twitter: marcusoftnet
   
 team:
 - name: Milena Krnjic
