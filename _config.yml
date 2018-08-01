@@ -108,10 +108,12 @@ eventtips:
 tweets:
 - quote: Thanks for organising a fantastic Agile Tour Vienna. Really glad to be a part of it
   person: Dan North
+- quote: Thanks for organizing and providing this great scehule!
+  person: Vistor 2017
+- quote: Thank you for inviting us to speak - thoroughly enjoyable, and really useful learning!
+  person: Visitor 2017
 - quote: Think outside the box with motivating speakers, a social crowd and delicious coffee
   person: Vistor 2015
-- quote: Super Event zu einem Super Preis!
-  person: Visitor 2014
 - quote: Worth spending a sunny Saturday indoors! :)
   person: Visitor 2013 
 
@@ -143,10 +145,12 @@ speaker:
   - "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010."
   - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
   - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
-
+  twitter: gojkoadzic
+  
 - name: David Evans
   pic: davidevans2
   bio: David Evans is an experienced agile consultant, coach and trainer with over 25 years of IT experience. A thought-leader in the field of agile quality, he provides training and consultancy for clients worldwide and is in-demand as a speaker at events and conferences across Europe. He is co-author of the best-selling books “50 Quick Ideas to Improve your User Stories” and “50 Quick Ideas to improve Your Tests”, was a contributor to the book “More Agile Testing”, and has also had several papers published in international IT journals. He currently lives and works in the UK, where he is a partner in Neuri Consulting LLP. He can be reached at david.evans@neuri.co.uk on email and @DavidEvans66 on Twitter.  
+  twitter: DavidEvans66
 
 - name: Marcus Hammarberg
   pic: marcushammarberg
