@@ -124,17 +124,20 @@ keynote:
   www: www.reverbnation.com/anania
   facebook: https://www.facebook.com/AnaniA-10885742468/
   soundcloud: https://soundcloud.com/anania
+  talk: Hearing vs. Listening
 
 - name: Kevlin Henney
   pic: kevlinhenney
   bio: Kevlin Henney is an independent consultant, speaker, writer and trainer. His development interests are in patterns, programming, practice and process. He has been a columnist for a number of magazines and sites and has been on far too many committees (it has been said that "a committee is a cul-de-sac down which ideas are lured and then quietly strangled"). He is co-author of <i>A Pattern Language for Distributed Computing</i> and <i>On Patterns and Pattern Languages</i>, two volumes in the <i>Pattern-Oriented Software Architecture</i> series. He is also editor of <i>97 Things Every Programmer Should Know</i> and the forthcoming <i>97 Things Every Java Programmer Should Know</i>.
   twitter: kevlinhenney
+  talk: Agility ≠ Speed - Velocity. Sprints. More points, more speed.
 
 - name: J. B. Rainsberger
   pic: jbrainsberger
   bio: J. B. Rainsberger helps software companies better satisfy their customers and the business that they support. He travels the world sharing what he's learned about programming, managing his workload, and designing his lifestyle. He spends a lot of his professional time helping programmers do good work with less stress. Not only does he consult with and train for companies, he also provides personalized one-on-one coaching and online training through <a href="https://online-training.jbrains.ca/" target="_blank">http://online-training.jbrains.ca</a>. He lives in Atlantic Canada with his wife, Sarah.
   www: www.jbrains.ca/
   twitter: jbrains
+  talk: The Selfish Team Player
 
 speaker:
 - name: Gojko Adzic
@@ -147,6 +150,7 @@ speaker:
 - name: David Evans
   pic: davidevans2
   bio: David Evans is an experienced agile consultant, coach and trainer with over 25 years of IT experience. A thought-leader in the field of agile quality, he provides training and consultancy for clients worldwide and is in-demand as a speaker at events and conferences across Europe. He is co-author of the best-selling books “50 Quick Ideas to Improve your User Stories” and “50 Quick Ideas to improve Your Tests”, was a contributor to the book “More Agile Testing”, and has also had several papers published in international IT journals. He currently lives and works in the UK, where he is a partner in Neuri Consulting LLP. He can be reached at david.evans@neuri.co.uk on email and @DavidEvans66 on Twitter.  
+  talk: The Bungsu Story - inspirational presentation
 
 - name: Marcus Hammarberg
   pic: marcushammarberg
@@ -156,6 +160,7 @@ speaker:
   - "2014-2015 Marcus moved to Indonesia with his family to work for the Salvation Army. Unexpectedly his previous experience with lean, agile and kanban was soon put to great use there too. This story is retold as it happened in his second book; Salvation: The Bungsu story"
   www: www.marcusoft.net
   twitter: marcusoftnet
+  talk: The Bungsu Story - inspirational presentation
   
 team:
 - name: Milena Krnjic

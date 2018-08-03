@@ -19,14 +19,11 @@
                             </div>
                         </div>
                         <a href="#keynoteModal{{loopindex}}"><img src="img/speaker/{{ speaker.pic }}.png" class="img-responsive img-centered" alt=""></a>
-                        {% if speaker.trainings %}
+                        {% if speaker.talk %}
                         <div class="speaker-trainings">
-                            <div class="speaker-trainings-header"><i class="fa fa-graduation-cap" aria-hidden="true"></i> upcoming trainings: </div>
-                            {% for training in speaker.trainings %}
                             <div class="speaker-trainings-item">
-                                <a href="{{training.link}}">{{training.name}}</a>
+                                <p>{{speaker.talk}}</p>
                             </div>
-                            {% endfor %}
                         </div>
                         {% endif %}
                     </div>
@@ -65,14 +62,11 @@
                             </div>
                         </div>
                         <a href="#speakerModal{{loopindex}}"><img src="img/speaker/{{ speaker.pic }}.png" class="img-responsive img-centered" alt=""></a>
-                        {% if speaker.trainings %}
+                        {% if speaker.talk %}
                         <div class="speaker-trainings">
-                            <div class="speaker-trainings-header"><i class="fa fa-graduation-cap" aria-hidden="true"></i> upcoming trainings: </div>
-                            {% for training in speaker.trainings %}
                             <div class="speaker-trainings-item">
-                                <a href="{{training.link}}">{{training.name}}</a>
+                                <p>{{speaker.talk}}</p>
                             </div>
-                            {% endfor %}
                         </div>
                         {% endif %}
                     </div>
