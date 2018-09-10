@@ -8,10 +8,10 @@ trailer: https://player.vimeo.com/video/266565828?color=BB141A&title=0&byline=0&
 
 headerType: trailer # options: thanks, saveTheDate, trailer
 
-showCallForProposals: true
+showCallForProposals: false
 showRegister: true
-showSchedule: false
-showScheduleDetails: true
+showSchedule: true
+showScheduleDetails: false
 showAbout: false
 showSpeaker: true
 showContribution: false
