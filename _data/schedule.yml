@@ -1,190 +1,185 @@
-- time: "08:50 - 09:20"
+- time: "08:45 - 09:00"
   keynote:
-  - title: "Hitchhiker's Session Guide"
-    speaker: "Christian Hassa"
-    speaker2: "Ralph Miarka"
-    abstract: 
-    - "You’re wondering how to get out the most of this day? We’ll give an overview about today’s program, and point out sessions that are in particular suitable for your needs."
-    bio: 
-    - "__Christian__ verantwortet als Geschäftsführer bei TechTalk die technologische und methodische Ausrichtung. Christian ist Product Owner des Story Mapping Werkzeugs SpecLog, und Mitinitiator des Open Source BDD Werkzeugs SpecFlow. Christian ist Spezialist für agile Planungs- und Spezifikationsmethoden, insbesondere Impact Mapping, Story Mapping und Specification-By-Example. "
-    - "__Ralph__ ist zPM, CS(M,PO,P) sowie Business-Coach mit Masterabschluss. Ausgehend von eigener Erfahrung als Projektmanager und Berater, führt er Unternehmen und deren Teams seit Jahren zu erfolgreicher agiler Arbeitsweise."
-- time: "09:20 - 09:45"
-  break: "Welcome to Agile Tour Vienna 2017"
-- time: "09:45 - 10:45"
-  keynote: 
-  - title: "On psychological safety, intelligent teams, and other cool psychology buzzwords"
-    speaker: "Joseph Pelrine"
-    speaker2: "Jasmine Zahno"
+  - title: "Welcome @ Agile Tour Vienna 2018 + Introduction of our Sponsors"
+- time: "09:00 - 10:00"
+  keynote:
+  - title: "Agility ≠ Speed"
+    speaker: "Kevlin Henney"
     language: en
+- time: "10:00 - 10:15"
+  break: "Coffee Break"
+- time: "10:15 - 11:00"
+  talks:
+  - title: "Nobody said it's easy: making the transition from a startup to an established agile company"
+    speaker: "Christian Hattinger"
+    tags: 
+    language: en
+    level: 3
     abstract: 
-    - "Are you interested in learning how to make your team become smarter and work better together?"
-    - "The concepts of intelligent teams and psychological safety are currently hot topics in the agile world, with numerous blog posts and conference presentations about them appearing. Like most psychological topics, though, they go much deeper than most blog posts and conference presentations would suggest."
-    - "In this talk, we’ll take a look behind the scenes at the psychological research on team intelligence and psychological safety, exploring not only how they are tested, but also discussing how they can be trained. You’ll learn some simple and fun techniques that you can use to help your team improve. Along the way, we’ll also do some myth-busting on things like 7 plus/minus 2 and the Tuckman model."
     bio: 
-    - "As Kent Beck’s assistant, __Joseph Pelrine__ was one of the first in the world who worked with eXtreme Programming. As Europe’s first certified ScrumMaster and Trainer, he was largely responsible for introducing Scrum to the german-speaking part of Europe. For almost 20 years, Joseph Pelrine has been helping some of the world’s most important companies improve their software development process and successfully transition to Agile. A noted international speaker, he conducts research in the field of social complexity theory and its application to Agile processes, and is currently pursuing a PhD in psychology."
-    - "__Jasmine Zahno__ is an Agile coach who is passionate about the people side of product development. Her master’s degree in organisational psychology uniquely qualifies her to deal with the human issues that arise when the Agile paradigm collides with traditional organisational structures. A firm believer in “inspect and adapt”, she has made it her goal to help organisations create productive and motivating environments that encourage and inspire employees to do their best work."
-- time: "10:45 - 11:15"
+  - title: "Spieldikalifragelistig = expialigetisch"
+    speaker: "Karin Groissenberger & Robert Herzig"
+    tags: 
+    workshop: true
+    language: de
+    level: 1
+    abstract:
+    bio: 
+  - title: "Micro Frontends - a strive for fully verticalized systems"
+    speaker: "David Leitner"
+    tags: 
+    language: en
+    level: 3
+    bio: 
+    abstract: 
+  - title: "Die Integration von UX in einem Scrum of Scrum Team - Tools und Learnings"
+    speaker: "Veronika Winter"
+    tags: 
+    language: de
+    level: 1
+    bio: 
+    abstract: 
+- time: "11:00 - 11:15"
   break: "Coffee Break"
 - time: "11:15 - 12:00"
   talks:
-  - title: "Painless visual testing"
-    speaker: "Gojko Adzic"
+  - title: "The Bungsu Story - inspirational presentation"
+    speaker: "Marcus Hammarberg"
     tags: 
     language: en
-    level: 2
-    abstract:
-    - "When visuals come under test automation, the outcome rarely justifies the cost. Visual tests tend to be too brittle, to difficult to maintain, and too slow to execute for quick iterative delivery cycles."
-    - "However, recent improvements in cloud computing and browser capabilities make it possible to change the economics of the test automation pyramid. Gojko will talk about how trends such as approval testing, cloud functions and automated image analysis can help us automate acceptance/regression tests for visual look and feel in a visual language, rather than xUnit style code, and make such tests easy to write, understand, execute and maintain."
-    bio:
-    - "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010."
-    - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
-    - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
-  - title: "Why is the sprint goal so important?"
-    speaker: "Raluca Bejan"
-    cancelled: true
-    tags: scrum, agile, sprint goal
-    language: en
     level: 1
-    abstract:
-    - "\"Do we know exactly where are we going?\"" 
-    - "\"No !!...\"" 
-    - "\"Then ... how will we know when we get there?\"" 
-    - "\"No clue ...\""
-    - "I understood early in my work how important is for a team to be focused. The problem is that you can’t keep a team focused only by giving them a long list of user stories to work on. It will be pretty hard to remember all of them after a day or two. Would be way better, in order to keep the focus, to make them understand the idea behind their work. This is when the Sprint Goal comes into discussion."
     bio: 
-    - "Raluca loves to work as an Engineering Manager and has been present in software world for over 15 years. Her career has taken various twists and turns: From C++ developer & team lead for an antivirus company, to software manager putting the basis of the automated deployment for a large bank, from scrum master for SAP projects, to engineering manager for big data projects. Now she is manager for one of the analytics projects in Adobe, the leader in the industry. Her hobbies include more development, climbing and diving. "
-    - "https://www.linkedin.com/in/raluca-nicoleta-bejan-ioan-9a123a6/"   
-  - title: "Assess your agility! Raising the level of agility across an organisation"
-    speaker: "Maximilian Hantsch-Köller"
-    speaker-img: "maximilianhantschkoeller"
-    tags: "assessment, team level, agility, practices, measurement, KPIs, metrics, large organisations, continuous improvement, kaizen"
+    abstract: 
+  - title: "Spieldikalifragelistig = expialigetisch"
+    speaker: "Karin Groissenberger & Robert Herzig"
+    tags: 
+    workshop: true
+    language: de
+    level: 1
+    bio: 
+    abstract: 
+  - title: "Telling Better Stories"
+    speaker: "David Evans"
+    tags: 
+    language: en
+    level: 1 
+    bio: 
+    abstract: 
+  - title: "Hinfallen, Aufstehen, Krone Richten, Weitermachen"
+    speaker: "Rene Pachernegg"
+    tags: 
     language: de
     level: 3
-    bio: "Maximilian Hantsch-Köller graduated from Vienna University of Technology and has worked in numerous small and large-scale organizations from start-ups to international multi-cultural corporations. With a long-standing experience in software development and broad understanding of communication networks and technologies, Maximilian has been leading classic and agile teams in both highly structured and dynamically flexible set-ups. Maximilian is keen on growing teams and organizations, implementing the appropriate processes & communication, and allowing the magic of team spirit to unfold. Recently, he has helped guiding Frequentis along the path of a multi-year agile transition."
-    abstract: "How can you measure the effect of a large-scale agile transition in a 1000+ person organisation? How can teams determine where they stand on their transition path, and which other teams can help them improve their agile practices further? How do you increase motivation for the next steps? How can the organisation measure the overall take-up of \"agility\" measures? Which measures are already effective in the organisation, and where should the focus for trainings, guidance and coaching be directed in the future? Frequentis, an organisation with 1500+ employees, has selected and implemented an \"Agile Assessment\". This talk presents their approach and findings from their first year of running this assessment across the organisation in 2016. It ends with an outlook on the next evolution of the assessment for 2017."
-  - title: "Agile zum Fixpreis – ein Ding der Unmöglichkeit?"
-    speaker: "Andreas Mitter"
-    tags: "Agile Fixed Price, Agiler Festpreis, Vertragsmodelle, Agile Zusammenarbeit trotz Fixpreis"
-    language: "de"
-    level: 2
-    abstract: "Agile Methoden haben sich in den letzten Jahren als De-facto-Standard in der Softwareentwicklung etabliert. In vielen Fällen ist jedoch nur der Entwicklungsansatz agil; Der zugrundeliegende Vertrag wird in der Regel klassisch gestaltet - entweder durch einen klassischen Festpreis mit einem festgelegten Scope oder durch T & M-Verträge. Bei klassischen Festpreis-Verträgen erhält der Kunde genau das, was man in der Spezifikation definiert hat. Abweichungen werden entweder vom Change Management abgelehnt oder der Auftragnehmer wird für die Änderungen zusätzlich bezahlt. Viele Festpreis-Projekte gehen bereits davon aus, dass das Projekt nur durch die Änderungen profitabel ist. Daraus resultierend, bekommt der Kunden nicht nur das nicht, was er eigentlich benötigt, sondern es geht auch viel Zeit und Energie in Meetings verloren, in denen diskutiert wird, ob etwas ein Änderungswunsch ist oder nicht. In seiner Rede zeigt Herr Mitter Alternativen auf, wie ein Vertragsmodell gestaltet werden kann, das einerseits Kooperations- und Flexibilitätsprinzipien kombiniert, andererseits aber die Budgetsicherheit durch eine Preisobergrenze berücksichtigt. Das Ziel ist es, zu zeigen, welche Elemente für die Erstellung eines agilen Vertrags erforderlich sind und wie der Umfang des Projekts definiert wird, ohne eine endgültige Spezifikation zu erstellen. Herr Mitter wird auch auf die erfolgreiche Anwendung des agilen Festpreismodells in verschiedenen Unternehmen und Projekten achten."
-    bio: "Andreas Mitter has been dealing with agility in all his facets for more than 11 years. In his role as Head of Agile Advisory & Business Consulting at BearingPoint, he and his team accompany companies on their journey to become agile and, as an agile coach, he supports the introduction of agile methods at all levels of projects, teams, departments and entire companies."
-- time: "12:00 - 12:15"
-  break: "Coffee Break"
-- time: "12:15 - 13:00" 
-  talks: 
-  - title: "Scaled Agile @ Rewe - Planung mit mehreren Kunden und Produkten"
-    speaker: "Tanja Baricic-Böhm"
-    speaker-img: "tanjabaricicboehm"
-    tags: "Scaled Agile, Quartalsplanung, Planung, Kunden, Produkte"
-    language: de
-    level: 2
-    bio: "Die Begeisterung für Agile hat Tanja vor fast 5 Jahren in einer fortgeschrittenen agilen Umgebung gefunden und seitdem schon einige Erfahrungen als Scrum Master und Product Owner gesammelt. Nun unterstützt sie seit 2016 gemeinsam mit ihren Kollegen eine agile Transformation in der REWE International. In der Rolle als Agile Coach und Scrum Master betreut sie Teams, die eCommerce-Prozesse für Marketing-Websites, Backoffice-Applikationen und Online Shops entwickeln."
-    abstract: "In einer Welt, in der wenige Teams viele Produkte und Kunden betreuen müssen, ist die richtige Skalierung agiler Prozesse entscheidend. Die RIAG Digital hat viel Zeit und Energie investiert, agile Modelle wie z.B. Scrum und SAFE 4.0 erprobt und an die Bedürfnisse des Umfeld angepasst. In unserem Vortrag werden Sie von uns lernen, wie wir diese Problem gelöst haben und welche Erfahrungen wir dabei gesammelt haben."
-  - title: "People that make computers go crazy"
-    speaker: "Gojko Adzic"
-    language: en
-    level: 1
-    abstract: "What happens to people whose last name makes them invisible to software, how the world's longest name broke a supercomputer, and why it's so hard to detect false names online. Gojko will present stories about problems caused by wrong assumptions in computer systems, when they face the hard, unforgiving punch of reality."
-    bio:
-    - "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010."
-    - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
-    - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
-  - title: "Live demo: CQRS + event sourcing in brief."
-    speaker: "Aki Salmi"
-    tags: "cqrs, event sourcing, live demo, tdd, bdd, atdd, test-driven development"
-    language: en
-    level: 1
+    bio: 
     abstract: 
-    - "<I'd like to work on this - now this is mostly an MVP abstract, aiming to find if there is need for this kind of session >"
-    - "CQRS (Command-Query Responsibility Segregation) is not anything new - it’s been a known for quite some time now. In the simplest form, CQRS only states that commands and queries are executed on different objects. Event Sourcing is a way to handle entity state as a sequence of events instead of the current state (and possible snapshots of the history). Often-heard complait about CQRS is that it introduces unnecessary complexity to a system. Surely, CQRS+ES systems do add quite a few classes/objects; messages; commands; queries; projections; events. But, all of those are themselves simple and often does only one thing, following Single Responsibility Principle. In this interactive talk, I hope to demystify most parts of the CQRS+Event Sourcing approach. In this live demo, we start with existing acceptance test describing a full use case (scenario) and already existing controller and repository layers. The coding happens ”one path at a time” showing how * to handle create a command in controller * to handle commands, logic touching multiple domain services / entities * to create an entity that is event sourced. * to create a projection that represents the state of an event at given time. The code exists in Github, with a separate branch for test-driving it oneself after the event. Code is written in Java, making the live programming easy to follow."
-    bio: "Aki does not believe in magic. He makes it happen. Aki is a hiking guide of Suomen Latu and is using the leadership principles learned in such an agile environment in his daily work at Ambientia. Professionally, he travel all around Europe to speak, to share and to listen with software craftspeople on what the community has learned. Aki is well known in Software Craftsmanship Communities all over Europe for his down-to-earth and human touch. In short - Aki is a fluffy programmer. When programming, Aki loves to try new paradigms, new languages and new ways of working. This is a story from those learnings Meet a man who is living his dream."
-  - title: "Agile is tasty. Eat your own dogfood"
-    speaker: "Artur Margonari"
-    tags: "Agile, Lean, Scrum, Kanban, XP, Leadership, HR, Financial, Successes, Failures"
+- time: "12:00 - 12:15" 
+  break: "Coffee Break"
+- time: "12:15 - 13:00"
+  talks:
+  - title: "Hierarchie, Kreise oder doch Agil? Das Erfolgsrezept für ein erfolgreiches Unternehmen"
+    speaker: "Karin Haberleithner"
+    tags: 
+    language: de
+    youngtalent: true 
+    bio: 
+    abstract: 
+  - title: "Schlüsselrolle Transition Team – Erfolgreich zur agilen Organisation"
+    speaker: "Sabina Lammert"
+    tags: 
+    language: de
+    youngtalent: true 
+    bio: 
+    abstract: 
+  - title: "Formen technischer Schuld und wie man sie adressiert"
+    speaker: "Dominik Dopplinger"
+    tags: 
+    language: de
+    youngtalent: true 
+    bio: 
+    abstract: 
+  - title: "The n Stages of the Agile Apprentice"
+    speaker: "Laura Fitzgerald"
+    tags: 
     language: en
-    level: 1
-    abstract: "Agile is very tasty. We are used to taste it in software development. But what about the other areas? I’ll share my experience in conducting the Agile transition in HR and Financial departments of an agile consulting company."
-    bio: "Artur Margonari is passionate about Agile. He currently works as Agile Coach consultant at Wemanity Belgium, currently in a mission at BNP Paribas Fortis, from the beginning of its global Agile transformation. He has more than 4 years experience in practicing and helping companies to be more Agile, to form amazing teams and to deliver great products. Some of the certifications he holds: CSM, CSPO, CSP, LeSS Practitioner, SAFe Agilist, Lean-Kanban Practitioner, SMC, Management3.0, Agile Facilitator and Coaching Agile Teams 3.0. Hobbies & passions: guitar, ukulele & harmonica, archery, beer tasting, martial arts and traveling."
+    youngtalent: true 
+    bio: 
+    abstract: 
 - time: "13:00 - 14:00"
   break: "Lunch Break & Networking"
 - time: "14:00 - 15:00"
-  keynote: 
-  - title: "A new “ad-hoc” manifesto"
-    speaker: Harry Harrold 
-    speaker2: "Rupert Redington"
+  keynote:
+  - title: "The Selfish Team Player"
+    speaker: "J.B. Rainsberger"
     language: en
-    abstract: "Harry and Rupert present a survey of the cults, sects and heresies they’ve encountered while working with people \"doing agile\", culminating in their formulation of a new “ad-hoc” manifesto. Doctrinal purists are invited to be appalled."
-    bio: 
-    - "In the first dot-com boom, __Harry__ helped take an Internet security start up from 3 employees to acquisition by Sun Microsystems. Since leaving software marketing, he’s been helping organisations think about how their objectives relate to their peoples, designing interactions in the resulting projects, and making the best decisions possible about the products that come out of them. He occasionally speaks at conferences, usually about the things he's learned about making developing software less painful and more effective. He's particularly proud of his work on Neontribe's projects for social good like Mind Of My Own, Doc Ready and the Great British Public Toilet Map amongst others."
-    - "__Rupert__ ran away from the theatre to become a web developer at the turn of the century. Since then he’s been making mistakes at Neontribe as fast as he can, learning from a reasonable percentage of them. Recently he’s been using Javascript to help teenagers talk to doctors, Americans to buy airline tickets and everybody to find their way to the loo."
 - time: "15:00 - 15:15"
-  break: "Coffee Break" 
-- time: "15:15 - 16:00"
-  talks: 
-  - title: "Rethinking agile leadership"
-    speaker: "Andrea Provaglio"
-    language: en
-    tags: "leadership, management, self-organization, teamwork, agile, innovation, organizational change"
-    level: 3
-    abstract: "The Agile world seems to have recently discovered the importance of \"leadership\". This can be very good news and it can also very bad news. It's bad news if the so-called \"Agile Leadership\" is a way to rebrand traditional management models, along with their underlying mindset, so that they could survive in a rather different cultural ecosystem — namely, Agile. On the other hand, this interest can be very good news if Agile Leadership is seen as something almost entirely new. Something tightly connected to Agile and, therefore, deeply rooted in complexity and empiricism. Something that carries a deep understanding of human dynamics in highly cooperative, intellectually intense social environments. Something that — last but not least — is equipped with a good deal of self-awareness, system-awareness and self-transcendence. Modern and truly Agile organizations want and need to, among other things: explore and validate multiple options, not sticking to predefined plans; learn constantly, re-plan as needed; leverage the collective intelligence of their teams, for better exploration of options and smarter learning; have built-in resiliency when facing sudden change; getting results out of people's participation, not out of people's compliance. In this sense the whole concept of true Agile Leadership is quite important indeed, because it's fundamental to nurture and support those organizations that really embody an Agile culture, and that are so far away from the \"organization as a machine\" approach that's so typical of traditional leadership and management disciplines. Agile Leadership or, rather, the act of \"leading\" in Agile is so much different from those disciplines because it's inherently organic, meaning that it has influence and is influenced on a number of different levels in the individual and in the organization: on the personal level; on the collective level; on current behaviors; on future behaviors; on the social relationship level (trust); on the personal responsibility level (participation); on the formal responsibility level (accountability); on the motivational level and many more. This richness and multidimensionality of the act of leading in Agile is such that simplistic mental models (such as the leader being the \"guy at the top\") simply won't suffice and therefore a more mature understanding and practice of leading is called for, in the entire organization."
-    bio: "I help knowledge-based organizations, including IT companies, to rethink their organizational dynamics, their organizational structures, their mental models, their practices and their processes, to let them operate better in the 21st century. I work closely with executives, managers and teams and I do a number of things including one-on-one coaching, team coaching, consulting on specific practices and, occasionally, hands-on training. I’m especially interested in distributed leadership and self-organization for knowledge-based organizations, a topic that touches on a number on subjects, including non-conventional organizational structures and individual and collective communication and social skills. And, I’m a long-standing Agile practitioner. In over 20 years of professional experience, I worked with organizations as big the United Nations’ FAO and as small as dynamic post-startup companies, in many different countries. I have a wide range of expertise, in both the public and private sector, with both large and small organizations and with different cultures. Currently I work in Europe. I've also worked in the USA on a O-1 visa for \"extraordinary abilities in Sciences\"."
-  - title: "Wie eine Webtest-Suite mit einer umfangreichen Applikation Schritt halten kann - ein Erfahrungsbericht"
-    speaker: "Florian Decker"
-    tags: "Page Objects, Webtesting, Selenium"
-    language: de
-    level: 2
-    abstract: "Für das agile Testen braucht es einen hohen Automatisierungsgrad. Um diesen für eine Webapplikation zu erreichen, hat man mit mehreren Herausforderungen zu kämpfen. So auch für unser eigenes Webprodukt, wo unsere integrative Testsuite trotz einer überschaubaren Testanzahl einen hohen Wartungsaufwand und hohe Durchlaufzeit mit sich brachte. Aus diesem Grund wurde der Entschluss gefasst, eine eigene Lösung entwickelt, die Konzepte der Webapplikation und Selenium verbindet und diese als Abstraktionsschicht dem Webtestentwickler bereitstellt. Während die meisten Ansätze für hohe Testautomatisierung viel Entwicklungsverantwortung auf die Rücken der Tester legen, haben wir durch unser Abstraktionsschicht den größten Teil der Entwicklungsverantwortung in die Applikationsentwicklung verlagert. Auf Basis dieser Abstraktionsschicht ist es den Testern möglich, ohne viel Programmiererfahrung stabile, performante und gut lesbare Tests zu schreiben. Die Applikation kann so angesprochen werden, wie auch ein Benutzer die Applikation ansprechen würde, indem für die angebotenen UserInterfaceParadigmen benannte/dedizierte Operationen zur Verfügung gestellt werden. Außerdem werden einige Konzepte präsentiert, die für stabile und performante Tests notwendig sind, wie etwa die Detektierung von vollendeten Aktionen, Kommunikation zwischen Applikation und Testing Layer, sowie Page Object Generierung."     
-    bio: "Florian Decker ist Entwickler bei der rubicon IT-GmbH. Dabei beschäftigt er sich vor allem mit der Weiterentwicklung eines Webtesting-Frameworks, auf dessen Basis die Testautomatisierung für interne Produkte aufbaut. Im Kontext dieser Arbeit sieht er täglich, welchen Einfluss die gewählten Webtesting-Konzepte auf das Automatisieren von Tests in den agilen Produktteams hat. Berufsbegleitend studiert er im Masterstudium \"Software Engineering\" an der FH Technikum Wien."
-  - title: "Metrics we can gain from our (Kanban) system and what we can learn from it…"
-    speaker: "Martin Putz"
-    tags: "Kanban, (Competitive) Metrics, How to gain metrics, How to use metrics to manage the system, Simulation, Forecasting"
-    language: de
-    level: 2
-    abstract: "In dieser Session wird gezeigt, wie man auf einfache Art und Weise Metriken generieren kann, welche Metriken sinnvollerweise herangezogen werden sollten, und wie diese helfen datenbasierte und somit fundiertere Entscheidungen zu treffen und wie man diese Daten verwenden kann, um das zukünftige Verhalten des Systems zu prognostizieren."
-    bio: "Martin Putz ist Head of Engineering bei avedos GRC GmbH und hat 15+ Jahre Erfahrung in Leading, Coaching und Developing von R&D Teams im Enterprise Software Umfeld. Inhaltlicher Schwerpunkt seiner Tätigkeit war neben Coaching und Weiterentwicklung der Teams die Industrialisierung und Automatisierung des Softwareentwicklungsprozess, sowie die strategische Planung von Software Releases inklusive technischer Entscheidungen hinsichtlich Plattformen und Tools."
-  - title: "Event storming - the game changer  (Part 1)"
-    speaker: "Adrian Weidermann and Mirsad Kozlica"
-    speaker-img: "adrianweidermann"
-    workshop: true
-    tags: "Event Storming, Gamestorming, Wissenstransfer, Projektplanung, Prozess Visualisierung, Anforderungsanalyse, DDD"
-    language: de
-    level: 1
-    abstract: "Ursprünglich als Ergänzung zum Domain Driven Design (DDD) gedacht, hat sich Event Storming mittlerweile zu einem Geheimtipp auch außerhalb der DDD Welt gemausert. Einordnen lässt es sich in die Welt des Gamestorming, auch wenn es dort noch nicht häufig anzutreffen ist und eignet sich optimal zur Prozessskizzierung, Anforderungsanalyse und zum Wissenstransfer. Das Besondere am Event Storming ist die Leichtigkeit mit der man in der Lage ist Informationen von einem Domänenexperten zu erhalten und zu visualisieren, wobei es vollkommen ausreichend ist, wenn der Moderator die Regeln kennt. Da man einen Prozess beim Event Storming von Anfang bis Ende mit Domänenexperten skizziert und gezielt hinterfragt erreicht man einen optimalen Wissenstransfer vom Wissensträger zu allen anderen Teilnehmern und erreicht einen tiefen Einblick in den hinterfragten Prozess. Dies kann zu einem Big Picture oder aber auch zu einem Deep Dive führen, wobei sich das Event Storming nicht nur eignet um einen Business Prozess zu skizzieren, es ist auch ohne Probleme ein Einsatz in der User Experience (UX) möglich. Anhänger des DDD schätzen auch die vom Kunden unbewusst skizzierte Architektur und spart hierdurch im Entwicklungsbereich somit sogar Arbeit ein."
-    bio: "Adrian Weidermann Der Author ist seit Jahren Hauptberuflich in der Medizin-, Sozial- und Marketingbranche als Software Developer, Architekt und Teamleiter im Agilen Umfeld tätig, aktuell bringt er sich als CTO für Schweizer Marketing Unternehmen ein. Nebenberuflich ist er als Trainer und Consultant für DDD, Kanban, Specification by Example, Gamestorming, Design Thinking, CleanCode und Test Driven Development unterwegs. In seiner Technischen-Freizeit beschäftigen ihn Themen wie IoT, Programmieren und der Wissenstransfer. Mirsad Kozlica Der Author ist seit Jahren Hauptberuflich als Projektmanager, Consultant und Sales-Manager im Software Bereich tätig. Aktuell leitet er den österreichischen Standort eines Schweizer IT-Unternehmens mit starkem Marketing Fokus. Nebenberuflich berät er Unternehmen im Marketing und in der Konzeption von mobilen Applikationen."
-- time: "16:00 - 16:30"
   break: "Coffee Break"
-- time: "16:30 - 17:15"
-  talks: 
-  - title: "Learnings from an agile coach and how to coach executive teams"
-    speaker: "Guðfinnur Sveinsson"
-    speaker-img: "guofinnursveinsson"
-    tags: "agile, coaching, executive, management, team, startup"
+- time: "15:15 - 16:00"
+  talks:
+  - title: "Max Impact – Min Effort"
+    speaker: "Gojko Adzic & Christian Hassa"
+    tags: 
     language: en
-    level: 2
-    abstract: "In his talk, Learnings from an agile coach and how to coach executive teams, Guðfinnur shares his learnings and insights from transforming a startup in hypergrowth into an agile organization and later from consulting and coaching executive teams. Guðfinnur begins with sharing his story from QuizUp, where he joined as an early employee knowing little as nothing about software development but was given the opportunity to learn the art of team coaching. Following the QuizUp story, Guðfinnur shares his experience as a consultant where he has mainly focused on applying agile tools and methods to coach executive teams at companies in various sectors. He will reflect on the differences of executive teams compared to typical agile teams in software development, identify the factors which a successful executive team has to fulfill and share advice on how to coach a team of managers. In the talk, Guðfinnur will offer new ways to think about coaching and even advices team coaches to step aside as the team’s coach from time to time. Attendees can expect to hear an honest and unpolished story about the speaker’s experiences along with gaining some hopefully useful advice."
-    bio: "Guðfinnur is an agile teamwork and management consultant from Iceland. He currently lives and studies opera in Vienna but travels to Iceland regularly to work with his clients, currently top Iclelandic companies WOW air and Tempo.io. Guðfinnur has toured the world playing his music, was active in Iceland’s political scene and has dived into meditation practice in the past years. When graduating with a BA in Philosophy, he took the surprising step to join a new and exciting software company in Iceland, QuizUp. Being an early employee, Guðfinnur got the opportunity to build and shape the organization of the game studio, while QuizUp became a sensation with over 80 million worldwide downloads in little more than 2 years. During his time there, Guðfinnur got an incredible opportunity to learn the ins and outs of mobile development for a mainstream market, coaching teams in an agile enviornment and constantly evolving an organization to cope with and survive it’s rapid growth."
-  - title: "Alle kochen nur mit Wasser - Theorie und Wirklichkeit für kleine Teams mit großen Projekten"
-    speaker: "Robert Prosenc"
-    tags: "Scrum for small teams, Multiproject, Teamentwicklung, Erfahrungen"
-    abstract: "Ich erzähle die Geschichte einer kleinen agilen Firma, die sich aufmachte, mit Scrum erfolgreich zu werden. Mit wechselnder Mitarbeiteranzahl, und stets viel mehr Projekten als Teammitgliedern, entwickelten und entwickeln wir laufend eine gemeinsame Team- und Firmenkultur, und ein für uns passendes Verständnis von Scrum. Als Dienstleister bauen wir enge Beziehungen zu unseren Kunden auf, deren Produkte wir entwickeln. Im Laufe von 6 Jahren wuchsen und erwuchsen wir als Team und als Firma, entwickelten eine gemeinsame Kultur, in der sowohl Platz für Grösse, als auch für Fehler zu finden ist. Aus manchen Fehlern lernten wir schnell, aus anderen nur langsam, aber wir ließen nur wenige aus. Wir entwickelten für uns funktionierende Zugänge zu verschiedenen Themen und Herausforderungen: Scrum im Multiprojekt-Umfeld, starke Technologie- und Domänenwechsel, Pair- und Mob-Programming, Entscheidungsfindung auf verschiedensten Ebenen, Selbstorganisation, Diskussionskultur und Meeting-Effizienz. Scrum mit einem kleinen Team ist anders als im klassischen Enterprise-Umfeld, macht aber viel mehr Spass."
-    bio: "Robert baut seit fast zwei Dekaden Software aus Leidenschaft. In dieser Zeit nahm er an der Umsetzung verschiedenster Projekte Teil, von den ersten Ideen bis hin zum fertigen Produkt, für Kunden aus den unterschiedlichsten Bereichen von Start-Ups bis hin zu multinationalen Konzernen. Er ist seit sechs Jahren für die 25th-floor GmbH als Full Stack Developer und Product Owner für unterschiedliche Projekte tätig. Privat interessiert er sich besonders für Psychologie, Verhanltensökonomie und Origami."
+    level: 3
+    bio: 
+    abstract: 
+  - title: "From Fragile to Agile: Innovating Cloud Service Delivery at a Global Enterprise"
+    speaker: "Martin Etmajer"
+    tags: 
+    language: en
+    level: 3
+    bio: 
+    abstract: 
+  - title: "Botium - das Selenium für Chatbots"
+    speaker: "Christoph Börner"
+    tags: 
     language: de
-    level: 2
-  - title: "From zero to continuous delivery"
-    speaker: "Paolo D'Incau"
-    speaker-img: "paolodIncau"
-    tags: "continuous delivery, jenkins, docker, kubernetes"
+    level: 3
+    bio: 
+    abstract: 
+  - title: "Typical office environment sucks for creative work: How we create our new office to empower creative problem-solvers"
+    speaker: "Florian Hackl-Kohlweiß"
+    tags: 
     language: en
-    level: 2
-    abstract: "Once you understood what Continuous Delivery, you can start adopting it by using practices, tools and technologies that helps you to improve the way you release software in production. In this session you will see how you can implement a Continuous Delivery process from scratch adopting well known tools such as Docker, Jenkins and an orchestrator of your choice"
-    bio: "Paolo D'Incau is an Italian agile developer. During the last years he discovered how culture supported by technical practices can reshape companies and organizations."
-  - title: "Event storming - the game changer (Part 2)"
-    speaker: "Adrian Weidermann and Mirsad Kozlica"
-    speaker-img: "adrianweidermann"
-    workshop: true
-    tags: "Event Storming, Gamestorming, Wissenstransfer, Projektplanung, Prozess Visualisierung, Anforderungsanalyse, DDD"
     level: 1
+    bio: 
+    abstract: 
+- time: "16:00 - 16:15"
+  break: "Coffee Break"
+- time: "16:15 - 17:00"
+  talks:
+  - title: "Full Metal Agile - the Agile Drill Sergeant story!"
+    speaker: "Robert Finan"
+    tags: 
+    language: en
+    level: 3
+    bio: 
+    abstract: 
+  - title: "The Power of Check-ins, Energizers and Icebreakers"
+    speaker: "Artur Margonari"
+    tags: 
+    workshop: true
+    language: en
+    level: 1
+    bio: 
+    abstract: 
+  - title: "Umgang mit hohen Unsicherheiten bei der Planung und Umsetzung von Projekten"
+    speaker: "Thomas Pieber"
+    tags: 
     language: de
-    abstract: "Ursprünglich als Ergänzung zum Domain Driven Design (DDD) gedacht, hat sich Event Storming mittlerweile zu einem Geheimtipp auch außerhalb der DDD Welt gemausert. Einordnen lässt es sich in die Welt des Gamestorming, auch wenn es dort noch nicht häufig anzutreffen ist und eignet sich optimal zur Prozessskizzierung, Anforderungsanalyse und zum Wissenstransfer. Das Besondere am Event Storming ist die Leichtigkeit mit der man in der Lage ist Informationen von einem Domänenexperten zu erhalten und zu visualisieren, wobei es vollkommen ausreichend ist, wenn der Moderator die Regeln kennt. Da man einen Prozess beim Event Storming von Anfang bis Ende mit Domänenexperten skizziert und gezielt hinterfragt erreicht man einen optimalen Wissenstransfer vom Wissensträger zu allen anderen Teilnehmern und erreicht einen tiefen Einblick in den hinterfragten Prozess. Dies kann zu einem Big Picture oder aber auch zu einem Deep Dive führen, wobei sich das Event Storming nicht nur eignet um einen Business Prozess zu skizzieren, es ist auch ohne Probleme ein Einsatz in der User Experience (UX) möglich. Anhänger des DDD schätzen auch die vom Kunden unbewusst skizzierte Architektur und spart hierdurch im Entwicklungsbereich somit sogar Arbeit ein."
-    bio: "Adrian Weidermann Der Author ist seit Jahren Hauptberuflich in der Medizin-, Sozial- und Marketingbranche als Software Developer, Architekt und Teamleiter im Agilen Umfeld tätig, aktuell bringt er sich als CTO für Schweizer Marketing Unternehmen ein. Nebenberuflich ist er als Trainer und Consultant für DDD, Kanban, Specification by Example, Gamestorming, Design Thinking, CleanCode und Test Driven Development unterwegs. In seiner Technischen-Freizeit beschäftigen ihn Themen wie IoT, Programmieren und der Wissenstransfer. Mirsad Kozlica Der Author ist seit Jahren Hauptberuflich als Projektmanager, Consultant und Sales-Manager im Software Bereich tätig. Aktuell leitet er den österreichischen Standort eines Schweizer IT-Unternehmens mit starkem Marketing Fokus. Nebenberuflich berät er Unternehmen im Marketing und in der Konzeption von mobilen Applikationen."
+    level: 3
+    bio: 
+    abstract: 
+  - title: "Handle with Care. Things to consider before you scale"
+    speaker: "Dmitry Lebedev"
+    tags: 
+    language: en
+    level: 1
+    bio: 
+    abstract: 
+- time: "17:00 - 18:00"
+  keynote:
+  - title: "Hearing vs Listening"
+    speaker: "David Anania"
+    language: en
+- time: "18:00 - 20:30"
+  break: "After Conference Networking & Cocktails"

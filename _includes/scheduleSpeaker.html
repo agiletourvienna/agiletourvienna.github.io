@@ -133,38 +133,52 @@
 {% if slot.speaker2-img %}{% assign speaker2Img = slot.speaker2-img %}{%endif %}
 
 <div>
+{% if site.showScheduleDetailModals %}
 <a class="speaker-container{% if slot.cancelled %} cancelled{%endif %}" href="#scheduleModal-{{moduleName}}" data-toggle="modal">
+{% else %}
+<span class="speaker-container{% if slot.cancelled %} cancelled{%endif %}">
+{% endif %}
     {% if slot.level %}<span class="tag primary"><img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png" title="Level"/></span>{% endif %}
     {% if slot.language %}<span class="tag primary">{{ slot.language | uppercase}}</span>{% endif %}
+    {% if site.showScheduleDetailImages %}
     <div class="image-row">
         <img class="speaker-image" src='{{ site.baseurl }}/img/schedule/{{speakerImg}}.png'/>
         {% if slot.speaker2 %}<img class="speaker-image speaker-image2" style="margin-left: -17px;"
             src='{{ site.baseurl }}/img/schedule/{{speaker2Img}}.png'/>{%
         endif %}
     </div>
+    {% endif %}
     {% if slot.cancelled %} <div>
         <b style="text-decoration: none">CANCELLED: </b>
     </div>{%endif %}
     <div class="title">
         {{slot.title}}
     </div>
+    {% if slot.speaker %}
     <div class="name">
         <div>by {{slot.speaker}}
         {% if slot.speaker2 %}
         and {{slot.speaker2}}
         {% endif %}</div>
     </div>
+    {% endif %}
     <div>
         {% if slot.workshop %}<span class="tag workshop">workshop</span>{% endif %}
+        {% if slot.youngtalent %}<span class="tag workshop">young talent</span>{% endif %}
         {% assign tags = slot.tags | split: ',' %}
         {% for tag in tags %}
         <span class="tag">{{ tag | strip }}</span>
         {% endfor %}
 
     </div>
+{% if site.showScheduleDetailModals %}
 </a>
+{% else %}
+</span>
+{% endif %}
 </div>
 
+{% if site.showScheduleDetailModals %}
 <div class="scheduleSpeaker-modal speaker-modal modal fade" id="scheduleModal-{{moduleName}}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -218,3 +232,4 @@
         </div>
     </div>
 </div>
+{% endif %}
