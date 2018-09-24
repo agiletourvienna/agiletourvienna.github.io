@@ -12,9 +12,9 @@ showCallForProposals: false
 showRegister: true
 showSchedule: true
 showScheduleDetails: true
-showScheduleDetailImages: false
-showScheduleDetailModals: false
-showAbout: false
+showScheduleDetailImages: true
+showScheduleDetailModals: true
+showAbout: true
 showSpeaker: true
 showContribution: false
 showReviewerContribution: false

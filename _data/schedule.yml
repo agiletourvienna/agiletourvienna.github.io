@@ -1,185 +1,213 @@
 - time: "08:45 - 09:00"
   keynote:
   - title: "Welcome @ Agile Tour Vienna 2018 + Introduction of our Sponsors"
+    speaker-img: "schedule"
 - time: "09:00 - 10:00"
   keynote:
   - title: "Agility ≠ Speed"
     speaker: "Kevlin Henney"
     language: en
+    bio: "Kevlin Henney is an independent consultant, speaker, writer and trainer. His development interests are in patterns, programming, practice and process. He has been a columnist for a number of magazines and sites and has been on far too many committees (it has been said that 'a committee is a cul-de-sac down which ideas are lured and then quietly strangled'). He is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of 97 Things Every Programmer Should Know and the forthcoming 97 Things Every Java Programmer Should Know."
+    abstract: "Velocity. Sprints. More points, more speed. An obsession with speed often overtakes the core values of agile software development. It's not just development of software; it's development of working software. Sprints are not about sprinting; they're about sustainable pace. Time to market is less important than time in market. Full-stack development is normally a statement about technology, but it also applies to individuals and interactions. The full stack touches both the code and the world outside the code, and with that view comes responsibility and pause for thought. Doing the wrong thing smarter is not smart. The point of a team is its group intelligence not its numbers. Is scaling up the challenge, or is scaling down the real challenge? The distraction and misuse of speed, velocity, point-based systems, time, team size, scale, etc. is not the accelerant of agile development. Agility lies in experimentation, responsiveness and team intelligence."
 - time: "10:00 - 10:15"
   break: "Coffee Break"
 - time: "10:15 - 11:00"
   talks:
   - title: "Nobody said it's easy: making the transition from a startup to an established agile company"
     speaker: "Christian Hattinger"
-    tags: 
+    speaker-img: "christianhattinger"
+    tags: "Agile, scale, continuous improvement"
     language: en
     level: 3
-    abstract: 
-    bio: 
+    abstract: "Working in a tech startup company we found it easy for everybody in our team to be hands-on, up to date and included in quick decision making. This was possible with talented and motivated people who were experienced in agile software development. In such stages of a startup, people wear many hats and can adapt quickly when new learnings arise. But how can you keep this agile environment while driving your business and growing your team at a very fast pace? How can your working environment and onboarding enable new employees to be creative problem solvers who want to have a positive impact on people’s health? You will get insights on how mySugr scaled up from 4 to 120 people in two locations on two continents with their mission to make diabetes suck less: from business development to product development, legal and regulatory to marketing, finance and accounting to human resources, and much more. How does mySugr combine the needs of the highly regulated area of medical devices while driving for a company wide agile mindset? Join this presentation if you want to get insights into the positive but also painful learnings. This includes the introduction of strategic and tactical Objective and Key Results (OKRs), a self formulated mission for product teams, the goal of bringing business and product closer together. As well as why we built our new office similar to our products - always with the vision to make our customers awesome."
+    bio: "Christian studied Software Engineering & Internet Computing and Computer Science Management at the Vienna University of Technology. He worked for the University on technical aids for deaf and hard of hearing students. Christian joined mySugr in 2012 as a QA Engineer. At that early stage of the medtech startup, mySugr consisted of fewer than ten motivated people working on the vision of making diabetes suck less. He became the first Agile Coach and later the Head of Quality Assurance. Christian currently works entirely as an Organisational Coach at mySugr and is the Head of the Agile Department. Together with his colleagues he works on scaling the Company to 150 employees. His mission is to keep mySugr an agile organisation for creative problem solvers who want to have a positive impact on people’s health. All to serve our vision of creating a world where a person with diabetes can live a full and healthy life, freed from worrying about the daily grinds of their therapy."
   - title: "Spieldikalifragelistig = expialigetisch"
     speaker: "Karin Groissenberger & Robert Herzig"
-    tags: 
+    speaker-img: "karingroissenberger"
+    tags: "Gamification, Octalysis, Motivation, Fun"
     workshop: true
     language: de
     level: 1
-    abstract:
-    bio: 
+    abstract: "Wir wollen ein Spiel mit dir spielen. Aber keine Angst - bleibende Schäden sind hoffentlich auszuschließen. Der Workshop richtet sich an all jene, die schon daran gedacht haben, bzw. sich vorstellen können, Gamification in ihren Arbeitsalltag zu integrieren. Neben der einen oder anderen Binsenweisheit aus der Forschung fokussieren wir uns auf unsere eigene alltägliche Anwendung in der Praxis. Wir berichten von unseren erfolgreichen Praxisbeispielen und maßlos übertriebenen epischen Niederlagen welche wir auf dem Weg erlitten haben. Diese Reise wollen wir gemeinsam fortsetzen und die Gelegenheit nutzen im Labor eine entsprechende Anzahl von Versuchsobjekten zur Verfügung zu haben. Mit ihnen gemeinsam soll unser Experiment „spielend arbeiten“ weitergeführt werden. Interaktiv dürfen wir die Mitspieler in einen Irrgarten von Fakten und Aberglauben über Gamification führen. Es bleibt abzuwarten, ob wir mit ihnen zusammen dann zu einem anderen Ausgang gelangen, den wir selbst noch nicht erblickt haben. Unsere Fallbeispiele reichen von den Klassikern der Gamification wie Painsquad und FoldIt hin bis zu Eigenkreationen wie der Tasklotterie und Taskbattleship. Um unseren Lehrmeistern des Faches treu zu bleiben werden wir auch die eine oder andere Überraschung aus dem Hut zaubern. Auch wenn Theoretiker und Faktensammler nicht gänzlich verhungern werden, sind Praktiker, die mit uns gemeinsam etwas erschaffen wollen, unser hauptsächliches Zielpublikum. Ludi incipient!"
+    bio: "Karin hat über 10 Jahre Erfahrung in verschiedenen IT Abteilungen divergierender Branchen in Deutschland und Österreich. Ihre Rollen reichten dabei von Fachexperte für Business Intelligenz und Datawarehousing über Datenbankentwicklung bis hin zum IT Change Request und Claim Manager. Heute ist sie Scrum Master bei Bearingpoint Technology und setzt ihren Fokus auf das Bilden von 'Great Teams'. Schlüsselfaktor dafür ist ein sicheres Arbeitsumfeld welches differenzierten Gedankenaustausch ermöglicht. Robert - Jack of all Trades - Master of None – Vom Entwickler zum Softwarearchitekten zum klassischen Projektmanager. Vom Startup zur Selbstständigkeit zum Consultant im Konzern. Product Onwer, Scrum Master und Agiler Coach. Die Möglichkeit sich weiterzuentwickeln war immer ein willkommener Wegbegleiter. Zuletzt wurde der Fokus wieder vom agilen Coaching in Großunternehmen auf das eigene Projektteam zurückgelenkt und dort ein neuer Schwerpunkt in Richtung Forschung zu Gamification im Arbeitsalltag gesetzt."
   - title: "Micro Frontends - a strive for fully verticalized systems"
     speaker: "David Leitner"
-    tags: 
+    speaker-img: "davidleitner"
+    tags: " frontend-monolith, verticalized systems, microservices, self-contained systems, single-page-applications, software architecture"
     language: en
     level: 3
-    bio: 
-    abstract: 
+    bio: "Thomas hat seit 2010 bei der Firma Infonova in mehreren Teams und Projekten Erfahrung in der Rolle des Scrum Masters gesammelt. Im größten Projekt koordinierte er zwei Scrum Master, sieben Product Owner und steuerte damit sechs Teams. Weiters wurden von ihm mehrere Scrum-Consulting Aufträge im deutschen Raum erfolgreich durchgeführt. 2017 wechselte er als Scrum Master zur Firma LOGICDATA, wo er die Einführung von Scrum in den Abteilungen Firmware und Mechanik und im Projektmanagement vorantreibt. Thomas ist zertifizierter Scrum Master und Product Owner."
+    abstract: "We’ve seen significant benefits from choosing a microservice architecture for building enterprise applications, which allows us to structure teams based on business capabilities, improve scalability and enable the flexibility of being polyglot in the usage of technologies. Mostly this architecture is then complemented by a feature-rich and powerful browser application which sits on top of these backend-services. Unfortunately, the latter step ends up way too often in the creation of a single, sprawling and hard to maintain frontend-monolith. The approach of micro frontends is an effective way to tackle this problem and first appeared at the end of 2016 on the ThoughtWorks Technology Radar. By going into detail about the underlying concepts of this architectural style, the idea of extending concepts of microservices to the frontend world, the importance of fully end-to-end verticalized systems, and the difference of an orchestration- or choreography-based implementation become reasonable. Upon a closer look at the advantages and challenges I've experienced in customer projects, it turns out that micro frontends are not a silver bullet either. Rather, they are suited for a specific set of problems. In a nutshell, micro frontends can be a powerful tool to avoid frontend monoliths and this talk will give you the needed knowledge to decide if it’s the right one for the job."
   - title: "Die Integration von UX in einem Scrum of Scrum Team - Tools und Learnings"
     speaker: "Veronika Winter"
-    tags: 
+    speaker-img: "veronikawinter"
+    tags: "User Experience, Product Owner, Scrum, Tools"
     language: de
     level: 1
-    bio: 
-    abstract: 
+    bio: "Veronika currently works at TechTalk and is part of a UX team of four. She currently is part of a scrum project running over several years (social care sector). Veronika did her master’s degree in Denmark and found her passion in the study program “IT Product Design” with User Experience Design. Methods like prototyping, wire-framing, Usability Testing and workshops with users and other stakeholder belong to her daily work. Besides that, also agile and scrum routines are part of her daily business and are of high interest for her when they can improve the team performance and team collaboration. Additionally, working as an external lecturer at FH Technikum Wien, where she can pass on her knowledge in User Experience and Scrum to her students, rounds off Veronikas bio."
+    abstract: "Since beginning of 2017 the UX team of a scrum of scrum project I am currently working at, grew from zero to five people. Growth is always connected with challenges that also we have faced: communication issues, the sudden need for more coordination and discussion, teams with different focus, different requirements and ways of working, keeping the consistency of style and layout for four scrum teams, different access to key users, a variety of knowledge in UX, more and more pull requests due to growing UX knowledge and more precise UX reviews… During the last couple of months, methods and practices has been established and developed further that support us to face and tackle our challenges. We want to share these with you! Most techniques are simple but effective to integrate. You could categorize those in 5 parts: Communication within the UX team, Communication within the scrum team, Communication between UX and Product Owner, Communication with users, Documents for everyone. Additionally, in some projects I did, we lacked any ideas when and how to integrate an UX designer into the team in an most effective way. Do you feel the same? The learnings we share shall help you to get inspired and to find a way to try out and adapt the techniques for your project setting."
 - time: "11:00 - 11:15"
   break: "Coffee Break"
 - time: "11:15 - 12:00"
   talks:
   - title: "The Bungsu Story - inspirational presentation"
     speaker: "Marcus Hammarberg"
-    tags: 
+    speaker-img: "marcushammarberg"
+    tags: "agile, lean, Kanban"
     language: en
     level: 1
-    bio: 
-    abstract: 
+    bio: "For 15 years Marcus Hammarberg has been doing agile and lean software development and helping others do it. He has worked in many different settings, from big banks and insurance companies, to start-ups and within retail. At one big insurance company, the first agile team, started by Marcus, eventually spread to a lean initiative across the business. As a consultant Marcus helps individuals, teams, and whole organizations improve their value delivery flow. Marcus is still a keen programmer and continues to practice and teach the concepts that helped him become a good programmer: TDD, Specification by example, functional programming and Node.Marcus is a keynote speaker and co-author of Kanban In Action, which has been translated into 5 languages across the globe. He has blogged since 2006 at www.marcusoft.net and spend his spare time playing euphonium in the Salvation Army band at Vasakåren, Stockholm.2014-2015 Marcus moved to Indonesia with his family to work for the Salvation Army. Unexpectedly his previous experience with lean, agile and kanban was soon put to great use there too. This story is retold as it happened in his second book; Salvation: The Bungsu story"
+    abstract: "When you have no operational permit, no customers and the very building you are operating in falls in - most organisations give up. Not so with the Salvation Army hospital in Bandung Indonesia - they decided to try to save the hospital and I was very fortunate to help them in their journey. Me?! A lean/agile coach. A westerner with little to no knowledge in hospital management and operation. We started to apply the principles of kanban and in doing so turned the hospital around into something amazing. Transforming not only the organisation but also some lives among the people in the staff. While working with the hospital in this way I gained deeper insight and knowledge about what the principles of lean and kanban means and how they can be applied to make us more and more effective. And save us from disaster too…"
   - title: "Spieldikalifragelistig = expialigetisch"
     speaker: "Karin Groissenberger & Robert Herzig"
-    tags: 
+    speaker-img: "karingroissenberger&robertherzig"
+    tags: "Gamification, Octalysis, Motivation, Fun"
     workshop: true
     language: de
     level: 1
-    bio: 
-    abstract: 
+    abstract: "Wir wollen ein Spiel mit dir spielen. Aber keine Angst - bleibende Schäden sind hoffentlich auszuschließen. Der Workshop richtet sich an all jene, die schon daran gedacht haben, bzw. sich vorstellen können, Gamification in ihren Arbeitsalltag zu integrieren. Neben der einen oder anderen Binsenweisheit aus der Forschung fokussieren wir uns auf unsere eigene alltägliche Anwendung in der Praxis. Wir berichten von unseren erfolgreichen Praxisbeispielen und maßlos übertriebenen epischen Niederlagen welche wir auf dem Weg erlitten haben. Diese Reise wollen wir gemeinsam fortsetzen und die Gelegenheit nutzen im Labor eine entsprechende Anzahl von Versuchsobjekten zur Verfügung zu haben. Mit ihnen gemeinsam soll unser Experiment „spielend arbeiten“ weitergeführt werden. Interaktiv dürfen wir die Mitspieler in einen Irrgarten von Fakten und Aberglauben über Gamification führen. Es bleibt abzuwarten, ob wir mit ihnen zusammen dann zu einem anderen Ausgang gelangen, den wir selbst noch nicht erblickt haben. Unsere Fallbeispiele reichen von den Klassikern der Gamification wie Painsquad und FoldIt hin bis zu Eigenkreationen wie der Tasklotterie und Taskbattleship. Um unseren Lehrmeistern des Faches treu zu bleiben werden wir auch die eine oder andere Überraschung aus dem Hut zaubern. Auch wenn Theoretiker und Faktensammler nicht gänzlich verhungern werden, sind Praktiker, die mit uns gemeinsam etwas erschaffen wollen, unser hauptsächliches Zielpublikum. Ludi incipient!"
+    bio: "Karin hat über 10 Jahre Erfahrung in verschiedenen IT Abteilungen divergierender Branchen in Deutschland und Österreich. Ihre Rollen reichten dabei von Fachexperte für Business Intelligenz und Datawarehousing über Datenbankentwicklung bis hin zum IT Change Request und Claim Manager. Heute ist sie Scrum Master bei Bearingpoint Technology und setzt ihren Fokus auf das Bilden von 'Great Teams'. Schlüsselfaktor dafür ist ein sicheres Arbeitsumfeld welches differenzierten Gedankenaustausch ermöglicht. Robert - Jack of all Trades - Master of None – Vom Entwickler zum Softwarearchitekten zum klassischen Projektmanager. Vom Startup zur Selbstständigkeit zum Consultant im Konzern. Product Onwer, Scrum Master und Agiler Coach. Die Möglichkeit sich weiterzuentwickeln war immer ein willkommener Wegbegleiter. Zuletzt wurde der Fokus wieder vom agilen Coaching in Großunternehmen auf das eigene Projektteam zurückgelenkt und dort ein neuer Schwerpunkt in Richtung Forschung zu Gamification im Arbeitsalltag gesetzt."
   - title: "Telling Better Stories"
     speaker: "David Evans"
-    tags: 
+    speaker-img: "davidevans2"
+    tags: "agile, User Stories"
     language: en
     level: 1 
-    bio: 
-    abstract: 
+    bio: "David Evans is an experienced agile consultant, coach and trainer with over 25 years of IT experience. A thought-leader in the field of agile quality, he provides training and consultancy for clients worldwide and is in-demand as a speaker at events and conferences across Europe. He is co-author of the best-selling books “50 Quick Ideas to Improve your User Stories” and “50 Quick Ideas to improve Your Tests”, was a contributor to the book “More Agile Testing”, and has also had several papers published in international IT journals. He currently lives and works in the UK, where he is a partner in Neuri Consulting LLP. He can be reached at david.evans@neuri.co.uk on email and @DavidEvans66 on Twitter."
+    abstract: "User Stories are enormously useful when described well, but painful when done badly. In my experience of working with a large number of clients and teams, I've seen far more bad stories than good ones. If you are using Stories to describe your Product Backlog items, it is almost certain that you write them down using this format: 'As a <user> I want <some software feature> So that <some business value>'. As someone who cares about the state of agile practice, I want to offer some alternatives, so that agile teams remember that the point of the story is in the telling, not the template. The shared understanding comes from the conversation, not the card. By offering you different ways to 'tell' the story in its short written form, you will gain a greater level of meaning, interest and engagement in your team's discussions about the work they are doing to build great software that matters to people. The talk will cover the problems with slavishly using this (or any other) single template. I will analyse the essential elements of stories, and in particular how we use stories as experiments about how changes within the technical domain of our software can influence and create a positive impact for our customers within the business domain. We will look at better ways in which to express stories in their short written form. I will offer tips on how to phrase different parts of the story in order to maximise shared understanding while keeping the structure terse and encouraging team conversation."
   - title: "Hinfallen, Aufstehen, Krone Richten, Weitermachen"
     speaker: "Rene Pachernegg"
-    tags: 
+    speaker-img: "renepachernegg"
+    tags: "Fehler, Lernen, Agile, Transformation, Organisation"
     language: de
     level: 3
-    bio: 
-    abstract: 
+    #bio: 
+    abstract: "Die Einführung von Scrum in einem unserer Softwareentwicklungsteams im Jahr 2010 markiert den Beginn der agilen Reise von APUS Software GmbH. In der Zwischenzeit können wir uns auch mit Stolz als durch und durch agiles Unternehmen bezeichnen, selbst wenn wir noch lange nicht dort sind, wo wir noch gerne hin möchten. In den vergangenen 8 Jahren hat sich bei APUS viel verändert. Wir sind unzählige Male gescheitert, haben oft auch etwas daraus gelernt, manches davon auch nachhaltig. In diesem Talk möchte ich auf die 8 vergangenen Jahre zurückblicken, 8 Geschichten vom Scheitern erzählen, 8 Mal davon erzählen, was wir aus dem Scheitern gelernt haben und welche Konsequenzen wir daraus gezogen haben, die 8 wichtigsten Learnings aus unserer agilen Transformation teilen und davon sprechen, wo wir noch offene Baustellen haben."
 - time: "12:00 - 12:15" 
   break: "Coffee Break"
 - time: "12:15 - 13:00"
   talks:
   - title: "Hierarchie, Kreise oder doch Agil? Das Erfolgsrezept für ein erfolgreiches Unternehmen"
     speaker: "Karin Haberleithner"
-    tags: 
+    speaker-img: "karinhaberleithner"
+    tags: "Agile Führung, Gemba Kaizen, Holacracy, Sociocracy, Selbstorganisation, Management 3.0"
     language: de
     youngtalent: true 
-    bio: 
-    abstract: 
+    #bio: 
+    abstract: "Unternehmen kämpfen mit immer komplexer werdenden Märkten, immer stärker werdender Konkurrenz, schnellen Veränderungen oder auch der instabilen Wirtschaft. Aus diesen Gründen wurden in den letzten Jahren innovative Modelle und Paradigmen wie z.B: Holacracy, Self-Management, Agile Leadership oder Lean immer geläufiger. Jetzt stehen viele Firmen vor der großen Frage: Welches Modell soll ich für meine Firma wählen? In dieser Session wird auf die derzeit bekanntesten Ansätze eingegangen und erklärt, wie man aus seinem Unternehmen das volle Potential ausschöpft. "
   - title: "Schlüsselrolle Transition Team – Erfolgreich zur agilen Organisation"
     speaker: "Sabina Lammert"
-    tags: 
+    speaker-img: "sabinalammert"
+    tags: "Skaliertes Scrum, Transition Team, Agile Organisation"
     language: de
     youngtalent: true 
-    bio: 
-    abstract: 
+    #bio: 
+    abstract: "Die Entscheidung, ein Unternehmen zu einer agilen Organisation zu entwickeln und Scrum skaliert anzuwenden, bringt viele Chancen, aber auch einige Herausforderungen mit sich. Man kann die Erfolgsaussichten signifikant erhöhen, indem man sich an bewährten Konzepten orientiert. Jede erfolgreiche Transformation steht und fällt mit dem Transition Team. In diesem Vortrag sehen wir uns an, welche Rolle das Transition Team auf dem Weg zur agilen Organisation spielt, welche Rahmenbedingungen es braucht, um etwas bewegen zu können und welche Fähigkeiten die Mitglieder dieses Teams haben sollten. Auf keinen Fall orientieren wir uns dabei an Idealbildern, sondern ausschließlich an Beispielen aus dem echten Leben: Wir werden sehen, wie es Transition Teams trotz widriger Bedingungen geschafft haben, sich für die Transformation ihres Unternehmens optimal aufzustellen und damit die Basis und den Wegbegleiter für einen erfolgreichen Weg hin zur agilen Organisation zu bilden."
   - title: "Formen technischer Schuld und wie man sie adressiert"
     speaker: "Dominik Dopplinger"
-    tags: 
+    speaker-img: "dominikdopplinger"
+    tags: "Lessons Learned, Technische Schuld, Agile Transformation"
     language: de
     youngtalent: true 
-    bio: 
-    abstract: 
+    #bio: 
+    abstract: "In Anlehnung an den erfolgreichen Film 'Der Hobbit: Eine unerwartete Reise' erzählt Dominik 'Dodo' Dopplinger humoristisch von seiner persönlichen Reise vom jungen, videospielbegeisterten Programmierer-Rebell zum Scrum Master & Agile Coach. Dabei wird er über Projekte von Sproing (ehemals österreichs größtes Videospielstudio) und Catalysts (Software-Studio aus Oberösterreich) sprechen. Es werden typische Herausforderungen in Projektstruktur und Technologie und Lessons-Learned dreier Projekte beleuchtet: Nonstop Chuck Norris Ein unagekündigtes mobiles Videospielprojekt u:space (Studenten-Service-Portal der Universität Wien) Dodo wird nicht nur Aspekte der tagtäglichen Projektarbeit, sondern auch die Arbeit in diesen Unternehmen und mit Kunden reflektieren und Lektionen daraus ziehen. Themen, wie technische Schuld, Teamstruktur und agile Unternehmenstransformation werden in Form von Anekdoten, Zitate und Gedanken aus der Reise eines Junior Scrum Masters behandelt."
   - title: "The n Stages of the Agile Apprentice"
     speaker: "Laura Fitzgerald"
-    tags: 
+    speaker-img: "laurafitzgerald"
+    tags: "apprentice, learning, opensource, journal, people"
     language: en
     youngtalent: true 
-    bio: 
-    abstract: 
+    bio: "Laura is an Agile Practitioner within Red Hat. She is passionate about knowledge sharing and helping others; in her spare time she teaches children to program. She is also an active leader in schools outreach and internship initiatives at Red Hat. Having graduated with a software engineering degree and spent 18 months working as an engineer solving complex problems, she realised that her passion for coaching and process were pointing her towards the role of being an Agile Practitioner. Having completed her apprenticeship she is the first full time Agile Practitioner within Red Hat Mobile Team."
+    abstract: "In this talk I’ll describe the highs and lows of my journey as an Agile Apprentice. I apprenticed under the Agile Coach, Leigh Griffin in Red Hat Mobile between Jan 2018 and Sept 2018. Traditional apprenticeships take on average 4 years to transition a novice to a level of mastery that will encompasses their trade. To better track my progress I kept a journal and out of this journal this talk evolved. The talk outlines the differences I experience in the Agile role vs that of being a Software Engineer. I went from tears to joy, from fighting imposter syndrome to feeling that I could master the Agile process, from battling with big changes to learning to savour the small wins which took time to achieve and back again. As much as Software Engineers rely on their teammates to feel supported the Agile Practitioner needs the support of the Agile Team. By leaning on the Agile team I've had the scope and confidence to explore ideas and techniques that I otherwise would not have. The main goal of the talk is to present (with the aid of music) the good, the bad and the ugly from my perspective and journey in order to convey that while Agile can be a challenging career path it’s also a very rewarding one."
 - time: "13:00 - 14:00"
   break: "Lunch Break & Networking"
 - time: "14:00 - 15:00"
   keynote:
   - title: "The Selfish Team Player"
     speaker: "J.B. Rainsberger"
+    speaker-img: "jbrainsberger"
     language: en
+    bio: "J. B. Rainsberger helps software companies better satisfy their customers and the business that they support. He travels the world sharing what he's learned about programming, managing his workload, and designing his lifestyle. He spends a lot of his professional time helping programmers do good work with less stress. Not only does he consult with and train for companies, he also provides personalized one-on-one coaching and online training through http://online-training.jbrains.ca. He lives in Atlantic Canada with his wife, Sarah."
+    abstract: "Companies encourage people to care only about their own results. Helping others tends to make projects better. I'll share some ways to get the best of both worlds."
 - time: "15:00 - 15:15"
   break: "Coffee Break"
 - time: "15:15 - 16:00"
   talks:
   - title: "Max Impact – Min Effort"
     speaker: "Gojko Adzic & Christian Hassa"
-    tags: 
+    speaker-img: "gojkoadzic"
+    tags: "Impact Mapping"
     language: en
     level: 3
-    bio: 
-    abstract: 
+    bio: "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010.Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js.As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
+    abstract: "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected.  Learn how early adopters use impact mapping to create big impacts and minimise effort, from large government departments to innovative consultancies and small startups. This talk is based on an extensive research with commercial organisations, government departments and non-profit agencies from all over the world. We'll present real-world case studies and distill their experience into useful tips that will enable you to speed up adoption, avoid common pitfalls and reach your goals faster."
   - title: "From Fragile to Agile: Innovating Cloud Service Delivery at a Global Enterprise"
     speaker: "Martin Etmajer"
-    tags: 
+    speaker-img: "martinetmajer"
+    tags: "Continuous Delivery, Enterprise, User Story Mapping, Technology Evaluation, Test-Driven Infrastructure"
     language: en
     level: 3
-    bio: 
-    abstract: 
+    bio: "Martin Etmajer has more than 15 years of experience as a software engineer, architect, and strategist in both startup and enterprise environments across a range of industries. A former Technology Lead and Strategist with the Dynatrace Innovation Lab and founder at GetCloudnative, he supports companies in building better processes, products, and services by making effective and efficient use of modern, cloud-native technology. Martin is as passionate about finding better ways of doing things as he is about sharing his knowledge to empower the people around him. He is a life-long learner who frequently speaks at international conferences and meet-ups."
+    abstract: "Martin Etmajer takes you on his journey at a global top 10 life sciences company, where he instills Agile and Lean values, and where he's heading up the modernization of traditional infrastructure provisioning to arrive at a high-quality, compliant and fully automated hybrid cloud delivery process with their newly-established, globally distributed Cloud Center of Excellence. In this presentation, you'll discover how the team has come to understand the big picture of 'what' they want to build and 'why' using a practice named User Story Mapping, why 'starting out simple and learning what you actually need' using a Lean composition of open source technology fosters innovation better than a so-called one-fits-all solutions, and how we've applied principles and practices from Agile Software Development to enable automated testing of our infrastructure (as code), whether on-premises or in the cloud."
   - title: "Botium - das Selenium für Chatbots"
     speaker: "Christoph Börner"
-    tags: 
+    speaker-img: "christophboerner"
+    tags: "Chatbots, Artificial Intelligence, Machine Learning, Watson; Alexa"
     language: de
     level: 3
-    bio: 
-    abstract: 
+    bio: "Christoph Börner is the founder of Botium and former CEO of the company Testplus. In his function as leader of the departments development and testing, he focusd on mobile testing, testautomation, crowd- and community-testing. Together with Florian Treml he is actually inventing Botium, the upcoming industry standard in testautomation for chatbots. After Selenium for websites and Appium for apps, Botium is the next logical step for bots. And, it's also open source! To give something back to the community, Christoph formed the ViennaMobileQualityCrew in 2014 which is still the leading knowledge network for mobile quality assurance in Austria. Apart from that Christoph studied at the Technical University of Vienna and has lots of experience in developing and testing software."
+    abstract: "Currently chatbots, artificial intelligence and machine learning are driving the industry like hardly any other topic. The hypes generated around Amazon's Alexa or Apple's Siri are only two examples. Based on customer proximity and the enormous number of people a chatbot could reach, the quality assurance is very important. Device fragmentation, many different platforms and chatbot provider are the test challenges. Botium is there to solve all these problems. It is the upcoming industry standard for chatbot testautomation and quality assurance. Developers and operators get a fully integrated continuous chatbot test infrastructure that seamlessly fits into existing CD pipelines and processes. And it's open source! After Selenium for websites and Appium for apps, Botium is the next logical step for bots. Appart from the automation framework users will get a complete management toolbox with predefined test environments and testsets, containing thousands of immediately runnable tests. If you join the talk you'll get a short introduction to chatbots/AI/ML and the enormous potential of these technologies. Followed by Botium itself with hands-on experience in agile projects. You'll learn how to test, train and automate bots. And that will make a lot of lives better ;)"
   - title: "Typical office environment sucks for creative work: How we create our new office to empower creative problem-solvers"
     speaker: "Florian Hackl-Kohlweiß"
-    tags: 
+    speaker-img: "florianhacklkohlweiß"
+    tags: "Platform for agile work, new office concepts"
     language: en
     level: 1
-    bio: 
-    abstract: 
+    bio: "Florian is a jack of all trades. Originally starting as a sound engineer, he built a sound studio and professional rehearsal space in Vienna. He booked live concerts for a decade, produced music and co-owned a record label. He started afterwards a film production company, writing screenplays, developing and producing TV-shows. Florian was in charge of conceptualizing and building a Live Club in Vienna. Recently he built up the Creative Department in a very unconventional software company. One constant in all of his life was the planning and building of places with the core idea of bringing people together and enabling creativity. Together with a small team he is in charge of the mySugr office creating a visionary way of working"
+    abstract: "The most precious things a creative company has is the minds and the spirit of its people and how they collaborate. In our experience, traditional office environments don’t foster and protect the mindsets of creative or meaningful deep work. Inspired by the idea of the Eudamonia Machine (introduced in Cal Newport’s Book “Deep Work”) we designed an office that is – from ground up – meant to be a place for creative teams and individuals. The Eudaimonia Machine leads its people through a mental journey, connecting five zones: the gallery, the salon, the library, the office and the chambers. The deeper you are in the machine, the more is individual and deeper work becomes. mySugr started building their office while applying agile product development principles: Deep studies on how the previous offices were used in quantitative surveys followed by qualitative interviews, Applying proven agile ceremonies like planning, standups and jour fixes, Formulate hypothesis and requirements, Early experiments and prototyping, Adapting quickly to learnings. There was no big bang “office release” but rather an iterative evolution starting with moving into a beta version. This evolutionary process is meant to continue in the future. Having the company vision and mission in mind - allows the people that actually do the construction work to solve the problems without middlemen: this proved to be of great value."
 - time: "16:00 - 16:15"
   break: "Coffee Break"
 - time: "16:15 - 17:00"
   talks:
   - title: "Full Metal Agile - the Agile Drill Sergeant story!"
     speaker: "Robert Finan"
-    tags: 
+    speaker-img: "robertfinan"
+    tags: "Agile Coaching, Agile Transitions, Scrum, Kanban, Humour"
     language: en
     level: 3
-    bio: 
-    abstract: 
+    bio: "Robert Finan always liked drawing, but his father made clear there wasn't much of a career to be had in it. Having accepted that his talent would only have proven his father right, Robert studied engineering at Trinity College Dublin before acquiring a master's and a doctorate in Scotland. Having worked as a software developer, project manager, solutions architect, scrum master, test automater, product owner and drawing the odd cartoon for marketing, he finally ended up as an agile coach. He is currently gainfully employed at TechTalk. A year or so ago, he decided to apply to his drawing the same lessons that he taught his customers: iterations, time-boxing, sprint goals, inspect and adapt, strive to get something done rather than striving for perfection. Funnily enough, he thought agile coaching might be a good subject for the comic strips. After 3 decades of starting comics and never finishing them, this agile philosophy led to over 50 finished strips!"
+    abstract: "This talk goes <strong>behind the scenes of the Agile Drill Sergeant cartoons</strong> (www.agiledrillsergeant.com). Most of the cartoons were inspired by real world experiences of various agile transitions that myself and my fellow coaches at ANECON have experienced. In this talk I will go through what happed in the real world and how that inspired the cartoon that followed. The topics covered include <strong>team building, retros, agile transitions, Scrum vs. Kanban</strong>, <strong>management expectations</strong> and other miscellaneous misadventures. So there will be insights into agile transitions as a frontline coach - but mostly <strong>I hope there's a smile on your face</strong> at the end of the talk!"
   - title: "The Power of Check-ins, Energizers and Icebreakers"
     speaker: "Artur Margonari"
-    tags: 
+    speaker-img: "arturmargonari"
+    tags: "Agile, activities, Tips&Tricks, practice, fun"
     workshop: true
     language: en
     level: 1
-    bio: 
-    abstract: 
+    bio: "Artur Margonari is passionate about Agile, which he also applies daily in his personal life. He works as Agile Coach, Trainer and Facilitator at Wemanity Belgium and has more than 4 years experience in practicing and helping organizations to be more Agile, to form powerful teams and to deliver great products. He is board member of the Agile Consortium Belgium, a non-profit organization that offers an independent platform where Agile knowledge is created and shared. One of his favorite quotes, which represents big part of his essence: 'The best way to find yourself is to lose yourself in the service of others.' - Mahatma Gandhi. Some of the certifications he holds are CSM, CSPO, CSP, LeSS Practitioner, SAFe Agilist, Lean-Kanban Practitioner, SMC, Management 3.0, Agile Facilitator and Coaching Agile Teams 3.0. Hobbies & passions are guitar, ukulele & harmonica, accelerated learning, archery, beer tasting, martial arts and traveling."
+    abstract: "Do you know the difference between check-in, icebreaker and energizer? Why and when could you use one or another? For workshops or simple meetings? Small or big groups? Your team or high management? What about the timebox and learning outcomes? How to make it count? I invited you to this session to discover the answers by practicing plenty of quick examples, debriefing and having fun! :) A little more context for you: I got passionate about this topic (including Agile games) when I discovered it some years ago. Since then, I kept on sharpening and increasing my toolbox by practicing whenever possible, trying new ones, in different ways and contexts, creating new ones and of course, asking for a lot of feedback! Actually, this session will look like a talk/presentation at first, but we will get hands-on very quickly! Therefore, if you are new to the topic and want to know more or you already know it pretty well but want to improve your toolbox - all of this with fun and high energy - this session is for you!"
   - title: "Umgang mit hohen Unsicherheiten bei der Planung und Umsetzung von Projekten"
     speaker: "Thomas Pieber"
-    tags: 
+    tags: "Agile Planungen, Abschätzungen, Best practices, Projekt Management, Uncertainty"
     language: de
     level: 3
-    bio: 
-    abstract: 
+    bio: "Thomas hat seit 2010 bei der Firma Infonova in mehreren Teams und Projekten Erfahrung in der Rolle des Scrum Masters gesammelt. Im größten Projekt koordinierte er zwei Scrum Master, sieben Product Owner und steuerte damit sechs Teams. Weiters wurden von ihm mehrere Scrum-Consulting Aufträge im deutschen Raum erfolgreich durchgeführt. 2017 wechselte er als Scrum Master zur Firma LOGICDATA, wo er die Einführung von Scrum in den Abteilungen Firmware und Mechanik und im Projektmanagement vorantreibt. Thomas ist zertifizierter Scrum Master und Product Owner."
+    abstract: "Fast jeder hat schon Erfahrungen in Projekten mit folgenden Unsicherheiten gemacht 'Warum können wir das nicht genau schätzen?', 'Wie wirkt sich der der Einsatz dieser neuen Technologie auf den Projektverlauf aus?', 'Mit diesem Thema haben wir noch gar keine Erfahrung!', 'Wann sind wir fertig?'. Wir zeigen, wodurch hohe Unsicherheiten in einem Projekt entstehen (unter anderem Stacey Matrix) und welche Auswirkungen dies auf die Planung und Umsetzung hat (z.B. Cone of Uncertainty). Zur Darstellung von Unsicherheiten nutzen wir Bandbreiten für Aufwände und Zeitpunkte. Backlog Items kategorisieren wir mit 'Level of Confidence' und 'Level of Uncertainty'. Weiterhin zeigen wir, wie man Unsicherheiten mittels Container Backlog Items (z.B. für Bugfixes, Reduktion von Technical Debt, u.ä.) managen kann. Ähnliche Themen werden auf der Ebene von Backlog Items genutzt, wobei hier die Erfahrungen von täglicher Plananpassungen im Daily Scrum vorgestellt werden. Zur Reduktion von Unsicherheiten benutzen wir Methoden wie Spikes, „Invest statt Estimate“, iteratives Planen und RATs. Beim letzten Punkt handelt es sich um einen 'Riskiest Assumption Test', der als sehr hilfreiches Konzept zur Priorisierung des Backlogs genutzt wird. Wir werden diese Methoden unter anderem anhand der Veränderungen eines Backlogs im Verlauf eines Projekts anschaulich darstellen. Abschließend wird Zeit für Fragen und Antworten reserviert."
   - title: "Handle with Care. Things to consider before you scale"
     speaker: "Dmitry Lebedev"
-    tags: 
+    speaker-img: "dmitrylebedev"
+    tags: "agile, scaling, agile org"
     language: en
     level: 1
-    bio: 
-    abstract: 
+    #bio: 
+    abstract: "I’m going to share my experience in scaling work across different teams and even across countries. Insights on how to organise work of a distributed team, how to share codebase between different teams, how to onboard new developers efficiently, what are preconditions for scaling, what could make a scaling attempt to fail and etc. Can you have two agile teams instead of one in a short period of time? Can some company with two offices work as smoothly as a company, where all employees are sitting in the same building? Can you have the same values in different teams? My answer is 'yes', but everything comes with a price. This session tells about what price you have to pay in order to scale your software development business. Also it is going to explore which aspects of corporate culture can prevent or can support scaling process, what kind scaling aspects require more attention than others, how to setup a distributed teams in distributed company + will compare different approaches including SAFe + team or company onboarding to new process + lessons learned"
 - time: "17:00 - 18:00"
   keynote:
   - title: "Hearing vs Listening"
     speaker: "David Anania"
+    speaker-img: "davidanania"
     language: en
+    bio: "—drummer, singer/songwriter, producer— <br><br>has been a member of Blue Man Group since 2000 (NY, Berlin) and has performed with BMG all over the world, including Moby’s Area II Tour (2002, w/Moby, David Bowie and Bustah Rhymes), The Complex Rock Tour (and coinciding multiplatinum-selling DVD) and The Royal Variety Performance (in front of Queen Elizabeth II). With artists such as Blue Man Group and blues-rocker Shannon Curfman (Kid Rock), David has performed on many hi-profile TV shows, both in the US ('The Tonight Show w/Jay Leno', 'Good Morning America', 'Rosie O’Donnell', 'CBS This Morning') and in Europe (Royal Variety Performance2, 'Wetten dass..?', 'TV Total', 'Schlag den Raab', and “The Voice of Germany“). David has composed music in many styles for himself and other artists, including Jaimi Faulkner ('It Ain’t Easy' 2015 on V2 records) Jessica Gall ('You’ll Feel' and 'World to Me', 2016) and Nnenna Yvonne ('Believe in Me', 2015 on Shanachie Records). David is also a sought-after Team Building Event Leader and Public Speaker throughout Europe and the US.<br><br>Since 2012, David has been actively composing for soundtracks, partnering with Snap 180 Media on 3 documentary films ('Return to Pearl', 'Yellow Ribbon', 'They Fought for Freedom').<br><br>2018 marks a milestone in his career as he will release his first solo CD in June entitled, 'Reinvent the Feel'. This 9-song debut is influenced heavily by the music that helped shape his career—progressive rock, pop, and funk. The CD features world class musicians who have performed/recorded with international heavyweights such as, Jonas Brothers, Mandy Moore, Jonny Lang, Prince, and Cory Wong. David is excited about this major new chapter in his career and hopes to reach and positively affect people around the world through his music."
+    abstract: 
 - time: "18:00 - 20:30"
   break: "After Conference Networking & Cocktails"
