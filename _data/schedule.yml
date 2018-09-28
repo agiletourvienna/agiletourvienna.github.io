@@ -216,7 +216,7 @@
     tags: "agile, scaling, agile org"
     language: en
     level: 1
-    bio: 
+    bio: "Dmitry started his job as a software engineer more than 20 years ago, has delivered many software projects, failed a few, learned a lot of things from other people and now he is willing to share his stories of success and failures with broader audience. The ultimate goal of his activities is that software could be developed pragmatically, based on an engineering approach and mutual respect between all involved parts. Also he is one of co-founders of Agile Latvia community."
     abstract: "I’m going to share my experience in scaling work across different teams and even across countries. Insights on how to organise work of a distributed team, how to share codebase between different teams, how to onboard new developers efficiently, what are preconditions for scaling, what could make a scaling attempt to fail and etc. Can you have two agile teams instead of one in a short period of time? Can some company with two offices work as smoothly as a company, where all employees are sitting in the same building? Can you have the same values in different teams? My answer is 'yes', but everything comes with a price. This session tells about what price you have to pay in order to scale your software development business. Also it is going to explore which aspects of corporate culture can prevent or can support scaling process, what kind scaling aspects require more attention than others, how to setup a distributed teams in distributed company + will compare different approaches including SAFe + team or company onboarding to new process + lessons learned"
 - time: "17:00 - 18:00"
   keynote:
