@@ -9,7 +9,7 @@ trailer: https://player.vimeo.com/video/266565828?color=BB141A&title=0&byline=0&
 headerType: thanks # options: thanks, saveTheDate, trailer
 
 showCallForProposals: false
-showRegister: true
+showRegister: false
 showSchedule: true
 showScheduleDetails: true
 showScheduleDetailImages: true
@@ -18,6 +18,7 @@ showAbout: true
 showSpeaker: true
 showContribution: false
 showReviewerContribution: false
+showLocation: false
 
 # Build settings
 markdown: kramdown
@@ -47,32 +48,20 @@ partners:
 - link: https://www.agile-austria.org
   pic: aac
 
-lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2017
+lookbackWikiUrl: https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2018
 lookbacks:
-- speaker: Andrea Provaglio
-  talk: Rethinking agile leadership
-  img: andreaprovaglio
-  url: https://vimeo.com/album/4897573/video/247328442
-- speaker: Gojko Adzic
-  talk: Painless visual testing
-  img: gojkoadzic
-  url: https://vimeo.com/album/4897573/video/247763289
-- speaker: Guðfinnur Sveinsson
-  talk: Learnings from an agile coach and how to coach executive teams
-  img: guofinnursveinsson
-  url: https://vimeo.com/album/4897573/video/247766769
-- speaker: Harry Harrold and Rupert Redington
-  talk: A new “ad-hoc” manifesto
-  img: harryharroldrupertredington
-  url: https://vimeo.com/album/4897573/video/247308385
-- speaker: Joseph Pelrine and Jasmine Zahno
-  talk: On psychological safety, intelligent teams..
-  img: josephpelrinejasminezahno
-  url: https://vimeo.com/album/4897573/video/247307155
-- speaker: Tanja Baricic-Böhm
-  talk: Scaled Agile @ Rewe - Planung mit mehreren Kunden und Produkten
-  img: tanjabaricicboehm
-  url: https://vimeo.com/album/4897573/video/247770446
+- speaker: J.B. Rainsberger
+  talk: The Selfish Team Player
+  img: jbrainsberger
+  url: https://vimeo.com/295977600
+- speaker: Kevlin Henney
+  talk: Agility ≠ Speed
+  img: kevlinhenney
+  url: https://vimeo.com/294925415
+- speaker: Marcus Hammarberg
+  talk: The Bungsu Story - an inspirational story
+  img: marcushammarberg
+  url: https://vimeo.com/294914560
 
 gallery:
 - img: 20171125_102840_techtalk_agile_tour_73757
@@ -96,11 +85,6 @@ gallery:
 - img: 20171125_180804_techtalk_agile_tour_74473
 
 eventtips:
-- name: Product Owner Key Skills
-  date: 11-12 October 2018
-  img: poskills
-  text: Have you struggled to split user stories into small but valuable chunks? Do you have problems prioritising stories or getting a commitment from business stakeholders on what they want to achieve? Do you have issues deciding when a story is done or how many other stories you really need to achieve a business objective? Are you managing large amounts of stories that are problematic to estimate, prioritise or plan for? If so, join this interactive workshop and bring your product owners and business sponsors to learn how to get the most out of user stories.
-  url: https://techtalk.at/trainings/product-owner-key-skills-in-vienna/
 - name: Specification by Example
   date: 26-27 November 2018
   img: specificationbyexample
@@ -175,16 +159,15 @@ team:
   position: Organization
   mail: milena.krnjic@techtalk.at
 
-- name: Katharina Leitner
-  pic: kl
-  position: Organization
-  mail: katharina.leitner@techtalk.at
-
 - name: Veronika Winter
   pic: vw
   position: Organization
   mail: veronika.winter@techtalk.at
 
+- name: Monika Mochty
+  pic: mm
+  position: Organization
+  mail: monika.mochty@techtalk.at
 
 committee:
 
