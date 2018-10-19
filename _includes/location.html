@@ -1,3 +1,4 @@
+{%if site.showLocation == true%}
 <section id="location">
     <div class="container">
         <div class="row">
@@ -11,20 +12,26 @@
                 <div class="col-md-6" style="color:white; margin-bottom: 50px;">
                     <h4>FH Campus Wien</h4>
                     <p></p>
-                    <p><a href="https://www.fh-campuswien.ac.at/"><i class="fa fa-link"
-                                                                                         aria-hidden="true"></i>
-                           www.fh-campuswien.ac.at</a></p>
+                    <p>
+                        <a href="https://www.fh-campuswien.ac.at/">
+                            <i class="fa fa-link"
+                               aria-hidden="true"></i>
+                            www.fh-campuswien.ac.at
+                        </a>
+                    </p>
                     <h4>Adress:</h4>
-                    <p><b>
-                        FH Campus Wien<br>
-                        Favoritenstraße 226<br>
-                        1100 Wien</b>
+                    <p>
+                        <b>
+                            FH Campus Wien<br>
+                            Favoritenstraße 226<br>
+                            1100 Wien
+                        </b>
                     </p>
                     <h4>Public Transport Connections</h4>
                     <p>
-                    <ul>
-                        <li>Subway: U1, station Altes Landgut</li>
-                    </ul>
+                        <ul>
+                            <li>Subway: U1, station Altes Landgut</li>
+                        </ul>
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -37,3 +44,4 @@
     </div>
     </div>
 </section>
+{% endif %}
