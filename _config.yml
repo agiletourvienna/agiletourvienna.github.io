@@ -1,16 +1,16 @@
 url: https://agiletourvienna.github.io
 
 # Site settings
-title: Agile Tour Vienna 2018
+title: Agile Tour Vienna 2019
 description: "The Agile Tour Vienna is a non-profit event that aims at bringing together experts, practioners and everybody else who is interested in agile software development. The main conference language is German but we welcome talks in English and are looking forward to an exchange with international participants."
-year: 2018
+year: 2019
 trailer: https://player.vimeo.com/video/266565828?color=BB141A&title=0&byline=0&portrait=0
 
-headerType: thanks # options: thanks, saveTheDate, trailer
+headerType: saveTheDate # options: thanks, saveTheDate, trailer
 
 showCallForProposals: false
-showRegister: false
-showSchedule: true
+showRegister: true
+showSchedule: false
 showScheduleDetails: true
 showScheduleDetailImages: true
 showScheduleDetailModals: true
@@ -85,8 +85,14 @@ gallery:
 - img: 20171125_180804_techtalk_agile_tour_74473
 
 eventtips:
+- name: Product Owner Key Skills – Impact Mapping, Story Mapping and Valuable User Stories
+  date: 4-5 March 2019
+  img: poskills
+  text: Have you struggled to split user stories into small but valuable chunks? Do you have problems prioritising stories or getting a commitment from business stakeholders on what they want to achieve? Do you have issues deciding when a story is done or how many other stories you really need to achieve a business objective? Are you managing large amounts of stories that are problematic to estimate, prioritise or plan for? If so, join this interactive workshop and bring your product owners and business sponsors to learn how to get the most out of user stories.
+  url: http://techtalk.at/trainings/product-owner-key-skills-in-vienna/
+
 - name: Specification by Example
-  date: 26-27 November 2018
+  date: 6-7 May 2019
   img: specificationbyexample
   text: Specification by example is the corner-stone of any successful testing and requirements strategy with agile and lean processes, such as Scrum, Extreme Programming and Kanban. This two day workshop teaches you how to apply specification by example to bridge the communication gap between stakeholders and implementation teams, build quality into software from the start, design, develop and deliver systems fit for purpose.
   url: https://techtalk.at/trainings/specification-by-example
@@ -106,26 +112,14 @@ tweets:
 hashtag: ATVIE18
 
 keynote:
-- name: David Anania
-  pic: davidanania
-  bio: —drummer, singer/songwriter, producer— <br><br>has been a member of Blue Man Group since 2000 (NY, Berlin) and has performed with BMG all over the world, including Moby’s Area II Tour (2002, w/Moby, David Bowie and Bustah Rhymes), The Complex Rock Tour (and coinciding multiplatinum-selling DVD) and The Royal Variety Performance (in front of Queen Elizabeth II). With artists such as Blue Man Group and blues-rocker Shannon Curfman (Kid Rock), David has performed on many hi-profile TV shows, both in the US (“The Tonight Show w/Jay Leno“, “Good Morning America“, “Rosie O’Donnell“, “CBS This Morning“) and in Europe (“Royal Variety Performance2, “Wetten dass..?“, “TV Total“, “Schlag den Raab“, and “The Voice of Germany“). David has composed music in many styles for himself and other artists, including Jaimi Faulkner (“It Ain’t Easy“ 2015 on V2 records) Jessica Gall (“You’ll Feel“ and “World to Me“, 2016) and Nnenna Yvonne (“Believe in Me“, 2015 on Shanachie Records). David is also a sought-after Team Building Event Leader and Public Speaker throughout Europe and the US.<br><br>Since 2012, David has been actively composing for soundtracks, partnering with Snap 180 Media on 3 documentary films (“Return to Pearl“, “Yellow Ribbon“, “They Fought for Freedom“).<br><br>2018 marks a milestone in his career as he will release his first solo CD in June entitled, “Reinvent the Feel“. This 9-song debut is influenced heavily by the music that helped shape his career—progressive rock, pop, and funk. The CD features world class musicians who have performed/recorded with international heavyweights such as, Jonas Brothers, Mandy Moore, Jonny Lang, Prince, and Cory Wong. David is excited about this major new chapter in his career and hopes to reach and positively affect people around the world through his music.
-  www: www.reverbnation.com/anania
-  facebook: https://www.facebook.com/AnaniA-10885742468/
-  soundcloud: https://soundcloud.com/anania
-  talk: Hearing vs. Listening
-
-- name: Kevlin Henney
-  pic: kevlinhenney
-  bio: Kevlin Henney is an independent consultant, speaker, writer and trainer. His development interests are in patterns, programming, practice and process. He has been a columnist for a number of magazines and sites and has been on far too many committees (it has been said that "a committee is a cul-de-sac down which ideas are lured and then quietly strangled"). He is co-author of <i>A Pattern Language for Distributed Computing</i> and <i>On Patterns and Pattern Languages</i>, two volumes in the <i>Pattern-Oriented Software Architecture</i> series. He is also editor of <i>97 Things Every Programmer Should Know</i> and the forthcoming <i>97 Things Every Java Programmer Should Know</i>.
-  twitter: kevlinhenney
-  talk: Agility ≠ Speed
-
-- name: J. B. Rainsberger
-  pic: jbrainsberger
-  bio: J. B. Rainsberger helps software companies better satisfy their customers and the business that they support. He travels the world sharing what he's learned about programming, managing his workload, and designing his lifestyle. He spends a lot of his professional time helping programmers do good work with less stress. Not only does he consult with and train for companies, he also provides personalized one-on-one coaching and online training through <a href="https://online-training.jbrains.ca/" target="_blank">http://online-training.jbrains.ca</a>. He lives in Atlantic Canada with his wife, Sarah.
-  www: www.jbrains.ca/
-  twitter: jbrains
-  talk: The Selfish Team Player
+- name: Marcus Hammarberg
+  pic: marcushammarberg
+  bio: 
+  - "For 15 years Marcus Hammarberg has been doing agile and lean software development and helping others do it. He has worked in many different settings, from big banks and insurance companies, to start-ups and within retail. At one big insurance company, the first agile team, started by Marcus, eventually spread to a lean initiative across the business. As a consultant Marcus helps individuals, teams, and whole organizations improve their value delivery flow. Marcus is still a keen programmer and continues to practice and teach the concepts that helped him become a good programmer: TDD, Specification by example, functional programming and Node."
+  - "Marcus is a keynote speaker and co-author of Kanban In Action, which has been translated into 5 languages across the globe. He has blogged since 2006 at www.marcusoft.net and spend his spare time playing euphonium in the Salvation Army band at Vasakåren, Stockholm."
+  - "2014-2015 Marcus moved to Indonesia with his family to work for the Salvation Army. Unexpectedly his previous experience with lean, agile and kanban was soon put to great use there too. This story is retold as it happened in his second book; Salvation: The Bungsu story"
+  www: www.marcusoft.net
+  twitter: marcusoftnet
 
 speaker:
 - name: Gojko Adzic
@@ -135,13 +129,6 @@ speaker:
   - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
   - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
   twitter: gojkoadzic
-  talk: Maximum impact, minimum effort
-  
-- name: David Evans
-  pic: davidevans2
-  bio: David Evans is an experienced agile consultant, coach and trainer with over 25 years of IT experience. A thought-leader in the field of agile quality, he provides training and consultancy for clients worldwide and is in-demand as a speaker at events and conferences across Europe. He is co-author of the best-selling books “50 Quick Ideas to Improve your User Stories” and “50 Quick Ideas to improve Your Tests”, was a contributor to the book “More Agile Testing”, and has also had several papers published in international IT journals. He currently lives and works in the UK, where he is a partner in Neuri Consulting LLP. He can be reached at david.evans@neuri.co.uk on email and @DavidEvans66 on Twitter.  
-  twitter: DavidEvans66
-  talk: Telling Better Stories
   
 - name: Marcus Hammarberg
   pic: marcushammarberg
@@ -151,7 +138,6 @@ speaker:
   - "2014-2015 Marcus moved to Indonesia with his family to work for the Salvation Army. Unexpectedly his previous experience with lean, agile and kanban was soon put to great use there too. This story is retold as it happened in his second book; Salvation: The Bungsu story"
   www: www.marcusoft.net
   twitter: marcusoftnet
-  talk: The Bungsu Story - inspirational presentation
   
 team:
 - name: Milena Krnjic
@@ -192,9 +178,6 @@ committee:
 - name: Doris Fidler 
   pic: df
   www: www.xing.com/profile/Doris_Fidler/cv
-
-- name: Peter Graff
-  pic: pg
 
 - name: Rudolf Groetz
   pic: rg
@@ -264,4 +247,12 @@ committee:
   pic: us
   mail: simo@deepimpact.at
   www: www.xing.com/profile/Ursula_Simo/cv
+
+- name: Robert Finan
+  pic: robertfinan
+  www: https://www.xing.com/profile/Robert_Finan
+
+- name: Richard Brenner
+  pic: richardbrenner
+  www: https://www.xing.com/profile/Richard_Brenner3
 
