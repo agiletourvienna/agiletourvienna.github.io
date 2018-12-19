@@ -162,6 +162,10 @@ committee:
   mail: binder.e@gmail.com
   www: www.xing.com/profile/Elisabeth_Binder4/
 
+- name: Richard Brenner
+  pic: richardbrenner
+  www: https://www.xing.com/profile/Richard_Brenner3
+  
 - name: Daniel Fellegger
   pic: dfe
   www: www.xing.com/profile/Daniel_Fellegger
@@ -169,7 +173,11 @@ committee:
 - name: Doris Fidler 
   pic: df
   www: www.xing.com/profile/Doris_Fidler/cv
-
+  
+- name: Robert Finan
+  pic: robertfinan
+  www: https://www.xing.com/profile/Robert_Finan
+  
 - name: Rudolf Groetz
   pic: rg
   mail: rudolf.groetz@gmail.com
@@ -238,12 +246,3 @@ committee:
   pic: us
   mail: simo@deepimpact.at
   www: www.xing.com/profile/Ursula_Simo/cv
-
-- name: Robert Finan
-  pic: robertfinan
-  www: https://www.xing.com/profile/Robert_Finan
-
-- name: Richard Brenner
-  pic: richardbrenner
-  www: https://www.xing.com/profile/Richard_Brenner3
-
