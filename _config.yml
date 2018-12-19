@@ -91,6 +91,12 @@ eventtips:
   text: Have you struggled to split user stories into small but valuable chunks? Do you have problems prioritising stories or getting a commitment from business stakeholders on what they want to achieve? Do you have issues deciding when a story is done or how many other stories you really need to achieve a business objective? Are you managing large amounts of stories that are problematic to estimate, prioritise or plan for? If so, join this interactive workshop and bring your product owners and business sponsors to learn how to get the most out of user stories.
   url: http://techtalk.at/trainings/product-owner-key-skills-in-vienna/
 
+- name: Kanban in Action – process improvements now! And forever!
+  date: 26 March 2019
+  img: kanbanaction
+  text: Kanban can help you improve your process to more effectively deliver value – no matter what process you are working with now, or how good you are in doing it. Kanban is just a few basic principles and practices – but the implications of them is hugely powerful, and can change not only your team but in the long run help and improve the entire organisation around you. You will learn how to discover, little by little, how to improve your ways of working to something better than you could imagine, through the volutionary approach to process improvements.
+  url: https://techtalk.at/trainings/kanban-in-action/ 
+
 - name: Specification by Example
   date: 6-7 May 2019
   img: specificationbyexample
