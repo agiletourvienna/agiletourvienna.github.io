@@ -93,13 +93,13 @@ eventtips:
 
 - name: Certified Scrum Master
   date: 11-12 March 2019, 3-4 June 2019
-  img: specificationbyexample
+  img: scrumtrainings
   text: In this course, participants will learn how to stop thrashing and start executing along with everything necessary for getting started with Scrum. There are very few rules to Scrum so it is important to learn its fundamental principles by experiencing them directly from those who have implemented the best Scrums in the software industry.
   url: https://techtalk.at/trainings/scrum/
 
 - name: Certified Scrum Product Owner
   date: 14-15 March 2019, 6-7 June 2019
-  img: specificationbyexample
+  img: scrumtrainings
   text: The Certified Scrum Product Owner Course is a two-day course which introduces the concepts of agile product management using the Scrum methodology. Why does this matter? The 2008 Standish Chaos study showed that 32% Succeeded of all IT projects had a cost overrun. Further, 24% Failed and 44% were challenged. It’s no wonder our customers are unhappy!
   url: https://techtalk.at/trainings/scrum/
 
