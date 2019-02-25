@@ -115,6 +115,12 @@ eventtips:
   text: Specification by example is the corner-stone of any successful testing and requirements strategy with agile and lean processes, such as Scrum, Extreme Programming and Kanban. This two day workshop teaches you how to apply specification by example to bridge the communication gap between stakeholders and implementation teams, build quality into software from the start, design, develop and deliver systems fit for purpose.
   url: https://techtalk.at/trainings/specification-by-example
 
+- name: Essential Intent-Based Leadership
+  date: 19 Sept 2019
+  img: intentbasedleadership
+  text: Are you tired of having to always have all the answers? Does worrying about whether you will get the deliveries you need sap your energy and brain space? Are you running into roadblock after roadblock with your people and projects? The problem isn’t your leadership, it’s your leadership paradigm. Over and over again, we’ve been told that leaders get people to do things and they try hard to do that. The problem is that approach doesn’t work when it comes to thinking. Instead, what you end up doing is stealing away people’s ownership which leaves you more and more overwhelmed and makes them less and less engaged.
+  url: https://techtalk.at/trainings/essential-intent-based-leadership/
+
 tweets:
 - quote: Thanks for organising a fantastic Agile Tour Vienna. Really glad to be a part of it.
   person: Dan North
