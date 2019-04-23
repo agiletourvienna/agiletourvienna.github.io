@@ -85,11 +85,23 @@ eventtips:
   text: Specification by example is the corner-stone of any successful testing and requirements strategy with agile and lean processes, such as Scrum, Extreme Programming and Kanban. This two day workshop teaches you how to apply specification by example to bridge the communication gap between stakeholders and implementation teams, build quality into software from the start, design, develop and deliver systems fit for purpose.
   url: https://techtalk.at/trainings/specification-by-example
 
+- name: Product Owner Key Skills
+  date: 17-18 June 2019, 26-27 Sept 2019
+  img: poskills
+  text: Have you struggled to split user stories into small but valuable chunks? Do you have problems prioritising stories or getting a commitment from business stakeholders on what they want to achieve? Do you have issues deciding when a story is done or how many other stories you really need to achieve a business objective? Are you managing large amounts of stories that are problematic to estimate, prioritise or plan for? If so, join this interactive workshop and bring your product owners and business sponsors to learn how to get the most out of user stories.
+  url: https://techtalk.at/trainings/product-owner-key-skills-in-vienna/
+
 - name: Essential Intent-Based Leadership
   date: 19 Sept 2019
   img: intentbasedleadership
   text: Are you tired of having to always have all the answers? Does worrying about whether you will get the deliveries you need sap your energy and brain space? Are you running into roadblock after roadblock with your people and projects? The problem isn’t your leadership, it’s your leadership paradigm. Over and over again, we’ve been told that leaders get people to do things and they try hard to do that. The problem is that approach doesn’t work when it comes to thinking. Instead, what you end up doing is stealing away people’s ownership which leaves you more and more overwhelmed and makes them less and less engaged.
   url: https://techtalk.at/trainings/essential-intent-based-leadership/
+
+- name: Kanban in Action
+  date: 14 Oct 2019
+  img: kanbanaction
+  text: Kanban can help you improve your process to more effectively deliver value – no matter what process you are working with now, or how good you are in doing it. Kanban is just a few basic principles and practices – but the implications of them is hugely powerful, and can change not only your team but in the long run help and improve the entire organisation around you. You will learn how to discover, little by little, how to improve your ways of working to something better than you could imagine, through the volutionary approach to process improvements.
+  url: https://techtalk.at/trainings/kanban-in-action/
 
 tweets:
 - quote: Thanks for organising a fantastic Agile Tour Vienna. Really glad to be a part of it.
