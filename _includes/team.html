@@ -75,9 +75,11 @@
                 {% endif %}
                 <div class="col-sm-12 sponsor">
                     {% if sponsor.text %}
-                    <div href="#sponsorModal{{loopindex}}" class="sponsor-link" data-toggle="modal">
+                    <div href="#sponsorModal{{loopindex}}" class="sponsor-link text-center" data-toggle="modal">
                         <a href="#sponsorModal{{loopindex}}">
-                            <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
+                            <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="" />
+                            <br />
+                            <q><em>{{sponsor.text}}</em></q>
                         </a>
                     </div>
                     {% else %}
