@@ -81,11 +81,6 @@ gallery:
 - img: 20171125_180804_techtalk_agile_tour_74473
 
 eventtips:
-- name: Specification by Example
-  date: 6-7 May 2019
-  img: specificationbyexample
-  text: Specification by example is the corner-stone of any successful testing and requirements strategy with agile and lean processes, such as Scrum, Extreme Programming and Kanban. This two day workshop teaches you how to apply specification by example to bridge the communication gap between stakeholders and implementation teams, build quality into software from the start, design, develop and deliver systems fit for purpose.
-  url: https://techtalk.at/trainings/specification-by-example
 
 - name: Product Owner Key Skills
   date: 17-18 June 2019, 26-27 Sept 2019
