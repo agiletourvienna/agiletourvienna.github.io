@@ -852,3 +852,37 @@ section h3.quote
     z-index: 5;
     display: inline-block;
 }
+
+@media(min-width: 0px)
+{
+    blockquote:before {
+        display: inline-block;
+        content: "\f101";
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+@media(min-width: 992px)
+{
+    blockquote:before {
+        display: block;
+        padding-left: 10px;
+        content: "\f10e";
+        position: absolute;
+        left: -20px;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 30px;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+blockquote {
+    font-size: 15px;
+    border-left: none;
+}
