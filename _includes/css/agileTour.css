@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
     overflow: hidden;
 }
 
@@ -197,7 +197,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 
@@ -834,12 +834,12 @@ section h3.quote
 }
 
 .sponsor{
-    margin: 50px 0;
+    margin: 0;
 }
 
 .sponsors{
     background-color: rgba(107, 107, 107, 0.09);
-    margin-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .carousel-inner{
