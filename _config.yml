@@ -4,9 +4,9 @@ url: https://agiletourvienna.github.io
 title: Agile Tour Vienna 2019
 description: "The Agile Tour Vienna is a non-profit event that aims at bringing together experts, practioners and everybody else who is interested in agile software development. The main conference language is German but we welcome talks in English and are looking forward to an exchange with international participants."
 year: 2019
-trailer: https://player.vimeo.com/video/266565828?color=BB141A&title=0&byline=0&portrait=0
+trailer: https://player.vimeo.com/video/333508674?color=BB141A&title=0&byline=0&portrait=0
 
-headerType: saveTheDate # options: thanks, saveTheDate, trailer
+headerType: trailer # options: thanks, saveTheDate, trailer
 
 showCallForProposals: true
 showRegister: true
@@ -112,7 +112,7 @@ tweets:
 - quote: Worth spending a sunny Saturday indoors! :)
   person: Visitor 2013 
 
-hashtag: ATVIE18
+hashtag: ATVIE19
 
 keynote:
 - name: Marcus Hammarberg
