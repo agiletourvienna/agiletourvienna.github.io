@@ -11,16 +11,14 @@
             </div>
         </div>
     </div>
-    <div class="sponsors">
-        <div class="container">
-            {% for organiser in site.organisers %}
-            <div class="col-sm-4 sponsor">
-                <a href="{{organiser.link}}" target="_blank">
-                    <img src="img/partners/{{organiser.pic}}.png" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
-            {% endfor %}
+    <div class="container">
+        {% for organiser in site.organisers %}
+        <div class="col-sm-4 sponsor">
+            <a href="{{organiser.link}}" target="_blank">
+                <img src="img/partners/{{organiser.pic}}.png" class="img-responsive img-centered" alt="">
+            </a>
         </div>
+        {% endfor %}
     </div>
     <div class="container">
         <div-->
@@ -60,12 +58,12 @@
         {% endcomment %}
         </div>
     </div>
-    <div class="row content-committee-header">
-        <div class="col-lg-12 text-center">
-            <h3>Sponsors</h3>
-        </div>
-    </div>
     <div class="sponsors">
+        <div class="row content-committee-header">
+            <div class="col-lg-12 text-center">
+                <h3>Sponsors</h3>
+            </div>
+        </div>
         <div class="container">
             {% for sponsor in site.sponsors %}
             {% assign loopindex = forloop.index %}
@@ -91,40 +89,40 @@
                 {% if modulo == '0' %}
             </div>
             {% endif %}
-                    {% endfor %}
-         </div>
-    </div>
-    <div class="row text-center" style="margin: 60px">
-        <span>
-            <span style="font-weight:bold">
-                Show your support for the Agile Tour Vienna Conference while contributing to the growth of our community
-            <p></p>
-            </span>
-            <span style="text-align:left">
-                &bull; 3 different sponsor packages available for every need  <br>
-                &bull; Exhibition possibility at the event                    <br>
-                &bull; Good visibility for your company online and offline    <br>
-                &bull; 300 Agile Tour fans as audience<br />&nbsp;<br />
-            </span>
-        </span>
-        <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
-    </div>
-    <div class="row content-committee-header">
-        <div class="col-lg-12 text-center">
-            <h3>Partners</h3>
-            <h3 class="section-subheading text-muted"> We would like to thank our partners, </br> who play a vital role in helping us connect to the community and expand our knowledge. </h3>
-        </div>
-    </div>
-    <div class="sponsors">
-        <div class="container">
-            {% for partner in site.partners %}
-            {% assign loopindex = forloop.index %}
-            <div class="col-sm-12 sponsor">
-                <a href="{{partner.link}}" target="_blank">
-                    <img src="img/partners/{{partner.pic}}.png" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
             {% endfor %}
+         </div>
+        <div class="row text-center" style="margin: 60px">
+            <span>
+                <span style="font-weight:bold">
+                    Show your support for the Agile Tour Vienna Conference while contributing to the growth of our community
+                <p></p>
+                </span>
+                <span style="text-align:left">
+                    &bull; 3 different sponsor packages available for every need  <br>
+                    &bull; Exhibition possibility at the event                    <br>
+                    &bull; Good visibility for your company online and offline    <br>
+                    &bull; 300 Agile Tour fans as audience<br />&nbsp;<br />
+                </span>
+            </span>
+            <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
+        </div>
+        <div class="container">
+            <div class="row content-committee-header">
+                <div class="col-lg-12 text-center">
+                    <h3>Partners</h3>
+                    <h3 class="section-subheading text-muted"> We would like to thank our partners, </br> who play a vital role in helping us connect to the community and expand our knowledge. </h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for partner in site.partners %}
+                {% assign loopindex = forloop.index %}
+                <div class="col-sm-12 sponsor">
+                    <a href="{{partner.link}}" target="_blank">
+                        <img src="img/partners/{{partner.pic}}.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>
