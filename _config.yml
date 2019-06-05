@@ -157,6 +157,11 @@ team:
   position: Organization
   mail: monika.mochty@techtalk.at
 
+- name: David Eiwen
+  pic: dei
+  position: Technical Guy
+  mail: david.eiwen@techtalk.at
+
 committee:
 
 - name: Susanne Albinger
