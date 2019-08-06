@@ -1,96 +1,96 @@
 {% if site.showSchedule == true %}
 <style>
-    .schedule table {
-        width: 100%;
+  .schedule table {
+    width: 100%;
+  }
+
+    .schedule table tr {
+      overflow: hidden;
     }
 
-        .schedule table tr {
-            overflow: hidden;
-        }
-
-    @media screen and (max-width: 768px) {
-        .schedule tbody > tr {
-            display: block;
-            padding-left: 50px;
-            position: relative;
-            border-top: 1px solid #ddd;
-        }
-
-            .schedule tbody > tr td {
-                display: block;
-                border-top: 0;
-                border-right: 0;
-            }
-
-                .schedule tbody > tr td.time {
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    width: 50px;
-                    border: 0;
-                    white-space: nowrap;
-                    overflow: hidden;
-                }
-
-        .schedule .rooms {
-            display: none;
-        }
+  @media screen and (max-width: 768px) {
+    .schedule tbody > tr {
+      display: block;
+      padding-left: 50px;
+      position: relative;
+      border-top: 1px solid #ddd;
     }
+
+      .schedule tbody > tr td {
+        display: block;
+        border-top: 0;
+        border-right: 0;
+      }
+
+        .schedule tbody > tr td.time {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 50px;
+          border: 0;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+
+    .schedule .rooms {
+      display: none;
+    }
+  }
 </style>
 <section id="schedule">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Schedule</h2>
-                <h3 class="section-subheading text-muted">
-                    We are happy to announce this year's schedule (under reservation of the right to make alterations).<br/><br/>
-                    <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/raw/master/_upload/AgileTour2018_Program.pdf">
-                        <i class="fa fa-download" aria-hidden="true"></i> download schedule
-                    </a>
-                </h3>
-            </div>
-        </div>
-        {% if site.showScheduleDetails == true %}
-        <div class="col-lg-12 schedule">
-            <table class="table table-striped table-bordered">
-                <tbody>
-                    <tr class="rooms">
-                        <th width="12%" />
-                        <th width="22%">Ballroom B.E.01-02 (ground floor)</th>
-                        <th width="22%">Room B.E.03 (ground floor)</th>
-                        <th width="22%">Room A.-1.03 (basement)</th>
-                        <th width="22%">Room A.-1.04 (basement)</th>
-                    </tr>
-                    </tr>
-                    {% for row in site.data.schedule %}
-                    {% if row.keynote %}
-                    <tr style="background-color: #FFEDED">
-                        {% else %}
-                    <tr>
-                        {% endif %}
-                        <td class="time">{{row.time}}</td>
-                        {% if row.break %}
-                        <td colspan="4">
-                            <b>{{ row.break }}</b>
-                        </td>
-                        {% elsif row.keynote %}
-                        <td colspan="4">
-                            {% assign slot = row.keynote[0] %}
-                            {% include scheduleSpeaker.html %}
-                        </td>
-                        {% else %}
-                        {% for slot in row.talks %}
-                        <td colspan="1">
-                            {% include scheduleSpeaker.html %}
-                        </td>
-                        {% endfor %}
-                        {%endif%}
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
-        {% endif %}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Schedule</h2>
+        <h3 class="section-subheading text-muted">
+          We are happy to announce this year's schedule (under reservation of the right to make alterations).<br/><br/>
+          <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/raw/master/_upload/AgileTour2018_Program.pdf">
+            <i class="fa fa-download" aria-hidden="true"></i> download schedule
+          </a>
+        </h3>
+      </div>
     </div>
+    {% if site.showScheduleDetails == true %}
+    <div class="col-lg-12 schedule">
+      <table class="table table-striped table-bordered">
+        <tbody>
+          <tr class="rooms">
+            <th width="12%" />
+            <th width="22%">Ballroom B.E.01-02 (ground floor)</th>
+            <th width="22%">Room B.E.03 (ground floor)</th>
+            <th width="22%">Room A.-1.03 (basement)</th>
+            <th width="22%">Room A.-1.04 (basement)</th>
+          </tr>
+          </tr>
+          {% for row in site.data.schedule %}
+          {% if row.keynote %}
+          <tr style="background-color: #FFEDED">
+            {% else %}
+          <tr>
+            {% endif %}
+            <td class="time">{{row.time}}</td>
+            {% if row.break %}
+            <td colspan="4">
+              <b>{{ row.break }}</b>
+            </td>
+            {% elsif row.keynote %}
+            <td colspan="4">
+              {% assign slot = row.keynote[0] %}
+              {% include scheduleSpeaker.html %}
+            </td>
+            {% else %}
+            {% for slot in row.talks %}
+            <td colspan="1">
+              {% include scheduleSpeaker.html %}
+            </td>
+            {% endfor %}
+            {%endif%}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+  </div>
 </section>
 {% endif %}

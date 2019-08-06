@@ -1,171 +1,171 @@
 <section id="team" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Our Team</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Our Team</h2>
 
-                <h3 class="section-subheading text-muted">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;
-                    Our organisational team is responsible for all aspects of the conference. </br> For general information or if you have any questions, please contact us via email: <a href="mailto:info@agiletourvienna.at">info@agiletourvienna.at</a>
-                </h3>
-            </div>
-        </div>
+        <h3 class="section-subheading text-muted">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;
+          Our organisational team is responsible for all aspects of the conference. </br> For general information or if you have any questions, please contact us via email: <a href="mailto:info@agiletourvienna.at">info@agiletourvienna.at</a>
+        </h3>
+      </div>
     </div>
+  </div>
+  <div class="container">
+    {% for organiser in site.organisers %}
+    <div class="col-sm-4 sponsor">
+      <a href="{{organiser.link}}" target="_blank">
+        <img src="img/partners/{{organiser.pic}}.png" class="img-responsive img-centered" alt="">
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="container">
+    <div-->
+    {% for member in site.team %}
+    <div class="col-sm-6 col-lg-3 team-member">
+      <div class="container img-responsive img-circle">
+        <a href="mailto:{{ member.mail }}">
+          <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
+            <div class="team-hover">
+              <div class="team-hover-content">
+                <i class="fa fa-envelope-o"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <h4 style="font-size: 16px">{{ member.name }}</h4>
+      <div class="text-muted">{{ member.position }}</div>
+    </div>
+      {% endfor %}
+      {% comment %}
+      <div class="col-sm-6 col-lg-4 team-member">
+      <div class="container img-responsive img-circle">
+        <a target="_blank" href="https://www.youtube.com/watch?v=RWLlalCwX-Y">
+          <div style="background-image: url('img/team/teamvideo.png')" class="img">
+            <div class="team-hover">
+              <div class="team-hover-content">
+                <i class="fa fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <h4 style="font-size: 16px"><i class="fa fa-youtube-play" aria-hidden="true"></i> An Introduction</h4>
+      <div class="text-muted">from the Organization Team</div>
+    </div>
+    {% endcomment %}
+    </div>
+  </div>
+  <div class="sponsors">
     <div class="container">
-        {% for organiser in site.organisers %}
-        <div class="col-sm-4 sponsor">
-            <a href="{{organiser.link}}" target="_blank">
-                <img src="img/partners/{{organiser.pic}}.png" class="img-responsive img-centered" alt="">
+      <div class="row content-committee-header">
+        <div class="col-lg-12 text-center">
+          <h3>Sponsors</h3>
+        </div>
+      </div>
+      {% for sponsor in site.sponsors %}
+      {% assign loopindex = forloop.index %}
+      {% capture modulo %}{{ loopindex | modulo:2 }}{% endcapture %}
+        {% if modulo == '1' %}
+      <div class="row">
+        {% endif %}
+        {% if sponsor.text %}
+        <div class="col-sm-12 col-md-6 sponsor">
+          <div href="#sponsorModal{{loopindex}}" class="sponsor-link text-center" data-toggle="modal">
+            <a href="#sponsorModal{{loopindex}}">
+              <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="" />
             </a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="sponsor-qoute">
+            <blockquote>
+              <em>{{sponsor.text}}</em>
+            </blockquote>
+          </div>
+        </div>
+        {% else %}
+        <div class="col-sm-12 sponsor">
+          <a href="{{sponsor.link}}" target="_blank">
+            <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
+          </a>
+        </div>
+        {% endif %}
+        {% if modulo == '0' %}
+      </div>
+      {% endif %}
+      {% endfor %}
+      <div class="row text-center" style="margin: 60px">
+        <span>
+          <span style="font-weight:bold">
+            Show your support for the Agile Tour Vienna Conference while contributing to the growth of our community
+          <p></p>
+          </span>
+          <span style="text-align:left">
+            &bull; 3 different sponsor packages available for every need  <br>
+            &bull; Exhibition possibility at the event                    <br>
+            &bull; Good visibility for your company online and offline    <br>
+            &bull; 300 Agile Tour fans as audience<br />&nbsp;<br />
+          </span>
+        </span>
+        <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
+      </div>
+      <div class="row content-committee-header">
+        <div class="col-lg-12 text-center">
+          <h3>Partners</h3>
+          <h3 class="section-subheading text-muted"> We would like to thank our partners, </br> who play a vital role in helping us connect to the community and expand our knowledge. </h3>
+        </div>
+      </div>
+      <div class="row">
+        {% for partner in site.partners %}
+        {% assign loopindex = forloop.index %}
+        <div class="col-sm-12 sponsor">
+          <a href="{{partner.link}}" target="_blank">
+            <img src="img/partners/{{partner.pic}}.png" class="img-responsive img-centered" alt="">
+          </a>
         </div>
         {% endfor %}
+      </div>
     </div>
-    <div class="container">
-        <div-->
-        {% for member in site.team %}
-        <div class="col-sm-6 col-lg-3 team-member">
-            <div class="container img-responsive img-circle">
-                <a href="mailto:{{ member.mail }}">
-                    <div style="background-image: url('img/team/{{ member.pic }}.png')" class="img">
-                        <div class="team-hover">
-                            <div class="team-hover-content">
-                                <i class="fa fa-envelope-o"></i>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <h4 style="font-size: 16px">{{ member.name }}</h4>
-            <div class="text-muted">{{ member.position }}</div>
-        </div>
-            {% endfor %}
-            {% comment %}
-            <div class="col-sm-6 col-lg-4 team-member">
-            <div class="container img-responsive img-circle">
-                <a target="_blank" href="https://www.youtube.com/watch?v=RWLlalCwX-Y">
-                    <div style="background-image: url('img/team/teamvideo.png')" class="img">
-                        <div class="team-hover">
-                            <div class="team-hover-content">
-                                <i class="fa fa-play"></i>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <h4 style="font-size: 16px"><i class="fa fa-youtube-play" aria-hidden="true"></i> An Introduction</h4>
-            <div class="text-muted">from the Organization Team</div>
-        </div>
-        {% endcomment %}
-        </div>
-    </div>
-    <div class="sponsors">
-        <div class="container">
-            <div class="row content-committee-header">
-                <div class="col-lg-12 text-center">
-                    <h3>Sponsors</h3>
-                </div>
-            </div>
-            {% for sponsor in site.sponsors %}
-            {% assign loopindex = forloop.index %}
-            {% capture modulo %}{{ loopindex | modulo:2 }}{% endcapture %}
-                {% if modulo == '1' %}
-            <div class="row">
-                {% endif %}
-                {% if sponsor.text %}
-                <div class="col-sm-12 col-md-6 sponsor">
-                    <div href="#sponsorModal{{loopindex}}" class="sponsor-link text-center" data-toggle="modal">
-                        <a href="#sponsorModal{{loopindex}}">
-                            <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="" />
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="sponsor-qoute">
-                        <blockquote>
-                            <em>{{sponsor.text}}</em>
-                        </blockquote>
-                    </div>
-                </div>
-                {% else %}
-                <div class="col-sm-12 sponsor">
-                    <a href="{{sponsor.link}}" target="_blank">
-                        <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                {% endif %}
-                {% if modulo == '0' %}
-            </div>
-            {% endif %}
-            {% endfor %}
-            <div class="row text-center" style="margin: 60px">
-                <span>
-                    <span style="font-weight:bold">
-                        Show your support for the Agile Tour Vienna Conference while contributing to the growth of our community
-                    <p></p>
-                    </span>
-                    <span style="text-align:left">
-                        &bull; 3 different sponsor packages available for every need  <br>
-                        &bull; Exhibition possibility at the event                    <br>
-                        &bull; Good visibility for your company online and offline    <br>
-                        &bull; 300 Agile Tour fans as audience<br />&nbsp;<br />
-                    </span>
-                </span>
-                <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="page-scroll btn btn-xl">Become a sponsor</a>
-            </div>
-            <div class="row content-committee-header">
-                <div class="col-lg-12 text-center">
-                    <h3>Partners</h3>
-                    <h3 class="section-subheading text-muted"> We would like to thank our partners, </br> who play a vital role in helping us connect to the community and expand our knowledge. </h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for partner in site.partners %}
-                {% assign loopindex = forloop.index %}
-                <div class="col-sm-12 sponsor">
-                    <a href="{{partner.link}}" target="_blank">
-                        <img src="img/partners/{{partner.pic}}.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
+  </div>
 </section>
 
 
 {% for sponsor in site.sponsors %}
 {% assign loopindex = forloop.index %}
 <div class="sponsor-modal modal fade" id="sponsorModal{{loopindex}}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>{{ sponsor.name }}</h2>
-                        <hr class="star-primary">
-                        <a href="{{sponsor.link}}" target="_blank">
-                            <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="{{ sponsor.name }}">
-                        </a>
-                        <p> {{ sponsor.text }}</p>
-                        <ul class="list-inline item-details">
-                            <li>
-                                www:
-                                <strong>
-                                    <a href="{{sponsor.link}}" target="_blank">{{sponsor.link}}</a>
-                                </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>{{ sponsor.name }}</h2>
+            <hr class="star-primary">
+            <a href="{{sponsor.link}}" target="_blank">
+              <img src="img/partners/{{sponsor.pic}}.png" class="img-responsive img-centered" alt="{{ sponsor.name }}">
+            </a>
+            <p> {{ sponsor.text }}</p>
+            <ul class="list-inline item-details">
+              <li>
+                www:
+                <strong>
+                  <a href="{{sponsor.link}}" target="_blank">{{sponsor.link}}</a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 {% endfor %}

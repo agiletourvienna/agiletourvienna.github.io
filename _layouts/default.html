@@ -5,35 +5,35 @@
 
 <body id="page-top" class="index">
 
-    {% include header.html %}
-    {% include speaker.html %}
-    {% include schedule.html %}
-    {% include about.html %}
-    {% include register.html %}
-    {% include lookback.html %}
-    {% include gallery.html %}
-    {% include proposalNoTimeline.html %}
-    <!--{% include location.html %}-->
-    {% include committee.html %}
-    {% include team.html %}
-    {% include reviewerContribution.html %}
-    {% include contribution.html %}
-    {% include eventtips.html %}
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
+  {% include header.html %}
+  {% include speaker.html %}
+  {% include schedule.html %}
+  {% include about.html %}
+  {% include register.html %}
+  {% include lookback.html %}
+  {% include gallery.html %}
+  {% include proposalNoTimeline.html %}
+  <!--{% include location.html %}-->
+  {% include committee.html %}
+  {% include team.html %}
+  {% include reviewerContribution.html %}
+  {% include contribution.html %}
+  {% include eventtips.html %}
+  {% include footer.html %}
+  {% include modals.html %}
+  {% include js.html %}
 
 </body>
 
-    <script>
-        $(function() {
-            //Go to modal if it is set on page load
-            if(location.hash && $(location.hash).length === 1) {
-                if($(location.hash).hasClass('modal')) {
-                    $(location.hash).modal("show")
-                }
-            }
-        });
+  <script>
+    $(function() {
+      //Go to modal if it is set on page load
+      if(location.hash && $(location.hash).length === 1) {
+        if($(location.hash).hasClass('modal')) {
+          $(location.hash).modal("show")
+        }
+      }
+    });
 
-    </script>
+  </script>
 </html>

@@ -1,63 +1,63 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
-    {% if post.category == 'speaker' %}
-    <!--div class="speaker-modal modal fade" id="speakerModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/speaker/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p> {{post.bio}}</p>
-                            <ul class="list-inline item-details">
-                                <li>twitter:
-                                    <strong><a href="http://twitter.com/{{ post.twitter }}">@{{ post.twitter }}</a>
-                                    </strong>
-                                </li>
-                                <li>www:
-                                    <strong><a href="{{post.website-url}}">{{ post.website }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  {% if post.category == 'speaker' %}
+  <!--div class="speaker-modal modal fade" id="speakerModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
         </div>
-    </div-->
-    {% endif %}
-    {% if post.category == 'intro-video' %}
-    <div class="speaker-modal modal fade" id="introvideoModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>{{ post.title }}</h2>
+              <hr class="star-primary">
+              <img src="img/speaker/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+              <p> {{post.bio}}</p>
+              <ul class="list-inline item-details">
+                <li>twitter:
+                  <strong><a href="http://twitter.com/{{ post.twitter }}">@{{ post.twitter }}</a>
+                  </strong>
+                </li>
+                <li>www:
+                  <strong><a href="{{post.website-url}}">{{ post.website }}</a>
+                  </strong>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">                        
-                            <p><iframe src="https://player.vimeo.com/video/{{ post.vimeo-id }}?color=BB141A&title=0&byline=0&portrait=0" width="100%" height="350" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
-    {% endif %}
+  </div-->
+  {% endif %}
+  {% if post.category == 'intro-video' %}
+  <div class="speaker-modal modal fade" id="introvideoModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>{{ post.title }}</h2>
+              <hr class="star-primary">                        
+              <p><iframe src="https://player.vimeo.com/video/{{ post.vimeo-id }}?color=BB141A&title=0&byline=0&portrait=0" width="100%" height="350" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
 {% endfor %}
 

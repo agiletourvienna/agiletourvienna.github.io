@@ -1,53 +1,53 @@
 {% if site.showAbout == true %}
-    <section id="about" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Continuing in the tradition of the last 9 years, this year’s event will be another great day all about Agile Development!</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">It's about agile</h4>
-                    <p class="text-muted">The Agile Tour Vienna is a <b>non-profit</b> event that <b>brings together experts</b>, practioners and anyone else interested in <b>incorporating agile values and principles</b> in their daily work.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-comment fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Speakers</h4>
-                    <p class="text-muted">We are looking to find the perfect balance between <b>international experts</b> on Agile Development and <b>practitioners from the local community</b>.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa  fa-globe fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Language</h4>
-                    <p class="text-muted">The primary conference language is <b>German</b>, but we also welcome talks in <b>English</b> and look forward to exchanging ideas and insights with international participants.</p>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 50px">
-                <div class="col-lg-12 text-center">
-                    <h2><a class="twitter-link" href="https://twitter.com/hashtag/{{site.hashtag}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;#{{site.hashtag}}</a></h2>
-                    {% for tweet in site.tweets %}
-                    <h3 class="quote section-subheading text-muted">"{{tweet.quote}}" - {{tweet.person}}</h3>
-                    {% endfor %}
-                </div>
-            </div>
-            <!--
-            <div style="margin-top: 100px" class="hidden-md">
-                <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
-                <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-                <ul class="juicer-feed" data-feed-id="at16vie"></ul>
-            </div>-->
+  <section id="about" class="bg-light-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">About</h2>
+          <h3 class="section-subheading text-muted">Continuing in the tradition of the last 9 years, this year’s event will be another great day all about Agile Development!</h3>
         </div>
-    </section>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">It's about agile</h4>
+          <p class="text-muted">The Agile Tour Vienna is a <b>non-profit</b> event that <b>brings together experts</b>, practioners and anyone else interested in <b>incorporating agile values and principles</b> in their daily work.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-comment fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Speakers</h4>
+          <p class="text-muted">We are looking to find the perfect balance between <b>international experts</b> on Agile Development and <b>practitioners from the local community</b>.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa  fa-globe fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Language</h4>
+          <p class="text-muted">The primary conference language is <b>German</b>, but we also welcome talks in <b>English</b> and look forward to exchanging ideas and insights with international participants.</p>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px">
+          <div class="col-lg-12 text-center">
+            <h2><a class="twitter-link" href="https://twitter.com/hashtag/{{site.hashtag}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;#{{site.hashtag}}</a></h2>
+            {% for tweet in site.tweets %}
+            <h3 class="quote section-subheading text-muted">"{{tweet.quote}}" - {{tweet.person}}</h3>
+            {% endfor %}
+          </div>
+      </div>
+      <!--
+      <div style="margin-top: 100px" class="hidden-md">
+          <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
+          <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+          <ul class="juicer-feed" data-feed-id="at16vie"></ul>
+      </div>-->
+    </div>
+  </section>
 {% endif %}
 

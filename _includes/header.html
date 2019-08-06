@@ -1,192 +1,192 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="top-logo navbar-brand page-scroll" href="#page-top">
-                <img style="height: 60px;" src="{{ site.baseurl }}/img/logo-small.png">
-            </a>
-            <a class="top-logo navbar-brand page-scroll" href="https://techtalk.at/" target="_blank">
-                <img style="padding-left: 20px; margin-top: 25px; height: 25px;" src="{{ site.baseurl }}/img/techtalk_white.png">
-            </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                {% if site.showSpeaker== true %}
-                <li>
-                    <a class="page-scroll" href="#speaker">Speakers</a>
-                </li>
-                {% endif %}
-                {% if site.showSchedule == true %}
-                <li>
-                    <a class="page-scroll" href="#schedule">Schedule</a>
-                </li>
-                {% endif %}
-                {% if site.showAbout == true %}
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                {% endif %}
-                {% if site.showRegister == true %}
-                <li>
-                    <a class="page-scroll" href="#register">Tickets</a>
-                </li>
-                {% endif %}
-                <li>
-                    <a class="page-scroll" href="#lookback">LookBack</a>
-                </li>
-                {% if site.showCallForProposals == true %}
-                <li>
-                    <a class="page-scroll" href="#proposal">Proposals</a>
-                </li>
-                {% endif %}
-                {% if site.showLocation == true %}
-                <li>
-                    <a class="page-scroll" href="#location">Location</a>
-                </li>
-                {% endif %}
-                <li>
-                    <a class="page-scroll" href="#committee">Committee</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#team">Team</a>
-                </li>
-                {% if site.showContribution == true %}
-                <li>
-                    <a class="page-scroll" href="#contribute" style="border-bottom: 2px solid white"><i class="fa fa-bullhorn"></i> Join Us</a>
-                </li>
-                {% endif %}
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="top-logo navbar-brand page-scroll" href="#page-top">
+        <img style="height: 60px;" src="{{ site.baseurl }}/img/logo-small.png">
+      </a>
+      <a class="top-logo navbar-brand page-scroll" href="https://techtalk.at/" target="_blank">
+        <img style="padding-left: 20px; margin-top: 25px; height: 25px;" src="{{ site.baseurl }}/img/techtalk_white.png">
+      </a>
     </div>
-    <!-- /.container-fluid -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        {% if site.showSpeaker== true %}
+        <li>
+          <a class="page-scroll" href="#speaker">Speakers</a>
+        </li>
+        {% endif %}
+        {% if site.showSchedule == true %}
+        <li>
+          <a class="page-scroll" href="#schedule">Schedule</a>
+        </li>
+        {% endif %}
+        {% if site.showAbout == true %}
+        <li>
+          <a class="page-scroll" href="#about">About</a>
+        </li>
+        {% endif %}
+        {% if site.showRegister == true %}
+        <li>
+          <a class="page-scroll" href="#register">Tickets</a>
+        </li>
+        {% endif %}
+        <li>
+          <a class="page-scroll" href="#lookback">LookBack</a>
+        </li>
+        {% if site.showCallForProposals == true %}
+        <li>
+          <a class="page-scroll" href="#proposal">Proposals</a>
+        </li>
+        {% endif %}
+        {% if site.showLocation == true %}
+        <li>
+          <a class="page-scroll" href="#location">Location</a>
+        </li>
+        {% endif %}
+        <li>
+          <a class="page-scroll" href="#committee">Committee</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#team">Team</a>
+        </li>
+        {% if site.showContribution == true %}
+        <li>
+          <a class="page-scroll" href="#contribute" style="border-bottom: 2px solid white"><i class="fa fa-bullhorn"></i> Join Us</a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
 </nav>
 
 <!-- Header -->
 <header>
-    <div class="container">
-        {% if site.headerType == "thanks" %}
-        <div class="thanks-panel">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Thank You</h2>
-                    <h3>for Attending the Agile Tour Vienna 2018</h3>
-                </div>
-            </div>
-            <div class="row text-center hidden-xs hidden-sm hidden-md" style="margin-top: 70px;">
-                <div class="col-md-6">
-                    <iframe src="https://player.vimeo.com/video/295977600" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <h4 class="service-heading">The Selfish Team Player</h4>
-                    <p>J.B. Rainsberger</p>
+  <div class="container">
+    {% if site.headerType == "thanks" %}
+    <div class="thanks-panel">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Thank You</h2>
+          <h3>for Attending the Agile Tour Vienna 2018</h3>
+        </div>
+      </div>
+      <div class="row text-center hidden-xs hidden-sm hidden-md" style="margin-top: 70px;">
+        <div class="col-md-6">
+          <iframe src="https://player.vimeo.com/video/295977600" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <h4 class="service-heading">The Selfish Team Player</h4>
+          <p>J.B. Rainsberger</p>
 
-                </div>
-                <div class="col-md-6">
-                    <iframe src="https://player.vimeo.com/video/294925415" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <h4 class="service-heading">Agile &ne; Speed</h4>
-                    <p>Kevlin Henney</p>
-                </div>
-            </div>
-            <div class="row text-center" style="margin: 70px 0 100px">
-                <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2018" class="btn btn-xl">Full Look Back of 2018</a>
-                <!--<a href="#contributeReviewer" class="proposal-btn page-scroll btn btn-xl">Become A Review Team Member</a>-->
-                <a href="https://secure.dialog-mail.com/h/DMfrC" target="_blank" class="btn btn-xl">
-                    Sign up for Newsletter
-                </a>
-            </div>
         </div>
-        {% endif %}
-        {% if site.headerType == "saveTheDate" %}
-        <div class="saveTheDate-panel">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Agile Tour Vienna 2019</h3>
-                    <h2>Save the date</h2>
-                    <h3>20 September 2019</h3>
-                </div>
-            </div>
-            <div class="logo"></div>
-            <div class="row text-center" style="margin: 70px 0 100px">
-                <a href="https://www.eventbrite.de/e/agile-tour-vienna-2019-tickets-53638356769" target="_blank" class="btn btn-xl">
-                    Get Your Ticket
-                </a>
-                <a href="https://secure.dialog-mail.com/h/DMfrC" target="_blank" class="btn btn-xl">
-                    Sign up for Newsletter
-                </a>
-            </div>
-            <div class="row text-center" style="margin: 70px 0 100px">
-                <!--<a href="#proposal" class="btn btn-xl">Call for Proposals</a>-->
-                <!--<a href="#contributeReviewer" class="proposal-btn page-scroll btn btn-xl">Become A Review Team Member</a>-->
-                <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="btn btn-xl">Become a sponsor</a>
-            </div>
+        <div class="col-md-6">
+          <iframe src="https://player.vimeo.com/video/294925415" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <h4 class="service-heading">Agile &ne; Speed</h4>
+          <p>Kevlin Henney</p>
         </div>
-        {% endif %}
-        {% if site.headerType == "trailer" %}
-        <div class="trailer-panel">
-            <div class="video">
-                <iframe src="{{site.trailer}}"
-                        width="580" height="326" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                        allowfullscreen></iframe>
-            </div>
-            <div class="content">
-                <div class="logo"></div>
-                <div>
-                    <h2>
-                        <a class="twitter-link" href="https://twitter.com/hashtag/{{site.hashtag}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;#{{site.hashtag}}</a>
-                    </h2>
-                </div>
-                <div>
-                    {% if site.showRegister == true %}
-                    <a href="#register" class="register-btn page-scroll btn btn-xl">Tickets</a>
-                    {% endif %}
-                    {% if site.showCallForProposals == true %}
-                    <a href="#proposal" class="register-btn page-scroll btn btn-xl">Proposal</a>
-                    {% endif %}
-                    <a href="https://secure.dialog-mail.com/h/DMfrC" target="_blank" class="register-btn page-scroll btn btn-xl">
-                        Newsletter
-                    </a>
-                </div>
-                <div class="heading">
-                    <a href="#introVideoModal" class="speaker-link" data-toggle="modal">
-                        <i class="fa fa-play-circle" aria-hidden="true"></i>&nbsp;Trailer {{site.year}}
-                    </a>
-                </div>
-            </div>
-        </div>
-        {% endif %}
+      </div>
+      <div class="row text-center" style="margin: 70px 0 100px">
+        <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2018" class="btn btn-xl">Full Look Back of 2018</a>
+        <!--<a href="#contributeReviewer" class="proposal-btn page-scroll btn btn-xl">Become A Review Team Member</a>-->
+        <a href="https://secure.dialog-mail.com/h/DMfrC" target="_blank" class="btn btn-xl">
+          Sign up for Newsletter
+        </a>
+      </div>
     </div>
+    {% endif %}
+    {% if site.headerType == "saveTheDate" %}
+    <div class="saveTheDate-panel">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3>Agile Tour Vienna 2019</h3>
+          <h2>Save the date</h2>
+          <h3>20 September 2019</h3>
+        </div>
+      </div>
+      <div class="logo"></div>
+      <div class="row text-center" style="margin: 70px 0 100px">
+        <a href="https://www.eventbrite.de/e/agile-tour-vienna-2019-tickets-53638356769" target="_blank" class="btn btn-xl">
+          Get Your Ticket
+        </a>
+        <a href="https://secure.dialog-mail.com/h/DMfrC" target="_blank" class="btn btn-xl">
+          Sign up for Newsletter
+        </a>
+      </div>
+      <div class="row text-center" style="margin: 70px 0 100px">
+        <!--<a href="#proposal" class="btn btn-xl">Call for Proposals</a>-->
+        <!--<a href="#contributeReviewer" class="proposal-btn page-scroll btn btn-xl">Become A Review Team Member</a>-->
+        <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Become-a-Partner" target="_blank" class="btn btn-xl">Become a sponsor</a>
+      </div>
+    </div>
+    {% endif %}
+    {% if site.headerType == "trailer" %}
+    <div class="trailer-panel">
+      <div class="video">
+        <iframe src="{{site.trailer}}"
+            width="580" height="326" frameborder="0" webkitallowfullscreen mozallowfullscreen
+            allowfullscreen></iframe>
+      </div>
+      <div class="content">
+        <div class="logo"></div>
+        <div>
+          <h2>
+            <a class="twitter-link" href="https://twitter.com/hashtag/{{site.hashtag}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;#{{site.hashtag}}</a>
+          </h2>
+        </div>
+        <div>
+          {% if site.showRegister == true %}
+          <a href="#register" class="register-btn page-scroll btn btn-xl">Tickets</a>
+          {% endif %}
+          {% if site.showCallForProposals == true %}
+          <a href="#proposal" class="register-btn page-scroll btn btn-xl">Proposal</a>
+          {% endif %}
+          <a href="https://secure.dialog-mail.com/h/DMfrC" target="_blank" class="register-btn page-scroll btn btn-xl">
+            Newsletter
+          </a>
+        </div>
+        <div class="heading">
+          <a href="#introVideoModal" class="speaker-link" data-toggle="modal">
+            <i class="fa fa-play-circle" aria-hidden="true"></i>&nbsp;Trailer {{site.year}}
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
 
 </header>
 <div class="speaker-modal modal fade" id="introVideoModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Trailer</h2>
-                        <hr class="star-primary">
-                        <p><iframe src="{{site.trailer}}" width="100%" height="350" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Trailer</h2>
+            <hr class="star-primary">
+            <p><iframe src="{{site.trailer}}" width="100%" height="350" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
