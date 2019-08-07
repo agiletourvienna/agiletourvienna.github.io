@@ -126,12 +126,6 @@
 
 {% assign moduleName = slot.title | slugify | replace: ' ', '_' | remove: ':' | remove: '?' %}
 
-{% assign speakerImg = slot.speaker | remove: " " | downcase %}
-{% if slot.speaker-img %}{% assign speakerImg = slot.speaker-img %}{%endif %}
-
-{% assign speaker2Img = slot.speaker2 | remove: " " | downcase %}
-{% if slot.speaker2-img %}{% assign speaker2Img = slot.speaker2-img %}{%endif %}
-
 <div>
 {% if site.showScheduleDetailModals %}
 <a class="speaker-container{% if slot.cancelled %} cancelled{%endif %}" href="#scheduleModal-{{moduleName}}" data-toggle="modal">
@@ -142,10 +136,10 @@
   {% if slot.language %}<span class="tag primary">{{ slot.language | uppercase}}</span>{% endif %}
   {% if site.showScheduleDetailImages %}
   <div class="image-row">
+    {% for speaker in slot.speakers %}
+    {% assign speakerImg = speaker.img | remove: " " | downcase %}
     <img class="speaker-image" src='{{ site.baseurl }}/img/schedule/{{speakerImg}}.png'/>
-    {% if slot.speaker2 %}<img class="speaker-image speaker-image2" style="margin-left: -17px;"
-      src='{{ site.baseurl }}/img/schedule/{{speaker2Img}}.png'/>{%
-    endif %}
+    {% endfor %}
   </div>
   {% endif %}
   {% if slot.cancelled %} <div>
