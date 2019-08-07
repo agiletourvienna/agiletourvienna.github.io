@@ -14,8 +14,10 @@
     abstract:
     - 'Our old ideas of good leadership is where the leader knows all, tells all and is always in control. In fact, it’s difficult for us to change because those old habits are so hardwired in our brains! Intent-Based Leadership™ offers a way for us to rewire: to give control, trust and learn to be okay with not having all the answers. It''s a way of leading where the leader sets the environment for others to excel and act to the maximum extent of their creativity and intellect; where team members come to the leader describing what they see, what they think, and what they intend to do. The result: the culture of the organization shifts from one of permission and waiting, to intent and action, and people feel more valued and come to better solutions.'
     - Jenni will share the principles of Intent-Based Leadership – what it takes to give control and achieve excellence in your organization. This way of leading is the key to successful Agile implementations in companies of all sizes.
+
 - time: "10:00 - 10:15"
   break: "Coffee Break"
+
 - time: "10:15 - 10:50"
   talks:
   - title: "Descaling Agile"
@@ -133,7 +135,7 @@
     tags: "scrum master, communication, soft skills, personal agility, growth"
     language: en
     level: 1
-    abstract: 
+    abstract:
     - "It's a question that the community has been asking itself for a long time now. Does a PM/PO/SM (you name it) have to be a technical person? What is easier: to teach a good communicator about tech or to teach a technical person how to communicate effectively? Or maybe you are looking for a purple squirrel?"
     - "Based on my personal experience, coming from a strongly humanistic field (graduated Polish philology as my first choice), I will speak about what is important in a project manager’s role and how to easily dive into the IT world without a technical background. I’ll also talk about what can help you, how to overcome your struggles, and why I strongly believe that there should be more people with humanistic skills in the community."
 
@@ -243,7 +245,7 @@
     - 'When the goal is to achieve speed and scalability, how does architecture governance look like in such a decentralised setup? If everything seems to change all the time, how to spot "the parts that are hard to change" and can they even exist? Why do architectural approaches sometimes become bottlenecks instead of providing value and why has "software architect" become a negative term for so many people?'
     - 'There is no one-size-fits-it-all architecture and there is no dogmatic pseudo-agile "no architecture". Good architectural work is still crucial, especially if we need to go fast. Prefering evolvability over predictability is key, but requires deep understanding how differnt dimensions of software projects interact with each other. We’ll discuss how to support the mechanics of evolution and we''ll look at some of the most common pitfalls that lead to disasters - and how to avoid them.'
 
-  - title: "Perspectives at Help"
+  - title: "Perspectives at Help [continued until 15:00]"
     speakers:
     - name: "Zvonimir Durcevic"
       img: "zvonimirdurcevic"
