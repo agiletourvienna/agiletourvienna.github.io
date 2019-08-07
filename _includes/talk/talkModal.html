@@ -1,0 +1,54 @@
+<div class="scheduleSpeaker-modal speaker-modal modal fade" id="scheduleModal-{{moduleName}}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <img class="speaker-image"
+                src='{{ site.baseurl }}/img/schedule/{{speakerImg}}.png'/>
+            {% if slot.speaker2 %}
+            <img class="speaker-image" style="margin-left: 10px;"
+                src='{{ site.baseurl }}/img/schedule/{{speaker2Img}}.png'/>{%
+            endif %}
+            <h2>{{ slot.title }}</h2>
+            <p>
+              {% if slot.level %}<span class="tag primary">Level:&nbsp;&nbsp;<img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png"/></span>{% endif %}
+              {% if slot.language %}<span class="tag primary">Language:&nbsp;{{ slot.language | uppercase}}</span>{% endif %}
+              {% if slot.workshop %}<span class="tag workshop">workshop</span>{% endif %}
+              {% assign tags = slot.tags | split: ',' %}
+              {% for tag in tags %}
+              <span class="tag">{{ tag | strip }}</span>
+              {% endfor %}
+            </p>
+            <hr class="star-primary">
+            <h4>Abstract</h4>
+            {% for row in slot.abstract %}
+            <p>
+              {{ row | markdownify }}
+            </p>
+            {% endfor %}
+            <hr class="star-primary" />
+            {% for speaker in slot.speakers %}
+            
+              <h3>{{speaker.name}}</h3>
+              {% for row in speaker.bio %}
+                <p>{{ row | markdownify }}</p>
+              {% endfor %}
+
+            {% endfor %}
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i
+                class="fa fa-times"></i>
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
