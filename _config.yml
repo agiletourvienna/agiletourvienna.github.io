@@ -121,6 +121,11 @@ keynote:
   - "For 15 years Marcus Hammarberg has been doing agile and lean software development and helping others do it. He has worked in many different settings, from big banks and insurance companies, to start-ups and within retail. At one big insurance company, the first agile team, started by Marcus, eventually spread to a lean initiative across the business. As a consultant Marcus helps individuals, teams, and whole organizations improve their value delivery flow. Marcus is still a keen programmer and continues to practice and teach the concepts that helped him become a good programmer: TDD, Specification by example, functional programming and Node."
   - "Marcus is a keynote speaker and co-author of Kanban In Action, which has been translated into 5 languages across the globe. He has blogged since 2006 at www.marcusoft.net and spend his spare time playing euphonium in the Salvation Army band at Vasakåren, Stockholm."
   - "2014-2015 Marcus moved to Indonesia with his family to work for the Salvation Army. Unexpectedly his previous experience with lean, agile and kanban was soon put to great use there too. This story is retold as it happened in his second book; Salvation: The Bungsu story"
+  talk:
+    title: How agile principles saved a hospital - the inside story
+    abstract: 
+    - The hospital is not making money, it does not have a valid permit and it pays their staff too little... at this point, the roof falls in. Literally! Would you give up? Most would. But we did not. Instead, we used the principles of agile, lean and kanban to make the hospital amazing. 
+    - In this keynote, I will tell you how we applied these principles in practice and about the transformations we created. You will also meet 3 women who helped us turn the hospital around and whose lives were transformed in the process. 
   www: www.marcusoft.net
   twitter: marcusoftnet
 
@@ -130,6 +135,11 @@ keynote:
   - "Jenni Jepsen is a transformation advisor & Agile coach at Denmark-based goAgile. She helps people transform organizations to create lasting change. By focusing on the value to be achieved and understanding where clients are and where they want to go, Jenni works closely with them to increase organizational effectiveness, motivation and results. goAgile’s point of difference is to help people in organizations help themselves in this process, and Jenni has proven experience supporting people so they thrive through change. In this way, organizations transform into places where people achieve real value and delight customers every day."
   - "Jenni is an expert in change leadership and communications, and integrates neuroscience concepts into her coaching, training and sparring with leaders at every level. In addition to having her certificate in NeuroLeadership, Jenni is also a certified Intent-based Leadership™ Practitioner, certified LEGO® Serious Play™ facilitator, DSDM-certified Agile Project Leader, PSPO, SAFe® Program Consultant, Scrum at Scale™Certified Practitioner, and Agile coach."
   - "Jenni consults, writes and speaks worldwide about leadership, teams, and how to take advantage of how our brains function to get optimal thinking in the workplace. She runs Intent-based Leadership™ courses together with award-winning author of Turn the Ship Around! L. David Marquet, and is currently writing a book about how leaders create ownership."
+  talk:
+    title: Intent-Based Leadership
+    abstract:
+    - 'Our old ideas of good leadership is where the leader knows all, tells all and is always in control. In fact, it’s difficult for us to change because those old habits are so hardwired in our brains! Intent-Based Leadership™ offers a way for us to rewire: to give control, trust and learn to be okay with not having all the answers. It''s a way of leading where the leader sets the environment for others to excel and act to the maximum extent of their creativity and intellect; where team members come to the leader describing what they see, what they think, and what they intend to do. The result: the culture of the organization shifts from one of permission and waiting, to intent and action, and people feel more valued and come to better solutions.'
+    - Jenni will share the principles of Intent-Based Leadership – what it takes to give control and achieve excellence in your organization. This way of leading is the key to successful Agile implementations in companies of all sizes.
   twitter: jenniindk
 
 speaker:
@@ -139,6 +149,12 @@ speaker:
   - "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010."
   - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
   - "As a consultant, Gojko has helped companies around the world improve their software delivery, from some of the largest financial institutions to small innovative startups. Gojko specialises in are agile and lean quality improvement, in particular impact mapping, agile testing, specification by example and behaviour driven development."
+  talk:
+    title: Descaling Agile
+    abstract:
+    - After the agile community solved how to do programming, testing, release and product management, the hot topic for our industry today seems to be scaling. In an ironic twist for a movement started with ‘people over process’, big consultancies today sell scaling models based on everything from tribes to witchcraft, offering to make agile disciplined and safe.
+    - Gojko will help you cut through all the mess and separate out signal from noise.
+
   twitter: gojkoadzic
   
 team:

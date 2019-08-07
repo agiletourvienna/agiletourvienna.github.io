@@ -1,0 +1,65 @@
+<div class="modal-content">
+  <div class="close-modal" data-dismiss="modal">
+    <div class="lr">
+      <div class="rl">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <div class="modal-body">
+          {% if speaker.talk %}
+          
+          <h2>{{ speaker.talk.title}} </h2>
+          
+          {% for paragraph in speaker.talk.abstract %}
+
+          <p>{{ paragraph }}</p>
+
+          {% endfor %}
+
+          <hr />
+
+          {% endif %}
+
+          <h3>{{ speaker.name }}</h3>
+          <hr class="star-primary">
+          <img style="max-height: 250px" src="img/speaker/{{ speaker.pic }}.png" class="img-responsive img-centered" alt="{{ speaker.name }}">
+          <p> {{ speaker.bio }}</p>
+          <ul class="list-inline item-details">
+            {% if speaker.twitter %}
+            <li>twitter:
+              <strong><a href="http://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a>
+              </strong>
+            </li>
+            {% endif %}
+            {% if speaker.facebook %}
+            <li>
+              facebook:
+              <strong>
+                <a href="{{speaker.facebook}}" target="_blank">{{ speaker.facebook }}</a>
+              </strong>
+            </li>
+            {% endif %}
+            {% if speaker.www %}
+            <li>www:
+              <strong><a href="http://{{speaker.www}}" target="_blank">{{ speaker.www }}</a>
+              </strong>
+            </li>
+            {% endif %}
+            {% if speaker.soundcloud %}
+            <li>
+              soundcloud:
+              <strong>
+                <a href="{{speaker.soundcloud}}" target="_blank">{{ speaker.soundcloud }}</a>
+              </strong>
+            </li>
+            {% endif %}
+          </ul>
+          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
