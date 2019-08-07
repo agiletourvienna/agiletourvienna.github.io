@@ -55,11 +55,12 @@
       <table class="table table-striped table-bordered">
         <tbody>
           <tr class="rooms">
-            <th width="12%" />
-            <th width="22%">Ballroom B.E.01-02 (ground floor)</th>
-            <th width="22%">Room B.E.03 (ground floor)</th>
-            <th width="22%">Room A.-1.03 (basement)</th>
-            <th width="22%">Room A.-1.04 (basement)</th>
+            <th width="12%"></th>
+            <th width="17.6%">Ballroom B.E.01-02 (ground floor)</th>
+            <th width="17.6%">Room A.-1.05 (basement)</th>
+            <th width="17.6%">Room A.-1.02 (basement)</th>
+            <th width="17.6%">Room A.-1.03 (basement)</th>
+            <th width="17.6%">Room A.-1.04 (basement)</th>
           </tr>
           </tr>
           {% for row in site.data.schedule %}
@@ -70,11 +71,11 @@
             {% endif %}
             <td class="time">{{row.time}}</td>
             {% if row.break %}
-            <td colspan="4">
+            <td colspan="5">
               <b>{{ row.break }}</b>
             </td>
             {% elsif row.keynote %}
-            <td colspan="4">
+            <td colspan="5">
               {% assign slot = row.keynote[0] %}
               {% include scheduleSpeaker.html %}
             </td>
