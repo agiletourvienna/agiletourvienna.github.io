@@ -54,7 +54,7 @@ section.dark {
   max-height: none; }
 
 nav.navbar-default {
-  background-color: #222; }
+  background-color: #FC4C59; }
   nav.navbar-default .top-logo {
     padding: 5px 0 5px 20px; }
     @media (min-width: 768px) and (max-width: 992px) {
@@ -95,7 +95,7 @@ nav.navbar-default {
     nav.navbar-default {
       padding: 25px 0;
       border: 0;
-      background-color: transparent;
+      background-color: #FC4C59;
       -webkit-transition: padding .3s;
       -moz-transition: padding .3s;
       transition: padding .3s; }
@@ -117,7 +117,7 @@ nav.navbar-shrink {
 header {
   text-align: center;
   color: #fff;
-  background: url("/img/header-bg2.jpg") no-repeat scroll center center;
+  background: url("/img/Header_2019.jpg") no-repeat scroll center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -164,8 +164,8 @@ header {
       margin: 4rem 0; }
     @media (min-width: 768px) {
       header .trailer-panel {
-        padding-top: 200px;
-        padding-bottom: 200px; }
+        padding-top: 250px;
+        padding-bottom: 100px; }
         header .trailer-panel .heading {
           margin: 20px;
           text-transform: uppercase;

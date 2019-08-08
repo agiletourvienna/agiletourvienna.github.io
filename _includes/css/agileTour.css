@@ -762,15 +762,15 @@ section h3.quote
 }
 
 .twitter-link{
-    color:#55ACEE;
+    color:#fff;
 }
 
 .twitter-link:hover, .twitter-link:focus, .twitter-link:visited{
-    color:#55ACEE;
+    color:#fff;
     text-decoration: none;
 }
 .twitter-link:hover{
-    color: #0173C7;
+    color: #fff;
 }
 .feedback-trigger{
     position: fixed;
