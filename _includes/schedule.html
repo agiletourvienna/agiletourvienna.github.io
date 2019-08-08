@@ -64,6 +64,7 @@
           </tr>
           </tr>
           {% for row in site.data.schedule %}
+          
           {% if row.keynote %}
           <tr style="background-color: #FFEDED">
             {% else %}
@@ -71,8 +72,8 @@
             {% endif %}
             <td class="time">{{row.time}}</td>
             {% if row.break %}
-            <td colspan="5">
-              <b>{{ row.break }}</b>
+            <td colspan="{{ row.break.columnSpan }}" class="{{ row.break.type }}">
+              <b>{{ row.break.name }}</b>
             </td>
             {% elsif row.keynote %}
             <td colspan="5">
@@ -81,9 +82,15 @@
             </td>
             {% else %}
             {% for slot in row.talks %}
-            <td colspan="1">
-              {% include scheduleSpeaker.html %}
-            </td>
+              {% if slot.rowSpan %}
+              <td colspan="1" rowspan="{{ slot.rowSpan }}">  
+                {% include scheduleSpeaker.html %}
+              </td>
+              {% else %}
+              <td colspan="1">
+                {% include scheduleSpeaker.html %}
+              </td>
+              {% endif %}
             {% endfor %}
             {%endif%}
           </tr>

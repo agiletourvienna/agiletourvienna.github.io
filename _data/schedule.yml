@@ -1,5 +1,9 @@
 - time: "08:45 - 09:00"
-  break: "Welcome @ Agile Tour Vienna 2019"
+  break:
+    name: "Welcome @ Agile Tour Vienna 2019"
+    type: welcome
+    columnSpan: 5
+
 - time: "09:00 - 10:00"
   keynote:
   - title: "Intent-Based Leadership"
@@ -17,7 +21,10 @@
     - Jenni will share the principles of Intent-Based Leadership – what it takes to give control and achieve excellence in your organization. This way of leading is the key to successful Agile implementations in companies of all sizes.
 
 - time: "10:00 - 10:15"
-  break: "Coffee Break"
+  break:
+    name: "Coffee Break"
+    type: coffee
+    columnSpan: 5
 
 - time: "10:15 - 10:50"
   talks:
@@ -106,7 +113,10 @@
     - 'This talk will not only show you how Agile methods are great for starting an innovative initiative in a low-to zero-budget sector, it will also show you how you can use Agile to make a difference in this world.'
 
 - time: "10:50 - 11:00"
-  break: "Coffee Break"
+  break:
+    name: "Coffee Break"
+    type: coffee
+    columnSpan: 5
 
 - time: "11:00 - 11:35"
   talks:
@@ -176,19 +186,29 @@
     tags: "Hands-on, Agile Mindset, Mob Testing, kollaboratives Testen, Schwarmintelligenz"
     language: de
     workshop: true
+    rowSpan: 3
     level: 1
     abstract: 
     - "In agilen Teams testen nicht nur Testexperten. Mit kollaborativen Testmethoden können verschiedene Teilnehmer mit ins Boot geholt werden. Dadurch entsteht die Möglichkeit, einen frischen Blick von Stakeholdern aus Fachbereich oder Management zu nutzen - und das mit Spaß! Beim Mob Testing testen Kollegen aus möglichst vielen Abteilungen und Spezialisierungen gemeinsam und haben dabei unterschiedliche Rollen. Wir haben dies in unterschiedlichen Kontexten eingesetzt. Zum einen zur Wissensvermittlung und zum anderen zur gemeinsamen Fehlerfindung."
     - "Bei dieser interaktiven Session erleben Sie gemeinsam mit den anderen Teilnehmern eine Mob Testing Session live. Anhand einer Partie Schach demonstrieren wir Ihnen, wie die Methode funktioniert und welche Herausforderungen Ihnen begegnen können. Sie haben keine Ahnung von Schach? Perfekt! Dann erleben Sie am eigenen Leib, wie gut Wissensvermittlung durch Mob Testing erfolgen kann. Seien Sie gespannt."
 
 - time: "11:35 - 11:55"
-  break: "Coffee Break"
+  break:
+    name: "Coffee Break"
+    type: coffee
+    columnSpan: 4
 
 - time: "11:55 - 12:30"
-  break: "Meet the Speakers"
+  break:
+    name: "Meet the Speakers"
+    type: meetTheSpeakers
+    columnSpan: 4
 
 - time: "12:30 - 13:30"
-  break: "Lunch break"
+  break:
+    name: "Lunch break"
+    type: lunch
+    columnSpan: 5
 
 - time: "13:30 - 14:05"
   talks:
@@ -270,7 +290,7 @@
     - 'When the goal is to achieve speed and scalability, how does architecture governance look like in such a decentralised setup? If everything seems to change all the time, how to spot "the parts that are hard to change" and can they even exist? Why do architectural approaches sometimes become bottlenecks instead of providing value and why has "software architect" become a negative term for so many people?'
     - 'There is no one-size-fits-it-all architecture and there is no dogmatic pseudo-agile "no architecture". Good architectural work is still crucial, especially if we need to go fast. Prefering evolvability over predictability is key, but requires deep understanding how differnt dimensions of software projects interact with each other. We’ll discuss how to support the mechanics of evolution and we''ll look at some of the most common pitfalls that lead to disasters - and how to avoid them.'
 
-  - title: "Perspectives at Help [continued until 15:00]"
+  - title: "Perspectives at Help"
     speakers:
     - name: "Zvonimir Durcevic"
       img: "zvonimirdurcevic"
@@ -284,12 +304,16 @@
     language: en
     workshop: true
     level: 3
+    rowSpan: 3
     abstract:
     - 'Do you find yourself asking questions like what did "just" happen, what does it mean, without getting satisfying answers? No matter a role we are in, we work with individuals, teams, and organizations where we observe different events and situations in different contexts. How can we make sense out of all of these events and situations? What tools can we use in getting more clarity and understanding? What are the right questions?'
     - 'If you do find yourself asking those questions, this session will help you discover one approach on how to deal with such situations by combining Michael Spayd’s and Michele Madore’s Integral Agile Transformation FrameworkTM and powerful questions. The workshop will address the perspectives of leadership and mindset, practices and behavior, organizational architecture, and organizational culture and relationships. And in the combination with powerful questions give the opportunity to experience the creation of clarity and understanding.'
 
 - time: "14:05 - 14:25"
-  break: "Coffee Break"
+  break:
+    name: "Coffee Break"
+    type: coffee
+    columnSpan: 4
 
 - time: "14:25 - 15:00"
   talks:
@@ -360,26 +384,11 @@
     - 'In this talk I focus on "test data" and "test environments" as two enablers in an agile working culture. Let me tell you, how a company of over 25+ agile teams used a mix of central control & guidance and team autonomy & freedom to establish a fast and reliable infrastructure for every team member.'
     - 'If you want to know, how you could get "From Zero to Test! in 10 Minutes, visit this report from the trenches.'
 
-  - title: "Perspectives at Help [continued]"
-    speakers:
-    - name: "Zvonimir Durcevic"
-      img: "zvonimirdurcevic"
-      company: "Raiffeisen Bank International AG, Austria"
-      bio:
-      - 'Zvonimir is an agile coach and a practitioner devoted to improving the creation experience for product teams and customers equally. His passion is assisting product teams in creating products and services of value for satisfied customers and at the same time, having motivated and engaged team members.'
-      - 'As an agile coach at Raiffeisen Bank International, he has a unique opportunity to support people and teams on their agile journey. He helps them in creating their preferred future, the vision of what they want to develop and assists them on their way of exploring which actions lead to the desired outcome.'
-      - 'Zvonimir has more than 13 years of experience in agile delivery, improving the value delivery capabilities of organizations and teams. His journey of becoming an agile coach has several stations where he gathered experience working as a head of software development, a release and a project manager, and a scrum master.'
-      - 'One of the most important lessons he has learned is that great products do create autonomous teams with a shared purpose and an environment where they can express their mastery.'
-    tags: "Perspectives, Integral, Questions, Mindset, Awareness"
-    language: en
-    workshop: true
-    level: 3
-    abstract:
-    - 'Do you find yourself asking questions like what did "just" happen, what does it mean, without getting satisfying answers? No matter a role we are in, we work with individuals, teams, and organizations where we observe different events and situations in different contexts. How can we make sense out of all of these events and situations? What tools can we use in getting more clarity and understanding? What are the right questions?'
-    - 'If you do find yourself asking those questions, this session will help you discover one approach on how to deal with such situations by combining Michael Spayd’s and Michele Madore’s Integral Agile Transformation FrameworkTM and powerful questions. The workshop will address the perspectives of leadership and mindset, practices and behavior, organizational architecture, and organizational culture and relationships. And in the combination with powerful questions give the opportunity to experience the creation of clarity and understanding.'
-
 - time: "15:00 - 15:20"
-  break: "Coffee Break"
+  break:
+    name: "Coffee Break"
+    type: coffee
+    columnSpan: 5
 
 - time: "15:20 - 15:55"
   talks:
@@ -485,18 +494,28 @@
     tags: "Holacracy, Kommunikation, Commitment, Decision Making, Effektive Meetings"
     language: de
     workshop: true
+    rowSpan: 3
     level: 3
     abstract:
     - 'Holacracy als Betriebssystem für Selbstorganisation enthält eine Reihe von Konzepten, die auch für sich alleine genommen hilfreich sein können, um in einem (agilen) Team die Kommunikation effektiver und die Verteilung von Verantwortung transparenter zu gestalten. In diesem Workshop werden wir zwei Meeting-Formate kennenlernen und ganz konkret probieren.'
 
 - time: "15:55 - 16:15"
-  break: "Coffee Break"
+  break:
+    name: "Coffee Break"
+    type: coffee
+    columnSpan: 4
 
 - time: "16:15 - 16:50"
-  break: "Meet the Speakers"
+  break:
+    name: "Meet the Speakers"
+    type: meetTheSpeakers
+    columnSpan: 4
   
 - time: "16:50 - 17:00"
-  break: "Coffee Break"
+  break:
+    name: "Coffee Break"
+    type: coffee
+    columnSpan: 5
 
 - time: "17:00 - 18:00"
   keynote:
@@ -513,4 +532,7 @@
     - The hospital is not making money, it does not have a valid permit and it pays their staff too little... at this point, the roof falls in. Literally! Would you give up? Most would. But we did not. Instead, we used the principles of agile, lean and kanban to make the hospital amazing. 
     - In this keynote, I will tell you how we applied these principles in practice and about the transformations we created. You will also meet 3 women who helped us turn the hospital around and whose lives were transformed in the process. 
 - time: "18:00 - 20:30"
-  break: After Conference Networking
+  break:
+    name: "After Conference Networking"
+    type: afterConferenceNetworking
+    columnSpan: 5
