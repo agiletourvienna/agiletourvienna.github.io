@@ -6,6 +6,7 @@
     speakers:
     - name: "Jenni Jepsen"
       img: "JenniJepsen"
+      company: "goAgile, Denmark"
       bio:
       - "Jenni Jepsen is a transformation advisor & Agile coach at Denmark-based goAgile. She helps people transform organizations to create lasting change. By focusing on the value to be achieved and understanding where clients are and where they want to go, Jenni works closely with them to increase organizational effectiveness, motivation and results. goAgile’s point of difference is to help people in organizations help themselves in this process, and Jenni has proven experience supporting people so they thrive through change. In this way, organizations transform into places where people achieve real value and delight customers every day."
       - "Jenni is an expert in change leadership and communications, and integrates neuroscience concepts into her coaching, training and sparring with leaders at every level. In addition to having her certificate in NeuroLeadership, Jenni is also a certified Intent-based Leadership™ Practitioner, certified LEGO® Serious Play™ facilitator, DSDM-certified Agile Project Leader, PSPO, SAFe® Program Consultant, Scrum at Scale™Certified Practitioner, and Agile coach."
@@ -24,6 +25,7 @@
     speakers:
     - name: "Gojko Adzic"
       img: "GojkoAdzic"
+      company: "Neuri Consulting LLP"
       bio:
       - "Gojko Adzic is a partner at Neuri Consulting LLP. He is the winner of the 2016 European Software Testing Outstanding Achievement Award, and the 2011 Most Influential Agile Testing Professional Award. Gojko’s book Specification by Example won the Jolt Award for the best book of 2012, and his blog won the UK Agile Award for the best online publication in 2010."
       - "Gojko is a frequent keynote speaker at leading software development conferences and one of the authors of MindMup and Claudia.js."
@@ -47,7 +49,7 @@
     level: 1
     abstract:
     - "Storystorming is a young and very lightweight set of methods to explore and understand user journeys, work procedures and whole business processes by telling visual stories and by focusing on natural language. It combines ideas coming from Event Storming, Domain Storytelling, User Story Mapping, Impact Mapping and Example Mapping in such a way that the result of one method serves as a starting point for others - or simply to validate the result of another method."
-    - "In this talk I will focus on the simplest aspect of Storystorming, which leverages the fundamental “Subject - Predicate- Object” structure of language, and enables domain experts to tell their stories in the most natural way, without requiring them to learn anything but five different colors (see https://medium.com/plexiti/story-storming-191756f57387). Software developers can assist with regards to the method, even if they at first do not get at all what the experts are speaking about, and even if they do not get it for a longer period of time."
+    - "In this talk I will focus on the simplest aspect of Storystorming, which leverages the fundamental “Subject - Predicate- Object” structure of language, and enables domain experts to tell their stories in the most natural way, without requiring them to learn anything but five different colors (see [https://medium.com/plexiti/story-storming-191756f57387](https://medium.com/plexiti/story-storming-191756f57387)). Software developers can assist with regards to the method, even if they at first do not get at all what the experts are speaking about, and even if they do not get it for a longer period of time."
     - "It may sound like a contradiction, but Storystorming enables the “listening mode” through visualization of language - and this mode is its feature. Because the most natural way to learn a language certainly is to listen to the parents, to imitate them and then to speak the language yourself. Little children repeat what they have heard and receive feedback. Gradually, they understand more words, begin to form sentences and later tell their own stories. By asking experts to record and visualize their language with a very simple system, Storystorming enables a similar style of learning. Now that we see the stories, we will fail fast and learn even faster!"
 
   - title: "Wissenschaftlich belegt: Wohlfühl-Chefs führen erfolgreicher!"
@@ -163,7 +165,7 @@
       img: "katharinawarak"
       company: "MaibornWolff GmbH, Deutschland"
       bio:
-      - "tbd"
+      - "Ich arbeite seit fast 2 Jahren als agiler Test Engineer bei der MaibornWolff GmbH. Davor habe ich Wirtschaftsinformatik in Landshut (Deutschland) studiert. Während meiner Masterarbeit konnte ich meine Begeisterung für kollaborative Testmethoden entdecken. Seit dem verwende ich sehr gerne den kollaborativen Ansatz in Kundenprojekten, um die Zusammenarbeit in den Teams zu verbessern und ein allgemeines Verständnis für den Software Test zu schaffen."
     - name: "Benedikt Wörner"
       img: "benediktwoerner"
       company: "MaibornWolff GmbH, Deutschland"
@@ -394,7 +396,9 @@
       img: "danieleder"
       company: "Nagarro GmbH, Austria"
       bio:
-      - tbd
+      - 'Daniel Eder begann 2011 sich mit Agile auseinanderzusetzen, als er feststellte, dass traditionelle Ansätze nicht wie versprochen funktionierten. Seitdem hat er in vielen Rollen – vom Developer, Scrum Master, Product Owner, Team Lead über Agile Project Manager bis hin zu Agile Coach und Consultant – gearbeitet. Diese Erfahrung bestätigte seine ersten Überzeugungen: In der Komplexität des modernen Arbeitslebens müssen wir neue Ansätze verfolgen, die für unser ambivalentes Umfeld geeignet sind!'
+      - 'Er schätzt Mut, Vertrauen und Offenheit. Die Zeiten des Mandats für prozessorientiertes Command- & Control-Management sind vorbei. Individuen und Interaktionen, sowie der Wunsch nach Exzellenz müssen im Mittelpunkt stehen, um Unternehmen zu entwickeln, die mit engagierten Mitarbeitern erfolgreich sind und zu einer hohen Kundenzufriedenheit führen!'
+      - 'Aktuell ist Daniel Agile Catalyst bei Nagarro Austria und arbeitet mit Teams und Führungskräften zusammen, um leistungsstarke, lernende Organisationen aufzubauen.'
     tags: "Business Agility, Agile beyond IT, Modern Agile, Agile Evolution, Agile Organisation"
     language: de
     level: 3
