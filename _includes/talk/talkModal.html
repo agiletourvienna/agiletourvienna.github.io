@@ -43,6 +43,16 @@
               </div>
               <div class="col-lg-10">
                 <h3>{{speaker.name}}</h3>
+                {% if speaker.company %}
+                <p>{{speaker.company}}</p>
+                {% endif %}
+                {% if speaker.companies %}
+                  <p>
+                  {% for company in speaker.companies %}
+                    {{company}}<br />
+                  {% endfor %}
+                  </p>
+                {% endif %}
                 {% for row in speaker.bio %}
                   <p>{{ row | markdownify }}</p>
                 {% endfor %}

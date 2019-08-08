@@ -39,7 +39,9 @@
     speakers:
     - name: "Martin Schimak"
       img: "MartinSchimak"
-      bio: "At the age of ten Martin fell in love with coding. Later he left his love and studied business and law. Only to find out: that’s awesome for programming business software! In the 15 years since then he talked to energy traders, telecom people, wind tunnel experts and many others. They formed a hands-on domain decoder with a passion for DDD and a soft spot for colored sticky notes. Martin is a trainer with experience in 50+ companies and 10+ countries. He regularly speaks at meetups and conferences across Europe - and from time to time in the US."
+      company: "plexiti GmbH, Austria"
+      bio:
+      - "At the age of ten Martin fell in love with coding. Later he left his love and studied business and law. Only to find out: that’s awesome for programming business software! In the 15 years since then he talked to energy traders, telecom people, wind tunnel experts and many others. They formed a hands-on domain decoder with a passion for DDD and a soft spot for colored sticky notes. Martin is a trainer with experience in 50+ companies and 10+ countries. He regularly speaks at meetups and conferences across Europe - and from time to time in the US."
     tags: "DDD, BDD, Agile, Collaboration, Modelling"
     language: en
     level: 1
@@ -52,10 +54,14 @@
     speakers:
     - name: "Ralph Miarka"
       img: "ralphmiarka"
-      bio: "tbd"
+      company: "sinnvollFÜHREN GmbH, Austria"
+      bio:
+      - "tbd"
     - name: "Veronika Kotrba"
       img: "veronikakotrba"
-      bio: "tbd"
+      company: "sinnvollFÜHREN GmbH, Austria"
+      bio:
+      - "tbd"
     tags: "Führung, Positive Psychologie, Host Leadership, Kommmunikation, Kooperation"
     language: de
     level: 1
@@ -67,6 +73,9 @@
     speakers:
     - name: "Paul Rohorzka"
       img: "paulrohorzka"
+      companies:
+      - "TechTalk Software Support Handelsgesellschaft m.b.H. Austria"
+      - "Developer Melange"
       bio:
       - 'Paul Rohorzka is a Software Gardener working at TechTalk in Vienna, Austria. His passion is great code, i.e. code that works and is easy to read and maintain. Among other practices he utilizes Test Driven Development as a tool for purposefully writing high-quality software. Since the early days of his 20+ years professional career, he is teaching other developers good coding practices in coding dojos, trainings and talks. Besides living and breathing those topics in his day-projects, he keeps his own skills sharp by attending conferences, dojos and retreats.'
       - 'Paul is also one of the hosts of the Vienna based software developement Podcast Developer Melange.'
@@ -82,6 +91,7 @@
     speakers:
     - name: "Stephanie Gasche"
       img: "stephaniegasche"
+      company: "Gasche Consulting, Austria"
       bio:
       - 'Originally from Austria, Stephanie has lived, studied and worked in Germany, France, California and the UK. With degrees in English, History and International Business Management, Stephanie’s out-of-the-box thinking and value system led her to join the Agile movement in 2012. Ever since then, she has spread and scaled the Agile mindset and methods such as Scrum, Kanban, Lean Start-Up, Design Thinking in multinational corporations and SMEs in the DACH region.'
       - 'In recent years, Stephanie has also founded two social impact start-ups and worked as an intercultural trainer in helping refugees with their integration in Austria. These valuable experiences flow into her daily work as an independent Agile Consultant when coaching intercultural and internationally distributed teams.'
@@ -102,6 +112,7 @@
     speakers:
     - name: "Melanie Roggisch"
       img: "melanieroggisch"
+      company: "FH Wien der WKW, Österreich"
       bio:
       - 'Melanie has a diverse background and likes to keep her horizon broad. After a Bachelor in Cultural- and Social Anthropology as well as Media and Communications at the University of Vienna, she decided to start a part-time  Master’s program at FH Wien der WKW.'
       - 'Besides working at a wording agency, she now studies Executive Management and wants to revolutionize the educational system (or at least the bit around her). After hearing about Agile Methods, her interest for Agile Learning developed during an extracurricular Agile course.'
@@ -117,6 +128,7 @@
     speakers:
     - name: "Philipp Fürdauer"
       img: "philippfuerdauer"
+      company: "Raiffeisen Bank International, Austria"
       bio:
       - Young Coach who wants to hold his first talk at this conference
     tags: "Digital Banking, Retail, Scaled Agile, Scrum, Kanban, Metrics"
@@ -131,6 +143,7 @@
     speakers:
     - name: "Marta Ciesielska"
       img: "martaciesielska"
+      company: "Netguru S.A., Poland"
       bio:
       - "Before my days at PM team at Netguru, I graduated in Polish Studies at the Adam Mickiewicz University in Poznań and polished my organizational skills by working at Pyrkon - the biggest fantasy & pop culture event in Europe. I strongly believe in values that Agile methods represent and aim to question the status quo and bring positive change to the environments I dive in."
       - "I feed my imagination with theatre, movies, books, TV series, music, RPG and LARPs."
@@ -148,10 +161,12 @@
     speakers:
     - name: "Katharina Warak"
       img: "katharinawarak"
+      company: "MaibornWolff GmbH, Deutschland"
       bio:
       - "tbd"
     - name: "Benedikt Wörner"
       img: "benediktwoerner"
+      company: "MaibornWolff GmbH, Deutschland"
       bio:
       - "Benedikt Wörner ist seit 2011 als Agile Testing Expert und Test Coach bei der MaibornWolff GmbH tätig."
       - "Als IT-Testspezialist kann er auf über 15 Jahre Berufserfahrung im Testmanagement und Coaching zurückgreifen. Sein Herz schlägt für die Konzeption, Planung und Leitung aller Testaktivitäten über den kompletten Projektlebenszyklus hinweg. Mit großer Leidenschaft eröffnet Benedikt Wörner dem Test neue Perspektiven und Wege. Der Schwerpunkt seiner Arbeit liegt im Augenblick bei der Etablierung kollaborativer und explorativer Testmethoden."
@@ -179,6 +194,7 @@
     speakers:
     - name: "Torsten Hansen"
       img: "torstenhansen"
+      company: "AgileTraining.eu, Ireland"
       bio:
       - ''
     tags: "personal agility, agile beyond IT, self-development, personal alignment and clarity"
@@ -202,6 +218,7 @@
     speakers:
     - name: "Dominik Dopplinger"
       img: "dominikdopplinger"
+      company: "Catalysts, Austria"
       bio:
       - 'Dominik "Dodo" Dopplinger ist ein begeisterter Scrum Master und Agiler Coach. In den letzten acht Jahren hat er Erfahrungen in unterschiedlichsten Bereichen der Software-Entwicklung gesammelt. Angefangen als Software Testautomation Engineer, über Videospiel-Programmierung, ist er jetzt Scrum Master und Team Lead für ein Team aus 15 Entwicklern. Außerem fungiert er als Agile Coach für andere Projekte innerhalb Catalysts.'
     tags: "Leadership, personal growth, self-organization, motivation"
@@ -221,6 +238,7 @@
     speakers:
     - name: "Alexandru Stan"
       img: "alexandrustan"
+      company: "mySugr, Austria"
       bio:
       - 'I am a simple man with a simple thinking, striving to better understand how humans can create greater value through interdependence. I am experimenting always something new and find out how little I knew before. My motto: "simple words".'
     tags: "Autonomy, Processes, Safety, Regulations, Modern Agile"
@@ -239,6 +257,7 @@
     speakers:
     - name: "David Leitner"
       img: "davidleitner"
+      company: "SQUER Solutions, Austria"
       bio:
       - 'David Leitner is an Enthusiastic Software Professional from Vienna who is working in various projects using a bunch of different stacks and environments. He spends much of his time on the frontlines tackling the challenges of scaling software and complex domains. A software engineer with more than 10 years’ experience preferring his code simple and small instead of clever and edgy. David enjoys sharing his knowledge as speaker at conferences and as a lecturer for his post-diploma courses at the University of Applied Sciences Technikum Vienna.'
     tags: "Software Architecture, Evolutionary Architecture, Architectural Thinking, Techincal Leadership"
@@ -253,6 +272,7 @@
     speakers:
     - name: "Zvonimir Durcevic"
       img: "zvonimirdurcevic"
+      company: "Raiffeisen Bank International AG, Austria"
       bio:
       - 'Zvonimir is an agile coach and a practitioner devoted to improving the creation experience for product teams and customers equally. His passion is assisting product teams in creating products and services of value for satisfied customers and at the same time, having motivated and engaged team members.'
       - 'As an agile coach at Raiffeisen Bank International, he has a unique opportunity to support people and teams on their agile journey. He helps them in creating their preferred future, the vision of what they want to develop and assists them on their way of exploring which actions lead to the desired outcome.'
@@ -275,6 +295,7 @@
     speakers:
     - name: "Thomas Pieber"
       img: "thomaspieber"
+      company: "LOGICDATA GesmbH., Austria"
       bio:
       - 'Thomas hat seit 2010 bei der Firma Infonova in mehreren Teams und Projekten Erfahrung in der Rolle des Scrum Masters gesammelt. Im größten Projekt koordinierte er zwei Scrum Master, sieben Product Owner und steuerte damit sechs Teams. Weiters wurden von ihm mehrere Scrum-Consulting Aufträge im deutschen Raum erfolgreich durchgeführt. 2017 wechselte er als Scrum Master und Agile Coach zur Firma LOGICDATA GesmbH., wo er die Einführung von Scrum in den Abteilungen Firmware und Mechanik und im Projektmanagement vorantreibt.'
       - 'Thomas ist zertifizierter Scrum Master und Product Owner.'
@@ -288,6 +309,7 @@
     speakers:
     - name: "Arjan de Jong"
       img: "arjandejong"
+      company: "mpirics consulting gmbh, Austria"
       bio:
       - 'Arjan de Jong hat die agilen Methoden in der Niederlande kennen gelernt. Dort hat er sich als Entwickler und später als Scrum Master so in die agile Arbeitsweise verliebt, dass er nicht mehr zurück wollte. Arjan ist Agile Coach & Trainer bei mpirics, wo er Teams und deren Mitglieder hilft, die Agilität zu verstehen und zu leben. Seit 2016 lebt er mit seiner Frau und seinen zwei Söhnen in Wien. Arjan versucht immer weiter dazu zu lernen, von Kunden, Kollegen und seiner Familie.'
     tags: "Scrum Master, Courage, Learning, Survival Guide"
@@ -305,6 +327,7 @@
     speakers:
     - name: "Richard Brenner"
       img: "richardbrenner"
+      company: "TechTalk Software Support Handelsgesellschaft m.b.H., Austria"
       bio:
       - 'After completing his Bachelor and Master studies in Software Engineering at the Vienna University of Technology, Richard Brenner gained experience as a Software Engineer, Software Architect, Scrum Master, Product Owner, Project Manager, Team Leader and Head of a Solution Center for Enterprise Software Development. The part-time MBA program has helped to look from the software development process to the entire value stream of the company. In recent years, his focus has shifted to consulting and training agile methods. Change management in companies plays an essential role for the sustainable success of consulting and a great passion for the agile mindset.'
     tags: "Leadership, self organization, organizational clarity, autonomy"
@@ -318,6 +341,7 @@
     speakers:
     - name: "Maik Nogens"
       img: "maiknogens"
+      company: "MaibornWolff GmbH, Germany"
       bio:
       - 'Maik works as a senior test consultant, where he focuses on the agile aspects of software testing. His 25+ years of work experience include working in the German Navy HQ, being a project leader in the Middle East as well as working in software development companies as a tester in different industries. He finished projects in the banking industry, in medical software companies and various agile adaptations. These range from Kanban implementations and conducting of Testing Dojos to the more traditional roles in test management, test infrastructure planning and tool support. As part of his passion to support the profession of testers and the craft of testing, Maik is active in many peer and community setups.'
       - 'Maik is a co-founder of two international peer networks, GATE (German Agile Testing and Exploratory Workshop) and PotsLightning (the pre- Agile Testing Days event held in Potsdam). He runs several testing communities (STUGHH, ASQF SIG ?Agility?) and established an English-speaking testing community in his hometown Hamburg, Germany.'
@@ -338,6 +362,7 @@
     speakers:
     - name: "Zvonimir Durcevic"
       img: "zvonimirdurcevic"
+      company: "Raiffeisen Bank International AG, Austria"
       bio:
       - 'Zvonimir is an agile coach and a practitioner devoted to improving the creation experience for product teams and customers equally. His passion is assisting product teams in creating products and services of value for satisfied customers and at the same time, having motivated and engaged team members.'
       - 'As an agile coach at Raiffeisen Bank International, he has a unique opportunity to support people and teams on their agile journey. He helps them in creating their preferred future, the vision of what they want to develop and assists them on their way of exploring which actions lead to the desired outcome.'
@@ -360,12 +385,14 @@
     speakers:
     - name: "Georg Ebner"
       img: "georgebner"
+      company: "Nagarro GmbH, Austria"
       bio:
       - 'Georg Ebner arbeitet bei Nagarro Austria, wo er als Agile Catalyst für intrinsisch motivierte Veränderungen agiert. Durch das Entfachen von Begeisterung für ständiges Lernen und kontinuierliche Verbesserung sowie das aktive Vorleben eines agilen Mindsets führt er Organisationen und Teams zu mehr Produktivität.'
       - 'Zuvor war Georg Scrum Master und Agile Coach in einem mittelständischen Softwareentwicklungsunternehmen tätig, mit dem Ziel, ein agiles Umfeld zu schaffen und den strategisch-operativen wie auch technischen Wandel für die Neuentwicklung eines ERP-Systems zu begleiten. Georg war außerdem Scrum Master und Agile Coach in einer großen Bankenorganisation, wo er in 9 Entwicklungsteams die agile Arbeitsweise einführte und skalierte.'
       - 'Georg ist Dipl-Ing. mit langjähriger Erfahrung in den Bereichen Agile, Softwareentwicklung und IT-Projektmanagement. Er beschreibt sich selbst als "Servant & Conscious Leader" mit einem breiten Spektrum an methodischen und technischen Fertigkeiten.'
     - name: "Daniel Eder"
       img: "danieleder"
+      company: "Nagarro GmbH, Austria"
       bio:
       - tbd
     tags: "Business Agility, Agile beyond IT, Modern Agile, Agile Evolution, Agile Organisation"
@@ -380,10 +407,12 @@
     speakers:
     - name: "Dominique Lechner"
       img: "dominiquelechner"
+      company: "Uniqa Insurance Group AG, Austria"
       bio:
       - 'Dominique Lechner ist Scrum Masterin beim Team Digi der UNIQA, welches das MyUNIQA Web-Portal und die MyUNIQA App entwickelt. Durch ihre internationalen Studien im Management und Finanzbereich, sowie ihre Projekterfahrungen bei PwC, erkannte sie den Erfolg von cross-funktionalen und selbstreflektierenden Teams. Durch die Praxis überzeugt von agilen Methoden, setzt sie sich nun auch engagiert in der UNIQA für die kontinuierlichen Weiterentwicklung und Ausbau von agilen Teams ein.'
     - name: "Sabina Lammert"
       img: "sabinalammert"
+      company: "Uniqa Insurance Group AG, Austria"
       bio:
       - 'Sabina Lammert ist studierte Neurowissenschaftlerin, die über den Zwischenstopp im Projektmanagement der Biotech-Industrie ihren Weg in die agile Welt gefunden hat. Als Agile Coach, Sketchnote Artist und Agile Game Facilitator macht sie ihre Workshops und die Zusammenarbeit mit ihren Kunden zu einem gemeinsamen Erlebnis. In ihren Vorträgen gibt sie ihren Zuhören Tipps und Tricks für mehr Spaß und Leichtigkeit im Arbeitsalltag mit auf den Weg.'
     tags: "Insurance, Review, Presentation Skills, Scrum, Story Telling, Teambuilding"
@@ -397,6 +426,7 @@
     speakers:
     - name: "Artur Margonari"
       img: "arturmargonari"
+      company: "Wemanity, Belgium"
       bio:
       - 'Artur Margonari is passionate about Agile, which he applies daily in his personal life. He works as Agile Coach, Trainer and Facilitator at Wemanity Belgium and has more than 6 years experience in practicing and helping organizations to be more Agile, to form powerful teams and to deliver great products.'
       - 'He is board member of the Agile Consortium Belgium, a non-profit organization that offers an independent platform where Agile knowledge is created and shared and, by learning and sharing best Agile practices, we strive to inspire our members and guide them to become more effective. On top of that, he invests his free time to organize meetups, trainings and big conferences, such as Agile Tour Brussels.'
@@ -416,6 +446,7 @@
     speakers:
     - name: "Gopinath Tejerao Langote"
       img: "gopinathlangote"
+      company: "N26 GmbH, Germany"
       bio:
       - 'I am a Software Engineer with good experience in designing and implementing complex web and mobile application with microservices architecture. Open source contributor to JUnit5 framework and Java Design Patterns.'
       - 'I am currently working as a software engineer at @N26 GmbH, Germany. Previously worked with @thoughtworks as a consultant (Application Developer).'
@@ -441,6 +472,7 @@
     speakers:
     - name: "Gregor Karlinger"
       img: "gregorkarlinger"
+      company: "Transferio - die Begeistermeister"
       bio:
       - 'Gregor ist seit mehr als 15 Jahren in unterschiedlichen Rollen in der Softwareentwicklung und Wissensarbeit tätig (Entwickler, Requirements Engineer, Projektmanager, Scrum Product Owner, Scrum Master, Agile Coach, Transformationsbegleiter).'
       - 'Schwerpunktmäßig setzt er sich mit der Einführung und der Verbesserung von agilen Vorgehensmodellen wie Scrum und Kanban in Unternehmen auseinander.'
