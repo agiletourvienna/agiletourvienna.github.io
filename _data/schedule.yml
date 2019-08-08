@@ -177,8 +177,7 @@
     - name: "Torsten Hansen"
       img: "torstenhansen"
       bio:
-      - 'Melanie has a diverse background and likes to keep her horizon broad. After a Bachelor in Cultural- and Social Anthropology as well as Media and Communications at the University of Vienna, she decided to start a part-time  Master’s program at FH Wien der WKW.'
-      - 'Besides working at a wording agency, she now studies Executive Management and wants to revolutionize the educational system (or at least the bit around her). After hearing about Agile Methods, her interest for Agile Learning developed during an extracurricular Agile course.'
+      - ''
     tags: "personal agility, agile beyond IT, self-development, personal alignment and clarity"
     language: en
     level: 1
@@ -302,12 +301,13 @@
     - name: "Richard Brenner"
       img: "richardbrenner"
       bio:
-      - 'I am a simple man with a simple thinking, striving to better understand how humans can create greater value through interdependence. I am experimenting always something new and find out how little I knew before. My motto: "simple words".'
+      - 'After completing his Bachelor and Master studies in Software Engineering at the Vienna University of Technology, Richard Brenner gained experience as a Software Engineer, Software Architect, Scrum Master, Product Owner, Project Manager, Team Leader and Head of a Solution Center for Enterprise Software Development. The part-time MBA program has helped to look from the software development process to the entire value stream of the company. In recent years, his focus has shifted to consulting and training agile methods. Change management in companies plays an essential role for the sustainable success of consulting and a great passion for the agile mindset.'
     tags: "Leadership, self organization, organizational clarity, autonomy"
     language: en
     level: 3
     abstract:
-    - 'After completing his Bachelor and Master studies in Software Engineering at the Vienna University of Technology, Richard Brenner gained experience as a Software Engineer, Software Architect, Scrum Master, Product Owner, Project Manager, Team Leader and Head of a Solution Center for Enterprise Software Development. The part-time MBA program has helped to look from the software development process to the entire value stream of the company. In recent years, his focus has shifted to consulting and training agile methods. Change management in companies plays an essential role for the sustainable success of consulting and a great passion for the agile mindset.'
+    - 'Have you faced the situation where the organizational hierarchy and agile team roles collide and there is no clarity about who is enabled to do what? You are supposed to be an autonomous team now but do not know what your decision boundaries are? This talk will show how a combination of RACI matrix and delegation poker help to continuously work on organisational clarity.'
+    - 'An important aspect of my talk will be that this is not a one-of task, but a continuing discussion between the relevant parties always with the goal to enable better and more informed local decision making.'
 
   - title: '"From Zero to Test! in 10 Minutes". Don''t let your test infrastructure be your bottleneck. A practical report how we avoided it.'
     speakers:
@@ -380,7 +380,7 @@
     - name: "Sabina Lammert"
       img: "sabinalammert"
       bio:
-      - 'tbd'
+      - 'Sabina Lammert ist studierte Neurowissenschaftlerin, die über den Zwischenstopp im Projektmanagement der Biotech-Industrie ihren Weg in die agile Welt gefunden hat. Als Agile Coach, Sketchnote Artist und Agile Game Facilitator macht sie ihre Workshops und die Zusammenarbeit mit ihren Kunden zu einem gemeinsamen Erlebnis. In ihren Vorträgen gibt sie ihren Zuhören Tipps und Tricks für mehr Spaß und Leichtigkeit im Arbeitsalltag mit auf den Weg.'
     tags: "Insurance, Review, Presentation Skills, Scrum, Story Telling, Teambuilding"
     language: de
     level: 1
