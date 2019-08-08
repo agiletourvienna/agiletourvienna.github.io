@@ -93,7 +93,7 @@
     - 'This talk will show you how we used elements of the Lean Start-Up to go from domain name to wireframes to a registered society and an up-and-running website within just 4 months. How we built a story map around the integration journey of a refugee. How we gained and integrated our users’ feedback to pivot and grow our product portfolio. How the agile elements of a strong vision, transparency, team work, iterations and pull principle are the best mechanisms for managing and leading an intercultural team of volunteers. How we dealt with our diverse variety of impediments ranging from governmental funding to right-wing trolls. And you will hear about how our culturally-adapted and yet solution-focused coaching approach makes our product range more than unique.'
     - 'This talk will not only show you how Agile methods are great for starting an innovative initiative in a low-to zero-budget sector, it will also show you how you can use Agile to make a difference in this world.'
 
-- time: "10:50-11:00"
+- time: "10:50 - 11:00"
   break: "Coffee Break"
 
 - time: "11:00 - 11:35"
@@ -106,6 +106,7 @@
       - 'Melanie has a diverse background and likes to keep her horizon broad. After a Bachelor in Cultural- and Social Anthropology as well as Media and Communications at the University of Vienna, she decided to start a part-time  Master’s program at FH Wien der WKW.'
       - 'Besides working at a wording agency, she now studies Executive Management and wants to revolutionize the educational system (or at least the bit around her). After hearing about Agile Methods, her interest for Agile Learning developed during an extracurricular Agile course.'
     tags: "Learning, School, Agile Learning, Studying"
+    isYoungTalent: true
     language: en
     level: 1
     abstract:
@@ -119,6 +120,7 @@
       bio:
       - Young Coach who wants to hold his first talk at this conference
     tags: "Digital Banking, Retail, Scaled Agile, Scrum, Kanban, Metrics"
+    isYoungTalent: true
     language: de
     level: 1
     abstract:
@@ -133,6 +135,7 @@
       - "Before my days at PM team at Netguru, I graduated in Polish Studies at the Adam Mickiewicz University in Poznań and polished my organizational skills by working at Pyrkon - the biggest fantasy & pop culture event in Europe. I strongly believe in values that Agile methods represent and aim to question the status quo and bring positive change to the environments I dive in."
       - "I feed my imagination with theatre, movies, books, TV series, music, RPG and LARPs."
     tags: "scrum master, communication, soft skills, personal agility, growth"
+    isYoungTalent: true
     language: en
     level: 1
     abstract:
@@ -180,7 +183,9 @@
       - ''
     tags: "personal agility, agile beyond IT, self-development, personal alignment and clarity"
     language: en
-    level: 1
+    levels:
+      - 1
+      - 3
     abstract:
     - "Personal Agility is a method that allows you to apply agile principles and techniques in your own life. It helps create focus to progress on things that really matter in your life."
     - "This will be an interactive, funny, engaging conversation with a couple of guys talking about their experiments with brewing beer, building garden offices and exploring the concepts of personal agility. We are not just talking about kanban boards on our walls or fridges. We are talking about the bigger and deeper questions in our lives."
@@ -237,7 +242,7 @@
       bio:
       - 'David Leitner is an Enthusiastic Software Professional from Vienna who is working in various projects using a bunch of different stacks and environments. He spends much of his time on the frontlines tackling the challenges of scaling software and complex domains. A software engineer with more than 10 years’ experience preferring his code simple and small instead of clever and edgy. David enjoys sharing his knowledge as speaker at conferences and as a lecturer for his post-diploma courses at the University of Applied Sciences Technikum Vienna.'
     tags: "Software Architecture, Evolutionary Architecture, Architectural Thinking, Techincal Leadership"
-    language: en
+    language: de
     level: 3
     abstract:
     - 'Change is inevitable. So is software. Thus, agile practices and a DevOps mindset took over, driven by the need to holistically speed up the software development process. At the same time, we strive to establish autonomous development teams who can move as independently of each other as possible.'
@@ -399,7 +404,9 @@
       - 'Hobbies & passions: guitar, ukulele & harmonica, archery, human being, martial arts and traveling.'
     tags: "agile, lean, scrum, kanban, teams, mindset, informationRadiator, examples, tips, tricks"
     language: en
-    level: 3
+    levels:
+    - 1
+    - 3
     abstract:
     - 'How do you visualize your task board and what is hanging around the team''s work space? How easy it is to understand the information presented on your walls? Have you heard about concepts such as OBEYA, information radiator, 5S, Visual Facilitation, User Story Mapping and others?'
     - 'Visual management is very important to create shared understanding, provide clear and fast information, align towards the same goals and yes, tackle problems! Because we cannot improve what we cannot see.'

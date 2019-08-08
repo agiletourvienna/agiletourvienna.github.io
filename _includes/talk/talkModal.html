@@ -12,9 +12,18 @@
           <div class="modal-body">
             <h2>{{ slot.title }}</h2>
             <p>
-              {% if slot.level %}<span class="tag primary">Level:&nbsp;&nbsp;<img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png"/></span>{% endif %}
+              {% if slot.level %}<span class="tag primary">Level:&nbsp;&nbsp;<img src="{{ site.baseurl }}/img/levels/{{ slot.level }}.png"/></span>{% endif %}
+              {% if slot.levels %}
+              <span class="tag primary">
+                Level:&nbsp;&nbsp;
+                {% for level in slot.levels %}
+                  <img src="{{ site.baseurl }}/img/levels/{{ level }}.png"/>
+                {% endfor %}
+              </span>
+              {% endif %}
               {% if slot.language %}<span class="tag primary">Language:&nbsp;{{ slot.language | uppercase}}</span>{% endif %}
               {% if slot.workshop %}<span class="tag workshop">workshop</span>{% endif %}
+              {% if slot.isYoungTalent %}<span class="tag workshop">young talent</span>{% endif %}
               {% assign tags = slot.tags | split: ',' %}
               {% for tag in tags %}
               <span class="tag">{{ tag | strip }}</span>

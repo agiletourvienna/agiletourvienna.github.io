@@ -127,18 +127,25 @@
 {% assign moduleName = slot.title | slugify | replace: ' ', '_' | remove: ':' | remove: '?' %}
 
 <div>
-{% if site.showScheduleDetailModals %}
-<a class="speaker-container{% if slot.cancelled %} cancelled{%endif %}" href="#scheduleModal-{{moduleName}}" data-toggle="modal">
+{% if site.showScheduleDetailModals and slot.isEmpty != true %}
+<a class="speaker-container{% if slot.cancelled %} cancelled{%endif %}" href="#scheduleModal-{{ moduleName }}" data-toggle="modal">
 {% else %}
 <span class="speaker-container{% if slot.cancelled %} cancelled{%endif %}">
 {% endif %}
-  {% if slot.level %}<span class="tag primary"><img src="{{ site.baseurl }}/img/levels/{{slot.level}}.png" title="Level"/></span>{% endif %}
+  {% if slot.level %}<span class="tag primary"><img src="{{ site.baseurl }}/img/levels/{{ slot.level }}.png" title="Level"/></span>{% endif %}
+  {% if slot.levels %}
+  <span class="tag primary">
+    {% for level in slot.levels %}  
+      <img src="{{ site.baseurl }}/img/levels/{{ level }}.png" title="Level"/>
+    {% endfor %}
+  </span>
+  {% endif %}
   {% if slot.language %}<span class="tag primary">{{ slot.language | uppercase}}</span>{% endif %}
   {% if site.showScheduleDetailImages %}
   <div class="image-row">
     {% for speaker in slot.speakers %}
     {% assign speakerImg = speaker.img | remove: " " | downcase %}
-    <img class="speaker-image" src='{{ site.baseurl }}/img/schedule/{{speakerImg}}.png'/>
+    <img class="speaker-image" src='{{ site.baseurl }}/img/schedule/{{ speakerImg }}.png'/>
     {% endfor %}
   </div>
   {% endif %}
@@ -148,17 +155,18 @@
   <div class="title">
     {{slot.title}}
   </div>
-  {% if slot.speaker %}
+  {% if slot.speakers %}
   <div class="name">
-    <div>by {{slot.speaker}}
-    {% if slot.speaker2 %}
-    and {{slot.speaker2}}
-    {% endif %}</div>
+    <div>
+      {% for speaker in slot.speakers %}
+        {{ speaker.name }}<br />
+      {% endfor %}
+    </div>
   </div>
   {% endif %}
   <div>
     {% if slot.workshop %}<span class="tag workshop">workshop</span>{% endif %}
-    {% if slot.youngtalent %}<span class="tag workshop">young talent</span>{% endif %}
+    {% if slot.isYoungTalent %}<span class="tag workshop">young talent</span>{% endif %}
     {% assign tags = slot.tags | split: ',' %}
     {% for tag in tags %}
     <span class="tag">{{ tag | strip }}</span>
