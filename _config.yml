@@ -280,6 +280,6 @@ committee:
   www: www.xing.com/profile/Ursula_Simo/cv
 
 icons:
-  lightbulb: img/Icons/Bulb_Icon.png
-  speech: img/Icons/Speech_Icon.png
-  globe: img/Icons/World_Icon.png
+  lightbulb: img/icons/bulb_icon.png
+  speech: img/icons/speech_icon.png
+  globe: img/icons/world_icon.png
