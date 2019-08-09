@@ -279,9 +279,12 @@
     speakers:
     - name: "David Leitner"
       img: "davidleitner"
-      company: "SQUER Solutions, Austria"
+      companies:
+      - "SQUER Solutions, Austria"
+      - "Developer Melange"
       bio:
       - 'David Leitner is an Enthusiastic Software Professional from Vienna who is working in various projects using a bunch of different stacks and environments. He spends much of his time on the frontlines tackling the challenges of scaling software and complex domains. A software engineer with more than 10 years’ experience preferring his code simple and small instead of clever and edgy. David enjoys sharing his knowledge as speaker at conferences and as a lecturer for his post-diploma courses at the University of Applied Sciences Technikum Vienna.'
+      - 'David is also one of the hosts of the Vienna based software developement Podcast Developer Melange.'
     tags: "Software Architecture, Evolutionary Architecture, Architectural Thinking, Techincal Leadership"
     language: de
     level: 3
