@@ -286,7 +286,7 @@
       - 'David Leitner is an Enthusiastic Software Professional from Vienna who is working in various projects using a bunch of different stacks and environments. He spends much of his time on the frontlines tackling the challenges of scaling software and complex domains. A software engineer with more than 10 years’ experience preferring his code simple and small instead of clever and edgy. David enjoys sharing his knowledge as speaker at conferences and as a lecturer for his post-diploma courses at the University of Applied Sciences Technikum Vienna.'
       - 'David is also one of the hosts of the Vienna based software developement Podcast Developer Melange.'
     tags: "Software Architecture, Evolutionary Architecture, Architectural Thinking, Techincal Leadership"
-    language: de
+    language: en
     level: 3
     abstract:
     - 'Change is inevitable. So is software. Thus, agile practices and a DevOps mindset took over, driven by the need to holistically speed up the software development process. At the same time, we strive to establish autonomous development teams who can move as independently of each other as possible.'
@@ -320,7 +320,7 @@
 
 - time: "14:25 - 15:00"
   talks:
-  - title: "Agile Family – Wie agile Werte und Methoden das Familienleben verbessern können"
+  - title: "Agile Family – Wie agile Werte und Methoden das Familienleben verbessern können."
     speakers:
     - name: "Thomas Pieber"
       img: "thomaspieber"
@@ -458,7 +458,7 @@
     - 'Visual management is very important to create shared understanding, provide clear and fast information, align towards the same goals and yes, tackle problems! Because we cannot improve what we cannot see.'
     - 'Thus, in this session, we will understand better the key elements of a powerful visual management, see what worked well for the teams I’ve coached and what actually didn’t, learn many tips, tricks and real examples so you can (co-)create a powerful visual management and boost your team’s productivity!'
 
-  - title: 'Confidently Releasing Microservices With Consumer Driven Contract Testing'
+  - title: 'Confidently Releasing Microservices with Consumer Driven Contract Testing'
     speakers:
     - name: "Gopinath Tejerao Langote"
       img: "gopinathlangote"
