@@ -65,18 +65,22 @@
       img: "ralphmiarka"
       company: "sinnvollFÜHREN GmbH, Austria"
       bio:
-      - "tbd"
+      - 'Dr. Ralph Miarka lebt in Wien und arbeitet seit vielen Jahren als lösungsfokussierter Agile Coach, Berater und Trainer. Bei seiner Arbeit lässt der belesene Praktiker immer wieder neue Erkenntnisse aus der wissenschaftlichen Forschung mit einfließen.'
+      - 'Seit 2015 ist er Geschäftsführer der sinnvollFÜHREN GmbH und Co-Autor des Buchs *Agile Teams lösungsfokussiert coachen*. Sein Interesse gilt der wirksamen Zusammenarbeit von Menschen - im Großen, wie im Kleinen. Dazu unterstützt er all diejenigen in Unternehmen, die Entscheidungen treffen und Verantwortung tragen - von Führungspersönlichkeiten bis zu Teammitgliedern.'
+      - 'Nähere Infos zu Ralphs Expertisen und Werdegang, zu den Angeboten von sinnvollFÜHREN findest du unter [www.sinnvoll-fuehren.com](https://www.sinnvoll-fuehren.com)'
     - name: "Veronika Kotrba"
       img: "veronikakotrba"
       company: "sinnvollFÜHREN GmbH, Austria"
       bio:
-      - "tbd"
+      - 'Veronika Kotrba ist lösungsfokussierte Coach, Beraterin und Trainerin. Seit 2012 unterstützt sie - gemeinsam mit Ralph Miarka - Menschen mit Führungsaufgaben im agilen Unternehmensumfeld. 2015 haben die beiden die sinnvollFÜHREN GmbH in Wien gegründet.'
+      - 'Veronika ist Co-Autorin des Buchs *Agile Teams lösungsfokussiert coachen*, bildet seit 2018 im hauseigenen Lehrgang, gemeinsam mit Ralph und einem hochkarätigen TrainerInnen-Team lösungsfokussierte Coaches aus und findet unermüdlich immer wieder neue Ansätze, um Kooperation auf Augenhöhe in der Wirtschafts- und Arbeitswelt zu erleichtern.'
+      - 'Nähere Infos zu Veronikas Expertisen und Werdegang, zu den Angeboten von sinnvollFÜHREN findest du unter [www.sinnvoll-fuehren.com](https://www.sinnvoll-fuehren.com)'
     tags: "Führung, Positive Psychologie, Host Leadership, Kommmunikation, Kooperation"
     language: de
     level: 1
     abstract:
     - 'Erfolgsdruck? Stress? Widerstände? Finden Sie auch, dass Führungskräfte heutzutage viel Kraft brauchen? Stimmt nicht, sagen Wissenschaftler. Erkenntnisse der modernen Gehirnforschung, der Positiven Psychologie und die Modelle der New Leadership-Bewegung deuten in dieselbe Richtung: Wohlfühl-Chefs sitzen am Ende am längeren Hebel – und im erfolgreicheren Unternehmen!'
-    - 'Wir haben uns in den letzten Jahren für Sie schlau gemacht und möchten Ihnen die spannendsten Erkenntnisse unserer Reise zum Thema "Erfolgreich Führen" in diesem Talk näher bringen.'
+    - 'Wir haben uns in den letzten Jahren für Sie schlau gemacht und möchten Ihnen die spannendsten Erkenntnisse unserer Reise zum Thema *Erfolgreich Führen* in diesem Talk näher bringen.'
 
   - title: "How Test Automation Helped us to Reverse Engineer, Learn and Rewrite a Weird System"
     speakers:
