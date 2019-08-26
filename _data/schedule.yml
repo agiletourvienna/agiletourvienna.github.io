@@ -504,7 +504,10 @@
     rowSpan: 3
     level: 3
     abstract:
-    - 'Holacracy als Betriebssystem für Selbstorganisation enthält eine Reihe von Konzepten, die auch für sich alleine genommen hilfreich sein können, um in einem (agilen) Team die Kommunikation effektiver und die Verteilung von Verantwortung transparenter zu gestalten. In diesem Workshop werden wir zwei Meeting-Formate kennenlernen und ganz konkret probieren.'
+    - 'Holacracy als Betriebssystem für Selbstorganisation enthält eine Reihe von Konzepten, die auch für sich alleine genommen hilfreich sein können, um in einem (agilen) Team die Kommunikation effektiver und die Verteilung von Verantwortung transparenter zu gestalten, beispielsweise:'
+    - '* Klare Trennung von taktischen (Tactical, Arbeiten innerhalb der Regeln) und steuernden Besprechungen (Governance, Arbeiten an den Regeln) sowie ein klar strukturiertes Format für jeden dieser beiden Besprechungstypen;'
+    - '* Ein klarer Prozess innerhalb der Governance für das Treffen von Gruppen-Entscheidungen, der alle Betroffenen zu Beteiligten macht, ein Commitment aller für die getroffene Entscheidung begünstigt und für ein “Im Zweifel für das Experiment” steht.'
+    - 'Im Workshop werden wir Tactical und Governance Meeting kennenlernen und ganz konkret ausprobieren.'
 
 - time: "15:55 - 16:15"
   break:
