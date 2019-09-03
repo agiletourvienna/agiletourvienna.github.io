@@ -498,6 +498,12 @@
       - 'Schwerpunktmäßig setzt er sich mit der Einführung und der Verbesserung von agilen Vorgehensmodellen wie Scrum und Kanban in Unternehmen auseinander.'
       - 'Gregor hilft Menschen und Organisationen dabei, ein für sie ideales Arbeitsumfeld zu schaffen, um großartige Arbeit zu leisten zu können. Die Zusammenarbeit in Teams hält er für einen ganz wichtigen Punkt dabei. Er möchte die Menschen erkennen lassen, zu welchen Leistungen sie fähig sind, wenn sie sich selbst organisieren und mit Kollegen mit unterschiedlichen Erfahrungen und Kompetenzen eng zusammenarbeiten.'
       - 'Gregor ermutige die Menschen dazu, Neues auszuprobieren und zu entdecken. Das ist eine wichtige Grundhaltung, um immer besser zu werden. Bei seinem Tun leiten ihn die Werte Offenheit, Wertschätzung, Mut und direkte Kommunikation.'
+    - name: "Bernhard Ibertsberger"
+      img: "bernhardibertsberger"
+      company: "Transferio - die Begeistermeister"
+      bio:
+      - 'Bernhard ist systemisch-/analytischer Coach, zertifizierter Scrum Professional und zertifizierter Lego® Serious Play® Facilitator. Als solcher begleitet er Teams und Einzelpersonen in der Veränderung.'
+      - 'Bernhard bringt über 15 Jahre Erfahrung aus der Arbeit in SW-Unternehmen (großen, kleinen, agilen, nicht-agilen, Entwicklungs- und Führungsrollen sowie der Gründung eines eigenen Unternehmens) mit.'
     tags: "Holacracy, Kommunikation, Commitment, Decision Making, Effektive Meetings"
     language: de
     workshop: true
