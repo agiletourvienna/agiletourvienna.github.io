@@ -10,7 +10,6 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-
 .nav>li>a{
     padding: 20px 10px;
 }
@@ -289,6 +288,14 @@ section h3.section-subheading {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
+}
+
+div .venue.header {
+    font-family: 'PT Serif';
+}
+
+div .venue.header p {
+    font-size: 20px;
 }
 
 #keynote *,
@@ -756,23 +763,23 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-section h3.quote
-{
+section h3.quote {
     margin-bottom: 0px;
 }
 
-.twitter-link{
+.twitter-link {
     color:#fff;
 }
 
-.twitter-link:hover, .twitter-link:focus, .twitter-link:visited{
+.twitter-link:hover, .twitter-link:focus, .twitter-link:visited {
     color:#fff;
     text-decoration: none;
 }
-.twitter-link:hover{
+.twitter-link:hover {
     color: #fff;
 }
-.feedback-trigger{
+
+.feedback-trigger {
     position: fixed;
     display: none;
     bottom: 5%;
@@ -795,24 +802,26 @@ section h3.quote
     color: #fff;
     z-index: 100;
 }
-.feedback-trigger:hover, .feedback-trigger:focus{
+
+.feedback-trigger:hover, .feedback-trigger:focus {
     color: #fff;
     text-decoration: none;
 }
-.feedback-trigger:hover{
+
+.feedback-trigger:hover {
     transform: none;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .feedback-trigger {
         display: block;
     }
-    .navbar-nav.navbar-right:last-child{
+    .navbar-nav.navbar-right:last-child {
         margin-right:0px;
     }
 }
 
-.speaker-trainings{
+.speaker-trainings {
     position: absolute;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
@@ -822,25 +831,25 @@ section h3.quote
     padding: 10px;
 }
 
-.speaker-trainings .speaker-trainings-header{
+.speaker-trainings .speaker-trainings-header {
     padding-bottom: 5px;
     font-weight: bold;
 }
-.speaker-trainings .speaker-trainings-item a{
+.speaker-trainings .speaker-trainings-item a {
     color: white;
     display: block;
 }
 
-.sponsor{
+.sponsor {
     margin: 0;
 }
 
-.sponsors{
+.sponsors {
     background-color: rgba(107, 107, 107, 0.09);
     padding-bottom: 40px;
 }
 
-.carousel-inner{
+.carousel-inner {
     background-color: #222
 }
 
