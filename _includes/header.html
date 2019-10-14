@@ -88,15 +88,15 @@
           <h3>for Attending the Agile Tour Vienna 2019</h3>
         </div>
       </div>
-      <div class="row text-center hidden-xs hidden-sm hidden-md" style="margin-top: 70px;">
+      <div class="row text-center" style="margin-top: 70px;">
         {% assign thankyouLookbackCount = site.thankyouLookbacks | size %}
         {% if thankyouLookbackCount == 1 %}
           <div class="col-md-3">&nbsp;</div>
         {% endif %}
 
         {% for lookback in site.thankyouLookbacks %}
-        <div class="col-md-6 col-sm-12">
-          <iframe src="{{ lookback.url }}" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="col-md-6">
+          <iframe src="{{ lookback.url }}" width="640px" height="360px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           <h4 class="service-heading">{{ lookback.talk }}</h4>
           <p>{{ lookback.speaker }}</p>
 
