@@ -85,24 +85,30 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2>Thank You</h2>
-          <h3>for Attending the Agile Tour Vienna 2018</h3>
+          <h3>for Attending the Agile Tour Vienna 2019</h3>
         </div>
       </div>
       <div class="row text-center hidden-xs hidden-sm hidden-md" style="margin-top: 70px;">
-        <div class="col-md-6">
-          <iframe src="https://player.vimeo.com/video/295977600" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          <h4 class="service-heading">The Selfish Team Player</h4>
-          <p>J.B. Rainsberger</p>
+        {% assign thankyouLookbackCount = site.thankyouLookbacks | size %}
+        {% if thankyouLookbackCount == 1 %}
+          <div class="col-md-3">&nbsp;</div>
+        {% endif %}
+
+        {% for lookback in site.thankyouLookbacks %}
+        <div class="col-md-6 col-sm-12">
+          <iframe src="{{ lookback.url }}" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <h4 class="service-heading">{{ lookback.talk }}</h4>
+          <p>{{ lookback.speaker }}</p>
 
         </div>
-        <div class="col-md-6">
-          <iframe src="https://player.vimeo.com/video/294925415" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          <h4 class="service-heading">Agile &ne; Speed</h4>
-          <p>Kevlin Henney</p>
-        </div>
+        {% endfor %}
+        
+        {% if thankyouLookbackCount == 1 %}
+          <div class="col-md-3">&nbsp;</div>
+        {% endif %}
       </div>
       <div class="row text-center" style="margin: 70px 0 100px">
-        <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2018" class="btn btn-xl">Full Look Back of 2018</a>
+        <a href="https://github.com/agiletourvienna/agiletourvienna.github.io/wiki/Agile-Tour-2019" class="btn btn-xl">Full Look Back of 2019</a>
         <!--<a href="#contributeReviewer" class="proposal-btn page-scroll btn btn-xl">Become A Review Team Member</a>-->
         <a href="https://secure.dialog-mail.com/h/DMfrC" target="_blank" class="btn btn-xl">
           Sign up for Newsletter
