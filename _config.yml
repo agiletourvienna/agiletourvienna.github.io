@@ -15,7 +15,7 @@ showScheduleDetails: false
 showScheduleDetailImages: true
 showScheduleDetailModals: true
 showAbout: true
-showSpeaker: true
+showSpeaker: false
 showContribution: false
 showReviewerContribution: false
 showLocation: false
