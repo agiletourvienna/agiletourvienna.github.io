@@ -28,7 +28,7 @@
 
 - time: "10:15 - 10:50"
   talks:
-  - title: "Descaling Agile"
+  - title: #"Descaling Agile"
     speakers:
     - name: "Gojko Adzic"
       img: "gojkoadzic"
@@ -40,9 +40,9 @@
     tags: "Agile, scale, continuous improvement"
     language: en
     level: 3
-    abstract:
-    - After the agile community solved how to do programming, testing, release and product management, the hot topic for our industry today seems to be scaling. In an ironic twist for a movement started with ‘people over process’, big consultancies today sell scaling models based on everything from tribes to witchcraft, offering to make agile disciplined and safe.
-    - Gojko will help you cut through all the mess and separate out signal from noise.
+    #abstract:
+    #- After the agile community solved how to do programming, testing, release and product management, the hot topic for our industry today seems to be scaling. In an ironic twist for a movement started with ‘people over process’, big consultancies today sell scaling models based on everything from tribes to witchcraft, offering to make agile disciplined and safe.
+    #- Gojko will help you cut through all the mess and separate out signal from noise.
 
   - title: "Storystorming"
     speakers:
