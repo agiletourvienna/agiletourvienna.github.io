@@ -109,13 +109,13 @@ tweets:
 - quote: Worth spending a sunny Saturday indoors! :)
   person: Visitor 2013 
 
-hashtag: ATVIE19
+hashtag: ATVIE20
 
 keynote:
 - name: Dave Farley
   pic: davefarley
   bio: 
-  - "Co-author of Continuous Delivery, Independent software developer and consultant"
+  - "Dave Farley, founder and director of Continuous Delivery Ltd, is a thought-leader in the field of Continuous Delivery, DevOps and Software Development in general. Dave is co-author of the Jolt-award winning book ‘Continuous Delivery’, a regular conference speaker and well known blogger."
   twitter: davefarley77
 
 - name: Kevin Clark
@@ -220,11 +220,6 @@ committee:
   pic: pl
   mail: paul.lanzerstorfer@gmail.com
   www: www.xing.com/profile/Paul_Lanzerstorfer2/cv
-
-- name: Cosima Laube
-  pic: cl
-  mail: cosima.laube@posteo.de
-  www: www.linkedin.com/in/cosima-laube-59a2b514b
 
 - name: Igor Miladinovic
   pic: im
